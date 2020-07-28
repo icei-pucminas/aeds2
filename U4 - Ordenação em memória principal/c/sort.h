@@ -1,5 +1,5 @@
- #ifndef ORDENACAO_H
- #define ORDENACAO_H
+ #ifndef SORT_H
+ #define SORT_H
 //=============================================================================
 #include <stdio.h>
 #include <math.h>
@@ -40,7 +40,7 @@ void aleatorio(int *array, int n) {
     }
 }
 //=============================================================================
-// PROCEDIMENTO PARA EXIBIR OS DADOS PRESENTES NO arranjo
+// PROCEDIMENTO PARA EXIBIR OS DADOS PRESENTES NO ARRANJO
 void print_array(int *array, int n) {
     int i;
     printf("[ ");

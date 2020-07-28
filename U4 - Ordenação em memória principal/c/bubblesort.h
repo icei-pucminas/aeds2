@@ -1,9 +1,9 @@
- #ifndef BOLHA_H
- #define BOLHA_H
+ #ifndef BUBBLESORT_H
+ #define BUBBLESORT_H
  //=============================================================================
-#include "ordenacao.h"
+#include "sort.h"
 //=============================================================================
-void bolha(int *array, int n){
+void bubbleSort(int *array, int n){
     int i, j;
     for (i = (n - 1); i > 0; i--) {
       for (j = 0; j < i; j++) {

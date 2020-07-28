@@ -26,7 +26,7 @@ int main(int argc, char **argv) {
     crescente(array, n);
     print_array(array, n);
     comeco = clock();
-    bolha(array, n);
+    bubbleSort(array, n);
     fim = clock();
     total = (clock() - comeco) / (double)CLOCKS_PER_SEC / 1000.0;    
     print_array(array, n);
@@ -36,7 +36,7 @@ int main(int argc, char **argv) {
     decrescente(array, n);
     print_array(array, n);
     comeco = clock();
-    bolha(array, n);
+    bubbleSort(array, n);
     fim = clock();
     total = (clock() - comeco) / (double)CLOCKS_PER_SEC / 1000.0;    
     print_array(array, n);
@@ -46,7 +46,7 @@ int main(int argc, char **argv) {
     aleatorio(array, n);
     print_array(array, n);
     comeco = clock();
-    bolha(array, n);
+    bubbleSort(array, n);
     fim = clock();
     total = (clock() - comeco) / (double)CLOCKS_PER_SEC / 1000.0;    
     print_array(array, n);
