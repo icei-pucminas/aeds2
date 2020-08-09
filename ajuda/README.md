@@ -4,24 +4,24 @@
 * ~/.profile           - Configuracoes do seu Usuario
 
 ## PRINCIPAIS COMANDOS NO VIM
-<p>i                             - Abre o modo de insercao
-<p>ESC                           - Fecha o modo de insercao
-<p>:w                            - Salvar
-<p>:q                            - Sair
-<p>:q!                           - Forcar saida
-<p>:wq!                          - Salvar e forcar a saida
-<p>? PALAVRA                     - Procurar as ocorrencias de PALAVRA
-<p>:%s/STRING_OLD/STRING_NEW/gc  - Substrituir a STRING_OLD pela STRING_NEW
-<p>yy                            - Copiar linha
-<p>NUMEROyy                      - Copiar NUMERO linhas
-<p>dd                            - Excluir linha
-<p>NUMEROdd                      - Excluir NUMERO linhas
-<p>dw                            - Excluir palavra
-<p>NUMEROdw                      - Excluir NUMERO palavras
-<p>p                             - Colar
-<p>:sp ARQUIVO                   - Abre o arquivo ARQUIVO 
-<p>ww                            - Alternar entre os arquivos abertos
-<p>CTRL+V                        - Abre o modo de visualizacao
+* i                             - Abre o modo de insercao
+* ESC                           - Fecha o modo de insercao
+* :w                            - Salvar
+* :q                            - Sair
+* :q!                           - Forcar saida
+* :wq!                          - Salvar e forcar a saida
+* ? PALAVRA                     - Procurar as ocorrencias de PALAVRA
+* :%s/STRING_OLD/STRING_NEW/gc  - Substrituir a STRING_OLD pela STRING_NEW
+* yy                            - Copiar linha
+* NUMEROyy                      - Copiar NUMERO linhas
+* dd                            - Excluir linha
+* NUMEROdd                      - Excluir NUMERO linhas
+* dw                            - Excluir palavra
+* NUMEROdw                      - Excluir NUMERO palavras
+* p                             - Colar
+* :sp ARQUIVO                   - Abre o arquivo ARQUIVO 
+* ww                            - Alternar entre os arquivos abertos
+* CTRL+V                        - Abre o modo de visualizacao
 
 ## ALGUNS COMANDOS PARA O MODO SHELL DO LINUX
 * man
