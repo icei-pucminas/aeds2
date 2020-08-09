@@ -49,44 +49,43 @@
 ## COMPILAR E EXECUTAR PROGRAMA JAVA EM LINHA DE COMANDO
 
 1) Compilar: 
-<p>      ˋjavac Programa.javaˋ
+>      javac Programa.java
 
 2) Executar: 
-<p>      ˋjava Programaˋ
+>      java Programa
 
 3) Executar alterando entrada padrao: 
-<p>      ˋjava Programa < entrada.inˋ
+>      java Programa < entrada.in
 
 4) Executar alterando saida padrao: 
-<p>      ˋjava Programa > saida.inˋ
+>      java Programa > saida.in
 
 5) Executar alterando entrada/saida padrao: 
-<p>      ˋjava Programa < entrada.in > saida.inˋ
+>      java Programa < entrada.in > saida.in
 
-# COMPILAR E EXECUTAR PROGRAMA C++ EM LINHA DE COMANDO
+## COMPILAR E EXECUTAR PROGRAMA C++ EM LINHA DE COMANDO
 
 1) Compilar: 
-<p>      ˋg++ fonte.cc -o objeto`
+>      g++ fonte.cc -o objeto
 
 2) Executar: 
-<p>      ˋ./objeto`
+>       ./objeto
       
 3) Executar alterando entrada padrao: 
-<p>      ˋ./objeto < entrada.in`
+>      ./objeto < entrada.in
 
 4) Executar alterando saida padrao: 
-<p>      ˋ./objeto > saida.in`
+>      ./objeto > saida.in
 
 5) Executar alterando entrada/saida padrao: 
-<p>      ˋ./objeto < entrada.in > saida.in`
+>      ./objeto < entrada.in > saida.in
 
-# GDB
-
+## GDB
 1) Chamar o gdb
-<p>      `gdb objeto`
+>     gdb objeto
 
 2) Executar no gdb
-<p>      ˋrun`
+>      run
 
 3) Acessar a pilha de chamadas
-<p>      ˋbt`
+>      bt
