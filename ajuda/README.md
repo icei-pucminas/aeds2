@@ -1,95 +1,92 @@
-# ALGUNS ARQUIVOS INTERESSANTES
+## ALGUNS ARQUIVOS INTERESSANTES
+* ~/.bash_history      - Lista de comandos executados
+* ~/.vimrc             - Configuracoes do VIM
+* ~/.profile           - Configuracoes do seu Usuario
 
-~/.bash_history      - Lista de comandos executados
-~/.vimrc             - Configuracoes do VIM
-~/.profile           - Configuracoes do seu Usuario
+## PRINCIPAIS COMANDOS NO VIM
+<p>i                             - Abre o modo de insercao
+<p>ESC                           - Fecha o modo de insercao
+<p>:w                            - Salvar
+<p>:q                            - Sair
+<p>:q!                           - Forcar saida
+<p>:wq!                          - Salvar e forcar a saida
+<p>? PALAVRA                     - Procurar as ocorrencias de PALAVRA
+<p>:%s/STRING_OLD/STRING_NEW/gc  - Substrituir a STRING_OLD pela STRING_NEW
+<p>yy                            - Copiar linha
+<p>NUMEROyy                      - Copiar NUMERO linhas
+<p>dd                            - Excluir linha
+<p>NUMEROdd                      - Excluir NUMERO linhas
+<p>dw                            - Excluir palavra
+<p>NUMEROdw                      - Excluir NUMERO palavras
+<p>p                             - Colar
+<p>:sp ARQUIVO                   - Abre o arquivo ARQUIVO 
+<p>ww                            - Alternar entre os arquivos abertos
+<p>CTRL+V                        - Abre o modo de visualizacao
 
-# PRINCIPAIS COMANDOS NO VIM
+## ALGUNS COMANDOS PARA O MODO SHELL DO LINUX
+* man
+* exit
+* cd
+* ls
+* ls -l -t -h
+* rm
+* cp
+* mkdir
+* clear
+* grep
+* grep "PALAVRA" ARQUIVO
+* diff
+* diff ARQUIVO1 ARQUIVO2
+* ssh
+* sftp
+* wget
+* chmod
+* javac
+* java
+* tar -zcvf arquivo.tar.gz pasta
+* tar -zxvf arquivo.tar.gz
 
-i                             - Abre o modo de insercao
-ESC                           - Fecha o modo de insercao
-:w                            - Salvar
-:q                            - Sair
-:q!                           - Forcar saida
-:wq!                          - Salvar e forcar a saida
-? PALAVRA                     - Procurar as ocorrencias de PALAVRA
-:%s/STRING_OLD/STRING_NEW/gc  - Substrituir a STRING_OLD pela STRING_NEW
-yy                            - Copiar linha
-NUMEROyy                      - Copiar NUMERO linhas
-dd                            - Excluir linha
-NUMEROdd                      - Excluir NUMERO linhas
-dw                            - Excluir palavra
-NUMEROdw                      - Excluir NUMERO palavras
-p                             - Colar
-:sp ARQUIVO                   - Abre o arquivo ARQUIVO 
-ww                            - Alternar entre os arquivos abertos
-CTRL+V                        - Abre o modo de visualizacao
-
-# ALGUNS COMANDOS PARA O MODO SHELL DO LINUX
-
-man
-exit
-cd
-ls
-ls -l -t -h
-rm
-cp
-mkdir
-clear
-grep
-grep "PALAVRA" ARQUIVO
-diff
-diff ARQUIVO1 ARQUIVO2
-ssh
-sftp
-wget
-chmod
-javac
-java
-tar -zcvf arquivo.tar.gz pasta
-tar -zxvf arquivo.tar.gz
-
-# COMPILAR E EXECUTAR PROGRAMA JAVA EM LINHA DE COMANDO
+## COMPILAR E EXECUTAR PROGRAMA JAVA EM LINHA DE COMANDO
 
 1) Compilar: 
-      javac Programa.java
+<p>      ˋjavac Programa.javaˋ
 
 2) Executar: 
-      java Programa
+<p>      ˋjava Programaˋ
 
 3) Executar alterando entrada padrao: 
-      java Programa < entrada.in
+<p>      ˋjava Programa < entrada.inˋ
 
 4) Executar alterando saida padrao: 
-      java Programa > saida.in
+<p>      ˋjava Programa > saida.inˋ
 
 5) Executar alterando entrada/saida padrao: 
-      java Programa < entrada.in > saida.in
+<p>      ˋjava Programa < entrada.in > saida.inˋ
 
 # COMPILAR E EXECUTAR PROGRAMA C++ EM LINHA DE COMANDO
 
 1) Compilar: 
-      g++ fonte.cc -o objeto
+<p>      ˋg++ fonte.cc -o objeto`
 
 2) Executar: 
-      ./objeto 
+<p>      ˋ./objeto`
       
 3) Executar alterando entrada padrao: 
-      ./objeto < entrada.in
+<p>      ˋ./objeto < entrada.in`
 
 4) Executar alterando saida padrao: 
-      ./objeto > saida.in
+<p>      ˋ./objeto > saida.in`
 
 5) Executar alterando entrada/saida padrao: 
-      ./objeto < entrada.in > saida.in
+<p>      ˋ./objeto < entrada.in > saida.in`
 
 # GDB
 
 1) Chamar o gdb
-      gdb objeto
+<p>      `gdb objeto`
 
 2) Executar no gdb
-      run
+<p>      ˋrun`
 
 3) Acessar a pilha de chamadas
-      bt
+<p>      ˋbt`
