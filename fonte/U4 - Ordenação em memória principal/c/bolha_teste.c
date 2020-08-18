@@ -24,32 +24,32 @@ int main(int argc, char **argv) {
 
     printf("Teste Bolha: Ordem Crescente\n");
     crescente(array, n);
-    print_array(array, n);
+    mostrar(array, n);
     comeco = clock();
-    bubbleSort(array, n);
+    bolha(array, n);
     fim = clock();
-    total = (clock() - comeco) / (double)CLOCKS_PER_SEC / 1000.0;    
-    print_array(array, n);
+    total = (fim - comeco) / (double)CLOCKS_PER_SEC / 1000.0;    
+    mostrar(array, n);
     printf("Tempo para ordenar: %f ms (%i).", total, isOrdenado(array, n));
 
     printf("Teste Bolha: Ordem Decrescente\n");
     decrescente(array, n);
-    print_array(array, n);
+    mostrar(array, n);
     comeco = clock();
-    bubbleSort(array, n);
+    bolha(array, n);
     fim = clock();
-    total = (clock() - comeco) / (double)CLOCKS_PER_SEC / 1000.0;    
-    print_array(array, n);
+    total = (fim - comeco) / (double)CLOCKS_PER_SEC / 1000.0;    
+    mostrar(array, n);
     printf("Tempo para ordenar: %f ms (%i).", total, isOrdenado(array, n));
 
     printf("Teste Bolha: Ordem Aleatoria\n");
     aleatorio(array, n);
-    print_array(array, n);
+    mostrar(array, n);
     comeco = clock();
-    bubbleSort(array, n);
+    bolha(array, n);
     fim = clock();
-    total = (clock() - comeco) / (double)CLOCKS_PER_SEC / 1000.0;    
-    print_array(array, n);
+    total = (fim - comeco) / (double)CLOCKS_PER_SEC / 1000.0;    
+    mostrar(array, n);
     printf("Tempo para ordenar: %f ms (%i).", total, isOrdenado(array, n));   
 
     free(array);

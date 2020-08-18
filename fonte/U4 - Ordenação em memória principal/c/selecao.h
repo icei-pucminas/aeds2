@@ -1,9 +1,9 @@
- #ifndef SELECTSORT_H
- #define SELECTSORT_H
+ #ifndef SELECAO_H
+ #define SELECAO_H
  //=============================================================================
-#include "sort.h"
+#include "geracao.h"
 //=============================================================================
-void selectSort(int *array, int n){
+void selecao(int *array, int n){
     int i, j, indice;
     for (i = 0; i < (n - 1); i++) {
       indice = i;
