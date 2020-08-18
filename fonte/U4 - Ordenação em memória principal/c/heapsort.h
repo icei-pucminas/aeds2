@@ -38,7 +38,6 @@ void heapsort(int *array, int n) {
     for(int i = 0; i < n; i++){
         arrayTmp[i+1] = array[i];
     }
-    // array = tmp;
 
     //Contrucao do heap
     for(int tamHeap = 2; tamHeap <= n; tamHeap++){
