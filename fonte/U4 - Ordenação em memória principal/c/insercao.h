@@ -1,9 +1,9 @@
- #ifndef INSERTSORT_H
- #define INSERTSORT_H
+ #ifndef INSERCAO_H
+ #define INSERCAO_H
  //=============================================================================
-#include "sort.h"
+#include "geracao.h"
 //=============================================================================
-void insertSort(int *array, int n){
+void insercao(int *array, int n){
     int i, j, tmp;
     for (int i = 1; i < n; i++) {
       tmp = array[i];
