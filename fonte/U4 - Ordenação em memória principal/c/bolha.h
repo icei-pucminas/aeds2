@@ -1,6 +1,6 @@
- #ifndef BOLHA_H
- #define BOLHA_H
- //=============================================================================
+#ifndef BOLHA_H
+#define BOLHA_H
+//=============================================================================
 #include "geracao.h"
 //=============================================================================
 void bolha(int *array, int n){
@@ -8,7 +8,7 @@ void bolha(int *array, int n){
     for (i = (n - 1); i > 0; i--) {
       for (j = 0; j < i; j++) {
          if (array[j] > array[j + 1]) {
-             swap(&array[j], &array[j + 1]);
+            swap(&array[j], &array[j + 1]);
          }
       }
    }
