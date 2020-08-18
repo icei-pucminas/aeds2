@@ -1,5 +1,5 @@
- #ifndef GERACAO_H
- #define GERACAO_H
+#ifndef GERACAO_H
+#define GERACAO_H
 //=============================================================================
 #include <stdio.h>
 #include <math.h>
