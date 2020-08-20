@@ -146,4 +146,11 @@ class Geracao {
       }
       return resp;
    }
+
+   /*
+    * Metodo a ser implementado nas subclasses
+    */
+   public void sort(){
+      System.out.println("Método a ser implementado nas subclasses.");
+   }
 }

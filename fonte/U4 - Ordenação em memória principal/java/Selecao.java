@@ -1,7 +1,7 @@
 /**
  * Algoritmo de ordenacao por selecao
  * @author Max do Val Machado
- * @version 2 01/2015
+ * @version 3 02/2020
  */
 
 class Selecao extends Geracao {
@@ -26,7 +26,8 @@ class Selecao extends Geracao {
    /**
     * Algoritmo de ordenacao por selecao.
     */
-   public static void selecao() {
+   @Override
+   public void sort() {
       for (int i = 0; i < (n - 1); i++) {
          int menor = i;
          for (int j = (i + 1); j < n; j++){
@@ -36,19 +37,5 @@ class Selecao extends Geracao {
          }
          swap(menor, i);
       }
-   }
-
-
-   public static void main(String[] args) {
-      Selecao selecao = new Selecao(100);
-      selecao.aleatorio();
-      selecao.mostrar();
-
-      long comeco = now();
-      selecao.selecao();
-      long fim = now();
-
-      selecao.mostrar();
-      System.out.println("Tempo para ordenar: " + (fim-comeco)/1000.0 + " s.");
    }
 }
