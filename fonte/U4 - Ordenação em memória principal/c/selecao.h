@@ -4,15 +4,15 @@
 #include "geracao.h"
 //=============================================================================
 void selecao(int *array, int n){
-    int i, j, indice;
+    int i, j, menor;
     for (i = 0; i < (n - 1); i++) {
-      indice = i;
+      menor = i;
       for (j = (i + 1); j < n; j++){
-         if (array[indice] > array[j]){
-            indice = j;
+         if (array[menor] > array[j]){
+            menor = j;
          }
       }
-      swap(&array[indice], &array[i]);
+      swap(&array[menor], &array[i]);
    }
 }
 //=============================================================================
