@@ -34,6 +34,7 @@ void decrescente(int *array, int n) {
 void aleatorio(int *array, int n) {
     int i, pos;
     crescente(array, n);
+    srand(time(NULL));
     for (i = 0; i < n; i++) {
         pos = rand() % n;
         swap(&array[i], &array[pos]);
