@@ -1,6 +1,6 @@
-#ifndef BOLHA_H
-#define BOLHA_H
+#include "mergesort.h"
 //=============================================================================
-void bolha(int *array, int n);
+void mergesort(int *array, int n) {
+ array[0] = n;
+}
 //=============================================================================
-#endif

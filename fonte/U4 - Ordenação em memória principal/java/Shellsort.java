@@ -1,7 +1,7 @@
 /**
  * Algoritmo de ordenacao Shellsort
  * @author Max do Val Machado
- * @version 2 01/2015
+ * @version 3 08/2020
  */
 
 class Shellsort extends Geracao {
@@ -26,7 +26,8 @@ class Shellsort extends Geracao {
    /**
     * Algoritmo de ordenacao Shellsort.
     */
-   public static void shellsort() {
+   @Override
+   public void sort() {
       int h = 1;
 
       do { h = (h * 3) + 1; } while (h < n);
@@ -45,7 +46,7 @@ class Shellsort extends Geracao {
     * @param int cor cor do pseudo array.
     * @param int h passo do shelsort
     */
-   public static void insercaoPorCor(int cor, int h){
+   public void insercaoPorCor(int cor, int h){
       for (int i = (h + cor); i < n; i+=h) {
          int tmp = array[i];
          int j = i - h;
@@ -55,19 +56,5 @@ class Shellsort extends Geracao {
          }
          array[j + h] = tmp;
       }
-   }
-
-
-   public static void main(String[] args) {
-      Shellsort shellsort = new Shellsort(100000000);
-      shellsort.aleatorio();
-      //shellsort.mostrar();
-
-      long comeco = now();
-      shellsort.shellsort();
-      long fim = now();
-
-      //shellsort.mostrar();
-      System.out.println("Tempo para ordenar: " + (fim-comeco)/1000.0 + " s.");
    }
 }
