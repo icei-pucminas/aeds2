@@ -1,7 +1,7 @@
 /**
  * Metodo de ordenacao por contagem
  * @author Max do Val Machado
- * @version 2 01/2015
+ * @version 3 08/2020
  */
 
 class Countingsort extends Geracao {
@@ -24,25 +24,10 @@ class Countingsort extends Geracao {
 
 
 	/**
-	 * Retorna o maior elemento do array.
-    * @return maior elemento
-	 */
-	public static int getMaior() {
-	   int maior = array[0];
-
-		for (int i = 0; i < n; i++) {
-         if(maior < array[i]){
-            maior = array[i];
-         }
-		}
-	   return maior;	
-	}
-
-
-	/**
 	 * Algoritmo de ordenacao Countingsort.
 	 */
-	public static void countingsort() {
+   @Override
+   public void sort() {
       //Array para contar o numero de ocorrencias de cada elemento
       int[] count = new int[getMaior() + 1];
       int[] ordenado = new int[n];
@@ -64,16 +49,18 @@ class Countingsort extends Geracao {
    }
 
 
-	public static void main(String[] args) {
-      Countingsort countingsort = new Countingsort(100);
-		countingsort.aleatorio();
-		countingsort.mostrar();
-		
-		long comeco = now();
-		countingsort.countingsort();
-		long fim = now();
-		
-		countingsort.mostrar();
-		System.out.println("Tempo para ordenar: " + (fim-comeco)/1000.0 + " s.");
+	/**
+	 * Retorna o maior elemento do array.
+    * @return maior elemento
+	 */
+	public int getMaior() {
+	   int maior = array[0];
+
+		for (int i = 0; i < n; i++) {
+         if(maior < array[i]){
+            maior = array[i];
+         }
+		}
+	   return maior;	
 	}
 }

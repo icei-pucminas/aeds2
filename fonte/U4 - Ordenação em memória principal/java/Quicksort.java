@@ -1,7 +1,7 @@
 /**
  * Algoritmo de ordenacao Quicksort
  * @author Max do Val Machado
- * @version 2 01/2015
+ * @version 3 08/2020
  */
 class Quicksort extends Geracao {
 
@@ -25,7 +25,8 @@ class Quicksort extends Geracao {
 	/**
 	 * Algoritmo de ordenacao Quicksort.
 	 */
-	public static void quicksort() {
+   @Override
+   public void sort() {
       quicksort(0, n-1);
    }
 
@@ -34,7 +35,7 @@ class Quicksort extends Geracao {
     * @param int esq inicio do array a ser ordenado
     * @param int dir fim do array a ser ordenado
 	 */
-    private static void quicksort(int esq, int dir) {
+    private void quicksort(int esq, int dir) {
         int i = esq, j = dir;
         int pivo = array[(dir+esq)/2];
         while (i <= j) {
@@ -49,18 +50,4 @@ class Quicksort extends Geracao {
         if (esq < j)  quicksort(esq, j);
         if (i < dir)  quicksort(i, dir);
     }
- 
-
-	public static void main(String[] args) throws Exception {
-      Quicksort quicksort = new Quicksort(10000000);
-		quicksort.aleatorio();
-		//quicksort.mostrar();
-		
-		long comeco = now();
-		quicksort.quicksort();
-		long fim = now();
-
-		//quicksort.mostrar();
-		System.out.println("Tempo para ordenar: " + (fim-comeco)/1000.0 + " s.");
-	}
 }

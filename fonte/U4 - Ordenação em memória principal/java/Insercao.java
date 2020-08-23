@@ -1,7 +1,7 @@
 /**
  * Algoritmo de ordenacao por insercao
  * @author Max do Val Machado
- * @version 2 01/2015
+ * @version 3 01/2020
  */
 
 class Insercao extends Geracao {
@@ -26,7 +26,8 @@ class Insercao extends Geracao {
 	/**
 	 * Algoritmo de ordenacao por insercao.
 	 */
-	public static void insercao() {
+   @Override
+   public void sort() {
 		for (int i = 1; i < n; i++) {
 			int tmp = array[i];
          int j = i - 1;
@@ -37,19 +38,5 @@ class Insercao extends Geracao {
          }
          array[j + 1] = tmp;
       }
-	}
-
-
-	public static void main(String[] args) {
-		Insercao insercao = new Insercao(1000000);
-		insercao.aleatorio();
-		//insercao.mostrar();
-
-		long comeco = now();
-		insercao.insercao();
-		long fim = now();
-
-		//insercao.mostrar();
-		System.out.println("Tempo para ordenar: " + (fim-comeco)/1000.0 + " s.");
 	}
 }

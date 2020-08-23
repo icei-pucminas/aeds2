@@ -1,10 +1,10 @@
 /**
  * Classe Principal
  * @author Max do Val Machado
- * @version 3 02/2020
+ * @version 3 08/2020
  */
 class Principal {
-	public static void main(String[] args) throws Exception {
+	public static void main(String[] args) {
 
       //Delcaracao de variaveis
       Geracao algoritmo;

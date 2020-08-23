@@ -1,7 +1,7 @@
 /**
  * Metodo de ordenacao da bolha
  * @author Max do Val Machado
- * @version 2 01/2015
+ * @version 3 08/2020
  */
 class Bolha extends Geracao {
 
@@ -25,7 +25,8 @@ class Bolha extends Geracao {
 	/**
 	 * Algoritmo de ordenacao Bolha.
 	 */
-	public static void bolha() {
+   @Override
+   public void sort() {
 		for (int i = (n - 1); i > 0; i--) {
 			for (int j = 0; j < i; j++) {
 				if (array[j] > array[j + 1]) {
@@ -34,18 +35,4 @@ class Bolha extends Geracao {
 			}
 		}
    }
-
-
-	public static void main(String[] args) {
-      Bolha bolha = new Bolha(100);
-		bolha.aleatorio();
-		bolha.mostrar();
-		
-		long comeco = now();
-		bolha.bolha();
-		long fim = now();
-		
-		bolha.mostrar();
-		System.out.println("Tempo para ordenar: " + (fim-comeco)/1000.0 + " s.");
-	}
 }
