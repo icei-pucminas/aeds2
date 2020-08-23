@@ -1,7 +1,7 @@
 /**
  * Algoritmo de ordenacao por selecao
  * @author Max do Val Machado
- * @version 3 02/2020
+ * @version 3 08/2020
  */
 
 class Selecao extends Geracao {

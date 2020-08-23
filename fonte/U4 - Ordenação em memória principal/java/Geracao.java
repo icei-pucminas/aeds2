@@ -1,14 +1,14 @@
 /**
  * Geracao de elementos de um array
  * @author Max do Val Machado
- * @version 2 01/2015
+ * @version 3 08/2020
  */
 
 import java.util.*;
 
 class Geracao {
-   protected static int[] array;
-   protected static int n;
+   protected int[] array;
+   protected int n;
 
 
 	/**
@@ -33,30 +33,31 @@ class Geracao {
 	/**
 	 * Produz um array ordenado de modo crescente.
 	 */
-	public static void crescente() {
+	public void crescente() {
 		for (int i = 0; i < n; i++) {
 			array[i] = i;
 		}
 	}
 
+
 	/**
 	 * Produz um array ordenado de modo decrescente.
 	 */
-	public static void decrescente() {
-		
+	public void decrescente() {
 		for (int i = 0; i < n; i++) {
 			array[i] = n - 1 - i;
 		}
 	}
 
+
 	/**
-	 * Produz um array de numeros aleatorios.
+	 * Produz um array com numeros aleatorios.
 	 */
-	public static void aleatorio() {
-		Random gerador = new Random();
-		
+	public void aleatorio() {
+		Random rand = new Random();
+	   crescente();	
 		for (int i = 0; i < n; i++) {
-			array[i] = Math.abs(gerador.nextInt()) % 1000; // 0 a 999
+         swap(i, Math.abs(rand.nextInt()) % n);
 		}
 	}
 
@@ -64,7 +65,7 @@ class Geracao {
 	/**
 	 * Efetua a leitura dos elementos via entrada padrao.
 	 */
-	public static void entradaPadrao() {
+	public void entradaPadrao() {
       n = MyIO.readInt();
       array = new int[n];
 
@@ -73,7 +74,10 @@ class Geracao {
 		}
 	}
 
-   public static void entrada(int[] vet){
+	/**
+	 * Recebe um Efetua a leitura dos elementos via entrada padrao.
+	 */
+   public void entrada(int[] vet){
       n = vet.length;
       array = new int[n];
       for(int i = 0; i < n; i++){
@@ -83,31 +87,31 @@ class Geracao {
 
 
 	/**
-	 * Mostra os array de um array.
+	 * Mostra os k primeiros elementos do array.
 	 * @param int k indica a quantidade de elementos do array a serem mostrados.
 	 */
-	public static void mostrar(int k) {
-		System.out.print("[ ");
+	public void mostrar(int k) {
+		System.out.print("[");
 		
 		for (int i = 0; i < k; i++) {
-			System.out.print(array[i] + " ");
+         System.out.print(" ("+i+")" + array[i]);
 		}
 		
-		System.out.println("] ");
+		System.out.println("]");
 	}
 
 
 	/**
-	 * Mostra os array de um array.
+	 * Mostra os elementos do array.
 	 */
-   public static void mostrar() {
-      System.out.print("[ ");
+   public void mostrar() {
+      System.out.print("[");
 
       for (int i = 0; i < n; i++) {
-         System.out.print("("+i+")" + array[i] + " ");
+         System.out.print(" ("+i+")" + array[i]);
       }
 
-      System.out.println("] ");
+      System.out.println("]");
    }
 
 
@@ -116,7 +120,7 @@ class Geracao {
     * @param i int primeira posicao
     * @param j int segunda posicao
     */
-   public static void swap(int i, int j) {
+   public void swap(int i, int j) {
       int temp = array[i];
       array[i] = array[j];
       array[j] = temp;
@@ -127,7 +131,7 @@ class Geracao {
     * Retorna o timestamp atual
     * @return timestamp atual
     */
-   public static long now(){
+   public long now(){
       return new Date().getTime();
    }
 
@@ -136,7 +140,7 @@ class Geracao {
     * Retorna verdadeiro/falso indicando se o array esta ordenado
     * @return boolean indicando se o array esta ordenado
     */
-   public static boolean isOrdenado(){
+   public boolean isOrdenado(){
       boolean resp = true;
       for(int i = 1; i < n; i++){
          if(array[i] < array[i-1]){
