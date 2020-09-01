@@ -1,5 +1,4 @@
 #include "heapsort.h"
-#include "geracao.h"
 //=============================================================================
 void constroi(int *array, int tamHeap){
     for(int i = tamHeap; i > 1 && array[i] > array[i/2]; i /= 2){
