@@ -1,6 +1,6 @@
 #include "heapsort.h"
 //=============================================================================
-void constroi(int *array, int tamHeap){
+void construir(int *array, int tamHeap){
     for(int i = tamHeap; i > 1 && array[i] > array[i/2]; i /= 2){
         swap(array + i, array + i/2);
     }
@@ -16,7 +16,7 @@ int getMaiorFilho(int *array, int i, int tamHeap){
     return filho;
 }
 //=============================================================================
-void reconstroi(int *array, int tamHeap){
+void reconstruir(int *array, int tamHeap){
     int i = 1;
     while(i <= (tamHeap/2)){
         int filho = getMaiorFilho(array, i, tamHeap);
@@ -38,14 +38,14 @@ void heapsort(int *array, int n) {
 
     //Contrucao do heap
     for(int tamHeap = 2; tamHeap <= n; tamHeap++){
-        constroi(arrayTmp, tamHeap);
+        construir(arrayTmp, tamHeap);
     }
 
     //Ordenacao propriamente dita
     int tamHeap = n;
     while(tamHeap > 1){
         swap(arrayTmp + 1, arrayTmp + tamHeap--);
-        reconstroi(arrayTmp, tamHeap);
+        reconstruir(arrayTmp, tamHeap);
     }
 
     //Alterar o vetor para voltar a posicao zero

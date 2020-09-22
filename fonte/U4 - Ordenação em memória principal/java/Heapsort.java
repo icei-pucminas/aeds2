@@ -37,14 +37,14 @@ class Heapsort extends Geracao {
 
       //Contrucao do heap
       for(int tamHeap = 2; tamHeap <= n; tamHeap++){
-         constroi(tamHeap);
+         construir(tamHeap);
       }
 
       //Ordenacao propriamente dita
       int tamHeap = n;
       while(tamHeap > 1){
          swap(1, tamHeap--);
-         reconstroi(tamHeap);
+         reconstruir(tamHeap);
       }
 
       //Alterar o vetor para voltar a posicao zero
@@ -56,14 +56,14 @@ class Heapsort extends Geracao {
    }
 
 
-   public void constroi(int tamHeap){
+   public void construir(int tamHeap){
       for(int i = tamHeap; i > 1 && array[i] > array[i/2]; i /= 2){
          swap(i, i/2);
       }
    }
 
 
-   public void reconstroi(int tamHeap){
+   public void reconstruir(int tamHeap){
       int i = 1;
       while(i <= (tamHeap/2)){
          int filho = getMaiorFilho(i, tamHeap);
