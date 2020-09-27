@@ -1,7 +1,7 @@
 
 public class Jogador {
-    int id;
-    String nome;
+	int id;
+	String nome;
 	int altura;
 	int peso;
 	String universidade;
