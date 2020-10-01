@@ -70,9 +70,10 @@ Jogador clone(Jogador *jogador) {
     Jogador retorno;
 
     retorno.id = jogador->id;
-    retorno.peso = jogador->peso;
-    retorno.altura = jogador->altura;
     strcpy(retorno.nome, jogador->nome);
+    retorno.altura = jogador->altura;
+    retorno.peso = jogador->peso;
+    strcpy(retorno.anoNascimento, jogador->anoNascimento);
     strcpy(retorno.universidade, jogador->universidade);
     strcpy(retorno.cidadeNascimento, jogador->cidadeNascimento);
     strcpy(retorno.estadoNascimento, jogador->estadoNascimento);
