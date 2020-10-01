@@ -35,12 +35,23 @@ void inserirNaoInformado(char *linha, char *novaLinha) {
     }
 }
 
+void tirarQuebraDeLinha(char linha[]) {
+    int tam = strlen(linha);
+
+    if (linha[tam - 2] == '\r' && linha[tam - 1] == '\n') // Linha do Windows
+        linha[tam - 2] = '\0'; // Apaga a linha
+
+    else if (linha[tam - 1] == '\r' || linha[tam - 1] == '\n') // Mac ou Linux
+        linha[tam - 1] = '\0'; // Apaga a linha
+}
+
 /**
  * @param jogador Ponteiro para o jogador a receber os dados
  * @param linha Linha do CSV. Ex.: "65,Joe Graboski,201,88,,1930,,"
  */
 void ler(Jogador *jogador, char linha[]) {
     char novaLinha[TAM_MAX_LINHA];
+    tirarQuebraDeLinha(linha);
     inserirNaoInformado(linha, novaLinha);
 
     jogador->id = atoi(strtok(novaLinha, ","));
