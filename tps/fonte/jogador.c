@@ -10,7 +10,7 @@ typedef struct {
     int altura;
     char nome[70];
     char universidade[70];
-    char anoNascimento[7];
+    int anoNascimento;
     char cidadeNascimento[70];
     char estadoNascimento[70];
 } Jogador;
@@ -59,13 +59,13 @@ void ler(Jogador *jogador, char linha[]) {
     jogador->altura = atoi(strtok(NULL, ","));
     jogador->peso = atoi(strtok(NULL, ","));
     strcpy(jogador->universidade, strtok(NULL, ","));
-    strcpy(jogador->anoNascimento, strtok(NULL, ","));
+    jogador->anoNascimento = atoi(strtok(NULL, ","));
     strcpy(jogador->cidadeNascimento, strtok(NULL, ","));
     strcpy(jogador->estadoNascimento, strtok(NULL, ","));
 }
 
 void imprimir(Jogador *jogador) {
-    printf("[%d ## %s ## %d ## %d ## %s ## %s ## %s ## %s]\n",
+    printf("[%d ## %s ## %d ## %d ## %d ## %s ## %s ## %s]\n",
         jogador->id,
         jogador->nome,
         jogador->altura,
@@ -84,7 +84,7 @@ Jogador clone(Jogador *jogador) {
     strcpy(retorno.nome, jogador->nome);
     retorno.altura = jogador->altura;
     retorno.peso = jogador->peso;
-    strcpy(retorno.anoNascimento, jogador->anoNascimento);
+    retorno.anoNascimento = jogador->anoNascimento;
     strcpy(retorno.universidade, jogador->universidade);
     strcpy(retorno.cidadeNascimento, jogador->cidadeNascimento);
     strcpy(retorno.estadoNascimento, jogador->estadoNascimento);
