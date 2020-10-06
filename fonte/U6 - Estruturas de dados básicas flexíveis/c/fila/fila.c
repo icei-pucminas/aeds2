@@ -1,5 +1,5 @@
 /**
- * Fila dinamica
+ * Fila flexivel
  * @author Max do Val Machado
  * @version 2 01/2015
  */
@@ -78,7 +78,7 @@ void mostrar() {
 //METODO PRINCIPAL ==============================================================
 int main(int argc, char** argv){
    int x1, x2, x3;
-   printf("\n==== FILA DINAMICA ====");
+   printf("\n==== FILA FLEXIVEL ====");
 
    start();
 

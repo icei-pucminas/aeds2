@@ -6,7 +6,7 @@
 public class PrincipalPilha {
 	public static void main(String[] args) {
 		try {
-			System.out.println(" ==== PILHA DINAMICA ====");
+			System.out.println(" ==== PILHA FLEXIVEL ====");
 			Pilha pilha = new Pilha();
          int x1, x2, x3;
 
