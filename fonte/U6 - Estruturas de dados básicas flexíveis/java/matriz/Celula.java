@@ -1,6 +1,6 @@
 class Celula {
-   private int elemento;
-   private Celula inf, sup, esq, dir;
+   public int elemento;
+   public Celula inf, sup, esq, dir;
 
    public Celula(){
       this(0, null, null, null, null);

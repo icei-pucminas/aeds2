@@ -199,3 +199,58 @@ void antecessor(No** i, No** j) {
    }
 }
 
+
+/**
+ * Metodo publico iterativo para remover elemento.
+ * @param x Elemento a ser removido.
+ */
+void removerSucessor(int x) {
+   removerRecSucessor(x, &raiz);
+}
+
+/**
+ * Metodo privado recursivo para remover elemento.
+ * @param x Elemento a ser removido.
+ * @param i No** endereco do ponteiro No
+ */
+void removerRecSucessor(int x, No** i) {
+   if (*i == NULL) {
+      errx(1, "Erro ao remover!");
+
+   } else if (x < (*i)->elemento) {
+      removerRec(x, &((*i)->esq));
+
+   } else if (x > (*i)->elemento) {
+      removerRec(x, &((*i)->dir));
+
+   } else if ((*i)->dir == NULL) {
+      No* del = *i;
+      *i = (*i)->esq;
+      free(del);
+
+   } else if ((*i)->esq == NULL) {
+      No* del = *i;
+      *i = (*i)->dir;
+      free(del);
+
+   } else {
+      sucessor(i, &((*i)->dir));
+   }
+}
+
+/**
+ * Metodo para trocar no removido pelo sucessor.
+ * @param i No** endereco do ponteiro No que contem o elemento removido.
+ * @param j No** endereco do ponteiro No da subarvore esquerda.
+ */
+void sucessor(No** i, No** j) {
+   if ((*j)->esq != NULL) {
+      sucessor(i, &((*j)->esq));
+
+   } else {
+      No* del = *j;
+      (*i)->elemento = (*j)->elemento;
+      (*j) = (*j)->dir;
+      free(del);
+   }
+}

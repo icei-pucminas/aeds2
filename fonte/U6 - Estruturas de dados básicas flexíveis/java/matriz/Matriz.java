@@ -3,9 +3,7 @@ class Matriz {
    private int linha, coluna;
 
    public Matriz (){
-      this.linha = this.coluna = 3;
-
-      //alocar a matriz com this.linha linhas e this.coluna colunas
+      Matriz(3, 3);
    }
 
    public Matriz (int linha, int coluna){
@@ -15,10 +13,18 @@ class Matriz {
       //alocar a matriz com this.linha linhas e this.coluna colunas
    }
 
+
    public Matriz soma (Matriz m) {
       Matriz resp = null;
 
       if(this.linha == m.linha && this.coluna == m.coluna){
+         resp = new Matriz(this.linha, this.coluna);
+         for(){
+            for(){
+               //sendo c (pont em resp), a (em this) e b (em m)
+               c.elemento = a.elemento + b.elemento;
+            }
+         }
          //...
       }
 
@@ -47,7 +53,6 @@ class Matriz {
 
    public void mostrarDiagonalSecundaria (){
       if(isQuadrada() == true){
-
       }
    }
 }

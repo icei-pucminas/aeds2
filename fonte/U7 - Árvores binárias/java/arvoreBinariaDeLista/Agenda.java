@@ -2,13 +2,19 @@ public class Agenda {
 	private No raiz; 
 
 	public Agenda() {
-		/*raiz = new No ('M');
+		raiz = new No ('M');
 		raiz.esq = new No ('F');
 		raiz.dir = new No ('T');
-		raiz.esq.esq = new No ('C');*/
-		raiz = null;
+		raiz.esq.esq = new No ('C');
 		//inserir todas as 26 letras do alfabeto...
 	}
+
+
+
+
+
+
+
 
 	public boolean pesquisarNome(String nome) {
 		return pesquisarNome(raiz, nome);
