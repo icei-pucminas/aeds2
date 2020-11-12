@@ -150,16 +150,14 @@ class MyIO {
 
    public static String readString(){
       String s = "";
-      char tmp;
       try{
-         do{
-            tmp = (char)in.read();
-            if(tmp != '\n' && tmp != ' ' && tmp != 13){
-               s += tmp;
-            }
-         }while(tmp != '\n' && tmp != ' ');
+         char tmp = (char) in.read();
+         while (tmp != '\n' && tmp != ' ' && tmp != '\t' && tmp != (char) -1) {
+            if (tmp != '\r') s += tmp;
+            tmp = (char) in.read();
+         }
       }catch(IOException ioe){
-         System.out.println("lerPalavra: " + ioe.getMessage());
+         System.out.println("MyIO.readString: " + ioe.getMessage());
       }
       return s;
    }
