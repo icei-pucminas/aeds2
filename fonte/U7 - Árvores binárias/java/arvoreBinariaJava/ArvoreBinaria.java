@@ -169,18 +169,18 @@ public class ArvoreBinaria {
 	 */
 	private void inserirPai(int x, No i, No pai) throws Exception {
 		if (i == null) {
-         if(x < i.elemento){
-            pai.esq = new No(x);
-         } else {
-            pai.dir = new No(x);
-         }
-      } else if (x < i.elemento) {
-         inserirPai(x, i.esq, i);
-      } else if (x > i.elemento) {
-         inserirPai(x, i.dir, i);
-      } else {
-         throw new Exception("Erro ao inserirPai!");
-      }
+			if(x < pai.elemento){
+				pai.esq = new No(x);
+			} else {
+				pai.dir = new No(x);
+			}
+		} else if (x < i.elemento) {
+			inserirPai(x, i.esq, i);
+		} else if (x > i.elemento) {
+			inserirPai(x, i.dir, i);
+		} else {
+			throw new Exception("Erro ao inserirPai!");
+		}
 	}
 
 

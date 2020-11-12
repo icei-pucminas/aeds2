@@ -14,6 +14,7 @@ public class Principal {
       arvoreBinaria.inserir(4);
       arvoreBinaria.inserir(7);
       arvoreBinaria.inserir(6);
+      arvoreBinaria.inserir(10);
 
       arvoreBinaria.caminharCentral();
       arvoreBinaria.caminharPre();
