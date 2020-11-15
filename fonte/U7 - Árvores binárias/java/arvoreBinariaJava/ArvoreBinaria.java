@@ -278,17 +278,19 @@ public class ArvoreBinaria {
 	 */
 	private void remover2(int x, No i, No pai) throws Exception {
 		if (i == null) {
-         throw new Exception("Erro ao remover2!");
-      } else if (x < i.elemento) {
-         remover2(x, i.esq, i);
-      } else if (x > i.elemento) {
-         remover2(x, i.dir, i);
-      } else if (i.dir == null) {
-         pai = i.esq;
-      } else if (i.esq == null) {
-         pai = i.dir;
-      } else {
-         i.esq = antecessor(i, i.esq);
+			throw new Exception("Erro ao remover2!");
+		} else if (x < i.elemento) {
+			remover2(x, i.esq, i);
+		} else if (x > i.elemento) {
+			remover2(x, i.dir, i);
+		} else if (i.dir == null) {
+			if (x < pai.elemento) pai.esq = i.esq;
+			else pai.dir = i.esq;
+		} else if (i.esq == null) {
+			if (x < pai.elemento) pai.esq = i.dir;
+			else pai.dir = i.dir;
+		} else {
+			i.esq = antecessor(i, i.esq);
 		}
 	}
 
