@@ -4,3 +4,5 @@ class Contato {
    public String email;
    public int cpf;
 }
+
+
