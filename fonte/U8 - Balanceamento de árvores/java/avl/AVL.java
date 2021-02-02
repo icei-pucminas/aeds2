@@ -49,9 +49,9 @@ public class AVL {
 	/**
 	 * Metodo publico iterativo para exibir elementos.
 	 */
-	public void mostrarCentral() {
+	public void caminharCentral() {
 		System.out.print("[ ");
-		mostrarCentral(raiz);
+		caminharCentral(raiz);
 		System.out.println("]");
 	}
 
@@ -59,20 +59,20 @@ public class AVL {
 	 * Metodo privado recursivo para exibir elementos.
 	 * @param i No em analise.
 	 */
-	private void mostrarCentral(No i) {
+	private void caminharCentral(No i) {
 		if (i != null) {
-			mostrarCentral(i.esq); // Elementos da esquerda.
+			caminharCentral(i.esq); // Elementos da esquerda.
 			System.out.print(i.elemento + " "); // Conteudo do no.
-			mostrarCentral(i.dir); // Elementos da direita.
+			caminharCentral(i.dir); // Elementos da direita.
 		}
 	}
 
 	/**
 	 * Metodo publico iterativo para exibir elementos.
 	 */
-	public void mostrarPre() {
+	public void caminharPre() {
 		System.out.print("[ ");
-		mostrarPre(raiz);
+		caminharPre(raiz);
 		System.out.println("]");
 	}
 
@@ -80,20 +80,20 @@ public class AVL {
 	 * Metodo privado recursivo para exibir elementos.
 	 * @param i No em analise.
 	 */
-	private void mostrarPre(No i) {
+	private void caminharPre(No i) {
 		if (i != null) {
 			System.out.print(i.elemento + "(fator " + (No.getNivel(i.dir) - No.getNivel(i.esq)) + ") "); // Conteudo do no.
-			mostrarPre(i.esq); // Elementos da esquerda.
-			mostrarPre(i.dir); // Elementos da direita.
+			caminharPre(i.esq); // Elementos da esquerda.
+			caminharPre(i.dir); // Elementos da direita.
 		}
 	}
 
 	/**
 	 * Metodo publico iterativo para exibir elementos.
 	 */
-	public void mostrarPos() {
+	public void caminharPos() {
 		System.out.print("[ ");
-		mostrarPos(raiz);
+		caminharPos(raiz);
 		System.out.println("]");
 	}
 
@@ -101,10 +101,10 @@ public class AVL {
 	 * Metodo privado recursivo para exibir elementos.
 	 * @param i No em analise.
 	 */
-	private void mostrarPos(No i) {
+	private void caminharPos(No i) {
 		if (i != null) {
-			mostrarPos(i.esq); // Elementos da esquerda.
-			mostrarPos(i.dir); // Elementos da direita.
+			caminharPos(i.esq); // Elementos da esquerda.
+			caminharPos(i.dir); // Elementos da direita.
 			System.out.print(i.elemento + " "); // Conteudo do no.
 		}
 	}

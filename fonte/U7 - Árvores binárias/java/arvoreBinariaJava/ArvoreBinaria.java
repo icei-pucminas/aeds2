@@ -347,4 +347,37 @@ public class ArvoreBinaria {
       }
       return resp;
    }
+
+   void exerResol2(){
+      inserir(2);
+      //..
+      inserir(7);
+
+      caminharPre();
+      raiz = rotacionarEsq(raiz);
+      caminharPre();
+   }
+
+   void exer3(){
+      int a, b, c;
+      a = lerInt();
+      b = lerInt();
+      c = lerInt();
+
+      inserir(a);
+      inserir(b);
+      inserir(c);
+
+
+
+   }
+
+
+
+
+
+
+
+
+
 }

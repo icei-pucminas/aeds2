@@ -42,7 +42,7 @@ class DoidonaComTADsProntas {
    public void inserir(int elemento){
       int i = hashT1(elemento);
       if(elemento == NULO) {
-         //????
+         //gerar msg de erro para o usuario...
       } else if(t1[i] == NULO){
          t1[i] = elemento;
       }else if(hashT2(elemento) == 0){

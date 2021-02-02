@@ -7,66 +7,66 @@ public class Principal {
 		try {
 			AVL avl = new AVL();
 			avl.inserir(9);
-			avl.mostrarPre();
+			avl.caminharPre();
 			avl.inserir(8);
-			avl.mostrarPre();
+			avl.caminharPre();
 			avl.inserir(4);
-			avl.mostrarPre();
+			avl.caminharPre();
 			avl.inserir(6);
-			avl.mostrarPre();
+			avl.caminharPre();
 			avl.inserir(5);
-			avl.mostrarPre();
+			avl.caminharPre();
 			avl.inserir(3);
-			avl.mostrarPre();
+			avl.caminharPre();
 			avl.inserir(7);
-			avl.mostrarPre();
+			avl.caminharPre();
 			avl.inserir(2);
-			avl.mostrarPre();
+			avl.caminharPre();
 			avl.inserir(1);
-			avl.mostrarPre();
+			avl.caminharPre();
          /*
 			avl.inserir(8);
-			avl.mostrarPre();
+			avl.caminharPre();
 			avl.inserir(10);
-			avl.mostrarPre();
+			avl.caminharPre();
 			avl.inserir(5);
-			avl.mostrarPre();
+			avl.caminharPre();
 			avl.inserir(6);
-			avl.mostrarPre();
+			avl.caminharPre();
 			avl.inserir(2);
-			avl.mostrarPre();
+			avl.caminharPre();
 			avl.inserir(9);
-			avl.mostrarPre();
+			avl.caminharPre();
 			avl.inserir(11);
-			avl.mostrarPre();
+			avl.caminharPre();
 			avl.inserir(1);
-			avl.mostrarPre();
+			avl.caminharPre();
 			avl.inserir(4);
-			avl.mostrarPre();
+			avl.caminharPre();
 			avl.inserir(7);
-			avl.mostrarPre();
+			avl.caminharPre();
 			avl.inserir(12);
-			avl.mostrarPre();
+			avl.caminharPre();
 			avl.inserir(3);
-			avl.mostrarPre();
+			avl.caminharPre();
 
          for(int i = 40; i >= 21; i--){
 			   avl.inserir(i);
-			   avl.mostrarPre();
+			   avl.caminharPre();
             System.out.println("Inserindo o " + i + " (altura = " + avl.getAltura() +")");
          }
 
-			avl.mostrarCentral();
-			avl.mostrarPre();
-			avl.mostrarPos();
+			avl.caminharCentral();
+			avl.caminharPre();
+			avl.caminharPos();
 
 			avl.remover(6);
 			avl.remover(2);
 			avl.remover(4);
 
-			avl.mostrarCentral();
-			avl.mostrarPre();
-			avl.mostrarPos();
+			avl.caminharCentral();
+			avl.caminharPre();
+			avl.caminharPos();
          */  
 		}
 		catch(Exception erro) {

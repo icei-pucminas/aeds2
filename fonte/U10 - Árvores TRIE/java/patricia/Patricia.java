@@ -14,10 +14,10 @@ class Patricia {
       }
    }
 
-   public String string(No no){
+   private String string(No no){
       return (no == raiz) ? " " : string(no.i, no.j, no.k);
    }
-   public String string(int i, int j, int k){
+   private String string(int i, int j, int k){
       //System.out.println("i("+i+") j("+j+") k("+k+") array(i)("+array[i]+") ijk(" + array[i].substring(j,k+1) + ")");
       return array[i].substring(j,k+1);
    }
@@ -43,7 +43,7 @@ class Patricia {
          int k;
          for(k = 1; k < prox.length() && k < inserindo.length() && prox.charAt(k) == inserindo.charAt(k); k++);
          System.out.println("k (" + k + ")");
-         
+
          if(k == prox.length()){
             if(no.prox[array[i].charAt(j)].folha == true){
                throw new Exception("Erro: exite um prefixo de [" + array[i] + "] na arvore");
@@ -51,7 +51,7 @@ class Patricia {
                inserir(no.prox[array[i].charAt(j)], i, j + k);
             }
          } else if (k == inserindo.length()){
-               throw new Exception("Erro: [" + array[i] + "] é prefixo de outra palavra da árvore");
+            throw new Exception("Erro: [" + array[i] + "] é prefixo de outra palavra da árvore");
          } else {
             No novo = new No(i, j, j + k - 1, false);
             novo.prox[prox.charAt(k)] = no.prox[array[i].charAt(j)];
@@ -110,5 +110,32 @@ class Patricia {
             }
          }
       }
+   }
+   public int contarAs(){
+      int resp = 0;
+      if(raiz != null){
+         resp = contarAs(raiz);
+      }
+      return resp;
+   }
+
+   public int contarAs(No no) {
+      int resp = 0;
+      String palavra = string(no);
+
+      for(int i = 0; i < palavra.length(); i++){
+         if(palavra.charat(i) == 'A'){
+            resp++;
+         }
+      }
+
+      if(no.folha == false){
+         for(int i = 0; i < no.prox.length; i++){
+            if(no.prox[i] != null){
+               resp += contarAs(no.prox[i]);
+            }
+         }
+      }
+      return resp;
    }
 }

@@ -49,9 +49,9 @@ public class Alvinegra {
 	/**
 	 * Metodo publico iterativo para exibir elementos.
 	 */
-	public void mostrarCentral() {
+	public void caminharCentral() {
 		System.out.print("[ ");
-		mostrarCentral(raiz);
+		caminharCentral(raiz);
 		System.out.println("]");
 	}
 
@@ -59,20 +59,20 @@ public class Alvinegra {
 	 * Metodo privado recursivo para exibir elementos.
 	 * @param i NoAN em analise.
 	 */
-	private void mostrarCentral(NoAN i) {
+	private void caminharCentral(NoAN i) {
 		if (i != null) {
-			mostrarCentral(i.esq); // Elementos da esquerda.
+			caminharCentral(i.esq); // Elementos da esquerda.
 			System.out.print(i.elemento + ((i.cor) ? "(p) " : "(b) ")); // Conteudo do no.
-			mostrarCentral(i.dir); // Elementos da direita.
+			caminharCentral(i.dir); // Elementos da direita.
 		}
 	}
 
 	/**
 	 * Metodo publico iterativo para exibir elementos.
 	 */
-	public void mostrarPre() {
+	public void caminharPre() {
 		System.out.print("[ ");
-		mostrarPre(raiz);
+		caminharPre(raiz);
 		System.out.println("]");
 	}
 
@@ -80,20 +80,20 @@ public class Alvinegra {
 	 * Metodo privado recursivo para exibir elementos.
 	 * @param i NoAN em analise.
 	 */
-	private void mostrarPre(NoAN i) {
+	private void caminharPre(NoAN i) {
 		if (i != null) {
 			System.out.print(i.elemento + ((i.cor) ? "(p) " : "(b) ")); // Conteudo do no.
-			mostrarPre(i.esq); // Elementos da esquerda.
-			mostrarPre(i.dir); // Elementos da direita.
+			caminharPre(i.esq); // Elementos da esquerda.
+			caminharPre(i.dir); // Elementos da direita.
 		}
 	}
 
 	/**
 	 * Metodo publico iterativo para exibir elementos.
 	 */
-	public void mostrarPos() {
+	public void caminharPos() {
 		System.out.print("[ ");
-		mostrarPos(raiz);
+		caminharPos(raiz);
 		System.out.println("]");
 	}
 
@@ -101,10 +101,10 @@ public class Alvinegra {
 	 * Metodo privado recursivo para exibir elementos.
 	 * @param i NoAN em analise.
 	 */
-	private void mostrarPos(NoAN i) {
+	private void caminharPos(NoAN i) {
 		if (i != null) {
-			mostrarPos(i.esq); // Elementos da esquerda.
-			mostrarPos(i.dir); // Elementos da direita.
+			caminharPos(i.esq); // Elementos da esquerda.
+			caminharPos(i.dir); // Elementos da direita.
 			System.out.print(i.elemento + ((i.cor) ? "(p) " : "(b) ")); // Conteudo do no.
 		}
 	}
@@ -204,12 +204,10 @@ public class Alvinegra {
 
          if (bisavo == null){
             raiz = avo;
+         } else if(avo.elemento < bisavo.elemento){
+            bisavo.esq = avo;
          } else {
-            if(avo.elemento < bisavo.elemento){
-               bisavo.esq = avo;
-            } else {
-               bisavo.dir = avo;
-            }
+            bisavo.dir = avo;
          }
 
          //reestabelecer as cores apos a rotacao
@@ -252,6 +250,7 @@ public class Alvinegra {
                balancear(bisavo, avo, pai, i);
             }
          }
+
          if (elemento < i.elemento) {
             inserir(elemento, avo, pai, i, i.esq);
          } else if (elemento > i.elemento) {
