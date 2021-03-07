@@ -1,4 +1,5 @@
 #include <string.h>
+#include <math.h>
 typedef struct {
     char id[30];
     char name[200];
@@ -92,6 +93,10 @@ void read_release_date(Musica *music, char field[]) {
     if (strlen(music->release_date) == 4) strcat(music->release_date, "/01/01");
     music->release_date[4] = '/';
     music->release_date[7] = '/';
+}
+
+double handle_percentage(double value) {
+    return ceil(value) == value ? value / 100 : value;
 }
 
 }
