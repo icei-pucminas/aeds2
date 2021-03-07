@@ -1,5 +1,9 @@
+#include <stdlib.h>
 #include <string.h>
 #include <math.h>
+
+#define MAX_LINE_SIZE 860
+
 typedef struct {
     char id[30];
     char name[200];
@@ -97,6 +101,66 @@ void read_release_date(Musica *music, char field[]) {
 
 double handle_percentage(double value) {
     return ceil(value) == value ? value / 100 : value;
+}
+
+void read_music(Musica *music, char line[]) {
+    char field[MAX_LINE_SIZE];
+    remove_line_break(line);
+
+    line = read_csv_field(line, field);
+    music->valence = handle_percentage(atof(field));
+
+    line = read_csv_field(line + 1, field);
+    music->year = atoi(field);
+
+    line = read_csv_field(line + 1, field);
+    music->acousticness = handle_percentage(atof(field));
+
+    line = read_csv_field(line + 1, field);
+    read_artists(music, field);
+
+    line = read_csv_field(line + 1, field);
+    music->danceability = handle_percentage(atof(field));
+
+    line = read_csv_field(line + 1, field);
+    music->duration_ms = atoi(field);
+
+    line = read_csv_field(line + 1, field);
+    music->energy = handle_percentage(atof(field));
+
+    line = read_csv_field(line + 1, field); // Skip 'explicit' column
+
+    line = read_csv_field(line + 1, field);
+    strcpy(music->id, field);
+
+    line = read_csv_field(line + 1, field);
+    music->instrumentalness = handle_percentage(atof(field));
+
+    line = read_csv_field(line + 1, field);
+    strcpy(music->key, field);
+
+    line = read_csv_field(line + 1, field);
+    music->liveness = handle_percentage(atof(field));
+
+    line = read_csv_field(line + 1, field);
+    music->loudness = atof(field);
+
+    line = read_csv_field(line + 1, field); // Skip 'mode' column
+
+    line = read_csv_field(line + 1, field);
+    strcpy(music->name, field);
+
+    line = read_csv_field(line + 1, field);
+    music->popularity = atoi(field);
+
+    line = read_csv_field(line + 1, field);
+    read_release_date(music, field);
+
+    line = read_csv_field(line + 1, field);
+    music->speechiness = handle_percentage(atof(field));
+
+    line = read_csv_field(line + 1, field);
+    music->tempo = atof(field);
 }
 
 }
