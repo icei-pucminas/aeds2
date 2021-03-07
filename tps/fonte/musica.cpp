@@ -19,3 +19,27 @@ typedef struct {
     int year;
 } Musica;
 
+Musica clone_music(Musica *music) {
+    Musica clone;
+    strcpy(clone.id, music->id);
+    strcpy(clone.name, music->name);
+    strcpy(clone.key, music->key);
+    for (int i = 0; i < music->num_artists; i++)
+        strcpy(clone.artists[i], music->artists[i]);
+    clone.num_artists = music->num_artists;
+    strcpy(clone.release_date, music->release_date);
+    clone.acousticness = music->acousticness;
+    clone.danceability = music->danceability;
+    clone.energy = music->energy;
+    clone.duration_ms = music->duration_ms;
+    clone.instrumentalness = music->instrumentalness;
+    clone.valence = music->valence;
+    clone.popularity = music->popularity;
+    clone.tempo = music->tempo;
+    clone.liveness = music->liveness;
+    clone.loudness = music->loudness;
+    clone.speechiness = music->speechiness;
+    clone.year = music->year;
+    return clone;
+}
+
