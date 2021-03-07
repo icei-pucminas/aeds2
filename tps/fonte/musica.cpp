@@ -87,5 +87,12 @@ void read_artists(Musica *music, char *artists_field) {
     music->num_artists = i;
 }
 
+void read_release_date(Musica *music, char field[]) {
+    strcpy(music->release_date, field);
+    if (strlen(music->release_date) == 4) strcat(music->release_date, "/01/01");
+    music->release_date[4] = '/';
+    music->release_date[7] = '/';
+}
+
 }
 
