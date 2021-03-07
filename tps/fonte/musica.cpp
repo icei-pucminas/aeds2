@@ -61,6 +61,15 @@ char *read_quotted_csv_field(char *field_ptr, char *output) {
     return field_ptr;
 }
 
+/**
+ * @brief Lê uma única célula de um CSV.
+ * 
+ * @param field_ptr Ponteiro para o primeiro caractere dessa célula.
+ * @param output Arranjo que receberá o conteúdo da célula.
+ * 
+ * @return Ponteiro que aponta para uma posição depois da célula.
+ * Geralmente um ponteiro para uma vírgula ou o fim da linha.
+ */
 char *read_csv_field(char *field_ptr, char *output) {
     if (*field_ptr == '"') return read_quotted_csv_field(field_ptr, output);
 
@@ -82,6 +91,13 @@ char *read_artist(char *output, char *artist_ptr) {
     return artist_ptr + 1;
 }
 
+/**
+ * @brief Lê o campo artists de uma música e preenche o arranjo de artistas dela.
+ * 
+ * @param music Ponteiro para a struct da música.
+ * @param artists_field Ponteiro para o primeiro caractere do campo artists.
+ * Um colchete '[' em todos os casos.
+ */
 void read_artists(Musica *music, char *artists_field) {
     artists_field++;
     int i = 0;
@@ -104,6 +120,14 @@ double handle_percentage(double value) {
     return ceil(value) == value ? value / 100 : value;
 }
 
+/**
+ * @brief Lê uma linha vinda do CSV e preenche os campos da Música.
+ * 
+ * @param music Ponteiro para a struct da música.
+ * @param line Linha do CSV.
+ * 
+ * Ex.: read_music(&music, "0.598,2018,0.136,\"['Royce Da 5\\'9""', 'Eminem', 'King Green']\",0.706,283077,0.745,1,6LZe8JfVaqcpq8yjkHtWQe,0.0,10,0.268,-5.97,0,Caterpillar (feat. Eminem & King Green),61,2018-05-04,0.441,91.08")
+ */
 void read_music(Musica *music, char line[]) {
     char field[MAX_LINE_SIZE];
     remove_line_break(line);
