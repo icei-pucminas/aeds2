@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
@@ -163,5 +164,39 @@ void read_music(Musica *music, char line[]) {
     music->tempo = atof(field);
 }
 
+void print_artists(Musica *music) {
+    printf("[");
+
+    if (music->num_artists > 0) {
+        printf("%s", music->artists[0]);
+
+        for (int i = 1; i < music->num_artists; i++)
+            printf(", %s", music->artists[i]);
+    }
+
+    printf("]");
 }
 
+void print_music(Musica *music) {
+    printf("%s ## ", music->id);
+    print_artists(music);
+    printf(" ## %s ## %c%c/%c%c/%c%c%c%c ## %G ## %G ## %G ## %G ## %G ## %G ## %G ## %d\n",
+        music->name,
+        music->release_date[8],
+        music->release_date[9],
+        music->release_date[5],
+        music->release_date[6],
+        music->release_date[0],
+        music->release_date[1],
+        music->release_date[2],
+        music->release_date[3],
+        music->acousticness,
+        music->danceability,
+        music->instrumentalness,
+        music->liveness,
+        music->loudness,
+        music->speechiness,
+        music->energy,
+        music->duration_ms
+    );
+}
