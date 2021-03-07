@@ -1,3 +1,4 @@
+#include <string.h>
 typedef struct {
     char id[30];
     char name[200];
@@ -21,6 +22,18 @@ typedef struct {
 
 Musica clone_music(Musica *music) {
     return *music;
+}
+
+char *remove_line_break(char line[]) {
+    int size = strlen(line);
+
+    if (line[size - 2] == '\r')
+        line[size - 2] = '\0';
+
+    else if (line[size - 1] == '\r' || line[size - 1] == '\n')
+        line[size - 1] = '\0';
+
+    return line;
 }
 
 }
