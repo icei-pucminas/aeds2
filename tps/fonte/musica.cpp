@@ -64,5 +64,28 @@ char *read_csv_field(char *field_ptr, char *output) {
     return field_ptr;
 }
 
+char *read_artist(char *output, char *artist_ptr) {
+    char delimiter = *artist_ptr++;
+
+    while (*artist_ptr != delimiter) {
+        if (*artist_ptr == '\\') *output++ = *artist_ptr++;
+        *output++ = *artist_ptr++;
+    }
+
+    *output = '\0';
+    return artist_ptr + 1;
+}
+
+void read_artists(Musica *music, char *artists_field) {
+    artists_field++;
+    int i = 0;
+    while (1) {
+        artists_field = read_artist(music->artists[i++], artists_field);
+        if (*artists_field == ']') break;
+        artists_field += 2;
+    }
+    music->num_artists = i;
+}
+
 }
 
