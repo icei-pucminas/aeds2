@@ -36,5 +36,33 @@ char *remove_line_break(char line[]) {
     return line;
 }
 
+char *read_quotted_csv_field(char *field_ptr, char *output) {
+    field_ptr++;
+    while (*field_ptr != '\0') {
+        if (*field_ptr == '"') {
+            if (*(field_ptr + 1) == '"') {
+                *output++ = '"';
+                field_ptr += 2;
+            } else {
+                field_ptr++;
+                break;
+            }
+        } else {
+            *output++ = *field_ptr++;
+        }
+    }
+    *output = '\0';
+    return field_ptr;
+}
+
+char *read_csv_field(char *field_ptr, char *output) {
+    if (*field_ptr == '"') return read_quotted_csv_field(field_ptr, output);
+
+    while (*field_ptr != '\0' && *field_ptr != ',') *output++ = *field_ptr++;
+
+    *output = '\0';
+    return field_ptr;
+}
+
 }
 
