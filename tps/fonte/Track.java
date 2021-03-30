@@ -1,4 +1,3 @@
-package classe;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -10,7 +9,8 @@ public class Track {
 	// (0)valence,(1)year,(2)acousticness,(3)artists,(4)danceability,(5)duration_ms,(6)energy,
 	// (7)explicit,(8)id,(9)instrumentalness,(10)key,(11)liveness,(12)loudness,(13)mode,
 	// (14)name,(15)popularity,(16)release_date,(17)speechiness,(18)tempo
-	private String id; // 8
+	private String nome;
+        private String id; // 8
 	private String key; // 10
 	private String artists; // 3
 	private Date realease; // 16
@@ -207,7 +207,7 @@ public class Track {
 	}
 
 	
-	public Elemento clone() {
+	public Track clone() {
 		Track novo = new Track();
 		novo.nome = this.nome;
 		novo.id = this.id;

@@ -28,7 +28,7 @@ public class Template {
 	}
 
 	/*
-	 * leitura das musicas e geração dos objetos Track
+	 * leitura das musicas e geracao dos objetos Track
 	 */
 	public static Track[] inserirPlaylist(int quantidade, String idList[], String totalMusicList[]) throws ParseException {
 		Track musicas[] = new Track[quantidade];
@@ -46,7 +46,7 @@ public class Template {
 	}
 
 	/*
-	 * leitura de todas as linhas da entrada padrão
+	 * leitura de todas as linhas da entrada padrao
 	 */
 	public static int entradaPadrao(String idList[]) throws IOException {
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
