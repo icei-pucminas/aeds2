@@ -5,10 +5,10 @@
  */
 class Ponteiro01Array {
    public static void main (String[] args) {
-      int[] vet = new int [10];
+      int[] vet = new int [5];
       System.out.println(vet);
 
-      vet = new int [10];
+      vet = new int [5];
       System.out.println(vet);
    }
 }
