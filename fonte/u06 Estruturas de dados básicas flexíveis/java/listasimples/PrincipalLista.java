@@ -6,7 +6,7 @@
 class PrincipalLista {
 	public static void main(String[] args) {
 		try {
-			System.out.println("=== LISTA DINAMICA SIMPLESMENTE ENCADEADA ===");
+			System.out.println("=== LISTA FLEXIVEL SIMPLESMENTE ENCADEADA ===");
 			Lista lista = new Lista();
 
 			lista.inserirInicio(1);

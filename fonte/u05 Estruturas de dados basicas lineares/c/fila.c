@@ -89,6 +89,7 @@ bool isVazia() {
 int main(int argc, char** argv){
    int x1, x2, x3;
    printf("\n==== FILA ESTATICA ====");
+   start();
 
    inserir(5);
    inserir(7);

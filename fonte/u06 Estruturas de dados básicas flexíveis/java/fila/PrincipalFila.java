@@ -5,7 +5,7 @@
  */
 class PrincipalFila {
    public static void main(String[] args) throws Exception {
-      System.out.println("==== FILA DINAMICA ====");
+      System.out.println("==== FILA FLEXIVEL ====");
       Fila fila = new Fila();
       int x1, x2, x3;
 
