@@ -1,15 +1,16 @@
-import java.util.Queue;
+import java.util.*;
 
-class PilhaNativa {
-   public static void main (String [] args) {
-      Queue fila = new Queue();
+public class FilaNativa {
+   public static void main(String[] args) throws Exception {
+      Queue<String> fila = new LinkedList<String>();
 
-      fila.push("Atlético-MG");
-      fila.push("Cruzeiro");
-      fila.push("América");
+      fila.add("Atlético-MG");
+      fila.add("Cruzeiro");
+      fila.add("América");
 
-      while(fila.empty() == false){
-        System.out.println("Retirando da fila: " + fila.pop());
+      while (fila.isEmpty() == false){
+         System.out.println("Retirando da fila: " + fila.remove());
       }
    }
 }
+
