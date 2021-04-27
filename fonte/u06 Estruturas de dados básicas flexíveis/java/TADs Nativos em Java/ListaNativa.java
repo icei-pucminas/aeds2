@@ -5,30 +5,30 @@ import java.util.Iterator;
 
 class ListaNativa {
    public static void main (String [] args) {
-      Vector<String> ve = new Vector<String>();
-      ArrayList<String> al = new ArrayList<String>();
-      LinkedList<String> ll = new LinkedList<String>();
+      Vector<String> vector = new Vector<String>();
+      ArrayList<String> arrayList = new ArrayList<String>();
+      LinkedList<String> linkedList = new LinkedList<String>();
 
-      ve.add("Atlético-MG");
-      al.add("Atlético-MG");
-      ll.add("Atlético-MG");
-      ve.add("Cruzeiro");
-      al.add("Cruzeiro");
-      ll.add("Cruzeiro");
-      ve.add("América");
-      al.add("América");
-      ll.add("América");
+      vector.add("Atlético-MG");
+      arrayList.add("Atlético-MG");
+      linkedList.add("Atlético-MG");
+      vector.add("Cruzeiro");
+      arrayList.add("Cruzeiro");
+      linkedList.add("Cruzeiro");
+      vector.add("América");
+      arrayList.add("América");
+      linkedList.add("América");
 
-      System.out.println("Tamanhos:" + ve.size() + " -- " + al.size() + " -- " + ll.size());
-      System.out.println("get(index): " + (String)ve.get(0) + " -- " + (String)al.get(1) + " -- " + (String)ll.get(2));
+      System.out.println("Tamanhos:" + vector.size() + " -- " + arrayList.size() + " -- " + linkedList.size());
+      System.out.println("get(index): " + (String)vector.get(0) + " -- " + (String)arrayList.get(1) + " -- " + (String)linkedList.get(2));
 
-      for (Iterator i = ve.iterator(); i.hasNext();){
+      for (Iterator i = vector.iterator(); i.hasNext();){
          System.out.println("Vector: " + (String)i.next());
       }
-      for (Iterator i = al.iterator(); i.hasNext();){
+      for (Iterator i = arrayList.iterator(); i.hasNext();){
          System.out.println("ArrayList: " + (String)i.next());
       }
-      for (Iterator i = ll.iterator(); i.hasNext();){
+      for (Iterator i = linkedList.iterator(); i.hasNext();){
          System.out.println("LinkedList: " + (String)i.next());
       }
    }
