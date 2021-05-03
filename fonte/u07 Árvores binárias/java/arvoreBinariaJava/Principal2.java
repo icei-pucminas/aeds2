@@ -11,7 +11,7 @@ public class Principal2 {
 
       Random gerador = new Random();
       gerador.setSeed(4);
-      for(int i = 1; i < 100000; i++){
+      for(int i = 1; i <= 100000; i++){
          int valor = Math.abs(gerador.nextInt());
          if(a1.pesquisar(valor) == false){
             a1.inserir(valor);
