@@ -1,8 +1,8 @@
 
 class No {
-	public Celula primeiro, ultimo;
-	public No esq, dir;
 	public char letra;
+	public No esq, dir;
+	public Celula primeiro, ultimo;
 	
 	No(char letra) {
 		this.letra = letra;

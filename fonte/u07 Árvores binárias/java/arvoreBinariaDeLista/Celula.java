@@ -3,16 +3,15 @@ class Celula {
    Celula prox;
 
    public Celula (){
-      this.contato = null;
-      this.prox = null;
+      this(null, null);
+   }
+
+   public Celula(Contato contato){
+      this(contato, null);
    }
 
    public Celula (Contato contato, Celula prox){
       this.contato = contato;
       this.prox = prox;
-   }
-
-   public Celula(Contato contato){
-      this(contato, null);
    }
 }
