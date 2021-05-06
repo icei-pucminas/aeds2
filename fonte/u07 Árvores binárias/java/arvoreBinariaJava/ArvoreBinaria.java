@@ -221,32 +221,91 @@ public class ArvoreBinaria {
 
       // No a esquerda e no a direita.
       } else {
-         i.esq = antecessor(i, i.esq);
+         i.esq = maiorEsq(i, i.esq);
 		}
 
 		return i;
 	}
 
 	/**
-	 * Metodo para trocar no removido pelo antecessor.
+	 * Metodo para trocar o elemento "removido" pelo maior da esquerda.
 	 * @param i No que teve o elemento removido.
 	 * @param j No da subarvore esquerda.
 	 * @return No em analise, alterado ou nao.
 	 */
-	private No antecessor(No i, No j) {
-
-      // Existe no a direita.
-		if (j.dir != null) {
-         // Caminha para direita.
-			j.dir = antecessor(i, j.dir);
+	private No maiorEsq(No i, No j) {
 
       // Encontrou o maximo da subarvore esquerda.
-		} else {
+		if (j.dir == null) {
 			i.elemento = j.elemento; // Substitui i por j.
 			j = j.esq; // Substitui j por j.ESQ.
+
+      // Existe no a direita.
+		} else {
+         // Caminha para direita.
+			j.dir = maiorEsq(i, j.dir);
 		}
 		return j;
 	}
+
+	/**
+	 * Metodo que retorna o maior elemento da árvore
+	 * @return int maior elemento da árvore
+	 */
+   public int getMaior(){
+      int resp = -1;
+
+      if(raiz != null){
+         No i;
+         for(i = raiz; i.dir != null; i = i.dir);
+         resp = i.elemento;
+      }
+
+      return resp;
+   }
+
+
+	/**
+	 * Metodo que retorna o menor elemento da árvore
+	 * @return int menor elemento da árvore
+	 */
+   public int getMenor(){
+      int resp = -1;
+
+      if(raiz != null){
+         No i;
+         for(i = raiz; i.esq != null; i = i.esq);
+         resp = i.elemento;
+      }
+
+      return resp;
+   }
+
+
+	/**
+	 * Metodo que retorna a altura da árvore
+	 * @return int altura da árvore
+	 */
+   public int getAltura(){
+      return getAltura(raiz, 0);
+   }
+
+
+	/**
+	 * Metodo que retorna a altura da árvore
+	 * @return int altura da árvore
+	 */
+   public int getAltura(No i, int altura){
+      if(i == null){
+         altura--;
+      } else {
+         int alturaEsq = getAltura(i.esq, altura + 1);
+         int alturaDir = getAltura(i.dir, altura + 1);
+         altura = (alturaEsq > alturaDir) ? alturaEsq : alturaDir;
+      }
+      return altura;
+   }
+
 
 	/**
 	 * Metodo publico iterativo para remover elemento.
@@ -265,7 +324,7 @@ public class ArvoreBinaria {
       } else if (raiz.esq == null) {
          raiz = raiz.dir;
       } else {
-         raiz.esq = antecessor(raiz, raiz.esq);
+         raiz.esq = maiorEsq(raiz, raiz.esq);
       }
    }
 
@@ -288,7 +347,7 @@ public class ArvoreBinaria {
       } else if (i.esq == null) {
          pai = i.dir;
       } else {
-         i.esq = antecessor(i, i.esq);
+         i.esq = maiorEsq(i, i.esq);
 		}
 	}
 
@@ -347,37 +406,4 @@ public class ArvoreBinaria {
       }
       return resp;
    }
-
-   void exerResol2(){
-      inserir(2);
-      //..
-      inserir(7);
-
-      caminharPre();
-      raiz = rotacionarEsq(raiz);
-      caminharPre();
-   }
-
-   void exer3(){
-      int a, b, c;
-      a = lerInt();
-      b = lerInt();
-      c = lerInt();
-
-      inserir(a);
-      inserir(b);
-      inserir(c);
-
-
-
-   }
-
-
-
-
-
-
-
-
-
 }

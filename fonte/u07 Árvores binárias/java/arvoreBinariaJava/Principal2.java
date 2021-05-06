@@ -6,28 +6,23 @@ import java.util.*;
 
 public class Principal2 {
    public static void main(String[] args) throws Exception {
-      ArvoreBinaria a1 = new ArvoreBinaria();
-      ArvoreBinaria a2 = new ArvoreBinaria();
+      ArvoreBinaria a = new ArvoreBinaria();
 
       Random gerador = new Random();
-      gerador.setSeed(4);
+      gerador.setSeed(0);
       for(int i = 1; i <= 100000; i++){
-         int valor = Math.abs(gerador.nextInt());
-         if(a1.pesquisar(valor) == false){
-            a1.inserir(valor);
-            a2.inserir(valor);
-         }
-         if(i % 100 == 0){
-            a1.remover(valor);
-            a2.remover(valor);
-            a1.remover(a1.getRaiz());
-            a2.remover(a2.getRaiz());
-         }
+         int valor;
+         do {
+            valor = Math.abs(gerador.nextInt());
+         } while (a.pesquisar(valor) == true);
 
-         if(ArvoreBinaria.igual(a1, a2) == false){
-            System.out.println("Árvores diferentes...");
-         }
+         a.inserir(valor);
 
+         if(i % 1000 == 0){
+            double log2 = (Math.log(i) / Math.log(2));
+            log2 *= 1.39;
+            System.out.println("Número de nós = " + i + " --- log(i,2) = " + log2 + " --- h = " + a.getAltura());
+         }
       }
    }
 }

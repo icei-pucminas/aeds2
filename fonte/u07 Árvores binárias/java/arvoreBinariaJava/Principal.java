@@ -15,6 +15,10 @@ public class Principal {
       arvoreBinaria.inserir(7);
       arvoreBinaria.inserir(6);
 
+      System.out.println("Altura: " + arvoreBinaria.getAltura());
+      System.out.println("Menor valor: " + arvoreBinaria.getMenor());
+      System.out.println("Maior valor: " + arvoreBinaria.getMaior());
+
       arvoreBinaria.caminharCentral();
       arvoreBinaria.caminharPre();
       arvoreBinaria.caminharPos();

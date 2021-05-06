@@ -181,29 +181,30 @@ public class AVL {
 
       // No a esquerda e no a direita.
       } else {
-         i.esq = antecessor(i, i.esq);
+         i.esq = maiorEsq(i, i.esq);
 		}
 
 		return balancear(i);
 	}
 
+
 	/**
-	 * Metodo para trocar no removido pelo antecessor.
+	 * Metodo para trocar o elemento "removido" pelo maior da esquerda.
 	 * @param i No que teve o elemento removido.
 	 * @param j No da subarvore esquerda.
 	 * @return No em analise, alterado ou nao.
 	 */
-	private No antecessor(No i, No j) {
-
-      // Existe no a direita.
-		if (j.dir != null) {
-         // Caminha para direita.
-			j.dir = antecessor(i, j.dir);
+	private No maiorEsq(No i, No j) {
 
       // Encontrou o maximo da subarvore esquerda.
-		} else {
+		if (j.dir == null) {
 			i.elemento = j.elemento; // Substitui i por j.
 			j = j.esq; // Substitui j por j.ESQ.
+
+      // Existe no a direita.
+		} else {
+         // Caminha para direita.
+			j.dir = maiorEsq(i, j.dir);
 		}
 		return j;
 	}
