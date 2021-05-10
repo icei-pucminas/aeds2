@@ -46,10 +46,10 @@ int main(){
    printf("\nVoltando com a árvore inicial");
    printf("\nRemover: 3");
    printf("\nCaminhar: central, pre e pos\n");
-   removerSucessor(2);
+   remover(2);
    inserir(1);
    inserir(2);
-   removerSucessor(3);
+   remover(3);
 
    caminharCentral();
    caminharPre();

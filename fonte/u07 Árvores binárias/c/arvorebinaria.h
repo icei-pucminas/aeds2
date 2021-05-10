@@ -14,9 +14,7 @@ void caminharPreRec(No*);
 void caminharPosRec(No*);
 void inserirRec(int, No**);
 void removerRec(int, No**);
-void antecessor(No**, No**);
-void removerRecSucessor(int, No**);
-void sucessor(No**, No**);
+void maiorEsq(No**, No**);
 
 void start();
 bool pesquisar(int);
@@ -25,4 +23,3 @@ void caminharPre();
 void caminharPos();
 void inserir(int);
 void remover(int);
-void removerSucessor(int);
