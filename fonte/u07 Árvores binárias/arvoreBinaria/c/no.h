@@ -12,4 +12,4 @@ typedef struct No {
  * Criacao do novo no
  * @param elemento Conteudo do no.
  */
-No* novoNo(int elemento);
+No* novoNo(int);
