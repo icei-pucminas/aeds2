@@ -3,9 +3,9 @@ public class Agenda {
 
 	public Agenda() {
 		raiz = new No ('M');
-		raiz.esq = new No ('F');
+		raiz.esq = new No ('G');
 		raiz.dir = new No ('T');
-		raiz.esq.esq = new No ('C');
+		raiz.esq.esq = new No ('A');
 		//inserir todas as 26 letras do alfabeto...
 	}
 
@@ -46,7 +46,6 @@ public class Agenda {
 		// insere o nó com a letra
 		if (no == null) {
 			no = new no(Character.toUpperCase(contato.nome.charAt(0)));
-			no.primeiro = no.ultimo = new Celula();
 			no.ultimo.prox = new Celula(contato);
 			no.ultimo = no.ultimo.prox;	
 		

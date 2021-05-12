@@ -16,6 +16,10 @@ public class ArvoreArvore {
       //os outros 23 caracteres.
 	}
 
+   public void inserir(char letra){
+      //igual ao da árvore binária padrão!!!
+   }
+
 
    public void inserir(String s){
       inserir(s, raiz);

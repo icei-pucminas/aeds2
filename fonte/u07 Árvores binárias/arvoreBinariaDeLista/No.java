@@ -4,7 +4,7 @@ class No {
 	public No esq, dir;
 	public Celula primeiro, ultimo;
 	
-	No(char letra) {
+	public No(char letra) {
 		this.letra = letra;
 		this.esq = this.dir = null;
 		primeiro = ultimo = new Celula();
