@@ -17,7 +17,7 @@ public class ArvoreArvore {
 	}
 
    public void inserir(char letra){
-      //igual ao da árvore binária padrão!!!
+      //igualzinho (mesmo, de verdade) ao da árvore binária padrão!!!
    }
 
 
@@ -41,7 +41,7 @@ public class ArvoreArvore {
    }
 
 
-	private No inserir(String s, No2 i) throws Exception {
+	private No2 inserir(String s, No2 i) throws Exception {
 		if (i == null) {
          i = new No2(x);
 
@@ -57,6 +57,29 @@ public class ArvoreArvore {
 
 		return i;
 	}
+
+
+   public void mostrar(){
+      mostrar(raiz);
+   }
+
+   public void mostrar(No i){
+      if (i != null){
+         mostrar(i.esq);
+         //System.out.println("Letra: " + i.elemento);
+         mostrar(i.outra);
+         mostrar(i.dir);
+      }
+   }
+
+   public void mostrar(No2 i){
+      if (i != null){
+         mostrar(i.esq);
+         System.out.println(i.elemento);
+         mostrar(i.dir);
+      }
+   }
+
 
 
    public boolean hasStringTam10(){
@@ -80,6 +103,26 @@ public class ArvoreArvore {
    }
 
 
+   public boolean hasStringTam10(char c){
+      return hasStringTam10(raiz, c);
+   }
+
+   public boolean hasStringTam10(No i, char c){
+      boolean resp;
+		if (i == null) { 
+         resp = false;
+
+      } else if (c < i.elemento) { 
+         resp = hasStringTam10(i.esq, c); 
+
+      } else if (c > i.elemento) { 
+         resp = hasStringTam10(i.dir, c); 
+      
+      } else { 
+         resp = hasStringTam10(i.outro); 
+      }
+      return resp;
+   } 
 
 
 
@@ -100,14 +143,14 @@ public class ArvoreArvore {
 		if (no == null) { 
          resp = false;
 
-      } else if (x.charAt(0) == no.elemento) { 
-         resp = pesquisarSegundaArvore(no.outro, x); 
-
       } else if (x.charAt(0) < no.elemento) { 
          resp = pesquisar(no.esq, x); 
 
-      } else { 
+      } else if (x.charAt(0) > no.elemento) { 
          resp = pesquisar(no.dir, x); 
+      
+      } else { 
+         resp = pesquisarSegundaArvore(no.outro, x); 
       }
       return resp;
 	}
@@ -117,22 +160,18 @@ public class ArvoreArvore {
 		if (no == null) { 
          resp = false;
 
-      } else if (x.equals(no.elemento)) { 
-         resp = true; 
-
       } else if (x.compareTo(no.elemento) < 0) { 
          resp = pesquisarSegundaArvore(no.esq, x); 
 
-      } else { 
+      } else if (x.compareTo(no.elemento) > 0) { 
          resp = pesquisarSegundaArvore(no.dir, x); 
+
+      } else { 
+         resp = true; 
       }
       return resp;
 	}
 
-   private void inserir(char c){
-      System.out.println(c);
-      //implementar
-   }
 
    public int contPalavra(char letra){
       return contPalavra(letra, raiz);
@@ -164,6 +203,21 @@ public class ArvoreArvore {
       }
       return resp;
    }
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

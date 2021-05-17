@@ -3,7 +3,7 @@ class Celula {
    public Celula inf, sup, esq, dir;
 
    public Celula(){
-      this(0, null, null, null, null);
+      this(0);
    }
 
    public Celula(int elemento){
