@@ -12,10 +12,10 @@ public class Hash {
       this.m2 =  m2;
       this.m = m1 + m2;
       this.tabela = new int [this.m];
-      for(int i = 0; i < m; i++){
+      for(int i = 0; i < m1; i++){
          tabela[i] = NULO;
       }
-      reserva  = 0;
+      reserva = 0;
    }
 
    public int h(int elemento){
