@@ -110,23 +110,10 @@ public class ArvoreBinaria {
 	}
 
 
-	/**
-	 * Metodo publico iterativo para inserir elemento.
-	 * @param x Elemento a ser inserido.
-	 * @throws Exception Se o elemento existir.
-	 */
-	public void inserir(int x) throws Exception {
+	void inserir(int x) throws Exception {
 		raiz = inserir(x, raiz);
 	}
-
-	/**
-	 * Metodo privado recursivo para inserir elemento.
-	 * @param x Elemento a ser inserido.
-	 * @param i No em analise.
-	 * @return No em analise, alterado ou nao.
-	 * @throws Exception Se o elemento existir.
-	 */
-	private No inserir(int x, No i) throws Exception {
+	No inserir(int x, No i) throws Exception {
 		if (i == null) {
          i = new No(x);
 
