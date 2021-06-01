@@ -5,7 +5,7 @@
 class No {
 	public int elemento; // Conteudo do no.
 	public No esq, dir;  // Filhos da esq e dir.
-	public int nivel; //Numero de niveis abaixo do no
+	public int nivel;    //Numero de niveis abaixo do no
 
 	/**
 	 * Construtor da classe.
