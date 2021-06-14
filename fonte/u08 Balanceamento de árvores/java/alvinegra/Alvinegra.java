@@ -119,27 +119,27 @@ public class Alvinegra {
    
       //Se a arvore estiver vazia
       if(raiz == null){
-         raiz = new NoAN(elemento, false);
+         raiz = new NoAN(elemento);
          System.out.println("Antes, zero elementos. Agora, raiz(" + raiz.elemento + ").");
 
       //Senao, se a arvore tiver um elemento 
       } else if (raiz.esq == null && raiz.dir == null){
-         if (raiz.elemento > elemento){
-            raiz.esq = new NoAN(elemento, true);
+         if (elemento < raiz.elemento){
+            raiz.esq = new NoAN(elemento);
             System.out.println("Antes, um elemento. Agora, raiz(" + raiz.elemento + ") e esq(" + raiz.esq.elemento +").");
          } else {
-            raiz.dir = new NoAN(elemento, true);
+            raiz.dir = new NoAN(elemento);
             System.out.println("Antes, um elemento. Agora, raiz(" + raiz.elemento + ") e dir(" + raiz.dir.elemento +").");
          }
 
       //Senao, se a arvore tiver dois elementos (raiz e dir)
       } else if (raiz.esq == null){
 
-         if(raiz.elemento > elemento){
+         if(elemento < raiz.elemento){
             raiz.esq = new NoAN(elemento);
             System.out.println("Antes, dois elementos(A). Agora, raiz(" + raiz.elemento + "), esq (" + raiz.esq.elemento +") e dir(" + raiz.dir.elemento +").");
 
-         } else if (raiz.dir.elemento > elemento){
+         } else if (elemento < raiz.dir.elemento){
             raiz.esq = new NoAN(raiz.elemento);
             raiz.elemento = elemento;
             System.out.println("Antes, dois elementos(B). Agora, raiz(" + raiz.elemento + "), esq (" + raiz.esq.elemento +") e dir(" + raiz.dir.elemento +").");
@@ -156,10 +156,10 @@ public class Alvinegra {
       //Senao, se a arvore tiver dois elementos (raiz e esq)
       } else if (raiz.dir == null){
          
-         if(raiz.elemento < elemento){
+         if(elemento > raiz.elemento){
             raiz.dir = new NoAN(elemento);
             System.out.println("Antes, dois elementos(D). Agora, raiz(" + raiz.elemento + "), esq (" + raiz.esq.elemento +") e dir(" + raiz.dir.elemento +").");
-         } else if (raiz.esq.elemento < elemento){
+         } else if (elemento > raiz.esq.elemento){
             raiz.dir = new NoAN(raiz.elemento);
             raiz.elemento = elemento;
             System.out.println("Antes, dois elementos(E). Agora, raiz(" + raiz.elemento + "), esq (" + raiz.esq.elemento +") e dir(" + raiz.dir.elemento +").");

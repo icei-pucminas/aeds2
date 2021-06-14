@@ -1,5 +1,5 @@
 /**
- * Celula (pilha, lista e fila dinamica)
+ * Celula (pilha, lista e fila flexivel)
  * @author Max do Val Machado
  * @version 2 01/2015
  */
