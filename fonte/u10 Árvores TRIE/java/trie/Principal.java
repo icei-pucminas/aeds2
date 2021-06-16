@@ -18,20 +18,16 @@ class Principal {
       arv.mostrar();
       for(int i = 0; i < array.length; i++){
          System.out.println("Pesquisar(" + array[i] + "):" + arv.pesquisar(array[i]));
-         System.out.println("PesquisarI(" + array[i] + "):" + arv.pesquisarI(array[i]));
       }
 
       String s = "ABACA";
       System.out.println("Pesquisar(" + s + "):" + arv.pesquisar(s));
-      System.out.println("PesquisarI(" + s + "):" + arv.pesquisarI(s));
 
       s = "ABACAXIS";
       System.out.println("Pesquisar(" + s + "):" + arv.pesquisar(s));
-      System.out.println("PesquisarI(" + s + "):" + arv.pesquisarI(s));
 
       s = "gaga";
       System.out.println("Pesquisar(" + s + "):" + arv.pesquisar(s));
-      System.out.println("PesquisarI(" + s + "):" + arv.pesquisarI(s));
       
    }
 }

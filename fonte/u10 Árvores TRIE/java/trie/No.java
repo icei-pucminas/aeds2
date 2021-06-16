@@ -1,6 +1,6 @@
 class No {
    public char elemento;
-   public int final tamanho = 255;
+   public final int tamanho = 255;
    public No[] prox;
    public boolean folha;
    
