@@ -5,6 +5,25 @@ class ArvoreTrie {
         raiz = new No();
     }
 
+
+    public boolean pesquisar(String s) throws Exception {
+        return pesquisar(s, raiz, 0);
+    }
+
+    public boolean pesquisar(String s, No no, int i) throws Exception {
+        boolean resp;
+        if(no.prox[s.charAt(i)] == null){
+            resp = false;
+        } else if(i == s.length() - 1){
+            resp = (no.prox[s.charAt(i)].folha == true);
+        } else if(i < s.length() - 1 ){
+            resp = pesquisar(s, no.prox[s.charAt(i)], i + 1);
+        } else {
+            throw new Exception("Erro ao pesquisar!");
+        }
+        return resp;
+    }
+
     public void inserir(String s) throws Exception {
         inserir(s, raiz, 0);
     }
@@ -29,26 +48,6 @@ class ArvoreTrie {
             throw new Exception("Erro ao inserir!");
         } 
     }
-
-
-    public boolean pesquisar(String s) throws Exception {
-        return pesquisar(s, raiz, 0);
-    }
-
-    public boolean pesquisar(String s, No no, int i) throws Exception {
-        boolean resp;
-        if(no.prox[s.charAt(i)] == null){
-            resp = false;
-        } else if(i == s.length() - 1){
-            resp = (no.prox[s.charAt(i)].folha == true);
-        } else if(i < s.length() - 1 ){
-            resp = pesquisar(s, no.prox[s.charAt(i)], i + 1);
-        } else {
-            throw new Exception("Erro ao pesquisar!");
-        }
-        return resp;
-    }
-
 
     public void mostrar(){
         mostrar("", raiz);
