@@ -1,0 +1,3 @@
+O código apresenta o mesmo método "doidao" que testa se a letra recebida é uma vogal, e também apresenta outra maneira de fazer isso usando
+os outros métodos "toUpper" e "isVogal". O primeiro testa se a letra é minúscula, se sim a transforma em maiúscula.
+Em seguida o outro método (isVogal) retorna o resultado do teste de comparação da letra com todas as vogais maiúsculas. 

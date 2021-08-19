@@ -1,0 +1,1 @@
+Minha opinião é que é um código pequeno e bom que objetiva encontrar a próxima unidade que nãp está vazio ou nula.

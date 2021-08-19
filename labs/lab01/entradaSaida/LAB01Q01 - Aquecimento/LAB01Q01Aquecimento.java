@@ -20,7 +20,6 @@ class LAB01Q01Aquecimento {
    public static void main (String[] args){
       String[] entrada = new String[1000];
       int numEntrada = 0;
-
       //Leitura da entrada padrao
       do {
          entrada[numEntrada] = MyIO.readLine();

@@ -1,0 +1,5 @@
+O código mostra um conjunto de números que vai aumentando correspondente a cada tipo de dado para um número inteiro
+byte: 1 byte
+short: 2 bytes
+int: 4 bytes
+long: 8 bytes

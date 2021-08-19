@@ -1,0 +1,3 @@
+O método isLetra recebe um caractere e retorna se ele é uma letra.
+Já o método isConsoante testa se o caractere é uma letra e não é uma vogal ao mesmo tempo, se sim
+então só pode ser um consoante.

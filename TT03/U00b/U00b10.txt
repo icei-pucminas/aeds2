@@ -1,0 +1,2 @@
+o método m1 retorna o valor de i e não decrementa, já que é finalizado antes disso. Já o m2
+realiza o decremento na variável i e depois a retorna.

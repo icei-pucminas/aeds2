@@ -1,0 +1,2 @@
+ O código é um método (doidao) que recebe uma letra e retorna verdadeiro se ela é vogal, tanto maiúscula quanto minústuca. Se não,
+ retorna falso. Ele faz isso comparando o valor da tabela ASCII das vogais com a letra desejada.
