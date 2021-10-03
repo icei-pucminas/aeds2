@@ -7,11 +7,16 @@ class LAB01Q01Aquecimento {
       return (s.length() == 3 && s.charAt(0) == 'F' && s.charAt(1) == 'I' && s.charAt(2) == 'M');
    }
 
-   public static int contarLetrasMaiusculas (String s){
-      int resp = 0;
-      for(int i = 0; i < s.length(); i++){
-         if(isMaiuscula(s.charAt(i)) == true){
-            resp ++; 
+   /*
+    *
+    */
+   public static int contarLetrasMaiusculas (String s, int pos){
+      int resp = 0; 
+      if(pos < s.length()){
+         if(isMaiuscula(s.charAt(pos)) == true){
+            resp = 1 + contarLetrasMaiusculas (s, pos + 1);
+         } else {
+            resp = contarLetrasMaiusculas (s, pos + 1);
          }
       }
       return resp;
