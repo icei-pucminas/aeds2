@@ -1,5 +1,5 @@
 all: exec
- 
+
 exec: principal.o arvorebinaria.o no.o 
 	gcc -o exec principal.o arvorebinaria.o no.o
  

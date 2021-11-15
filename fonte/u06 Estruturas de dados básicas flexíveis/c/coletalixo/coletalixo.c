@@ -8,31 +8,31 @@ typedef struct Celula {
 } Celula;
 
 Celula* novaCelula(int elemento) {
-   Celula* nova = (Celula*) malloc(sizeof(Celula));
-   nova->elemento = elemento;
-   nova->prox = NULL;
-   return nova;
+	Celula* nova = (Celula*) malloc(sizeof(Celula));
+	nova->elemento = elemento;
+	nova->prox = NULL;
+	return nova;
 }
 
 Celula* primeiro;
 
 void start () {
-   primeiro = novaCelula(-1);
+	primeiro = novaCelula(-1);
 }
 
 void inserir(int x) {
-   primeiro->prox = novaCelula(x);
-   Celula* tmp = primeiro;
-   primeiro = primeiro->prox;
-   free(tmp);
+	primeiro->prox = novaCelula(x);
+	Celula* tmp = primeiro;
+	primeiro = primeiro->prox;
+	free(tmp);
 }
 
 int main(int argc, char** argv) {
-   start();
-   while(true){
-      inserir(0);
-   }
-   return 0;
+	start();
+	while(true){
+		inserir(0);
+	}
+	return 0;
 }
 
 

@@ -198,3 +198,6 @@ void maiorEsq(No** i, No** j) {
       free(del);
    }
 }
+
+
+

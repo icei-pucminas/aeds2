@@ -7,8 +7,8 @@
 using namespace std;
 
 class No {
-   public:
-      int elemento; // Conteudo do no.
-	   No *esq, *dir;  // Filhos da esq e dir.
-      No(int);
+    public:
+        int elemento; // Conteudo do no.
+        No *esq, *dir;  // Filhos da esq e dir.
+        No(int);
 };

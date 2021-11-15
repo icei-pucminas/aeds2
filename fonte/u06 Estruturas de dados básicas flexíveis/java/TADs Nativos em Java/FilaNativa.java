@@ -8,7 +8,7 @@ public class FilaNativa {
       fila.add("Cruzeiro");
       fila.add("América");
 
-      while (fila.isEmpty() == false){
+      while (!fila.isEmpty()){
          System.out.println("Retirando da fila: " + fila.remove());
       }
    }

@@ -55,6 +55,5 @@ int main(){
    caminharPre();
    caminharPos();
 
-
    return 1;
 }
