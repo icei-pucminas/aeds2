@@ -8,7 +8,7 @@
 import java.io.*;
 import java.io.FileReader;
 
-class Serie{
+class Serie {
     //declaração dos atributos
     private String name;
     private String format;
@@ -189,7 +189,7 @@ class Serie{
             BufferedReader br = new BufferedReader(fileReader); //declaração do bufferedReader para leitura do arquivo
             
             //set nome da série
-            this.name = searchName(fileName);
+            this.name = searchName(fileName).trim();
             
             //set Formato da série
             while(!br.readLine().contains("Formato"));
@@ -223,8 +223,6 @@ class Serie{
             while(!br.readLine().contains("N.º de episódios"));
             this.episodes = justInt(removeTags(br.readLine()));
             
-            //método para mostrar a classe
-            this.printClass();
             //fechamento do bufferedReader
             br.close();         
         //Tratamento de exceções
@@ -234,4 +232,5 @@ class Serie{
             System.out.println("Error reading file '" + fileName + "'");
         }
     }
+
 }         
