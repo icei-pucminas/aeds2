@@ -169,7 +169,6 @@
 		} else {
 			i.esq = maiorEsq(i, i.esq);
 		}
-
 		return balancear(i);
 	}
 
@@ -206,7 +205,7 @@
 					no.dir = rotacionarDir(no.dir);
 				}
 				no = rotacionarEsq(no);
-				// Se desbalanceada para a esquerda
+			// Se desbalanceada para a esquerda
 			} else if (fator == -2) {
 				int fatorFilhoEsq = No.getNivel(no.esq.dir) - No.getNivel(no.esq.esq);
 				// Se o filho a esquerda tambem estiver desbalanceado
@@ -223,7 +222,7 @@
 	}
 
 	private No rotacionarDir(No no) {
-		//System.out.println("Rotacionar DIR(" + no.elemento + ")");
+		System.out.println("Rotacionar DIR(" + no.elemento + ")");
 		No noEsq = no.esq;
 		No noEsqDir = noEsq.dir;
 
@@ -237,7 +236,7 @@
 	}
 
 	private No rotacionarEsq(No no) {
-		//System.out.println("Rotacionar ESQ(" + no.elemento + ")");
+		System.out.println("Rotacionar ESQ(" + no.elemento + ")");
 		No noDir = no.dir;
 		No noDirEsq = noDir.esq;
 
