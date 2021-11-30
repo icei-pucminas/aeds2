@@ -3,7 +3,7 @@
  * @author Max do Val Machado
  */
 
- public class AVL {
+public class AVL {
 	private No raiz; // Raiz da arvore.
 
 	/**
@@ -228,7 +228,6 @@
 
 		noEsq.dir = no;
 		no.esq = noEsqDir;
-
 		no.setNivel(); // Atualizar o nivel do no
 		noEsq.setNivel(); // Atualizar o nivel do noEsq
 
