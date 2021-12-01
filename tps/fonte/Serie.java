@@ -166,6 +166,7 @@ class Serie {
         //System.out.println(resp);
         return resp;
     }
+    
     //método para tratar o nome do arquivo e retornar o nome da série
     public String searchName(String fileName){
         String resp = "";
@@ -178,6 +179,7 @@ class Serie {
         }
         return resp.substring(0, resp.length()-5); //retorno da substring resp retirando os 5 últimos caracteres relacionados à extensão do arquivo
     }
+
     //método para leitura do arquivo .html e tratamento das linhas
     public void readClass(String fileName){
         String line;
