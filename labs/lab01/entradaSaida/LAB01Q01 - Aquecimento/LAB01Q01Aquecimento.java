@@ -34,7 +34,7 @@ class LAB01Q01Aquecimento {
 
       //Para cada linha de entrada, gerando uma de saida contendo o numero de letras maiusculas da entrada
       for(int i = 0; i < numEntrada; i++){
-         MyIO.println(contarLetrasMaiusculas(entrada[i]));
+         MyIO.println(contarLetrasMaiusculas(entrada[i],0));
       }
    }
 }
