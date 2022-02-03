@@ -1,4 +1,5 @@
-class HashIndiretoLista {
+
+public class HashIndiretoLista {
    Lista tabela[];
    int tamanho;
    final int NULO = -1;
