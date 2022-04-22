@@ -247,19 +247,21 @@ public class Film {
      */
     private int hoursToMinutes(String value){
         // Data declaration
-        value = removeLetters(value);
         int result = 0, minutes = 0;
 
         String[] splitValue = value.split(" ");
         if(splitValue.length > 1) {
-            int hour = Integer.parseInt(splitValue[0]);
-            minutes = Integer.parseInt(splitValue[1]);
+            int hour = Integer.parseInt(removeLetters(splitValue[0]));
+            minutes = Integer.parseInt(removeLetters(splitValue[1]));
             result = (60 * hour) + minutes;
         } else {
-            minutes = Integer.parseInt(splitValue[0]);
+            if(splitValue[0].contains("h")){
+                minutes = Integer.parseInt(removeLetters(splitValue[0]))*60;
+            } else {
+                minutes = Integer.parseInt(removeLetters(splitValue[0]));
+            }
             result = minutes;
         }
-
         return result;
     }
 
