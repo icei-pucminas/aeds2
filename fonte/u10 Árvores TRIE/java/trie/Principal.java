@@ -16,6 +16,7 @@ class Principal {
          arv.inserir(array[i]);
       }
       arv.mostrar();
+      /*
       for(int i = 0; i < array.length; i++){
          System.out.println("Pesquisar(" + array[i] + "):" + arv.pesquisar(array[i]));
       }
@@ -28,6 +29,7 @@ class Principal {
 
       s = "gaga";
       System.out.println("Pesquisar(" + s + "):" + arv.pesquisar(s));
+   */
       
    }
 }

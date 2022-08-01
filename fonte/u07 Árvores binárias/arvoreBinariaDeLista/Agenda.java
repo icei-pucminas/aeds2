@@ -9,7 +9,6 @@ public class Agenda {
 		//inserir todas as 26 letras do alfabeto...
 	}
 
-
 	public boolean pesquisarNome(String nome) {
 		return pesquisarNome(raiz, nome);
 	}
@@ -69,14 +68,14 @@ public class Agenda {
 		return pesquisar(raiz, cpf);
 	}
 
-	private boolean pesquisar(No i, int cpf) {
+	private boolean pesquisar(No no, int cpf) {
 		boolean resp = false;
-		if (i != null) {
-			resp = pesquisar(i.primeiro.prox, cpf);
+		if (no != null) {
+			resp = pesquisar(no.primeiro.prox, cpf);
 			if(resp == false){
-				resp = pesquisar(i.esq, cpf);
+				resp = pesquisar(no.esq, cpf);
 				if(resp == false){
-					resp = pesquisar(i.dir, cpf);
+					resp = pesquisar(no.dir, cpf);
 				}
 			}
 		}

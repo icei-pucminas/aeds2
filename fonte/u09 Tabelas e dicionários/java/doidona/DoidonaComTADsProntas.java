@@ -46,13 +46,11 @@ class DoidonaComTADsProntas {
       } else if(t1[i] == NULO){
          t1[i] = elemento;
       }else if(hashT2(elemento) == 0){
-         int i = hashT3(elemento);
-
+         i = hashT3(elemento);
          if(t3[i] == NULO){
             t3[i] = elemento;
          } else {
             i = rehashT3(elemento);
-
             if(t3[i] == NULO){
                t3[i] = elemento;
             } else {
@@ -67,32 +65,34 @@ class DoidonaComTADsProntas {
          System.out.println("ERRO!!!!");
       }
    }
-   void remover (int valor){
+   void remover (int elemento){
    }
 
-   boolean pesquisar (int valor){
+   boolean pesquisar (int elemento){
       boolean resp = false;
-      int pos = hashT1(valor);
-      if(t1[pos] == valor){
+      int pos = hashT1(elemento);
+      if(elemento == NULO){
+         resp = false;
+      } else if(t1[pos] == elemento){
          resp = true;
       }else {
-         pos = hashT2(valor);
+         pos = hashT2(elemento);
          if (pos == 0){
-            pos = hashT3(valor);
-            if(t3[pos] == valor){
+            pos = hashT3(elemento);
+            if(t3[pos] == elemento){
                resp = true;
             }else{
-               pos = rehashT3(valor);
-               if(t3[pos] == valor){
+               pos = rehashT3(elemento);
+               if(t3[pos] == elemento){
                   resp = true;
                }else{
-                  resp = arvoreBinaria.pesquisar(valor);
+                  resp = arvoreBinaria.pesquisar(elemento);
                }
             }
          }else if (pos == 1){
-            resp = lista.pesquisar(valor);
+            resp = lista.pesquisar(elemento);
          } else {
-            resp = arvoreAVL.pesquisar(valor);
+            resp = arvoreAVL.pesquisar(elemento);
          }
       }
       return resp;

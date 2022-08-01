@@ -44,15 +44,25 @@ public class Principal {
        * arvore.mostrarPre();
        */
       arvore.inserir(4);
+      arvore.caminharPre();
       arvore.inserir(35);
+      arvore.caminharPre();
       arvore.inserir(10);
+      arvore.caminharPre();
       arvore.inserir(13);
+      arvore.caminharPre();
       arvore.inserir(3);
+      arvore.caminharPre();
       arvore.inserir(30);
+      arvore.caminharPre();
       arvore.inserir(15);
+      arvore.caminharPre();
       arvore.inserir(12);
+      arvore.caminharPre();
       arvore.inserir(7);
+      arvore.caminharPre();
       arvore.inserir(40);
+      arvore.caminharPre();
       arvore.inserir(20);
       arvore.caminharPre();
 
