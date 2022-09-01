@@ -28,6 +28,8 @@ class TP1Q15 {
     }
 
     boolean isVogal(String s, int p) {
+
+
         boolean resp = true;
 
         s = s.toLowerCase();
@@ -47,6 +49,14 @@ class TP1Q15 {
 
         return resp;
     }
+
+    boolean isInt(String s, int p)
+    {
+        boolean resp = true;
+
+
+        return resp;
+    }   
 
     public static void main(String[] args) {
         String[] entrada = new String[1000];
