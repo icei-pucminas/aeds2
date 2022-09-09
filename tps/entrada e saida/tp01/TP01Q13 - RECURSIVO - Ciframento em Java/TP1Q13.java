@@ -11,18 +11,39 @@ class TP1Q13 {
         StringBuilder textoConv = new StringBuilder(); // String que irá receber os caracteres convertidos
 
         if (pos < s.length()) {
-            int textInt = ((int) s.charAt(pos) + 3); // recebe o caracter na posição i, converte em int e adiciona a chave
-                                                   // 3
-
-            while (textInt > 126) // while que realiza a checkagem do char
-                textInt -= 94;
+            int textInt = ((int) s.charAt(pos) + 3); // recebe o caracter na posição i, converte em int e adiciona a
+                                                     // chave
+                                                     // 3
 
             textoConv.append((char) textInt); // adiciona o char à string final
 
-            return converteString(s, pos + 1);
+            return converteString(s, pos + 1, textoConv);
         }
 
-        return textoConv.toString(); // retorna a string convertida
+        return s; // retorna a string convertida
+
+    }
+
+    public static String converteString(String s, int pos, StringBuilder textoConv) {
+
+        StringBuilder textoConvert = new StringBuilder();
+        textoConvert.append(textoConv);
+
+        // String que irá receber os caracteres convertidos
+
+        if (pos < s.length()) {
+            int textInt = ((int) s.charAt(pos) + 3); // recebe o caracter na posição i, converte em int e adiciona a
+                                                     // chave
+                                                     // 3
+
+            textoConvert.append((char) textInt); // adiciona o char à string final
+
+            return converteString(s, pos + 1, textoConvert);
+        }
+
+        else
+            return converteString(textoConvert.toString(), s.length() + 1);
+        // retorna a string convertida
 
     }
 

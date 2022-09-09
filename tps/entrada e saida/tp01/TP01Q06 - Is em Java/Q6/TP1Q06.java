@@ -38,7 +38,7 @@ public class TP1Q06 {
         return resp;
     }
 
-    public static boolean numInt(String s) {            //metodo que verifica se a entra é um numero inteiro
+    public static boolean numInt(String s) {            //metodo que verifica se a entrada é um numero inteiro
         boolean resp = true;
 
         for (int i = 0; i < s.length(); i++) {          //o loop percorre a entrada verificando cada dígito separadamente

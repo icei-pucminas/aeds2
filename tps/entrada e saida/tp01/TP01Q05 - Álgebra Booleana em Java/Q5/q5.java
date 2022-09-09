@@ -114,7 +114,7 @@ class q5 {
 
             }*/
 
-            s.replace(subStr, subs);
+            s.replace(subStr, (char)subs);
 
         }
 
