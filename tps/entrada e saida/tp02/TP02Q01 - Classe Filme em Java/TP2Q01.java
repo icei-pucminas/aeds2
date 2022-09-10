@@ -1,5 +1,7 @@
+import java.io.File;
 import java.util.Arrays;
 import java.util.Date;
+import java.util.Scanner;
 
 class Game {
 
@@ -195,4 +197,14 @@ class Game {
                 + getGenres());
     }
 
+    void readData() throws Exception {
+        Scanner sc = new Scanner(new File("./tmp/games.csv"));
+        String[] entrada = new String[1000];
+        int numEntrada = 0;
+
+        while(sc.hasNext() == true)
+        {
+            entrada[numEntrada] = sc.nextLine();
+        }
+    }
 }
