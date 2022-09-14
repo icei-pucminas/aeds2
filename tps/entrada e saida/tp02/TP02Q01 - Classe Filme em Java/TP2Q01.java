@@ -2,6 +2,8 @@ import java.io.File;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.FileReader;
 
 class Game {
 
@@ -198,13 +200,25 @@ class Game {
     }
 
     void readData() throws Exception {
-        Scanner sc = new Scanner(new File("./tmp/games.csv"));
+        Scanner sc = new Scanner(new File("tmp/games.csv"));
         String[] entrada = new String[1000];
         int numEntrada = 0;
 
-        while(sc.hasNext() == true)
-        {
+        while (sc.hasNext() == true) {
             entrada[numEntrada] = sc.nextLine();
+            numEntrada++;
         }
+
     }
+}
+
+class TP2Q01 {
+
+    public static void main(String[] args) {
+        // entrada de dados padrão
+
+        String[] entrada = new String[1000];
+
+    }
+
 }
