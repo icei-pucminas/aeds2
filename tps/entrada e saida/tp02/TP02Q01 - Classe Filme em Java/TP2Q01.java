@@ -191,6 +191,11 @@ class Game {
         return genres;
     }
 
+    public Object clone() throws CloneNotSupportedException {
+        return super.clone();
+
+    }
+
     // METODO DE IMPRESSAO DOS CAMPOS
     void printData() {
         MyIO.println("" + getAppId() + "" + getName() /* + "" + DATA */ + "" + getOwners() + "" + getAge() + ""
@@ -199,7 +204,7 @@ class Game {
                 + getGenres());
     }
 
-    void readData() throws Exception {
+    void readData(int info) throws Exception {
         Scanner sc = new Scanner(new File("tmp/games.csv"));
         String[] entrada = new String[1000];
         int numEntrada = 0;
@@ -209,16 +214,65 @@ class Game {
             numEntrada++;
         }
 
-    }
+        for(int i = 0; i < numEntrada; i++)
+        {
+            if(info == )
+            {
+
+
+            }
+
+
+        }
+        
+        
+        
+        
+        /*for (int i = 0; i < numEntrada; i++) {
+            int cod = sc.nextInt();
+
+            if (sc.hasNextInt() == true) {
+                if () {
+
+                }
+
+            }*/
+
+            // MUDAR PARA BUFFERED READER, FAZER A COMPARAÇÃO ENTRE INFO E INT, SETAR OS
+            // VALORES
+        }
+
 }
+
+
 
 class TP2Q01 {
 
-    public static void main(String[] args) {
-        // entrada de dados padrão
+    public static boolean isFim(int s) {
+        return (if()); // verifica se o
+                                                                                                    // pub.in chegou
+                                                                                                    // ao
+                                                                                                    // FIM
+    }
 
-        String[] entrada = new String[1000];
+    public static void main(String[] args) throws Exception {
+        // entrada de dados vinda do arquivo .csv
 
+        // entrada de dados vinda do pub.in
+        int[] entradaPub = new int[1000];
+        int numEntradaPub = 0;
+
+        do {
+            entradaPub[numEntradaPub] = MyIO.readInt();
+        } while (isFim(entradaPub[numEntradaPub++]) == false);
+        numEntradaPub--; // Desconsidera a ultima linha contendo a palavra FIM
+
+        for (int i = 0; i < numEntradaPub; i++) {
+            Game game = new Game();
+            game.readData(entradaPub[i]);
+
+        }
+        
     }
 
 }
