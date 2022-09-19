@@ -1,45 +1,28 @@
-import java.io.File;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.Scanner;
-import java.io.BufferedReader;
-import java.io.FileReader;
+import java.io.*;
+import java.util.*;
+import java.text.*;
 
 class Game {
 
     // atributos privados
-    private int app_id, age, dlcs, avg_pt;
-    private String name, release_date, owners, website, developers;
+    private int app_id, age, dlcs, avg, pt;
+    private String name, owners, website, developers;
     private float price, upvotes;
     private boolean windows, mac, linux;
     private String[] languages = new String[100];
     private String[] genres = new String[100];
+    private Date release_date = new Date();
 
     // construtor padrao
     Game() {
-        app_id = 1;
-        age = 0;
-        dlcs = 1;
-        avg_pt = 10;
-
-        name = "";
-        release_date = "";
-        owners = "";
-        website = "";
-        developers = "";
-        price = 0.0f;
-        upvotes = 0.0f;
-
-        Arrays.fill(languages, "");
-        Arrays.fill(genres, "");
 
     }
 
     // construtor com parametros
-    Game(int app_id, String name, String release_date, String owners, int age, float price, int dlcs,
-            String[] languages,
+    Game(int app_id, String name, Date release_date, String owners, int age, float price, int dlcs,
+            String[] languages, int avg, int pt,
             String website, boolean windows,
-            boolean mac, boolean linux, float upvotes, int avg_pt, String developers, String[] genres) {
+            boolean mac, boolean linux, float upvotes, String developers, String[] genres) {
         this.app_id = app_id;
         this.name = name;
         this.release_date = release_date;
@@ -53,7 +36,8 @@ class Game {
         this.mac = mac;
         this.linux = linux;
         this.upvotes = upvotes;
-        this.avg_pt = avg_pt;
+        this.avg = avg;
+        this.pt = pt;
         this.developers = developers;
         this.genres = genres;
 
@@ -69,7 +53,7 @@ class Game {
         this.name = name;
     }
 
-    void setReleaseDate(String release_date) {
+    void setReleaseDate(Date release_date) {
         this.release_date = release_date;
     }
 
@@ -97,15 +81,15 @@ class Game {
         this.website = website;
     }
 
-    void setWindows(boolean windows) {
+    void setWindows(Boolean windows) {
         this.windows = windows;
     }
 
-    void setMac(boolean mac) {
+    void setMac(Boolean mac) {
         this.mac = mac;
     }
 
-    void setLinux(boolean linux) {
+    void setLinux(Boolean linux) {
         this.linux = linux;
     }
 
@@ -113,8 +97,12 @@ class Game {
         this.upvotes = upvotes;
     }
 
-    void setAvgPt(int avg_pt) {
-        this.avg_pt = avg_pt;
+    void setAvg(int avg) {
+        this.avg = avg;
+    }
+
+    void setPt(int pt) {
+        this.pt = pt;
     }
 
     void setDevelopers(String developers) {
@@ -135,7 +123,6 @@ class Game {
         return name;
     }
 
-    // ARRUMAR A DATA
     String getOwners() {
         return owners;
     }
@@ -153,10 +140,9 @@ class Game {
     }
 
     String[] getLanguages() {
-        {
-            return languages;
 
-        }
+        return languages;
+
     }
 
     String getWebsite() {
@@ -179,8 +165,12 @@ class Game {
         return upvotes;
     }
 
-    int getAvgPt() {
-        return avg_pt;
+    int getAvg() {
+        return avg;
+    }
+
+    int getPt() {
+        return pt;
     }
 
     String getDevelopers() {
@@ -191,88 +181,305 @@ class Game {
         return genres;
     }
 
-    public Object clone() throws CloneNotSupportedException {
-        return super.clone();
+    // METODO DE CLONE
+    public Game clone() {
+        Game gameClonado = new Game();
 
+        gameClonado.name = this.name;
+        gameClonado.owners = this.owners;
+        gameClonado.website = this.website;
+        gameClonado.developers = this.developers;
+        gameClonado.languages = this.languages;
+        gameClonado.genres = this.genres;
+        gameClonado.app_id = this.app_id;
+        gameClonado.age = this.age;
+        gameClonado.dlcs = this.dlcs;
+        gameClonado.avg = this.avg;
+        gameClonado.pt = this.pt;
+        gameClonado.price = this.price;
+        gameClonado.upvotes = this.upvotes;
+        gameClonado.windows = this.windows;
+        gameClonado.mac = this.mac;
+        gameClonado.linux = this.linux;
+        gameClonado.release_date = this.release_date;
+
+        return gameClonado;
     }
 
-    // METODO DE IMPRESSAO DOS CAMPOS
-    void printData() {
-        MyIO.println("" + getAppId() + "" + getName() /* + "" + DATA */ + "" + getOwners() + "" + getAge() + ""
-                + getPrice() + "" + getDlcs() + "" + getLanguages() + "" + getWebsite() + "" + getWindows() + ""
-                + getMac() + "" + getLinux() + "" + getUpvotes() + "" + getAvgPt() + "" + getDevelopers() + ""
-                + getGenres());
-    }
+    // METODO DE DEFINIÇÃO DOS DADOS
 
-    void readData(int info) throws Exception {
-        Scanner sc = new Scanner(new File("tmp/games.csv"));
-        String[] entrada = new String[1000];
-        int numEntrada = 0;
+    void setData(String entrada) throws Exception {
+        int contador = 0;
+        String[] vet = entrada.split(",");
 
-        while (sc.hasNext() == true) {
-            entrada[numEntrada] = sc.nextLine();
-            numEntrada++;
+        this.app_id = Integer.parseInt(vet[contador]);
+        contador++;
+
+        this.name = vet[contador];
+        contador++;
+
+        String dateAux = "";
+        if (vet[contador].contains("\"")) {
+            dateAux = vet[contador].substring(1, 4) + " " + vet[contador + 1].substring(1, 5);
+            contador += 2;
+
+        } else {
+            dateAux = vet[contador];
+            contador++;
         }
 
-        for(int i = 0; i < numEntrada; i++)
-        {
-            if(info == )
-            {
+        SimpleDateFormat formatter = new SimpleDateFormat("MMM yyyy", Locale.US);
+        try {
+            this.release_date = formatter.parse(dateAux);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
 
+        this.owners = vet[contador];
+        contador++;
+
+        this.age = Integer.parseInt(vet[contador]);
+        contador++;
+
+        this.price = Float.parseFloat(vet[contador]);
+        contador++;
+
+        this.dlcs = Integer.parseInt(vet[contador]);
+        contador++;
+
+        int contador2 = 0;
+
+        if (vet[contador].contains("\"")) {
+            languages[contador2] = vet[contador];
+            languages[contador2] = languages[contador2].replaceAll("\"", "");
+            languages[contador2] = languages[contador2].replaceAll("[\\[\\]]", "");
+            languages[contador2] = languages[contador2].replaceAll("'", "");
+            contador++;
+            contador2++;
+
+            while (vet[contador].contains("\"") == false) {
+                languages[contador2] = vet[contador];
+                languages[contador2] = languages[contador2].replaceAll("'", "");
+                contador++;
+                contador2++;
 
             }
 
+            languages[contador2] = vet[contador];
+            languages[contador2] = languages[contador2].replaceAll("'", "");
+            languages[contador2] = languages[contador2].replaceAll("]", "");
+            languages[contador2] = languages[contador2].replaceAll("\"", "");
+            contador++;
 
+        } else {
+            languages[contador2] = vet[contador];
+            languages[contador2] = languages[contador2].replaceAll("\"", "");
+            languages[contador2] = languages[contador2].replaceAll("[\\[\\]]", "");
+            languages[contador2] = languages[contador2].replaceAll("'", "");
+            contador++;
         }
-        
-        
-        
-        
-        /*for (int i = 0; i < numEntrada; i++) {
-            int cod = sc.nextInt();
 
-            if (sc.hasNextInt() == true) {
-                if () {
-
-                }
-
-            }*/
-
-            // MUDAR PARA BUFFERED READER, FAZER A COMPARAÇÃO ENTRE INFO E INT, SETAR OS
-            // VALORES
+        if (vet[contador].length() == 0) {
+            this.website = null;
+        } else {
+            this.website = vet[contador];
         }
+        contador++;
+
+        this.windows = Boolean.parseBoolean(vet[contador]);
+        contador++;
+        this.mac = Boolean.parseBoolean(vet[contador]);
+        contador++;
+        this.linux = Boolean.parseBoolean(vet[contador]);
+        contador++;
+
+        float val1 = Float.parseFloat(vet[contador]);
+        contador++;
+        float val2 = Float.parseFloat(vet[contador]);
+        contador++;
+        upvotes = (val1 * 100) / (val1 + val2);
+
+        float aux = Float.parseFloat(vet[contador]);
+        aux /= 60;
+        this.avg = (int) aux;
+        float min = aux - avg;
+        min *= 60;
+        this.pt = (int) Math.round(min);
+        contador++;
+
+        if (vet[contador].contains("\"")) {
+            developers = vet[contador];
+            contador++;
+            while (vet[contador].contains("\"") == false) {
+                developers += vet[contador];
+                contador++;
+            }
+            developers += vet[contador];
+            contador++;
+
+        } else {
+            developers = vet[contador];
+            contador++;
+        }
+        this.developers = developers.replaceAll("\"", "");
+
+        int contador3 = 0;
+
+        if (vet[contador].contains("\"")) {
+            genres[contador3] = vet[contador];
+            genres[contador3] = genres[contador3].replaceAll("\"", "");
+            contador++;
+            contador3++;
+
+            while (vet[contador].contains("\"") == false) {
+
+                genres[contador3] = vet[contador];
+                contador3++;
+                contador++;
+            }
+            genres[contador3] = vet[contador];
+            genres[contador3] = genres[contador3].replaceAll("\"", "");
+        } else {
+            genres[contador3] = vet[contador];
+        }
+
+    }
+
+    // METODO PARA IMPRIMIR OS DADOS
+    public void printData() {
+        System.out.print(app_id + " ");
+        System.out.print(name + " ");
+
+        SimpleDateFormat newFormat = new SimpleDateFormat("MMM/yyyy", Locale.US);
+
+        String formaterDate = null;
+        formaterDate = newFormat.format(release_date);
+        System.out.print(formaterDate + " ");
+
+        System.out.print(owners + " ");
+
+        System.out.print(age + " ");
+
+        System.out.print(price + " ");
+
+        System.out.print(dlcs + " ");
+
+        System.out.print("[");
+        int i = 0;
+        while (languages[i] != null) {
+            i++;
+        }
+        for (int k = 0; k < i - 1; k++) {
+            System.out.print(languages[k]);
+            System.out.print(",");
+        }
+        System.out.print(languages[i - 1] + "] ");
+
+        if (website == "") {
+            System.out.print("null ");
+        } else {
+            System.out.print(website + " ");
+        }
+
+        System.out.print(windows + " ");
+
+        System.out.print(mac + " ");
+
+        System.out.print(linux + " ");
+
+        System.out.print((int) Math.round(upvotes) + "% ");
+
+        if (avg == 0 && pt == 0) {
+            System.out.print("null ");
+        } else if (avg == 0) {
+            System.out.print(pt + "m ");
+        } else if (pt == 0) {
+            System.out.print(avg + "h ");
+        } else {
+            System.out.print(avg + "h " + pt + "m ");
+        }
+
+        System.out.print(developers + " ");
+
+        System.out.print("[");
+        int j = 0;
+        while (genres[j] != null) {
+            j++;
+        }
+
+        for (int k = 0; k < j - 1; k++) {
+
+            System.out.print(genres[k]);
+            System.out.print(", ");
+        }
+        System.out.print(genres[j - 1] + "]");
+
+        System.out.println();
+
+    }
 
 }
 
-
-
 class TP2Q01 {
 
-    public static boolean isFim(int s) {
-        return (if()); // verifica se o
-                                                                                                    // pub.in chegou
-                                                                                                    // ao
+    public static boolean isFim(String s) {
+        return (s.length() == 3 && s.charAt(0) == 'F' && s.charAt(1) == 'I' && s.charAt(2) == 'M'); // verifica se o
+                                                                                                    // pub.in chegou ao
                                                                                                     // FIM
     }
 
     public static void main(String[] args) throws Exception {
-        // entrada de dados vinda do arquivo .csv
+
+        String arquivo = "/tmp/games.csv";
+        BufferedReader br = null;
+        String linha[] = new String[5000];
+        String[] entrada = new String[2000];
+        String id[] = new String[5000];
+        int numEntrada = 0, i = 0;
+
+        // entrada de dados vinda do games.csv
+        try {
+
+            br = new BufferedReader(new FileReader(arquivo));
+            while ((linha[i] = br.readLine()) != null) {
+                String aux = linha[i];
+                String separador[] = aux.split(",");
+
+                id[i] = separador[0];
+
+                i++;
+            }
+        } catch (IOException e) {
+            System.out.println("Error: " + e.getMessage());
+        } finally {
+            if (br != null) {
+                try {
+                    br.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
 
         // entrada de dados vinda do pub.in
-        int[] entradaPub = new int[1000];
-        int numEntradaPub = 0;
-
         do {
-            entradaPub[numEntradaPub] = MyIO.readInt();
-        } while (isFim(entradaPub[numEntradaPub++]) == false);
-        numEntradaPub--; // Desconsidera a ultima linha contendo a palavra FIM
+            entrada[numEntrada] = MyIO.readLine();
 
-        for (int i = 0; i < numEntradaPub; i++) {
-            Game game = new Game();
-            game.readData(entradaPub[i]);
+        } while (isFim(entrada[numEntrada++]) == false);
+        numEntrada--;
+        i--;
 
+        for (int j = 0; j < numEntrada; j++) {
+            for (int k = 0; k < i; k++) {
+                if (entrada[j].equals(id[k])) {
+                    Game game = new Game();
+                    game.setData(linha[k]);
+                    game.printData();
+                    break;
+                }
+            }
         }
-        
+
     }
 
 }
