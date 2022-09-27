@@ -2,7 +2,6 @@ import java.io.*;
 import java.util.*;
 import java.text.*;
 
-
 class Game {
 
     // atributos privados
@@ -439,7 +438,6 @@ class TP02Q03 {
         String id[] = new String[5000];
         int numEntrada = 0, i = 0, numEntradaPesq = 0;
         int controle = 0;
-        Game[] games = new Game[100];
 
         // entrada de dados vinda do games.csv
         try {
@@ -466,10 +464,12 @@ class TP02Q03 {
         }
 
         // entrada de dados vinda do pub.in
+
         do {
             entrada[numEntrada] = MyIO.readLine();
 
         } while (isFim(entrada[numEntrada++]) == false);
+
         numEntrada--;
         i--;
 
@@ -479,29 +479,38 @@ class TP02Q03 {
         } while (isFim(entradaPesq[numEntradaPesq++]) == false);
         numEntradaPesq--;
 
+        Game[] games = new Game[50];
+        int ind = 0;
+        controle = 0;
+
         for (int j = 0; j < numEntrada; j++) {
             for (int k = 0; k < i; k++) {
+                Game game = new Game();
                 if (entrada[j].equals(id[k])) {
-                    Game game = new Game();
                     game.setData(linha[k]);
-                    games[k] = game;
+                    games[ind] = game;
+                    ind++;
+
                 }
+
             }
+
         }
 
-        for (int y = 0; y < games.length; y++) {
+        int y = 0;
+        boolean resp = false;
+
+        do {
+            String comparar = games[y].getName();
             for (int x = 0; x < numEntradaPesq; x++) {
-                if (games[y].getName() == entradaPesq[x]) {
-                    MyIO.println("SIM\n");
-                    controle++;
+                if (entradaPesq[x] == comparar) {
+                    MyIO.println("SIM");
+                    break;
                 }
-
+                
             }
-            if (controle == 0)
-                MyIO.println("NAO");
-            controle = 0;
-        }
+
+        } while (controle < numEntradaPesq);
 
     }
-
 }
