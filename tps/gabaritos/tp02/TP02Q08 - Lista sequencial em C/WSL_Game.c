@@ -1,3 +1,13 @@
+/**
+ 
+ * @file WSL_Game.c
+ * @author Pedro Lopes
+ * @version 1.0
+ * @date 2022-10-17
+ * @copyright Copyright (c) 2022
+ 
+**/
+
 // -------------------------------------------------------------------------------- //
 
 // Includes

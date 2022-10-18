@@ -1,3 +1,15 @@
+/**
+ 
+ * @file Game.java
+ * @author Pedro Lopes
+ * @version 1.0
+ * @date 2022-10-17
+ * @copyright Copyright (c) 2022
+ 
+**/
+
+// ----------------------------------------------------------------------------------------------------------------- //
+
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.IOException;

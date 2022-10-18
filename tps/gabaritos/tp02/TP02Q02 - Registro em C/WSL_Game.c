@@ -1,3 +1,13 @@
+/**
+ 
+ * @file WSL_Game.c
+ * @author Pedro Lopes
+ * @version 1.0
+ * @date 2022-10-17
+ * @copyright Copyright (c) 2022
+ 
+**/
+
 // -------------------------------------------------------------------------------- //
 
 // Includes
@@ -662,7 +672,7 @@ int main() {
     FILE *fp;
     char *line = NULL;
     size_t len = 0;
-    ssize_t read;
+    size_t read;
 
     fp = fopen("/tmp/games.csv", "r");
 
