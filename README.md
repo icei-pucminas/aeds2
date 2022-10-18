@@ -9,7 +9,7 @@ Repositório de códigos da disciplina de Algoritmos e Estrutura de Dados II
 
 
 ## ⚙️ Labs
-[Pasta com os exercícios de treinamento do laboratório](fonte/ajuda/README.md)
+[Pasta com os exercícios de treinamento do laboratório](labs)
 
 
 ## 🔥 TPS
