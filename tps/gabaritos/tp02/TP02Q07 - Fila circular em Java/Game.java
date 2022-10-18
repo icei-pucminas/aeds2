@@ -2,8 +2,8 @@
  
  * @file Game.java
  * @author Pedro Lopes
- * @version 0.2
- * @date 2022-10-02
+ * @version 1.0
+ * @date 2022-10-17
  * @copyright Copyright (c) 2022
  
 **/
@@ -20,6 +20,54 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner;
+
+// ----------------------------------------------------------------------------------------------------------------- //
+
+class GameQueue {
+
+    private Game[] array;
+    private int first;
+    private int last;
+
+    public GameQueue() {}
+
+    public GameQueue(int size) {
+
+        array = new Game[size + 1];
+        first = last = 0;
+    }
+
+    public void insert(Game movie) throws Exception {
+
+        if(((last + 1) % array.length) == first) throw new Exception("x Insert error: Full queue");
+        
+        array[last] = movie;
+        last = (last + 1) % array.length;
+    }
+
+    public Game remove() throws Exception {
+
+        if(first == last) throw new Exception("x Remove error: Empty queue");
+        
+        Game resp = array[first];
+        first = (first + 1) % array.length;
+        return resp;
+    }
+
+    public void print() { 
+        
+        int c = 0;
+
+        for(int i = first; i != last; i = ((i + 1) % array.length), c++) {
+            
+            System.out.print("[" + ((last - first) == 1 ? "0" : c) + "] ");
+            
+            array[i].print();
+        }
+    }
+
+    public int length() { return last - first; }
+}
  
 // ----------------------------------------------------------------------------------------------------------------- //
 
@@ -121,6 +169,12 @@ class Game {
         cloned.linux = this.linux;
 
         return cloned;
+    }
+
+    public static Game gameSearch(ArrayList<Game> games, int app_id) {
+
+        for(Game game : games) if(game.getAppId() == app_id) return game;
+        return null;
     }
 
     public void read(String line) {
@@ -509,37 +563,66 @@ class Game {
         System.out.println(this.app_id + " " + this.name + " " + default_dateFormat.format(this.release_date) + " " + this.owners + " " + this.age + " " + String.format(Locale.ENGLISH, "%.2f", this.price) + " " + this.dlcs + " " + this.languages + " " + this.website + " " + this.windows + " " + this.mac + " " + this.linux + " " + (Float.isNaN(this.upvotes) ? "0% " : df.format(this.upvotes) + "% ") + avg_pt + this.developers + " " + this.genres);
     }
 
-    // -------------------------------------------------------------------------------------- //
+    // -------------------------------------------------------------------------------- //
 
-    public static boolean isFim(String line) { return line.compareTo("FIM") == 0; }
-
-    // -------------------------------------------------------------------------------------- //
-
-    public static void main(String[] args) throws Exception {
-
-        ArrayList<Game> games = new ArrayList<Game>();
-                
-        // ------------------------------------------------------------------------------ //
+    public static String getGameData(String csvFile, int app_id) throws Exception {
 
         try {
 
             // Read CSV file
-            String basefile = "/tmp/games.csv";
-
-            FileInputStream fstream = new FileInputStream(basefile);
+            FileInputStream fstream = new FileInputStream(csvFile);
             BufferedReader br = new BufferedReader(new InputStreamReader(fstream));
 
             // ------------------------------------ //
 
-            // Explode CSV file reading games
+            // Start to explode CSV file
             String line;
+
+            while((line = br.readLine()) != null) {
+
+                String id_s = Integer.toString(app_id);
   
+                if(line.substring(0, line.indexOf(',')).equals(id_s)) {
+
+                    fstream.close();
+                    br.close();
+                    return line;
+                }
+            }
+
+            // Close CSV file
+            fstream.close();
+        }
+        catch(IOException e) { e.printStackTrace(); }
+        return null;
+    }
+
+    // -------------------------------------------------------------------------------------- //
+    
+    public static void main(String[] args) throws Exception {
+    
+        Scanner scr = new Scanner(System.in);
+        ArrayList<Game> gamesFull = new ArrayList<Game>();
+        String line;
+                
+        // ------------------------------------------------------------------------------ //
+
+        // Fill full games list
+        try {
+
+            // Read CSV file
+            FileInputStream fstream = new FileInputStream("/tmp/games.csv");
+            BufferedReader br = new BufferedReader(new InputStreamReader(fstream));
+
+            // ------------------------------------ //
+
+            // Start to explode CSV file
             while((line = br.readLine()) != null) {
 
                 Game game = new Game();
 
                 game.read(line);
-                games.add(game);
+                gamesFull.add(game);
             }
 
             // Close CSV file
@@ -548,30 +631,84 @@ class Game {
         catch(IOException e) { e.printStackTrace(); }
 
         // ---------------------------------------------------------------------------------------------- //
+    
+        // Fill production games list
+        GameQueue games = new GameQueue(5);
+        float total_avgPt = 0, c = 0;
 
-        // Read .in file
-        Scanner scr = new Scanner(System.in);
-        String line = scr.nextLine();
-        
+        line = scr.nextLine();
+
         while(true) {
 
-            if(isFim(line)) break;
+            if(line.compareTo("FIM") == 0) break;
 
-            int app_id = Integer.parseInt(line);
+            // ------------------------------------ //
 
-            // Search game with .in id
-            for(Game game : games) {
-                
-                if(game.getAppId() == app_id) game.print();
+            Game found = gameSearch(gamesFull, Integer.parseInt(line));
+
+            if(found != null) {
+
+                try { games.insert(found); }
+                catch(java.lang.Exception e) {
+
+                    total_avgPt -= games.remove().getAvgPlaytime();
+                    c--;
+                    
+                    games.insert(found);
+                }
+
+                // Print playtime avg
+                total_avgPt += found.getAvgPlaytime();
+
+                System.out.println(Math.round(total_avgPt / ++c));
             }
+
+            // ------------------------------------ //
 
             line = scr.nextLine();
         }
 
         // ---------------------------------------------------------------------------------------------- //
+    
+        // Execute operations
+        int n_ops = Integer.parseInt(scr.nextLine());
 
+        for(int x = 0; x < n_ops; x++) {
+
+            line = scr.nextLine();
+        
+            // -------------------------------- //
+
+            System.out.println(line);
+    
+            // Identify operation
+            if(line.charAt(0) == 'I') {
+             
+                Game found = gameSearch(gamesFull, Integer.parseInt(line.substring(2, line.length())));
+
+                try { games.insert(found); }
+                catch(java.lang.Exception e) {
+
+                    total_avgPt -= games.remove().getAvgPlaytime();
+                    c--;
+                    
+                    games.insert(found);
+                }
+
+                // Print playtime avg
+                total_avgPt += found.getAvgPlaytime();
+
+                System.out.println(Math.round(total_avgPt / ++c));
+            }
+            else if(line.charAt(0) == 'R') System.out.println("(R) " + games.remove().getName());
+        }
+    
+        games.print();
+    
+        // ---------------------------------------------------------------------------------------------- //
+    
         scr.close();
     }
-
-    // ---------------------------------------------------------------------------------------------- //
+    
+    // ------------------------------------------------------------------------------ //
 }

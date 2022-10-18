@@ -1,9 +1,9 @@
 /**
  
- * @file Game.c
+ * @file Linux_Game.c
  * @author Pedro Lopes
- * @version 0.2
- * @date 2022-10-02
+ * @version 1.0
+ * @date 2022-10-17
  * @copyright Copyright (c) 2022
  
 **/
@@ -20,7 +20,7 @@
 // -------------------------------------------------------------------------------- //
 
 // Definitions
-#define MAX_GAMES               9000
+#define MAX_GAMES               500
 #define MAX_FIELD_SIZE          250
 #define MAX_STRING_ARRAY_SIZE   100
 
@@ -55,10 +55,13 @@ typedef struct {
 Game games[MAX_GAMES];
 int n = 0;
 
+Game gamesFull[5000];
+int x = 0;
+
 // -------------------------------------------------------------------------------- //
 
 // Functions
-bool isFim(char* line) { return line[0] == 'F' && line[1] == 'I' && line[2] == 'M'; }
+bool isFim(char* s) { return s[0] == 'F' && s[1] == 'I' && s[2] == 'M'; }
 
 void substring(char *string, char *string_start, int length) {
 
@@ -628,9 +631,8 @@ void game_read(Game *game, char *line) {
                 else if(line[index] == '\"') {
 
                     substring(sub, &line[atr_index], strlen(line) - 1 - atr_index);
-
-                    if(sub[strlen(sub) - 1] == '\"') sub[strlen(sub) - 1] = '\0';
-                    else if(sub[strlen(sub) - 2] == '\"') sub[strlen(sub) - 2] = '\0';
+            
+                    if(sub[strlen(sub) - 2] == '\"') sub[strlen(sub) - 2] = '\0';
 
                     strcpy(game -> genres[game -> count_genres++], sub);
                     break;
@@ -639,7 +641,9 @@ void game_read(Game *game, char *line) {
         }
         else {
 
-            substring(sub, &line[atr_index], strlen(line) - 2 - atr_index);
+            substring(sub, &line[atr_index], strlen(line) - 1 - atr_index);
+            
+            sub[strlen(line) - 2 - atr_index] = '\0';
 
             strcpy(game -> genres[game -> count_genres++], sub);   
         }
@@ -649,7 +653,21 @@ void game_read(Game *game, char *line) {
 // -------------------------------------------------------------------------------- //
 
 // Functions - List
-void list_insert(Game x) {
+void list_insertBegin(Game x) {
+
+    if(n >= MAX_GAMES) {
+
+        printf("Insert error: MAX_GAMES reached");
+        exit(1);
+    } 
+
+    for(int i = n; i > 0; i--) games[i] = games[i - 1];
+   
+    games[0] = x;
+    n++;
+}
+
+void list_insertEnd(Game x) {
 
     if(n >= MAX_GAMES) {
 
@@ -660,15 +678,92 @@ void list_insert(Game x) {
     games[n++] = x;
 }
 
+void list_insert(Game x, int pos) {
+
+    if(n >= MAX_GAMES || (pos < 0 || pos > n)) {
+
+        printf("Insert error: %s", n >= MAX_GAMES ? "MAX_GAMES reached" : "Invalid position");
+        exit(1);
+    }
+
+    for(int i = n; i > pos; i--) games[i] = games[i-1];
+
+    games[pos] = x;
+    n++;
+}
+
+Game list_removeBegin() {
+
+    Game resp;
+
+    if(n == 0) {
+
+        printf("Remove error: Empty list");
+        exit(1);
+    }
+
+    resp = games[0];
+    n--;
+
+    for(int i = 0; i < n; i++) games[i] = games[i + 1];
+    return resp;
+}
+
+Game list_removeEnd() {
+
+    if(n == 0) {
+
+        printf("Remove error: Empty list");
+        exit(1);
+    }
+    return games[--n];
+}
+
+Game list_remove(int pos) {
+
+    Game resp;
+
+    if(n >= MAX_GAMES || (pos < 0 || pos > n)) {
+
+        printf("Insert error: %s!", n == 0 ? "Empty list" : "Invalid position");
+        exit(1);
+    }
+
+    resp = games[pos];
+    n--;
+
+    for(int i = pos; i < n; i++) games[i] = games[i+1];
+    return resp;
+}
+
+void list_print() {
+
+    for(int i = 0; i < n; i++) {
+
+        printf("[%i] ", i);
+        game_print(&games[i]);
+    }
+}
+
+Game game_search(int app_id) {
+
+    for(int i = 0; i < x; i++) {
+
+        if(gamesFull[i].app_id == app_id) return gamesFull[i];
+    }
+
+    Game game;
+    game.app_id = -1;
+    return game;
+}
+
 // ---------------------------------------------------------------------------------------------------------- //
 
 int main() {
 
-    // ------------------------------------------------------------ //
+    // ---------------------------------------------------------------------------------------- //
     
-    // First part - Read all games
-
-    // Open CSV file
+    // Fill full games list
     FILE *fp;
     char *line = NULL;
     size_t len = 0;
@@ -678,51 +773,97 @@ int main() {
 
     if(fp == NULL) exit(EXIT_FAILURE);
 
-    // ------------------------- //
-    
-    // Fill games list
+    // -------------------------------------- //
+
     while((read = getline(&line, &len, fp)) != -1) {
 
         Game game;
 
         game_start(&game);
         game_read(&game, line);
-        list_insert(game);
+        
+        gamesFull[x++] = game;
     }
 
-    // ------------------------- //
-    
     fclose(fp);
 
     if(line) free(line);
 
-    // ------------------------------------------------------------ //
-    
-    // Second part - Print .in games
-    
-    char in[15];
-    scanf(" %[^\n]s", in);
+    // ---------------------------------------------------------------------------------------- //
 
+    char line_in[100];
+
+    // Fill production games list
+    scanf(" %[^\n]", line_in);
+        
     while(true) {
 
-        if(isFim(in)) break;
-        else {
+        if(isFim(line_in)) break;
 
-            int app_id = atoi(in);
+        // -------------------------- //
 
-            for(int i = 0; i < n; i++) {
+        int app_id = atoi(line_in);
 
-                if(games[i].app_id == app_id) {
-                    
-                    game_print(&games[i]);
-                    break;
+        Game found = game_search(app_id);
+
+        if(found.app_id != -1) list_insertEnd(found);
+
+        // -------------------------- //
+
+        scanf(" %[^\n]", line_in);
+    }
+
+    // ---------------------------------------------------------------------------------------- //
+
+    // Execute operations
+    int n_ops;
+    scanf("%i", &n_ops);
+        
+    for(int i = 0; i < n_ops; i++) {
+
+        scanf(" %[^\n]", line_in);
+
+        Game game;
+        char params[10];
+
+        if(line_in[0] == 'I') {
+
+            substring(params, &line_in[3], strlen(line_in) - 3);
+
+            if(line_in[1] == 'I') list_insertBegin(game_search(atoi(params)));
+            else if(line_in[1] == 'F') list_insertEnd(game_search(atoi(params)));
+            else if(line_in[1] == '*') {
+
+                char appId[10], pos[10];
+                int i = 0;
+
+                while(true) {
+
+                    if(params[i] == ' ') {
+
+                        substring(pos, &params[0], i);
+                        substring(appId, &params[i + 1], strlen(params) - i - 1);
+                        break;
+                    }
+                    else i++;
                 }
-            }
 
-            // ------------------------- //
-    
-            scanf(" %[^\n]s", in);
+                list_insert(game_search(atoi(appId)), atoi(pos));
+            }
+        }
+        else if(line_in[0] == 'R') {
+
+            if(line_in[1] == 'I') printf("(R) %s\n", list_removeBegin().name);
+            else if(line_in[1] == 'F') printf("(R) %s\n", list_removeEnd().name);
+            else if(line_in[1] == '*') {
+
+                substring(params, &line_in[3], strlen(line_in) - 3);
+
+                printf("(R) %s\n", list_remove(atoi(params)).name);
+            }
         }
     }
+
+    list_print();
     return EXIT_SUCCESS;
 }
