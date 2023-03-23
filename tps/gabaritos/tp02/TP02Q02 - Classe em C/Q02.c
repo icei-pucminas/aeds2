@@ -66,7 +66,7 @@ char* str_substring(const char* const str, const size_t start, const size_t end)
 }
 
 char* str_clone(const char* const str) {
-    size_t len = str_len(str);
+    size_t len = str_len(str) + 1;
     char* copy = (char*)malloc(len * sizeof(char));
     for(size_t i = 0; i < len; i++) copy[i] = str[i];
     return copy;
@@ -208,15 +208,15 @@ SWCharacter SWCharacter_from_file(const char* const path) {
 SWCharacter swc_clone(const SWCharacter* const self) {
     SWCharacter other;
     
-    other.name = self->name;
+    other.name = str_clone(self->name);
     other.height = self->height;
     other.mass = self->mass;
-    other.hair_color = self->hair_color;
-    other.skin_color = self->skin_color;
-    other.eye_color = self->eye_color;
-    other.birth_year = self->birth_year;
-    other.gender = self->gender;
-    other.homeworld = self->homeworld;
+    other.hair_color = str_clone(self->hair_color);
+    other.skin_color = str_clone(self->skin_color);
+    other.eye_color = str_clone(self->eye_color);
+    other.birth_year = str_clone(self->birth_year);
+    other.gender = str_clone(self->gender);
+    other.homeworld = str_clone(self->homeworld);
 
     return other;
 }
