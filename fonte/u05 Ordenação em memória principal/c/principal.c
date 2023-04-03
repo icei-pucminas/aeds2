@@ -1,11 +1,13 @@
 #include "bolha.h"
 #include "countingsort.h"
+#include "radixsort.h"
 #include "heapsort.h"
 #include "insercao.h"
 #include "mergesort.h"
 #include "quicksort.h"
 #include "selecao.h"
 #include "shellsort.h"
+#include "geracao.h"
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -39,7 +41,8 @@ int main(int argc, char **argv) {
     //insercao(array, n);
     //mergesort(array, n);
     //quicksort(array, n);
-    selecao(array, n);
+    //selecao(array, n);
+    radixsort(array,n);
     //shellsort(array, n);
 	 fim = clock();
     total = ((fim - inicio) / (double)CLOCKS_PER_SEC);    

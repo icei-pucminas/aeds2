@@ -1,7 +1,7 @@
 all: exec
  
-exec: principal.o geracao.o bolha.o countingsort.o heapsort.o insercao.o mergesort.o quicksort.o selecao.o shellsort.o
-	gcc -o exec principal.o geracao.o bolha.o countingsort.o heapsort.o insercao.o mergesort.o quicksort.o selecao.o shellsort.o
+exec: principal.o geracao.o bolha.o countingsort.o radixsort.o heapsort.o insercao.o mergesort.o quicksort.o selecao.o shellsort.o
+	gcc -o exec principal.o geracao.o bolha.o countingsort.o radixsort.o heapsort.o insercao.o mergesort.o quicksort.o selecao.o shellsort.o
  
 principal.o: principal.c 
 	gcc -o principal.o principal.c -c -W -Wall -pedantic
@@ -11,6 +11,9 @@ bolha.o: bolha.c
 
 countingsort.o: countingsort.c 
 	gcc -o countingsort.o countingsort.c -c -W -Wall -pedantic
+
+radixsort.o: radixsort.c 
+	gcc -o radixsort.o radixsort.c -c -W -Wall -pedantic
 
 geracao.o: geracao.c 
 	gcc -o geracao.o geracao.c -c -W -Wall -pedantic
