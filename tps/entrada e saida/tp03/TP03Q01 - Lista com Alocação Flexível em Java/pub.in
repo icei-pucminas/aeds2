@@ -1,0 +1,66 @@
+/tmp/personagens/AdiGallia.txt
+/tmp/personagens/ArvelCrynyd.txt
+/tmp/personagens/AylaSecura.txt
+/tmp/personagens/BB8.txt
+/tmp/personagens/BarrissOffee.txt
+/tmp/personagens/BeruWhitesunlars.txt
+/tmp/personagens/BobaFett.txt
+/tmp/personagens/C-3PO.txt
+/tmp/personagens/Dooku.txt
+/tmp/personagens/Dormé.txt
+/tmp/personagens/Gasgano.txt
+/tmp/personagens/HanSolo.txt
+/tmp/personagens/JangoFett.txt
+/tmp/personagens/LamaSu.txt
+/tmp/personagens/LandoCalrissian.txt
+/tmp/personagens/MaceWindu.txt
+/tmp/personagens/MonMothma.txt
+/tmp/personagens/OwenLars.txt
+/tmp/personagens/PoggletheLesser.txt
+/tmp/personagens/QuarshPanaka.txt
+/tmp/personagens/R2-D2.txt
+/tmp/personagens/RaymusAntilles.txt
+/tmp/personagens/RoosTarpals.txt
+/tmp/personagens/SaeseeTiin.txt
+/tmp/personagens/SanHill.txt
+/tmp/personagens/SlyMoore.txt
+/tmp/personagens/TaunWe.txt
+/tmp/personagens/Watto.txt
+/tmp/personagens/WicketSystriWarrick.txt
+/tmp/personagens/ZamWesell.txt
+FIM
+34
+II /tmp/personagens/Ackbar.txt
+IF /tmp/personagens/Finn.txt
+II /tmp/personagens/BibFortuna.txt
+II /tmp/personagens/JarJarBinks.txt
+II /tmp/personagens/DudBolt.txt
+II /tmp/personagens/KitFisto.txt
+II /tmp/personagens/DexterJettster.txt
+IF /tmp/personagens/EethKoth.txt
+II /tmp/personagens/ClieggLars.txt
+II /tmp/personagens/Grievous.txt
+II /tmp/personagens/Cordé.txt
+IF /tmp/personagens/JocastaNu.txt
+IF /tmp/personagens/PoeDameron.txt
+R* 12
+RI
+RF
+R* 13
+I* 13 /tmp/personagens/R4-P17.txt
+I* 14 /tmp/personagens/R5-D4.txt
+II /tmp/personagens/TionMedon.txt
+II /tmp/personagens/Sebulba.txt
+RF
+II /tmp/personagens/Rey.txt
+II /tmp/personagens/Tarfful.txt
+II /tmp/personagens/WedgeAntilles.txt
+I* 20 /tmp/personagens/MasAmedda.txt
+I* 20 /tmp/personagens/Lobot.txt
+I* 21 /tmp/personagens/RicOlié.txt
+I* 23 /tmp/personagens/Palpatine.txt
+R* 10
+R* 10
+R* 11
+R* 12
+R* 13
