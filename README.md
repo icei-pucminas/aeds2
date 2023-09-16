@@ -2,7 +2,8 @@
 Repositório de códigos da disciplina de Algoritmos e Estrutura de Dados II
 
 ## 🏋️ Prática
-[CodeWars para treino de provas práticas](https://www.codewars.com/dashboard)
+[CodeWars](https://www.codewars.com/dashboard)
+[OBI](https://olimpiada.ic.unicamp.br/pratique/pu/)
 
 
 ## ❓ Ajuda
