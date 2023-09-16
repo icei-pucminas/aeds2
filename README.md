@@ -11,7 +11,7 @@ Repositório de códigos da disciplina de Algoritmos e Estrutura de Dados II
 
 
 ## 👨‍⚕️ Slides
-[Pasta com powerpoints usados em aula](Powerpoints)
+[Pasta com powerpoints usados em aula](PowerPoints)
 
 
 ## 📁 Bibliotecas
@@ -23,8 +23,8 @@ Repositório de códigos da disciplina de Algoritmos e Estrutura de Dados II
 
 
 ## ⚙️ Labs
-[Pasta com os exercícios de treinamento do laboratório](Labs)
+[Pasta com os exercícios de treinamento do laboratório](labs)
 
 
 ## 🔥 TPS
-[Pasta com os trabalhos práticos do laboratório](Tps)
+[Pasta com os trabalhos práticos do laboratório](tps)
