@@ -1,11 +1,6 @@
 # 💻 AEDS II
 Repositório de códigos da disciplina de Algoritmos e Estrutura de Dados II
 
-## 🏋️ Prática
-[CodeWars](https://www.codewars.com/dashboard)</br>
-[OBI](https://olimpiada.ic.unicamp.br/pratique/pu/)
-
-
 ## ❓ Ajuda
 [Guia com os principais comandos](Codigos/ajuda/README.md)
 
@@ -28,3 +23,9 @@ Repositório de códigos da disciplina de Algoritmos e Estrutura de Dados II
 
 ## 🔥 TPS
 [Pasta com os trabalhos práticos do laboratório](tps)
+
+
+## 🏋️ Prática
+[OBI](https://olimpiada.ic.unicamp.br/pratique/pu/)</br>
+[CodeWars](https://www.codewars.com/dashboard)</br>
+[HackerRank](https://www.hackerrank.com/dashboard)
