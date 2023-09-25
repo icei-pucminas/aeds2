@@ -2,10 +2,19 @@
 Repositório de códigos da disciplina de Algoritmos e Estrutura de Dados II
 
 ## ❓ Ajuda
-[Guia com os principais comandos](fonte/ajuda/README.md)
+[Guia com os principais comandos](Codigos/ajuda/README.md)
 
-## 📁 Fonte
-[Pasta com as bibliotecas usadas na disciplina](fonte/ajuda/java)
+
+## 👨‍⚕️ Slides
+[Pasta com powerpoints usados em aula](PowerPoints)
+
+
+## 📁 Bibliotecas
+[Pasta com as bibliotecas usadas na disciplina](Codigos/ajuda/java)
+
+
+## 💡 Codigos
+[Pasta com os codigos de exemplo](Codigos)
 
 
 ## ⚙️ Labs
@@ -16,3 +25,7 @@ Repositório de códigos da disciplina de Algoritmos e Estrutura de Dados II
 [Pasta com os trabalhos práticos do laboratório](tps)
 
 
+## 🏋️ Prática
+[OBI](https://olimpiada.ic.unicamp.br/pratique/pu/)</br>
+[CodeWars](https://www.codewars.com/dashboard)</br>
+[HackerRank](https://www.hackerrank.com/dashboard)
