@@ -2,19 +2,19 @@
 Repositório de códigos da disciplina de Algoritmos e Estrutura de Dados II
 
 ## ❓ Ajuda
-[Guia com os principais comandos](Codigos/ajuda/README.md)
+[Guia com os principais comandos](fonte/ajuda/README.md)
 
 
 ## 👨‍⚕️ Slides
-[Pasta com powerpoints usados em aula](PowerPoints)
+[Pasta com powerpoints usados em aula](aulas)
 
 
 ## 📁 Bibliotecas
-[Pasta com as bibliotecas usadas na disciplina](Codigos/ajuda/java)
+[Pasta com as bibliotecas usadas na disciplina](fonte/ajuda/java)
 
 
-## 💡 Codigos
-[Pasta com os codigos de exemplo](Codigos)
+## 💡 Códigos
+[Pasta com os algoritmos de exemplo](fonte)
 
 
 ## ⚙️ Labs
