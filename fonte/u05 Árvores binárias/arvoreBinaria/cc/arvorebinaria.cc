@@ -6,6 +6,10 @@
 #include <err.h>
 #include "arvorebinaria.h"
 
+int ArvoreBinaria::soma(int a, int b){
+    return a+b;
+}
+
 /**
  * Construtor da classe.
  */
