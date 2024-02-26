@@ -7,27 +7,27 @@
 import java.util.*;
 
 class Geracao {
-   protected int[] array;
-   protected int n;
+	protected int[] array;
+	protected int n;
 
 
 	/**
 	 * Construtor.
 	 */
-   public Geracao(){
-      array = new int[100];
-      n = array.length;
-   }
+	public Geracao(){
+		array = new int[100];
+		n = array.length;
+	}
 
 
 	/**
 	 * Construtor.
 	 * @param int tamanho do array de numeros inteiros.
 	 */
-   public Geracao(int tamanho){
-      array = new int[tamanho];
-      n = array.length;
-   }
+	public Geracao(int tamanho){
+		array = new int[tamanho];
+		n = array.length;
+	}
 
 
 	/**
@@ -55,9 +55,9 @@ class Geracao {
 	 */
 	public void aleatorio() {
 		Random rand = new Random();
-	   crescente();	
+		crescente();	
 		for (int i = 0; i < n; i++) {
-         swap(i, Math.abs(rand.nextInt()) % n);
+			swap(i, Math.abs(rand.nextInt()) % n);
 		}
 	}
 
@@ -66,8 +66,8 @@ class Geracao {
 	 * Efetua a leitura dos elementos via entrada padrao.
 	 */
 	public void entradaPadrao() {
-      n = MyIO.readInt();
-      array = new int[n];
+		n = MyIO.readInt();
+		array = new int[n];
 
 		for (int i = 0; i < n; i++) {
 			array[i] = MyIO.readInt();
@@ -77,13 +77,13 @@ class Geracao {
 	/**
 	 * Recebe um Efetua a leitura dos elementos via entrada padrao.
 	 */
-   public void entrada(int[] vet){
-      n = vet.length;
-      array = new int[n];
-      for(int i = 0; i < n; i++){
-         array[i] = vet[i];
-      }
-   }
+	public void entrada(int[] vet){
+		n = vet.length;
+		array = new int[n];
+		for(int i = 0; i < n; i++){
+			array[i] = vet[i];
+		}
+	}
 
 
 	/**
@@ -92,11 +92,11 @@ class Geracao {
 	 */
 	public void mostrar(int k) {
 		System.out.print("[");
-		
+
 		for (int i = 0; i < k; i++) {
-         System.out.print(" ("+i+")" + array[i]);
+			System.out.print(" ("+i+")" + array[i]);
 		}
-		
+
 		System.out.println("]");
 	}
 
@@ -104,57 +104,57 @@ class Geracao {
 	/**
 	 * Mostra os elementos do array.
 	 */
-   public void mostrar() {
-      System.out.print("[");
+	public void mostrar() {
+		System.out.print("[");
 
-      for (int i = 0; i < n; i++) {
-         System.out.print(" ("+i+")" + array[i]);
-      }
+		for (int i = 0; i < n; i++) {
+			System.out.print(" ("+i+")" + array[i]);
+		}
 
-      System.out.println("]");
-   }
-
-
-   /**
-    * Troca o conteudo de duas posicoes do array
-    * @param i int primeira posicao
-    * @param j int segunda posicao
-    */
-   public void swap(int i, int j) {
-      int temp = array[i];
-      array[i] = array[j];
-      array[j] = temp;
-   }
+		System.out.println("]");
+	}
 
 
-   /**
-    * Retorna o timestamp atual
-    * @return timestamp atual
-    */
-   public long now(){
-      return new Date().getTime();
-   }
+	/**
+	 * Troca o conteudo de duas posicoes do array
+	 * @param i int primeira posicao
+	 * @param j int segunda posicao
+	 */
+	public void swap(int i, int j) {
+		int temp = array[i];
+		array[i] = array[j];
+		array[j] = temp;
+	}
 
 
-   /**
-    * Retorna verdadeiro/falso indicando se o array esta ordenado
-    * @return boolean indicando se o array esta ordenado
-    */
-   public boolean isOrdenado(){
-      boolean resp = true;
-      for(int i = 1; i < n; i++){
-         if(array[i] < array[i-1]){
-            i = n;
-            resp = false;
-         }
-      }
-      return resp;
-   }
+	/**
+	 * Retorna o timestamp atual
+	 * @return timestamp atual
+	 */
+	public long now(){
+		return new Date().getTime();
+	}
 
-   /*
-    * Metodo a ser implementado nas subclasses
-    */
-   public void sort(){
-      System.out.println("Método a ser implementado nas subclasses.");
-   }
+
+	/**
+	 * Retorna verdadeiro/falso indicando se o array esta ordenado
+	 * @return boolean indicando se o array esta ordenado
+	 */
+	public boolean isOrdenado(){
+		boolean resp = true;
+		for(int i = 1; i < n; i++){
+			if(array[i] < array[i-1]){
+				i = n;
+				resp = false;
+			}
+		}
+		return resp;
+	}
+
+	/*
+	 * Metodo a ser implementado nas subclasses
+	 */
+	public void sort(){
+		System.out.println("Método a ser implementado nas subclasses.");
+	}
 }
