@@ -1,0 +1,405 @@
+id,name,alternate_names,house,ancestry,species,patronus,hogwartsStaff,hogwartsStudent,actorName,alive,alternate_actors,dateOfBirth,yearOfBirth,eyeColour,gender,hairColour,wizard
+9e3f7ce4-b9a7-4244-b709-dae5c1f1d4a8,Harry Potter,"['The Boy Who Lived', 'The Chosen One', 'Undesirable No. 1', 'Potty']",Gryffindor,half-blood,human,stag,False,True,Daniel Radcliffe,True,[],31-07-1980,1980,green,male,black,True
+4c7e6819-a91a-45b2-a454-f931e4a7cce3,Hermione Granger,"['Hermy', 'Know-it-all', 'Miss Grant', 'Herm-own-ninny']",Gryffindor,muggleborn,human,otter,False,True,Emma Watson,True,[],19-09-1979,1979,brown,female,brown,True
+c3b1f9a5-b87b-48bf-b00d-95b093ea6390,Ron Weasley,"['Dragomir Despard', 'Ronald', 'Ickle Ronniekins', 'Ronnie', 'Wheezy', 'Won-Won', 'Roonil Wazlib']",Gryffindor,pure-blood,human,Jack Russell terrier,False,True,Rupert Grint,True,[],01-03-1980,1980,blue,male,red,True
+af95bd8a-dfae-45bb-bc69-533860d34129,Draco Malfoy,[],Slytherin,pure-blood,human,,False,True,Tom Felton,True,[],05-06-1980,1980,grey,male,blonde,True
+ca3827f0-375a-4891-aaa5-f5e8a5bad225,Minerva McGonagall,[],Gryffindor,half-blood,human,tabby cat,True,False,Dame Maggie Smith,True,[],04-10-1925,1925,,female,black,True
+d5c4daa3-c726-426a-aa98-fb40f3fba816,Cedric Diggory,[],Hufflepuff,,human,,False,True,Robert Pattinson,False,[],,1977,grey,male,brown,True
+8f9aa40b-5d7c-441e-ad32-4564ecda3b70,Cho Chang,[],Ravenclaw,,human,swan,False,True,Katie Leung,True,[],07-04-1979,1979,brown,female,black,True
+3569d265-bd27-44d8-88e8-82fb0a848374,Severus Snape,"['Half-Blood Prince', 'Snivellus', 'Sev']",Slytherin,half-blood,human,doe,True,False,Alan Rickman,False,[],09-01-1960,1960,black,male,black,True
+36bfefd0-e0bb-4d11-be98-d1ef6117a77a,Rubeus Hagrid,"['Professor Hagrid', 'Hagger']",Gryffindor,half-blood,half-giant,,True,False,Robbie Coltrane,True,[],06-12-1928,1928,black,male,black,True
+3db6dc51-b461-4fa4-a6e4-b1ff352221c5,Neville Longbottom,[],Gryffindor,pure-blood,human,Non-Corporeal,False,True,Matthew Lewis,True,[],30-07-1980,1980,,male,blonde,True
+861c4cde-2f0f-4796-8d8f-9492e74b2573,Luna Lovegood,['Loony Lovegood'],Ravenclaw,,human,hare,False,True,Evanna Lynch,True,[],13-02-1981,1981,silver,female,blonde,True
+1cd6dc64-01a9-4379-9cfd-1a7167ba1bb1,Ginny Weasley,[],Gryffindor,pure-blood,human,horse,False,True,Bonnie Wright,True,[],11-08-1981,1981,brown,female,red,True
+2cfd2d4b-5d1e-4dc5-8837-37a97c7e2f2f,Sirius Black,"['Padfoot', 'Snuffles']",Gryffindor,pure-blood,human,hare,False,False,Gary Oldman,False,"['James Walters', 'Rohan Gotobed']",03-11-1959,1959,grey,male,black,True
+b8f9095b-9de6-4d7d-83e0-4391af8f22e4,Remus Lupin,"['Professor Lupin', 'Moony', 'Remus John Lupin']",Gryffindor,half-blood,werewolf,wolf,True,False,David Thewlis,False,[],10-03-1960,1960,green,male,brown,True
+dd925874-e800-4eb4-9f0d-4d0fed15634b,Arthur Weasley,[],Gryffindor,pure-blood,human,weasel,False,False,Mark Williams,True,[],06-02-1950,1950,blue,male,red,True
+6afb1960-febd-418d-b604-e50c1b59459b,Bellatrix Lestrange,['Bella'],Slytherin,pure-blood,human,,False,False,Helena Bonham Carter,False,[],,1951,brown,female,black,True
+efa802c8-ae18-4ae1-a524-49df21d05939,Lord Voldemort,"['Tom Riddle', 'Tom Marvolo Riddle', 'You-Know-Who', 'He Who Must Not Be Named', 'the Dark Lord', 'the Heir of Slytherin']",Slytherin,half-blood,human,,False,False,Ralph Fiennes,False,[],31-12-1926,1926,Scarlet,male,bald,True
+2fb675cd-5505-4c8e-a54e-579e73bf4174,Horace Slughorn,[],Slytherin,pure-blood,human,,True,False,Jim Broadbent,True,[],,,green,male,blonde,True
+106cf68d-a86a-415e-ad75-6ad9a4ae24e4,Kingsley Shacklebolt,[],,pure-blood,human,lynx,False,False,George Harris,True,[],,,brown,male,brown,True
+d58e7249-19d1-40bd-a43f-1da0497fe8aa,Dolores Umbridge,[],Slytherin,half-blood,human,persian cat,True,False,Imelda Staunton,True,[],,,brown,female,grey,True
+43403619-70cb-4a0c-b70a-6d5cae20e602,Lucius Malfoy,[],Slytherin,pure-blood,human,,False,False,Jason Isaacs,True,[],,1954,grey,male,blonde,True
+04f9eb45-d843-4e29-a7d3-0bd49ed87f85,Vincent Crabbe,[],Slytherin,pure-blood,human,,False,True,Jamie Waylett,False,[],,,black,male,black,True
+a31ddc78-af12-4978-929c-3cc8a00a833e,Gregory Goyle,[],Slytherin,pure-blood,human,,False,True,Josh Herdman,True,[],,,,male,brown,True
+b0620914-858d-46fc-8e6d-033c565e138b,Mrs Norris,[],,,cat,,True,False,"Maxime, Alanis and Tommy the cats",True,[],,,yellow,female,brown,False
+2b82cfb8-0440-4a57-a030-6d75a40c0d98,Argus Filch,[],,squib,human,,True,False,David Bradley,True,[],,,,male,grey,False
+b4ffe89b-8796-42ad-a6d9-5af1a369af7e,Vernon Dursley,[],,muggle,human,,False,False,Richard Griffiths,True,[],,,,male,,False
+fed624df-56d9-495e-9ad4-ea77000957e8,Petunia Dursley,[],,muggle,human,,False,False,Fiona Shaw,True,[],,,,female,blonde,False
+7614cf6e-689e-47ac-a976-b1e9997637e9,Dudley Dursley,[],,muggle,human,,False,False,Harry Melling,True,[],23-6-1980,1980,blue,male,blond,False
+41cd0bbe-a943-431b-9bde-bb2cad3491a1,Lily Potter,[],Gryffindor,muggleborn,human,,False,False,Geraldine Somerville,False,[],30-01-1960,1960,green,female,,True
+34eb6182-00cf-4c95-ae73-7d2f34066d18,James Potter,['Prongs'],Gryffindor,pure-blood,human,stag,False,False,Adrian Rawlins,False,[],27-03-1960,1960,,male,black,True
+b415c867-1cff-455e-b194-748662ac2cca,Albus Dumbledore,['Professor Dumbledore'],Gryffindor,half-blood,human,Phoenix,True,False,Richard Harris,False,['Michael Gambon'],,1881,blue,male,silver,True
+e9457467-d10a-4893-afa9-19f9602b218a,Madam Pomfrey,['Poppy Pomfrey'],,,human,,True,False,Gemma Jones,True,[],,,,female,,True
+63c6fcff-a1a4-4caf-a5ac-e2197c12cb1e,Mrs Figg,['Arabella Doreen Figg'],,squib,human,,False,False,Kathryn Hunter,True,[],,,,female,,False
+162b34f3-aaab-46ae-980b-f2a5ebceb684,Marge Dursley,"['Marjorie Eileen Dursley', 'Aunt Marge', 'Auntie Marge', 'Margie']",,muggle,human,,False,False,Pam Ferris,True,[],,,,female,,False
+d70f60ae-81ea-4230-905d-cb52c801c1fb,Yvonne,[],,muggle,human,,False,False,,True,[],,,,female,,False
+57fa4f38-a1ff-4671-890d-49af38b2a619,Piers Polkiss,[],,muggle,human,,False,False,Jason Boyd,True,[],,,,male,,False
+a18ef59a-89cf-4afd-bf87-83273990d911,Dennis,[],,muggle,human,,False,False,Christopher Rithin,True,[],,,,male,,False
+ef33d1e6-427c-465e-9a9f-037442b376d3,Malcolm,[],,muggle,human,,False,False,Richard Macklin,True,[],,,,male,,False
+71a95495-134d-4af7-8473-5f3495979845,Gordon,[],,muggle,human,,False,False,,True,[],,,,male,,False
+933787c2-51e3-4eac-8a85-ab332cac0456,Miranda Gaushawk,[],,,human,,False,False,,False,[],,,,female,,True
+8b5bbdda-6a45-409c-99b7-0c64e69ed611,Bathilda Bagshot,[],,,human,,False,False,,False,[],,,,female,,True
+8674a5d1-b2ba-4025-ac6d-4d1aa3f49ad9,Adalbert Waffling,[],,,human,,False,False,,False,[],,,,male,,True
+cd98821f-04a8-4df7-9098-64ab117ede00,Emeric Switch,[],,,human,,False,False,,False,[],,,,male,,True
+19fa7e4e-dadd-46a8-912e-51a1f622ce0e,Phyllida Spore,['Dame Phyllida Spore'],,,human,,False,False,,False,[],,,,female,,True
+f859a0ab-0401-4791-b8f5-d3b2bc9668ca,Arsenius Jigger,[],,,human,,False,False,,False,[],,,,male,,True
+2a376401-4821-4aec-94d7-9b3da2c77d85,Newt Scamander,['Newton Artemis Fido Scamander'],Hufflepuff,,human,,False,False,Eddie Redmayne,True,"['Joshua Shea', 'Callum Turner']",24-02-1897,1897,hazel,male,brown,True
+aa83dd83-beb5-43ef-b4a1-9bb2389edc44,Quentin Trimble,[],,,human,,False,False,,False,[],,,,male,,True
+1e705d10-aa89-4e9c-94be-478304d55dbb,Tom,[],,,human,,False,False,Derek Deadman,True,['Jim Tavare'],,,,male,,True
+43b2880a-df86-4f55-a599-9cd0548833f4,Doris Crockford,[],,,human,,False,False,Nina Young,True,[],,,,female,,True
+ba19be27-178b-4594-95b7-51ba0e3ba1dd,Quirinus Quirrel,['Professor Quirrel'],,,human,,True,False,Ian Hart,False,[],,,,male,,True
+4bd76a78-86d8-40f6-aed4-74fe51783594,Griphook,[],,,goblin,,False,False,Verne Troyer,False,['Warwick Davis'],,,,male,,False
+7b26f1db-7cc5-4b66-9f2f-6bbb04d628b2,Madam Malkin,[],,,human,,False,False,,True,[],,,,female,,True
+ba05fee0-483c-42ed-a8b6-b7a82b6e800a,Vindictus Viridian,[],,,human,,False,False,,False,[],,,,male,,True
+d59691a4-f830-4eb0-a819-a0fb00b7e80f,Garrick Ollivander,[],,,human,,False,False,John Hurt,True,[],,,"pale, silvery",male,,True
+6b59be3f-e527-422d-959d-79fcdb3b24eb,Hedwig,[],,,owl,,False,False,Gizmo,False,"['Ook', 'Sprout', 'Kasper', 'Swoops', 'Oh Oh', 'Elmo', 'Bandit']",,,amber,female,,False
+79e02eb5-17c0-4dd9-bf55-aec03434812c,Molly Weasley,"['Molly Prewett', 'Mollywabbles']",Gryffindor,pure-blood,human,,False,False,Julie Walters,True,[],,,,female,red,True
+8f3b8796-c7b9-442e-ac02-113d48306fc7,Percy Weasley,"['Perce', 'Percy Ignatius Weasley', 'Weatherby']",Gryffindor,pure-blood,human,,False,True,Chris Rankin,True,[],,,,male,red,True
+28741184-263c-4000-b011-ca7c60466ef4,Fred Weasley,[],Gryffindor,pure-blood,human,,False,True,James Phelps,False,[],,,,male,red,True
+2a0615de-8aa4-41e7-9504-dd875f5f3f01,George Weasley,[],Gryffindor,pure-blood,human,,False,True,Oliver Phelps,True,[],,,,male,red,True
+979ab773-944f-4ff8-88be-943a4bc2c18a,Lee Jordan,[],Gryffindor,,human,,False,True,Luke Youngblood,True,[],,,,male,,True
+cd09be4a-1581-4a7e-b4e7-4505e66a68a5,Bill Weasley,['William Arthur Weasley'],Gryffindor,pure-blood,human,,False,False,Richard Fish,True,['Domhnall Gleeson'],,,,male,red,True
+01c62c63-f481-41c0-ab06-189caf3a6a61,Charlie Weasley,['Charles Weasley'],Gryffindor,pure-blood,human,,False,False,Alex Crockford,True,[],,,,male,red,True
+2772994f-6a19-4d01-9993-5e10cc6f69a5,Fat Friar,[],Hufflepuff,,ghost,,False,False,Simon Fisher-Becker,False,[],,,,male,,True
+1ec8a085-d88c-4ba7-a7c6-a0f93156db07,Peeves,[],,,poltergeist,,False,False,,False,[],,,,male,,True
+0af82694-e24f-45ec-a8d7-5bb1199ce631,Hannah Abbott,[],Hufflepuff,half-blood,human,,False,True,Charlotte Skeoch,True,['Louisa Warren'],,,,female,blonde,True
+7cc5e694-850d-4c44-830b-7154e23bb5c3,Susan Bones,[],Hufflepuff,,human,,False,True,Eleanor Columbus,True,['Emma Jayne-Corboz'],,,,female,,True
+9055a7b1-6ac9-4363-977c-4dec78572fad,Terry Boot,[],Ravenclaw,,human,,False,True,Kevin Lee Yi,True,[],,,,male,,True
+c5acae3e-1a05-4f1d-bb83-3f8c7639d84e,Mandy Brocklehurst,[],Ravenclaw,,human,,False,True,Christina Petrou,True,[],,,,female,,True
+f94086b8-03ae-4457-ba2c-e624d0980869,Lavender Brown,[],Gryffindor,,human,,False,True,Kathleen Cauley,True,"['Jennifer Smith', 'Jessie Cave']",,,,female,,True
+14aca981-2b60-413e-8f8e-3534961b534b,Millicent Bulstrode,[],Slytherin,,human,,False,True,Helen Stuart,True,[],,,,female,,True
+34155375-c8c0-415e-873a-b6483f0cbf17,Justin Finch-Fletchley,[],Hufflepuff,muggleborn,human,,False,True,Edward Randell,True,[],,,,male,,True
+1413e1b3-2903-4a47-a2d5-e8abc5ce8014,Seamus Finnigan,"['O Flaherty', 'Seamus Finnegan']",Gryffindor,half-blood,human,,False,True,Devon Murray,True,[],,,,male,sandy,True
+ec714982-e604-40d4-bd4c-dc5155506957,Morag MacDougal,[],,,human,,False,True,,True,[],,,,female,,True
+e32dd37c-91cd-4950-8ef2-e2ba1b87bd75,Lily Moon,[],,,human,,False,True,,True,[],,,,female,,True
+47aa7511-59b9-4760-9bd7-822a1103177b,Theodore Nott,[],Slytherin,pure-blood,human,,False,True,,True,[],,,,male,,True
+2899e63f-ed02-4152-8ace-0270a068a70d,Pansy Parkinson,[],Slytherin,,human,,False,True,Genevieve Gaunt,True,"['Lauren Shotton', 'Scarlett Byrne']",,,,female,,True
+0201cf73-8a86-4358-b232-2abaa23f09af,Parvati Patil,[],Gryffindor,,human,,False,True,Sitara Shah,True,['Shefali Chowdhury'],,,,female,,True
+69c18f6a-cd97-4218-9f2f-740393e6eb1f,Padma Patil,[],Ravenclaw,,human,,False,True,Sharon Sandhu,True,['Afshan Azad'],,,,female,,True
+3d629315-1dbb-4e1e-840d-ffbf45bd5894,Sally-Anne Perks,[],,,human,,False,True,,True,[],,,,female,,True
+eaea5eb3-48a3-41c6-9ea5-c695299bab16,Lisa Turpin,[],Ravenclaw,,human,,False,True,,True,[],,,,female,,True
+1fab149b-52b1-4ffe-be52-4eda25d98f5d,Blaise Zabini,[],Slytherin,,human,,False,True,Louis Cordice,True,[],,,,male,,True
+11b5ca88-64ad-41a4-9f36-317b66c290af,Nearly Headless Nick,"['Sir Nicholas de Mimsy-Porpington', 'Sir Nicholas', 'Nick']",Gryffindor,,ghost,,False,False,John Cleese,False,[],,,,male,,True
+9a33fe44-b950-4877-a0cb-902a52c72e8b,Bloody Baron,[],Slytherin,,ghost,,False,False,Terence Bayler,False,[],,,,male,,True
+8392b326-31fd-43de-ad5c-0cfcf81b82ee,Fat Lady,[],,,human,,False,False,Elizabeth Spriggs,False,['Dawn French'],,,,female,,True
+e8694719-a975-48fb-9523-f4cade1c38aa,Pomona Sprout,['Professor Sprout'],Hufflepuff,,human,,True,False,Miriam Margolyes,True,[],,,,female,,True
+6ea188f3-d95c-407c-ab00-a0bec8678a71,Cuthbert Binns,['Professor Binns'],,,ghost,,True,False,,False,[],,,,male,,True
+c1f90a1e-33eb-4e60-8dac-15ea5855a996,Emeric the Evil,[],,,human,,False,False,,False,[],,,,male,,True
+4cc138eb-6882-4b78-bf45-28f0041590fb,Uric the Oddball,[],,,human,,False,False,,False,[],,,,male,,True
+a61e0783-7914-4f8d-a800-c409c06315cf,Filius Flitwick,['Professor Flitwick'],Ravenclaw,,human,,True,False,Warwick Davis,True,[],,,,male,,True
+0a81c4f9-b80d-45a7-a4fd-9191453815a1,Madam Hooch,['Rolanda Hooch'],,,human,,True,False,Zoë Wanamaker,True,[],,,yellow,female,grey,True
+09396e81-d317-499f-b330-25b90ba17d20,Oliver Wood,[],,,human,,False,True,Sean Biggerstaff,True,[],,,,male,,True
+2ae8e574-9154-459c-b92e-4b0d1267e573,Gregory the Smarmy,[],,,human,,False,False,,False,[],,,,male,,True
+0112e668-f94d-4d5f-8fa8-99c45280e9a8,Wizard Baruffio,[],,,human,,False,False,,False,[],,,,male,,True
+b634f0a1-7b48-49b6-b039-27f947ee76fd,Angelina Johnson,[],Gryffindor,,human,,False,True,Danielle Tabor,True,['Tiana Benjamin'],,,,female,,True
+0e42ecbe-27b2-4940-9b03-00182a92c415,Marcus Flint,[],Slytherin,,human,,False,True,Jamie Yeates,True,[],,,,male,,True
+c29cd5f9-d2c3-4be9-ba1c-04169cdf511b,Alicia Spinet,[],Gryffindor,,human,,False,True,Leilah Sutherland,True,['Rochelle Douglas'],,,,female,,True
+2832bea8-7aad-4160-a748-442f5770d586,Katie Bell,[],Gryffindor,,human,,False,True,Emily Dale,True,['Georgina Leonidas'],,,,female,,True
+b78e6677-8bb4-4eb7-97cb-2f86677e27ea,Adrian Pucey,[],Slytherin,,human,,False,True,Scot Fearn,True,[],,,,male,,True
+c8aed011-ab8f-46df-9e8d-dde938256ea9,Miles Bletchley,[],Slytherin,,human,,False,True,David Churchyard,True,['Amy Puglia'],,,,male,,True
+9ac09267-92ea-444a-a395-28f3b0f6fe6f,Terrence Higgs,[],Slytherin,,human,,False,True,Will Theakston,True,[],,,,male,,True
+40e0acaa-30cd-4923-8408-9a96a484e892,Fluffy,[],,,three-headed dog,,False,False,,True,[],,,,male,,False
+b93b8e74-c283-4547-8a69-83ee51657f13,Nicolas Flamel,[],,,human,,False,False,Brontis Jodorowsky,False,[],,,,male,,True
+f6901cd9-a7b2-49d0-af85-73678536b4df,Gellert Grindelwald,[],,,human,,False,False,Jamie Campbell Bower,False,"['Michael Byrne', 'Johnny Depp', 'Mads Mikkelsen']",,,blue,male,blond,True
+5e4d5e25-5393-435b-81c8-556fa78af659,Norberta,[],,,dragon,,False,False,,True,[],,,orange,female,,False
+f94e870e-2c3b-4e17-adea-088660b6de78,Ronan,[],,,centaur,,False,False,,True,[],,,,male,red,False
+484d89aa-5d22-4d4d-9e07-4913cf8d4d20,Bane,[],,,centaur,,False,False,Jason Piper,True,['Nuno Silva'],,,,male,,False
+68eb4a0b-6c49-44e9-aec8-5af947d22141,Firenze,['Professor Firenze'],,,centaur,,True,False,Ray Fearon,True,[],,,blue,male,blond,False
+c8f7f244-97ac-449e-922d-a30f063a1ad0,Elfrick the Eager,[],,,goblin,,False,False,,False,[],,,,male,,False
+bd687632-3bec-4071-952d-c6cb813a41e7,Perenelle Flamel,[],,,human,,False,False,,False,[],,,,female,,True
+4c1adea5-3421-49a9-8e3e-a3ff0fe7ce60,Bertie Bott,[],,,human,,False,False,,True,[],,,,male,,True
+0d8ea37f-35c4-4c7d-9dd2-8ccd96b0a2b3,Dobby,[],,,house-elf,,False,False,Toby Jones,False,[],,,green,male,,False
+cd022893-b7ea-4bd8-a4fb-c9933c695813,Mr Mason,[],,muggle,human,,False,False,Jim Norton,True,[],,,,male,,False
+1c520134-9f75-48a9-b3c7-6c31ffa86178,Mrs Mason,[],,muggle,human,,False,False,Veronica Clifford,True,[],,,,female,,False
+e3f5217d-52b5-4d7b-9a40-faed18a98d3c,Perkins,[],,,human,,False,False,,True,[],,,,male,white,True
+fa09ab9d-9e65-4966-9d79-ea7c837348fb,Celestina Warbeck,[],Gryffindor,half-blood,human,,False,False,,True,[],,,,female,,True
+3d687c4d-852e-470f-bac5-5a02758b1f8f,Gilderoy Lockhart,['Professor Lockhart'],,half-blood,human,,True,False,Kenneth Branagh,True,[],,,blue,male,blond,True
+17bd1ab9-19bc-4796-8865-53e75e3b488d,Mundungus Fletcher,['Dung'],,,human,,False,False,Andy Linden,True,[],,,,male,ginger,True
+d74336b1-cee5-4d25-a783-bf61dbb6c19a,Mr Borgin,[],,,human,,False,False,Edward Tudor-Pole,True,[],,,,male,,True
+c9804c5b-943b-4710-8f95-0c3b40141007,Mr Granger,['Wendell Wilkins'],,muggle,human,,False,False,Tom Knight,True,['Ian Kelly'],,,,male,,False
+895e355a-c017-4eba-bc72-dda0699c0b96,Mrs Granger,['Monica Wilkins'],,muggle,human,,False,False,Heather Bleasdale,True,['Michelle Fairley'],,,,female,,False
+c0f33c97-d01d-42ed-ae40-1a525f75bb01,Dr Filibuster,[],,,human,,False,False,,True,[],,,,male,,True
+8e557e86-28d5-433f-8ac1-d2cecfeb8fb7,Colin Creevey,[],Gryffindor,muggleborn,human,,False,True,Hugh Mitchell,False,[],,,,male,,True
+8d885bd9-6103-424b-b884-c26720a64d94,Gladys Gudgeon,[],,,human,,False,False,,True,[],,,,female,,True
+a4e18c27-077a-441a-b9a9-97ee9ba53224,Veronica Smethley,[],,,human,,False,False,,True,[],,,,female,,True
+e938023d-ba03-402a-b6ff-ecadc0ff4dbb,Patrick Delaney-Podmore,['Sir Patrick Delaney-Podmore'],,,ghost,,False,False,,False,[],,,,male,,True
+8d018f5d-8370-41c8-8aa4-8b8a815ec801,Z. Nettles,[],,,human,,False,False,,True,[],,,,female,,True
+50f9e638-fa69-4c97-ba2c-bfc7124b7818,D.J. Prod,['Demetrius J. Prod'],,,human,,False,False,Chris Wilson,False,[],,,,male,,True
+98a5a56d-91a6-4c32-b793-f97e83919bde,Elsie Prod,[],,,human,,False,False,,True,[],,,,female,,True
+9969f803-6835-4871-80b3-7bb975c1ec06,Moaning Myrtle,['Myrtle Elizabeth Warren'],Ravenclaw,muggleborn,ghost,,False,False,Shirley Henderson,False,[],,,,female,,True
+834d5f9b-cdd8-48ee-9efa-5e155422f6c2,Godric Gryffindor,[],,,human,,False,False,,False,[],,,,male,,True
+575626ab-cf61-440e-88a0-db188abb1cbb,Rowena Ravenclaw,[],,,human,,False,False,,False,[],,,,female,,True
+a7c7c44d-07e4-4257-860e-375f47338cb2,Helga Hufflepuff,[],,,human,,False,False,,False,[],,,,female,,True
+20d331c9-cd3e-4dde-a480-6cc05cd26db7,Salazar Slytherin,[],,,human,,False,False,,False,[],,,,male,,True
+cdec9b95-c7a5-4623-ad12-6fa76d168588,Madame Pince,['Irma Pince'],,,human,,True,False,Sally Mortemore,True,[],,,,female,,True
+ecca342d-d345-4fb3-8a85-ece848ab8938,Milicent Bullstroude,[],Slytherin,,human,,False,True,Helen Stuart,True,[],,,,female,black,True
+0c80d701-fa23-4126-9711-efe5f3c4789a,Ernie Macmillan,['Ernest Macmillan'],Hufflepuff,,human,boar,False,True,Louis Doyle,True,[],,,,male,blond,True
+7cf58a76-8af2-4ebb-9264-ea0ac273eadc,Armando Dippet,['Professor Dippet'],,,human,,False,False,Alfred Burke,False,[],,,,male,white,True
+42915280-ba56-4ab8-8b17-9511ba2ab093,Penelope Clearwater,['Penny'],Ravenclaw,,human,,False,True,Gemma Padley,True,[],,,,female,,True
+3ba61708-c5a2-4691-8c7a-9c0865575dba,Cornelius Fudge,['Minister Cornelius Oswald Fudge'],,,human,,False,False,Robert Hardy,True,[],,,,male,grey,True
+a08aebd0-49fb-4d5d-b3db-52bf8f7ce594,Aragog,[],,,acromantula,,False,False,Julian Glover,False,[],,,white,male,brown,False
+82a29e30-1321-47b8-813f-2710f885b7d2,Mosag,[],,,acromantula,,False,False,,True,[],,,black,female,brown,False
+3f0fc32c-744b-4351-8542-58ed267e059b,Stanley Shunpike,['Stan'],,,human,,False,False,Lee Ingleby,True,[],,,,male,,True
+a62905eb-4965-44c7-baf0-0d8a2486f5b0,Ernest Prang,['Ernie'],,,human,,False,False,Jimmy Gardner,True,[],,,,male,,True
+cfce8b1b-64c9-4058-8e13-9b192b80d2ef,Madam Marsh,[],,,human,,False,False,,True,[],,,,female,,True
+7673c196-9187-49ea-a3f0-7cebc079a15a,Florean Fortescue,[],,,human,,False,False,,False,[],,,,male,,True
+c7121c73-1fce-4343-b823-a67f4ecfdef2,Sir Cadogan,[],,,human,,False,False,Paul Whitehouse,False,[],,,,male,,True
+8ea29415-012d-4781-ba5f-d0de63a05abe,Sybill Trelawney,"['Sybill Patricia Trelawney', 'Professor Trelawney']",,,human,,True,False,Emma Thompson,True,[],,,,female,,True
+fa4f7f3a-947b-4bc1-bab2-c7a19c7c2c30,Buckbeak,"['Beaky', 'Witherwings']",,,hippogriff,,False,False,,True,[],,,orange,male,,False
+1b6c8547-294a-40c0-892b-63a9511ca7d7,Peter Pettigrew,"['Wormtail', 'Scabbers', 'Wormy']",Gryffindor,,human,,False,False,Timothy Spall,False,['Charles Hughes'],,,,male,,True
+113d2cd5-4d5c-4727-ae97-64a7dfc4423c,Madam Rosmerta,[],,,human,,False,False,Julie Christie,True,[],,,,female,,True
+eb96189d-e2b6-4159-a357-c6cdf11f3631,Derek,[],,,human,,False,True,,True,[],,,,male,,True
+58f2cf41-392c-4e84-b441-dbbce585f78d,Septima Vector,['Professor Vector'],,,human,,True,False,,True,[],,,,female,,True
+c61b5c80-2c8e-404f-88ca-349a6344f35c,Cassius Warrington,[],Slytherin,,human,,False,True,Ashley Hull,True,[],,,,male,,True
+e7f4554e-8193-4b16-a40b-a8b38a0c3e57,Graham Montague,[],Slytherin,,human,,False,True,,True,[],,,,male,,True
+458828b3-82a5-4cad-a784-e23215825765,Peregrine Derrick,[],Slytherin,,human,,False,True,,True,[],,,,male,,True
+58a287c2-8c7a-485a-b095-8c6dcfc7f31d,Lucian Bole,[],Slytherin,,human,,False,True,,True,[],,,,male,,True
+f677db35-cef6-466f-a0e4-548d0a274ec5,Walden Macnair,[],Slytherin,,human,,False,False,Peter Best,True,[],,,,male,black,True
+08aefb5c-2a7c-42e1-a6ac-7f150749aa2a,Franc Bryce,[],,muggle,human,,False,False,Eric Sykes,False,[],,,,male,,False
+da0c8c39-04e1-4899-b562-e69c21218e2a,Dot,[],,muggle,human,,False,False,,False,[],,,,female,,False
+8c3a1d16-83be-4904-b074-476f8cf72198,Bertha Jorkins,[],,,human,,False,False,,False,[],,,,female,,True
+70d665a5-35c9-43a8-a2b0-ef20ddfc3770,Barty Crouch,['Bartemius Crouch Senior'],,pure-blood,human,,False,False,Roger Lloyd-Pack,False,[],,,,male,,True
+13f1edc7-e2e2-4f3d-9637-f3e897a484b7,Ludo Bagman,['Ludovic Bagman'],,,human,,False,False,,True,[],,,blue,male,blond,True
+d9294c96-bd7d-45d0-95e2-deaf71e09945,Amos Diggory,[],,,human,,False,False,Jeff Rawle,True,[],,,,male,brown,True
+2d25ada6-801e-4943-acca-adffc942820b,Mr Roberts,[],,muggle,human,,False,False,,True,[],,,,male,,False
+8f3f55ac-99d5-4a01-a0a3-f43ca5052596,Mr Payne,[],,muggle,human,,False,False,,True,[],,,,male,,False
+10460839-62ce-426b-b690-2c82f8c65869,Basil,[],,,human,,False,False,,True,[],,,,male,,True
+941c0d0c-ec0d-4c32-af0d-bcf8af84d584,Archie Aymslowe,[],,,human,,False,False,,True,[],,,,male,,True
+0c19c654-d363-42a1-bd8f-13bd35dad075,Cuthbert Mockridge,[],,,human,,False,False,,True,[],,,,male,,True
+ca8a41e3-1f20-4c28-bc8a-b1831206edf5,Gilbert Wimple,[],,,human,,False,False,,True,[],,,,male,,True
+6777feda-2318-4605-ba0e-1a6fd5fc2e7f,Arnold Peasegood,[],,,human,,False,False,,True,[],,,,male,,True
+cb49285e-1dcb-413e-905b-2a883ac35ddc,Broderick Bode,[],,,human,,False,False,,False,[],,,,male,,True
+391546f6-d357-43e1-8072-98a8548d4902,Saul Croaker,[],,,human,,False,False,,True,[],,,,male,,True
+91142fb9-dc92-4f6f-8504-5498916f07a6,Ali Bashir,[],,,human,,False,False,,True,[],,,,male,,True
+b7b18aa1-b5a0-4083-8142-cb3655bc2849,Victor Krum,[],,,human,,False,False,Stanislav Ianevski,True,[],,,dark,male,dark,True
+45d6db91-393e-40e0-8c04-43cb598fb9e5,Winky,[],,,house-elf,,False,False,,True,[],,,,female,,False
+166ba5e0-ad04-4c7e-9850-6a21aede93c2,Narcissa Malfoy,['Cissy'],,pure-blood,human,,False,False,Helen McCrory,True,[],,,blue,female,blonde,True
+110a6a98-78c5-420a-b9b6-d25af10ddc4e,Vasily Dimitrov,[],,,human,,False,False,,True,[],,,,male,,True
+3e9461c1-4262-4beb-8c48-ca8a46a8859b,Clara Ivanova,[],,,human,,False,False,,True,[],,,,female,,True
+6a094c72-e53b-4e21-adc3-8c54fb205c1d,Lev Zograf,[],,,human,,False,False,,True,[],,,,male,,True
+5c913cb2-e964-4172-b8ce-a0550d2734df,Alexei Levski,[],,,human,,False,False,,True,[],,,,male,,True
+5161ffa8-9c86-4500-9533-4c805eb69a61,Pyotr Vulchanov,[],,,human,,False,False,,True,[],,,,male,,True
+a6a27c4f-9bbd-4bf9-89b2-f62171ae9a37,Ivan Volkov,[],,,human,,False,False,,True,[],,,,male,,True
+29db34fe-8f85-4fc0-accf-642d025de301,Connolly,[],,,human,,False,False,,True,[],,,,male,,True
+9fd63149-724d-4a80-9761-6db7394575c0,Barry Ryan,[],,,human,,False,False,,True,[],,,,male,,True
+311850b1-2d4d-4e29-b115-9488cc554415,Troy,[],,,human,,False,False,,True,[],,,,male,,True
+0bdbed6e-7690-4326-99cc-86de89dc4a58,Mullet,[],,,human,,False,False,,True,[],,,,female,,True
+8b225672-8f2a-4a11-829b-3b42d082aff0,Moran,[],,,human,,False,False,,True,[],,,,female,,True
+2bbc36f9-914c-45c7-b61e-1003f2ac728f,Quigley,[],,,human,,False,False,,True,[],,,,male,,True
+559719e0-c54d-4589-8485-2dc865581001,Aidan Lynch,[],,,human,,False,False,,True,[],,,,male,,True
+53ed1c30-a5dc-4b1b-aa0d-3da881b0ddc2,Hassan Mostafa,[],,,human,,False,False,,True,[],,,,male,,True
+a93b80a0-987d-4148-944d-16043df95e8c,Dennis Creevey,[],,muggleborn,human,,False,True,,True,[],,,,male,brown,True
+99d3ce6b-6a45-495a-a7c6-132203697d45,Aurora Sinistra,['Professor Sinistra'],,,human,,True,False,,True,[],,,,female,,True
+05bd5fd1-f347-45e6-8ec0-59b7f11c2aec,Stewart Ackerley,[],Ravenclaw,,human,,False,True,,True,[],,,,male,,True
+2f8db183-e935-4b91-884f-fb9effe42ab8,Malcolm Baddock,[],Slytherin,,human,,False,True,,True,[],,,,male,,True
+29adbbf0-417a-4c97-8467-adb5341f75e5,Eleanor Branstone,[],Hufflepuff,,human,,False,True,,True,[],,,,female,,True
+98546bab-8d5b-4627-95f6-38e306d58a91,Owen Cauldwell,[],Hufflepuff,,human,,False,True,,True,[],,,,male,,True
+cf3707ad-e816-4b54-90d0-403800a06ecd,Emma Dobbs,[],,,human,,False,True,,True,[],,,,female,,True
+ae068570-8419-4063-bf61-ba4a0ef41fe3,Laura Madley,[],Hufflepuff,,human,,False,True,,True,[],,,,female,,True
+48880498-3903-4914-bd11-ec650d803199,Natalie McDonald,[],Gryffindor,,human,,False,True,,True,[],,,,female,,True
+a506574f-c8cf-46c6-a8ac-2f805c25e49e,Graham Pritchard,[],Slytherin,,human,,False,True,,True,[],,,,male,,True
+b01be346-290b-4f65-9c88-a49922e116ee,Orla Quirke,[],Ravenclaw,,human,,False,True,,True,[],,,,female,,True
+4eef1e03-cf1c-4441-9119-a6e47a61f880,Kevin Whitby,[],Hufflepuff,,human,,False,True,,True,[],,,,male,,True
+13a54f8a-7f68-4add-a1b4-49f60c8e7bcc,Eloise Midgen,[],Gryffindor,,human,,False,True,Samantha Clinch,True,[],,,,female,,True
+41ebe856-f0f4-4c77-8795-4735d3a87f3d,Alastor Moody,"['Professor Moody', 'Mad-Eye']",,pure-blood,human,,True,False,Brendan Gleeson,False,[],,,dark,male,grey,True
+b4dbc2d2-afde-40ec-a622-b1ffa6aaca4d,Madame Maxime,['Olympe Maxime'],,,half-giant,,False,False,Frances de la Tour,True,['Ian Whyte'],,,,female,,True
+72239274-a060-4fd5-bff2-7d4a01d31969,Igor Karkaroff,[],,,human,,False,False,Predrag Bjelac,False,[],,,blue,male,silver,True
+2ec7c04f-2aac-47e8-9f9c-2360b2884ac2,Poliakoff,[],,,human,,False,False,,True,[],,,,male,,True
+6045a853-10f3-4d6d-a29d-b76c5972f264,Fawcett,[],Ravenclaw,,human,,False,True,Alex Argenti,True,[],,,,female,,True
+0a6a1c41-793f-419c-a133-be6ac7d80ab6,Summers,[],Hufflepuff,,human,,False,True,,True,[],,,,male,,True
+f1beae08-3bec-4978-89e9-4ecda4ec7514,Fleur Delacour,[],,,human,,False,False,Clémence Poésy,True,[],,,blue,female,blonde,True
+d254b20b-37a6-4468-bec9-6069754edaf2,Gregorovic,['Mykew Gregorovitch'],,,human,,False,False,Rade Šerbedžija,False,[],,,,male,white,True
+2844e38c-ded3-47e7-8de2-381d1e3581fc,Rita Skeeter,[],,,human,,False,False,Miranda Richardson,True,[],,,,female,blonde,True
+f4b817be-f0c1-457d-8ec4-1716652d0c06,Stebbins,[],Ravenclaw,,human,,False,True,,True,[],,,,male,,True
+b48c5b8a-4066-4c24-ba26-7677f5ed2b6f,Wilhelmina Grubbly-Plank,['Professor Grubbly-Plank'],,,human,,True,False,Apple Brook,True,[],,,,female,grey,True
+8ace1b0d-b058-4e44-994b-8dc2aa3427a5,Bozo,[],,,human,,False,False,Peter O'Farrell,True,['Robert Wilfort'],,,,male,,True
+4a2339cf-de3d-4e3c-899e-59d0a4c7606f,Evan Rosier,[],Slytherin,,human,,False,False,,False,[],,,,male,,True
+d4a0a760-a318-4c62-a110-6533c28c57ba,Wilkes,[],Slytherin,,human,,False,False,,False,[],,,,male,,True
+30d850c1-637b-41d7-a57a-e97b81216858,Avery,[],Slytherin,,human,,False,False,Richard Rosson,True,[],,,,male,,True
+de6c8669-ce5b-4b03-b2f4-e8ea20742a58,Antonin Dolohov,[],,,human,,False,False,Arben Bajraktaraj,True,[],,,,male,dark,True
+6a7090ae-b6ab-49a0-bd19-e24acb219426,Travers,[],,,human,,False,False,Tav MacDougall,True,[],,,,male,grey,True
+f012a686-0aa8-47f6-96e3-0cf1577cad18,Marlene McKinnon,[],,,human,,False,False,,False,[],,,,female,,True
+070e077a-2b02-44c0-80c1-f63817ee4a33,Mulciber,[],Slytherin,,human,,False,False,,True,[],,,,male,,True
+dd3b2fbe-e9f2-4069-b881-9c31040ed9ae,Augustus Rookwood,[],,,human,,False,False,Richard Trinder,True,[],,,,male,,True
+d0d1b648-4e97-4fd0-9045-b721b6ef18d4,Frank Longbottom,[],,pure-blood,human,,False,False,James Payton,True,[],,,,male,,True
+27a51041-06a0-4f86-adb1-983ebfac708a,Alice Longbottom,[],,pure-blood,human,,False,False,Lisa Wood,True,[],,,,female,white,True
+b5e2cf01-8bb6-4fcd-ad88-0efb611195da,Augusta Longbottom,[],,pure-blood,human,,False,False,Leila Hoffman,True,[],,,,female,,True
+87f71cce-7a3d-498c-8a0b-ff90f96cb820,Violet,[],,,human,,False,False,,False,[],,,,female,,True
+f59b1911-61ed-495a-8746-31b215a447f1,Apollyon Pringle,[],,,human,,False,False,,True,[],,,,male,,True
+47fa1849-f127-47ba-8248-656f9b569e3f,Ogg,[],,,human,,False,False,,True,[],,,,male,,True
+d1d4f6bb-be3c-4bf7-8f6b-824f4e3fa255,Mafalda Hopkirk,[],,,human,,False,False,Jessica Hynes,True,[],,,hazel,female,grey,True
+99370b33-d5a7-465b-91b1-55ef2a40182b,Nymphadora Tonks,"['Dora', 'Nymphadora Lupin']",Hufflepuff,,human,,False,False,Natalia Tena,False,[],,,,female,brown,True
+1bb1f2d3-a22d-4f88-b26b-75e18a805ae8,Elphias Doge,[],,pure-blood,human,,False,False,Peter Cartwright,True,[],,,blue,male,silver,True
+9a2979bd-0325-4316-bc71-ec4cfe673dca,Dedalus Diggle,[],,,human,,False,False,David Brett,True,[],,,,male,,True
+3f335cbf-3706-4b21-bf2e-bce7d0126f8f,Sturgis Podmore,[],,,human,,False,False,,True,[],,,,male,blond,True
+5c87063c-ad61-4e65-8b2e-5fb69fc39c4e,Hestia Jones,[],,,human,,False,False,,True,[],,,,female,black,True
+c9c3927e-9858-477f-8847-db5d62841ab6,Ragnok,[],,,goblin,,False,False,,True,[],,,,male,,False
+a64df82a-1131-46cb-ae94-659dadec66e5,Alphard Black,[],Slytherin,pure-blood,human,,False,False,,False,[],,,,male,,True
+214bcbd0-a50a-42be-a25a-22f6eac5b8db,Regulus Black,['Regulus Arcturus Black'],Slytherin,pure-blood,human,,False,False,Tom Moorcroft,False,[],,,,male,black,True
+3dfc2e91-ec32-4e50-bc7a-eda089fbed0d,Phineas Nigelus Black,['Professor Phineas Nigellus Black'],Slytherin,pure-blood,human,,False,False,John Atterbury,False,[],,,,male,,True
+ac403614-3872-4bef-b92f-efb4aeb8874b,Araminta Meliflua Black,[],Slytherin,,human,,False,False,,False,[],,,,female,,True
+8475e091-e150-44de-9d83-1d524cfed5c5,Elladora Black,[],,pure-blood,human,,False,False,,False,[],,,,female,,True
+d08ba2a1-2104-4719-89ec-4aab5d9b9072,Andromeda Tonks,[],Slytherin,pure-blood,human,,False,False,,True,[],,,,female,brown,True
+78a85508-8396-4977-a837-87842f603be0,Ted Tonks,['Edward'],,muggleborn,human,,False,False,,False,[],,,,female,blond,True
+3cf024f3-d956-4b86-8d4d-944c79bc6fe7,Rodolphus Lestrange,[],Slytherin,pure-blood,human,,False,False,,True,[],,,,male,,True
+874673a2-68e7-45b4-afbc-5520bb62af63,Rabastan Lestrange,[],Slytherin,pure-blood,human,,False,False,,True,[],,,,male,,True
+d072aa84-ec4d-4c2f-a0a1-8831e1f6396a,Eric Munch,[],,,human,,False,False,,True,[],,,,male,,True
+23821246-7a7a-45e5-82ce-2ed3589da4f3,Bob,[],,,human,,False,False,Nicholas Blane,True,[],,,,male,,True
+4a0e91eb-ea6e-409d-b6f2-56f2155d05c9,Bengie Fenwick,[],,,human,,False,False,,False,[],,,,male,,True
+028f862b-129d-43bf-b371-b1fefd82365c,Edgar Bones,[],,,human,,False,False,Cliff Lanning,False,[],,,,male,,True
+87484ff7-777d-4fe3-88aa-f756c17fe4a2,Amelia Bones,[],,,human,,False,False,Sian Thomas,True,[],,,,female,grey,True
+b48eacb4-6c52-4293-98a5-6433bde351c2,Caradoc Dearborn,[],,,human,,False,False,,False,[],,,,male,,True
+2d4cc5cf-836f-4379-82e0-fca4e766ca70,Gideon Prewett,[],,pure-blood,human,,False,False,,False,[],,,,male,,True
+a44923d3-776d-478b-af9c-3b2efc1e1360,Fabian Prewett,[],,pure-blood,human,,False,False,,False,[],,,,male,,True
+94c993f6-a443-4408-b908-6e78e223e8ac,Aberforth Dumbledore,[],Gryffindor,half-blood,human,goat,False,False,Jim McManus,True,['Ciarán Hinds'],,,blue,male,,True
+6f2c7ab3-db2c-454c-9f34-b8614b9779f8,Dorcas Meadowes,[],,,human,,False,False,,False,[],,,,female,,True
+b1725aa9-117b-4e47-b749-9a7a8e1fafa0,Algie Longbottom,[],,,human,,False,False,,True,[],,,,male,,True
+61b6d68e-4128-408c-9f71-9ef167cb0e69,Anthony Goldstein,[],Ravenclaw,,human,,False,True,,True,[],,,,male,,True
+2b846267-2df3-4e13-8219-712d92dda9c1,Doris Purkiss,[],,,human,,False,False,,True,[],,,,male,,True
+a01f6dbb-bad5-426b-a7df-f9613fa1021d,Euan Abercrombie,[],Gryffindor,,human,,False,True,,True,[],,,,male,,True
+e65c8acb-0dfc-4f15-bcf8-d32b78811093,Rose Zeller,[],Hufflepuff,,human,,False,True,,True,[],,,,female,,True
+fd142190-f1d7-4ce2-bdb3-6ed6b3edc020,Patricia Stimpson,[],,,human,,False,True,,True,[],,,,female,,True
+26bd4437-73fa-4865-afdd-2fc1456f4592,Kenneth Towler,[],Gryffindor,,human,,False,True,,True,[],,,,male,,True
+bff82738-5bb0-4edc-9cec-f80d1af4801f,Vicky Frobisher,[],Gryffindor,,human,,False,True,,True,[],,,,female,,True
+88886e27-9ce2-416f-9dd6-56d4cd94a4fb,Geoffrey Hooper,[],Gryffindor,,human,,False,True,,True,[],,,,male,,True
+57ce2ac3-2cea-4e76-9b2d-7d294f593d4a,Cassandra Trelawney,[],,,human,,False,False,,False,[],,,,female,,True
+cb263aed-289b-43ad-8647-db54b8a5fc92,Michael Corner,[],Ravenclaw,,human,,False,True,Ryan Nelson,True,[],,,,male,,True
+6fa93583-b935-4228-91e0-729e6713bdab,Zacharias Smith,[],Ravenclaw,,human,,False,True,Nick Shirm,True,[],,,,male,blond,True
+781f1061-5413-40c7-8a35-b078e2e969b1,Barnabas the Barmy,[],,,human,,False,True,,False,[],,,,male,,True
+ff0c4625-be03-4815-b7cf-241e496b0593,Karkus,[],,,giant,,False,False,,False,[],,,,male,,False
+ab86f41a-3eeb-4586-95d8-b59fbdfc6bb7,Golgomath,[],,,giant,,False,False,,True,[],,,,male,,False
+41a7eedf-f856-48e0-b9fd-69cfccaf8835,Fridwulfa,[],,,giant,,False,False,,False,[],,,,female,,False
+d9cec110-a1d0-4437-9a55-dced475dfe6d,Andrew Kirke,[],Gryffindor,,human,,False,True,,True,[],,,,male,,True
+575fbbc2-ac94-4c58-92f6-e5d75846da91,Jack Sloper,[],Gryffindor,,human,,False,True,,True,[],,,,male,,True
+b45f28ff-29de-4149-8380-739db0e6855a,Everard,['Professor Everard'],,,human,,False,False,Sam Beazley,False,[],,,,male,black,True
+4de07608-5dd6-451d-9efc-ccceefb9a2f6,Dilys Derwent,[],,,human,,False,False,,False,[],,,,female,silver,True
+828aa47a-faa2-4481-b80d-14a4c7dd76ff,Hippocrates Smethwyck,[],,,human,,False,False,,True,[],,,,male,,True
+8d3fc7e7-c313-4b66-bfd9-f9c8746520e3,Augustus Pye,[],,,human,,False,False,,True,[],,,,male,,True
+5d9f5681-8f09-4c69-bc31-44b97b06811e,Urquhart Rackharrow,[],,,human,,False,False,,False,[],,,,male,,True
+d878d27d-eef8-47de-9f01-9260d8c2290b,Willy Widdershins,[],,,human,,False,False,,True,[],,,,male,,True
+b1d8360e-333f-43e8-a0bb-b26217a0d91c,Agnes,[],,,human,,False,False,,True,[],,,,female,,True
+00434cd3-fcc7-44c7-8f98-7368415b4206,Miriam Strout,[],,,human,,False,False,,True,[],,,,female,,True
+bc9b5ca3-632f-4fbf-a188-23c5da3cb31c,Madam Puddifoot,[],,,human,,False,False,,True,[],,,,female,black,True
+6e74bd51-c1c0-4db0-b821-3570a62912f5,Summerby,[],Hufflepuff,,human,,False,True,,True,[],,,,male,,True
+4a0f4c3b-14dc-4a9e-a2f8-da23734f5d34,Marietta Edgecombe,[],Ravenclaw,,human,,False,True,,True,[],,,,female,blonde,True
+4ecfda07-0e35-4afe-86d8-d48b979e13a7,Madam Edgecombe,[],,,human,,False,False,,True,[],,,,female,,True
+7d87a1aa-ea29-4ddd-8831-67113735b470,John Dawlish,[],,,human,,False,False,Richard Leaf,True,[],,,,male,grey,True
+3a989b9d-a9a3-41fb-8246-35becfb0c7ad,Bradley,[],Ravenclaw,,human,,False,True,,True,[],,,,male,,True
+0a13bf8e-a763-44cc-ac76-c6c53a639809,Roger Davies,[],Ravenclaw,,human,,False,True,Henry Lloyd-Hughes,True,[],,,,male,,True
+b91bfd22-05cd-4209-970c-dc56c463e9df,Grawp,[],,,giant,,False,False,Tony Maudsley,True,['William Todd-Jones'],,,green,male,brown,False
+b04e0987-7e90-4492-a6b4-4974468e3a2e,Griselda Marchbanks,['Madam Professor Griselda Marchbanks'],,,human,,False,False,,True,[],,,,female,,True
+a3e5ea64-b103-4f47-bc26-dc08b799c668,Eddie Carmichael,[],Ravenclaw,,human,,False,True,,True,[],,,,male,,True
+7772cb4e-5c33-405a-970d-c05cae167917,Daphne Greengrass,[],Slytherin,pure-blood,human,,False,True,,True,[],,,,female,,True
+e8066a6a-33f3-4650-a8b1-72d4315989dd,Tofty,['Professor Tofty'],,,human,,False,False,,True,[],,,brown,male,grey,True
+91097f7f-1dd7-42cb-9f53-003c9c4ea0db,Tiberius Ogden,[],,,human,,False,False,,True,[],,,,male,,True
+1984a8cd-eeb1-4c2c-b4a0-6574219a1b1f,Pierre Bonaccord,[],,,human,,False,False,,True,[],,,,male,,True
+0f3b4e5e-89e4-42f5-ab00-958ec3895965,Stubby Boardman,['Sirius Black'],,,human,,False,False,,True,[],,,,male,,True
+4adb7764-5292-4b1d-988b-45aa2f9aa7bc,Magorian,[],,,centaur,,False,False,Michael Wildman,True,[],,,,male,black,True
+2cd07351-973b-4feb-8b02-7bfa5b8b63cd,Emmeline Vance,[],,,human,,False,False,Brigitte Millar,False,[],,,,female,,True
+c6176f66-ad40-4d0d-9a35-76e2b58c7c23,Herbert Chorley,[],,muggle,human,,False,False,,True,[],,,,male,,False
+2859f35c-8c47-4a8e-8649-61499a9352df,Rufus Scrimgeour,[],,,human,,False,False,Bill Nighy,False,[],,,yellowish,male,tawny,True
+fed82306-e03c-48ed-b3f5-06de7af38bc8,Corban Yaxley,[],,,human,,False,False,Peter Mullan,True,[],,,blue,male,blond,True
+f3c96d16-e0de-4417-9052-5259e6a8e781,Fenrir Greyback,[],,,werewolf,,False,False,Dave Legeno,True,[],,,,male,grey,True
+1d4c4ebb-84cb-4e32-92d2-28232448675c,Dirk Cresswell,[],,muggleborn,human,,False,False,,False,[],,,,male,,True
+2143bf7c-8f8e-46f1-8860-b9a9558a4f8f,Barnabas Cuffe,[],,,human,,False,False,Roger C. Bailey,True,[],,,,male,,True
+39357ad1-ae41-4a2c-b24f-77e7296db059,Ambrosius Flume,[],,,human,,False,False,,True,[],,,,male,bald,True
+3314a65a-47c8-4ae5-8c60-15bfb25a5a0f,Gwenog Jones,[],,,human,,False,False,,True,[],,,brown,female,brown,True
+451602b0-74e6-4481-b7b1-443c9280c82d,Arkie Philpott,[],,,human,,False,False,,True,[],,,,male,,True
+46375e59-a782-4e43-bb7f-82560a5dd146,Verity,[],,,human,,False,False,,True,[],,,,female,blonde,True
+6c4350a9-2356-4bba-96bd-0458c12d99b5,Romilda Vane,[],Gryffindor,,human,,False,True,Anna Shaffer,True,[],,,dark,female,black,True
+341e65d4-6917-48d7-80b2-1f9af607e95a,Cormac McLaggen,[],Gryffindor,,human,,False,True,Freddie Stroma,True,[],,,,male,,True
+938559ee-e8e5-4963-8437-e7da04fd1b31,Marcus Belby,[],Ravenclaw,,human,,False,True,Robert Knox,True,[],,,,male,,True
+af3601a7-61c8-43ba-a685-a9c9d7b76de4,Damocles Belby,[],,,human,,False,False,,False,[],,,,male,,True
+b44d83d7-8850-4fe7-b246-2335322a46f1,Tiberius,[],,,human,,False,True,,False,[],,,,male,,True
+cbb7e8e0-c8f7-4a3f-befc-b288e1c385d4,Bertie Higgs,[],,,human,,False,False,,False,[],,,,male,,True
+3ba97e84-9fbb-49a6-b084-0924e811e712,Proudfoot,[],,,human,,False,False,,True,[],,,,male,,True
+44551b41-9742-40ad-b327-15227ef615c4,Savage,[],,,human,,False,False,,True,[],,,,male,,True
+f8c5cdbf-a6e9-431b-85a4-9d6dd2fa09dd,Humphrey Belcher,[],,,human,,False,False,,True,[],,,,male,,True
+6821f44c-d662-4a57-9236-0a0b289e14ac,Bob Ogden,[],,,human,,False,False,,False,[],,,,male,,True
+ee7b0dfb-b639-46f1-9364-7644a103a9a3,Morfin Gaunt,[],,pure-blood,human,,False,False,,False,[],,,dark,male,,True
+0607b07a-d58a-47c7-8845-32476298e9ef,Marvolo Gaunt,[],,pure-blood,human,,False,False,,False,[],,,brown,male,grey,True
+23d32b4f-189e-4704-918c-73e733293bcd,Merope Gaunt,['Merope Riddle'],,pure-blood,human,,False,False,,False,[],,,,female,dull,True
+b1189355-fe8a-49c5-9a37-3312ef7caecf,Cecilia,[],,muggle,human,,False,False,,False,[],,,,female,,False
+3a0fe4df-2e40-4541-8d7f-13586f0b9294,Tom Riddle,['Tom Riddle Senior'],,muggle,human,,False,False,,False,[],,,,male,dark,False
+0e53860c-7679-49e4-891e-fb92286f0e5b,Demelza Robins,[],Gryffindor,,human,,False,True,Katy Huxley-Golden,True,[],,,,female,,True
+28e9fe6b-3ca5-41ca-8a14-b995e0fb398b,Jimmy Peakes,[],Gryffindor,,human,,False,True,,True,[],,,,male,,True
+c74b1fae-4793-4b47-bec2-ee652beabce2,Ritchie Coote,[],Gryffindor,,human,,False,True,Ashley Virgil,True,[],,,,male,,True
+9ba0ca6e-4fba-410d-9b5e-e20694dde413,Melinda Bobbin,[],,,human,,False,True,,True,[],,,,female,,True
+a4cbbe42-e30c-44b6-81c2-4690900a9a91,Leanne,[],Hufflepuff,,human,,False,True,Isabella Laughland,True,[],,,,female,,True
+e0656ac4-fa6d-419b-a798-ce98ccb1e5dd,Caractacus Burke,[],,,human,,False,False,,False,[],,,,male,,True
+345e02fa-cb14-4269-be4b-8c50090f42fb,Billy Stubbs,[],,muggle,human,,False,False,,True,[],,,,male,,False
+f4c61a83-8f9a-4e66-873f-2e7375d6d309,Amy Benson,[],,muggle,human,,False,False,,True,[],,,,female,,False
+36f0ca66-b700-4ed6-9cc3-884941f3dfab,Dennis Bishop,[],,muggle,human,,False,False,,True,[],,,,male,,False
+39c01cd4-c599-4eb2-86be-86c3b5e38aee,Mrs Cole,[],,muggle,human,,False,False,Amelda Brown,True,[],,,,female,,False
+a224e504-8a52-4e25-82fc-22cc121180e9,Eric Whalley,[],,muggle,human,,False,False,,True,[],,,,male,,False
+215330e2-953c-4ed1-996c-d813f752c02d,Vaisey,[],Slytherin,,human,,False,True,,True,[],,,,male,dark,True
+56bc7e56-740f-4140-85f4-dc591e66a322,Harper,[],Slytherin,,human,,False,True,,True,[],,,,male,,True
+31749f52-77fa-4a73-be32-398ba74237f9,Urquhart,[],Slytherin,,human,,False,True,,True,[],,,,male,,True
+0d3d2a06-54dd-4f0a-80b5-a4b9e7f651b1,Eldred Worple,[],,,human,,False,False,Paul Ritter,True,[],,,,male,,True
+c86421d3-d5a1-4ab3-a980-1ba6bca5e572,Sangwini,[],,,vampire,,False,False,Charlie Bennison,True,[],,,,male,dark,True
+cc511b1e-0f11-4b83-80a7-5862cf0ef145,Gawain Robards,[],,,human,,False,False,,True,[],,,,male,,True
+0a0dfd61-c500-4a02-ad56-b7ab4f4a9371,Fergus,[],,,human,,False,False,,True,[],,,,male,,True
+dfc535e3-c367-4d6c-b026-a3ae450c7c1b,Wilkie Twycross,[],,,human,,False,False,,True,[],,,,male,,True
+ff9a7a10-34b8-4b62-bab8-66aee1f4141b,Cadwallader,[],Hufflepuff,,human,,False,True,,True,[],,,,male,,True
+c4e73590-3ee2-4125-87fb-692dd991819b,Galatea Merrythought,[],,,human,,True,False,,False,[],,,,female,,True
+92956011-c3f9-4537-80a7-798ec6065f98,Hepzibah Smith,[],,,human,,False,False,,False,[],,,,female,,True
+096825a1-4e83-4744-8186-a83139d387c1,Hokey,[],,,house-elf,,False,False,,False,[],,,,female,,False
+9cd332eb-9f6c-4c03-8c66-9dd04bb23dd4,Octavius Pepper,[],,,human,,False,False,,False,[],,,,male,,False
+58cfdca2-6068-4474-ad37-5e12a1b50671,Bertram Aubrey,[],,,human,,False,False,,False,[],,,,male,,False
+ceb72b66-cef4-4578-a48b-5e613fcbd276,Eileen Prince,[],,pure-blood,human,,False,False,,False,[],,,,female,,False
+5d20ece0-e872-453b-8f9a-bee8b704f7c7,Amycus Carrow,[],Slytherin,,human,,False,False,Ralph Ineson,True,[],,,,male,,True
+88c30ceb-c607-49bc-b6c9-85365aee9e8c,Alecto Carrow,[],Slytherin,,human,,False,False,Suzie Toase,True,[],,,,female,,True
+e12104b2-a1e1-4d62-8c83-9ada5c95eb9f,Gibbon,[],,,human,,False,False,,False,[],,,,male,,True
+85fc2ddf-c149-4bae-a987-2a6924960ffa,Tobias Snape,[],,,human,,False,False,,True,[],,,,male,,False
+81ff4efd-b2e3-45db-8be8-08a5bc4f195a,Pius Thicknesse,[],,,human,,False,False,Guy Henry,True,[],,,,male,black,True
+61d78dce-890b-4f02-844f-b41d66553802,Charity Burbage,[],,,human,,True,False,Carolyn Pickles,False,[],,,,female,,True
+4a45f7ae-518b-4e9a-bf6e-cb9134d29afc,Percival Dumbledore,[],,,human,,False,False,,False,[],,,,male,,True
+5a4c95db-947d-4914-a631-41e8d466328e,Kendra Dumbledore,[],,muggleborn,human,,False,False,,False,[],,,dark,female,black,True
+a3cf6943-d402-41d4-b98e-3c4a444b828d,Ariana Dumbledore,[],,half-blood,human,,False,False,Hebe Beardsall,False,[],,,,female,,True
+5cd214c9-7822-47e0-b41d-01939ade77e7,Betty Braithwaite,[],,,human,,False,False,,True,[],,,,female,,True
+acff45a0-33e5-4d19-ad9b-4e522e5edaab,Apolline Delacour,[],,half-veela,half-human,,False,False,,True,[],,,,female,blonde,True
+5293240e-c512-4cdb-89b0-cb21ef8b04fb,Gabrielle Delacour,[],,quarter-veela,human,,False,False,Angelica Mandy,True,[],,,,female,blonde,True
+bd9f49ef-452e-4c22-84c8-ab76da9f0003,Monsieur Delacour,[],,,human,,False,False,,True,[],,,,male,black,True
+4848cf4f-27ac-42d3-8e49-f63515c92c37,Dragomir Gorgovitch,[],,,human,,False,False,,True,[],,,,male,,True
+d1e8ddf1-cfc7-404a-bffe-f4ac6c656ead,Xenophilius Lovegood,[],Ravenclaw,,human,,False,False,Rhys Ifans,True,[],,,,male,white,True
+20354d7a-e4fe-47af-8ff6-187bca92f3f9,Pandora Lovegood,[],Ravenclaw,,human,,False,False,,False,[],,,,female,,True
+f7457448-8382-4e5e-b72a-0044fc6f8958,Muriel,['Aunt Muriel'],,,human,,False,False,Matyelok Gibbs,True,[],,,,female,grey,True
+cf903d42-5d51-44b0-b362-adc57e626885,Bilius,['Uncle Bilius'],,,human,,False,False,,False,[],,,,male,,True
+753ffe5f-19a8-41c9-b264-289766c8a4be,Thorfinn Rowle,[],,,human,,False,False,Rod Hunt,True,[],,,,male,blond,True
+d4eee96d-c53f-4e6f-8a95-c97d42343833,Reg Cattermole,['Reginald Cattermole'],,,human,,False,False,Steffan Rhodri,True,[],,,,male,,True
+22ed3c3e-c30c-4e79-a93d-fdfe470c8090,Albert Runcorn,[],,,human,,False,False,David O'Hara,True,[],,,,male,black,True
+daea26d1-895d-4c29-8225-4d1ec2607cf0,Arkie Alderton,[],,,human,,False,False,,True,[],,,,male,,True
+e96dc731-5217-4c83-b173-248e1c70b5e7,Mary Cattermole,['Mary Elizabeth Cattermole'],,muggleborn,human,,False,False,Kate Fleetwood,True,[],,,,female,,True
+5f70c4d0-981e-4dab-993d-5af0aa6bbcd5,Maisie Cattermole,[],,,human,,False,False,,True,[],,,,female,,True
+0aabac0a-9212-4cad-9c42-d54886feb351,Ellie Cattermole,[],,,human,,False,False,,True,[],,,,female,,True
+064733fb-bd1c-4b15-8fdd-2b3100b34f0b,Alfred Cattermole,[],,,human,,False,False,,True,[],,,,male,,True
+0f5bc3a8-566d-443e-a49a-8e0616fb8dec,Gornuk,[],,,goblin,,False,False,,False,[],,,,male,,False
+ede100e7-c8d8-42bb-8d39-ed41c92979c8,Bowman Wright,[],,,human,,False,False,,False,[],,,,male,,True
+151f886b-2fcf-4010-9e6f-8621e616a2c4,Ivor Dillonsby,[],,,human,,False,False,,True,[],,,,male,,True
+38aa76a6-d1d9-4ef5-9e67-573fe4fa916e,Enid Smeek,[],,,human,,False,False,,True,[],,,,female,,True
+8e0715f3-1b16-44b7-862d-bcdea99e7ba6,Egbert the Egregious,[],,,human,,False,False,,False,[],,,,male,,True
+d9175f7a-9e92-45fc-8207-b31b5a69c8e6,Godelot,[],,,human,,False,False,,False,[],,,,male,,True
+6af6d07a-692a-42d6-80ab-dec3cef84269,Hereward,[],,,human,,False,False,,False,[],,,,male,,True
+63b292fd-d297-4bb3-95d2-51a88a46891b,Loxias,[],,,human,,False,False,,False,[],,,,male,,True
+c86e0027-dd93-4ddd-bec3-a1b832fd27f1,Barnabas Deverill,[],,,human,,False,False,,False,[],,,,male,,True
+3535214c-9814-42c1-95d1-2e1db92d2a47,Arcus,[],,,human,,False,False,,False,[],,,,male,,True
+b336a6be-7954-420e-8e05-95945ad1d727,Livius,[],,,human,,False,False,,False,[],,,,male,,True
+14505ff9-e2d8-4a27-bc85-c8d8dfb2ca33,Antioch Peverell,['First Brother'],,pure-blood,human,,False,False,,False,[],,,,male,,True
+9a8b9fcd-6610-4e24-a5c6-bec1aa50fadd,Cadmus Peverell,['Second Brother'],,pure-blood,human,,False,False,,False,[],,,,male,,True
+461bddf4-cc9d-4737-b1a2-703c06b771a6,Ignotus Peverell,['Third Brother'],,pure-blood,human,,False,False,,False,[],,,,male,,True
+a8dc2688-e8a2-4d50-ac06-5cd324becb5b,Selwyn,[],,pure-blood,human,,False,False,,True,[],,,,male,,True
+1d6d87f8-6561-4e27-b77d-247067d3a7cc,Scabior,[],Slytherin,,human,,False,False,Nick Moran,True,[],,,,male,,True
+b3c7de0a-fc23-4dd5-94d2-27e906c45fb7,Ragnuk the First,['King Ragnuk the First'],,,goblin,,False,False,,False,[],,,,male,,False
+7d7968e6-ef05-4192-87d5-99ebd1e54d0b,Ted Lupin,['Edward Remus Teddy Lupin'],Hufflepuff,half-blood,human,,False,False,Luke Newberry,True,[],,,,male,,True
+cae8556b-eea7-4e5a-b6a3-29d685421bfa,Marius,[],,,human,,False,False,,True,[],,,,male,,True
+a2c4fbb5-af04-45a4-9a1e-b39f9bb479c8,Bogrod,[],,,goblin,,False,False,Jon Key,True,[],,,black,male,white,False
+2d9fd582-0be6-4f11-98f5-3358ad14b973,The Grey Lady,['Helena Ravenclaw'],,,ghost,,False,False,Nina Young,False,['Kelly Macdonald'],,,,female,,True
+2550709a-d94b-4794-bb5f-a8d6ba546011,Dexter Fortescue,[],,,human,,False,False,,False,[],,,,male,,True
+6025d951-2638-4827-baff-aa5db5017a4a,Lily Potter,['Lily Luna Potter'],Gryffindor,half-blood,human,,False,False,Daphne de Beistegui,True,[],,,,female,red,True
+9c8ce8c7-ae0a-4646-920f-09c071862f10,James Potter,['James Sirius Potter'],Gryffindor,half-blood,human,,False,True,Will Dunn,True,[],,,,male,,True
+dcdc063e-cf3e-48fc-b777-65922e899b38,Albus Severus Potter,['Al'],Slytherin,half-blood,human,,False,True,Arthur Bowen,True,[],,,green,male,black,True
+e4653b01-76a5-4769-a6a2-1f2efaf89cbb,Rose Weasley,[],Gryffindor,half-blood,human,,False,True,Helena Barlow,True,[],,,,female,red,True
+2b203c7e-7b3d-4f27-8b3c-11473904da73,Hugo Weasley,[],,half-blood,human,,False,True,Ryan Turner,True,[],,,,male,brown,True
+7f2f6207-8998-4f98-92c2-8d02898a82eb,Scorpius Malfoy,['Scorpius Hyperion Malfoy'],Slytherin,pure-blood,human,,False,True,Bertie Gilbert,True,[],,,grey,male,blond,True
+57fe29d4-312a-4711-bd9a-c320253d9176,Victoire Weasley,[],,,human,,False,True,,True,[],,,,female,blonde,True
