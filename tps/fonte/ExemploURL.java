@@ -1,40 +1,48 @@
-import java.io.*;
-import java.net.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
 
 class ExemploURL {
-   public static String getHtml(String endereco){
-      URL url;
-      InputStream is = null;
-      BufferedReader br;
-      String resp = "", line;
+	public static String getHtml(String endereco){
+		StringBuffer resp = new StringBuffer();
+		try {
+			URL obj = new URL(endereco);
+			HttpURLConnection con = (HttpURLConnection) obj.openConnection();
 
-      try {
-         url = new URL(endereco);
-         is = url.openStream();  // throws an IOException
-         br = new BufferedReader(new InputStreamReader(is));
+			// Método de requisição
+			con.setRequestMethod("GET");
 
-         while ((line = br.readLine()) != null) {
-            resp += line + "\n";
-         }
-      } catch (MalformedURLException mue) {
-         mue.printStackTrace();
-      } catch (IOException ioe) {
-         ioe.printStackTrace();
-      } 
+			// Código de resposta da conexão
+			int responseCode = con.getResponseCode();
+			System.out.println("Código de resposta: " + responseCode);
 
-      try {
-         is.close();
-      } catch (IOException ioe) {
-         // nothing to see here
+			// Se a conexão foi bem-sucedida (código 200)
+			if (responseCode == HttpURLConnection.HTTP_OK) {
+				BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
+				String inputLine;
 
-      }
+				while ((inputLine = in.readLine()) != null) {
+					resp.append(inputLine);
+				}
 
-      return resp;
-   }
-   public static void main(String[] args) {
-      String endereco, html;
-      endereco = "http://maratona.crc.pucminas.br/series/Friends.html";
-      html = getHtml(endereco);
-      System.out.print(html);
-   }
+				// Fecha os buffers
+				in.close();
+
+			} else {
+				System.out.println("Erro na conexão: " + responseCode);
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}      
+
+		return resp.toString();
+	}
+	public static void main(String[] args) {
+		String endereco, html;
+		endereco = "http://verde.icei.pucminas.br/tp01/Friends.html";
+		html = getHtml(endereco);
+		System.out.print(html);
+	}
 }
