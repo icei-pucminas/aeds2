@@ -75,7 +75,7 @@ class Geracao {
 	}
 
 	/**
-	 * Recebe um Efetua a leitura dos elementos via entrada padrao.
+	 * Recebe um array e efetua a leitura dos elementos via entrada padrao.
 	 */
 	public void entrada(int[] vet){
 		n = vet.length;
