@@ -10,32 +10,27 @@
 #include <stdio.h>
 #include <string.h>
 #include <locale.h>
+#include <wchar.h>
 
-bool isPalindrome(char sentence[]) {
+bool isPalindrome(wchar_t sentence[]) {
     /*
     * An boolean function that calculates if a 
     * sentence is a palindrome or not
     */
-    int sentenceSize = strlen(sentence);
-    printf("%d\n", sentenceSize);
+   int left = 0;
+   int right = strlen(sentence) - 1;
 
-    char invertedSentence[sentenceSize]; 
+   while (left < right) {
+       printf("left: %c\n", sentence[left]);
+       printf("right: %c\n", sentence[right]);
+       if ((unsigned char)sentence[left] != (unsigned char)sentence[right]) {
+           return false;
+       }
+       left++;
+       right--;
+   }
 
-    printf("%d\n", strlen(invertedSentence));
-
-    for (int index = sentenceSize - 1; index >= 0; index--) {
-        char letter = sentence[index];
-        //printf("%c\n", letter);
-        //printf("%d\n", index);
-        invertedSentence[sentenceSize - 1 - index] = letter;
-    }
-
-    printf("sentence: %s\n", sentence);
-    printf("inverted sentence: %s\n", invertedSentence);
-
-    int comparation = strcmp(sentence, invertedSentence);
-
-    return comparation == 0 ? true : false;
+   return true;
 }
 
 int main() {
@@ -49,14 +44,12 @@ int main() {
 
     char line[1000];
 
-    fgets(line, sizeof(line), stdin);
-    line[strcspn(line, "\n")] = '\0';
+    while (fgets(line, sizeof(line), stdin) != NULL) {
+        line[strcspn(line, "\n")] = '\0'; // Remove o '\n'
 
-    while (strcmp(line, "FIM") != 0) {
-        printf((isPalindrome(line)) ? "SIM\n" : "NAO\n");
+        if (strcmp(line, "FIM") == 0) break;
 
-        fgets(line, sizeof(line), stdin);
-        line[strcspn(line, "\n")] = '\0';   
+        printf("%s\n", isPalindrome(line) ? "SIM" : "NAO");
     }
 
     return 0;
