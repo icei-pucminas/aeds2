@@ -16,7 +16,7 @@ import java.nio.charset.StandardCharsets;
 public class tp01q01 {
     public static boolean isPalindrome(String sentence) {
         /*
-         * An boolean function that calculates if a 
+         * A boolean function that calculates if a 
          * sentence is a palindrome or not
          */
 
