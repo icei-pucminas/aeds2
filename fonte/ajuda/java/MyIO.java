@@ -2,9 +2,8 @@ import java.io.*;
 import java.nio.charset.*;
 
 class MyIO {
-
-   private static BufferedReader in = new BufferedReader(new InputStreamReader(System.in, Charset.forName("ISO-8859-1")));
    private static String charset = "ISO-8859-1";
+   private static BufferedReader in = new BufferedReader(new InputStreamReader(System.in, Charset.forName(charset)));
 
    public static void setCharset(String charset_){
       charset = charset_;
@@ -14,42 +13,7 @@ class MyIO {
    public static void print(){
    }
 
-   public static void print(int x){
-      try {
-         PrintStream out = new PrintStream(System.out, true, charset);
-         out.print(x);
-      }catch(UnsupportedEncodingException e){ System.out.println("Erro: charset invalido"); }
-   }
-   
-   public static void print(float x){
-      try {
-         PrintStream out = new PrintStream(System.out, true, charset);
-         out.print(x);
-      }catch(UnsupportedEncodingException e){ System.out.println("Erro: charset invalido"); }
-   }
-   
-   public static void print(double x){
-      try {
-         PrintStream out = new PrintStream(System.out, true, charset);
-         out.print(x);
-      }catch(UnsupportedEncodingException e){ System.out.println("Erro: charset invalido"); }
-   }
-
-   public static void print(String x){
-      try {
-         PrintStream out = new PrintStream(System.out, true, charset);
-         out.print(x);
-      }catch(UnsupportedEncodingException e){ System.out.println("Erro: charset invalido"); }
-   }
-
-   public static void print(boolean x){
-      try {
-         PrintStream out = new PrintStream(System.out, true, charset);
-         out.print(x);
-      }catch(UnsupportedEncodingException e){ System.out.println("Erro: charset invalido"); }
-   }
-
-   public static void print(char x){
+   public static<T> void print(T x){
       try {
          PrintStream out = new PrintStream(System.out, true, charset);
          out.print(x);
@@ -59,42 +23,7 @@ class MyIO {
    public static void println(){
    }
 
-   public static void println(int x){
-      try {
-         PrintStream out = new PrintStream(System.out, true, charset);
-         out.println(x);
-      }catch(UnsupportedEncodingException e){ System.out.println("Erro: charset invalido"); }
-   }
-
-   public static void println(float x){
-      try {
-         PrintStream out = new PrintStream(System.out, true, charset);
-         out.println(x);
-      }catch(UnsupportedEncodingException e){ System.out.println("Erro: charset invalido"); }
-   }
-   
-   public static void println(double x){
-      try {
-         PrintStream out = new PrintStream(System.out, true, charset);
-         out.println(x);
-      }catch(UnsupportedEncodingException e){ System.out.println("Erro: charset invalido"); }
-   }
-
-   public static void println(String x){
-      try {
-         PrintStream out = new PrintStream(System.out, true, charset);
-         out.println(x);
-      }catch(UnsupportedEncodingException e){ System.out.println("Erro: charset invalido"); }
-   }
-
-   public static void println(boolean x){
-      try {
-         PrintStream out = new PrintStream(System.out, true, charset);
-         out.println(x);
-      }catch(UnsupportedEncodingException e){ System.out.println("Erro: charset invalido"); }
-   }
-
-   public static void println(char x){
+   public static<T> void println(T x){
       try {
          PrintStream out = new PrintStream(System.out, true, charset);
          out.println(x);
@@ -108,6 +37,10 @@ class MyIO {
       }catch(UnsupportedEncodingException e){ System.out.println("Erro: charset invalido"); }
    }
 
+   public static void read(String str){
+
+   }
+
    public static double readDouble(){
       double d = -1;
       try{
@@ -117,10 +50,7 @@ class MyIO {
    }
 
    public static double readDouble(String str){
-      try {
-         PrintStream out = new PrintStream(System.out, true, charset);
-         out.print(str);
-      }catch(UnsupportedEncodingException e){ System.out.println("Erro: charset invalido"); }
+      print(str);
       return readDouble();
    }
 
@@ -141,10 +71,7 @@ class MyIO {
    }
 
    public static int readInt(String str){
-      try {
-         PrintStream out = new PrintStream(System.out, true, charset);
-         out.print(str);
-      }catch(UnsupportedEncodingException e){ System.out.println("Erro: charset invalido"); }
+      print(str);
       return readInt();
    }
 
@@ -165,34 +92,22 @@ class MyIO {
    }
 
    public static String readString(String str){
-      try {
-         PrintStream out = new PrintStream(System.out, true, charset);
-         out.print(str);
-      }catch(UnsupportedEncodingException e){ System.out.println("Erro: charset invalido"); }
+      print(str);
       return readString();
    }
 
    public static String readLine(){
       String s = "";
-      char tmp;
       try{
-         do{
-            tmp = (char)in.read();
-            if(tmp != '\n' && tmp != 13){
-               s += tmp;
-            }
-         }while(tmp != '\n');
+         s = in.readLine();
       }catch(IOException ioe){
          System.out.println("lerPalavra: " + ioe.getMessage());
       }
-      return s;
+      return s != null ? s : "";
    }
 
    public static String readLine(String str){
-      try {
-         PrintStream out = new PrintStream(System.out, true, charset);
-         out.print(str);
-      }catch(UnsupportedEncodingException e){ System.out.println("Erro: charset invalido"); }
+      print(str);
       return readLine();
    }
 
@@ -205,10 +120,7 @@ class MyIO {
    }
 
    public static char readChar(String str){
-      try {
-         PrintStream out = new PrintStream(System.out, true, charset);
-         out.print(str);
-      }catch(UnsupportedEncodingException e){ System.out.println("Erro: charset invalido"); }
+      print(str);
       return readChar();
    }
 
@@ -229,10 +141,7 @@ class MyIO {
    }
 
    public static boolean readBoolean(String str){
-      try {
-         PrintStream out = new PrintStream(System.out, true, charset);
-         out.print(str);
-      }catch(UnsupportedEncodingException e){ System.out.println("Erro: charset invalido"); }
+      print(str);
       return readBoolean();
    }
 
@@ -243,10 +152,7 @@ class MyIO {
    }
 
    public static void pause(String str){
-      try {
-         PrintStream out = new PrintStream(System.out, true, charset);
-         out.print(str);
-      }catch(UnsupportedEncodingException e){ System.out.println("Erro: charset invalido"); }
+      print(str);
       pause();
    }
 }
