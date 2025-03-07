@@ -1,11 +1,8 @@
-import java.io.*;
 import java.util.Formatter;
 import java.util.Scanner;
 import java.io.File;
-import java.nio.charset.*;
 
-public class Arq
-{
+public class Arq{
    private static String nomeArquivo = "";
    private static String charsetArquivo = "ISO-8859-1";
    private static boolean write = false, read = false;
