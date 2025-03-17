@@ -1,4 +1,6 @@
+
 class LAB01Q01Aquecimento {
+
    public static boolean isMaiuscula (char c){
       return (c >= 'A' && c <= 'Z');
    }
@@ -7,9 +9,6 @@ class LAB01Q01Aquecimento {
       return (s.length() == 3 && s.charAt(0) == 'F' && s.charAt(1) == 'I' && s.charAt(2) == 'M');
    }
 
-   /*
-    *
-    */
    public static int contarLetrasMaiusculas (String s, int pos){
       int resp = 0; 
       if(pos < s.length()){
