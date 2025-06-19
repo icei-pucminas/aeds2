@@ -28,7 +28,7 @@ void inserir(int x) {
 }
 
 int main(int argc, char** argv) {
-	start();
+   start();
 	while(true){
 		inserir(0);
 	}

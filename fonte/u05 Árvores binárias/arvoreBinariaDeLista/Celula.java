@@ -2,15 +2,15 @@ class Celula {
    Contato contato;
    Celula prox;
 
-   public Celula (){
+   public Celula() {
       this(null, null);
    }
 
-   public Celula(Contato contato){
+   public Celula(Contato contato) {
       this(contato, null);
    }
 
-   public Celula (Contato contato, Celula prox){
+   public Celula(Contato contato, Celula prox) {
       this.contato = contato;
       this.prox = prox;
    }

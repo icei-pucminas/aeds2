@@ -4,10 +4,11 @@ class Contato {
    public String email;
    public int cpf;
 
-   public Contato(){
-      this("","","",-1);
+   public Contato() {
+      this("", "", "", -1);
    }
-   public Contato(String nome, String telefone, String email, int cpf){
+
+   public Contato(String nome, String telefone, String email, int cpf) {
       this.nome = nome;
       this.telefone = telefone;
       this.email = email;
