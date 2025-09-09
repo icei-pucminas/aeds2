@@ -40,26 +40,11 @@ void promoverTarefa(PilhaEmergencia* p, ListaBackground* l, int id){
 void empilharEmergencia(PilhaEmergencia* p, Tarefa t){
     // TO DO: IMPLEMENTAR
     // empilhar uma tarefa na pilha
-    if(p->n >= MAX_EMERGENCIA){ // pilha ta cheia
-	printf("Pilha cheia\n");
-    }else{
-    	p->pilha[p->n] = t;
-	p->n = p->n+1;
-    }
 }
 
 Tarefa desempilharEmergencia(PilhaEmergencia* p){
     // TO DO: IMPLEMENTAR
     // desempilhar uma tarefa da pilha
-    if(p->n == 0){
-	    printf("Pilha vazia");
-	    return null;
-    }else{
-	Tarefa desempilhada;
-	desempilhada = p->pilha[p->n];
-	p->n = p->n - 1;
-	return desempilhada;
-    }
 }
 
 void enfileirarPeriodica(FilaPeriodica* f, Tarefa t){
@@ -137,3 +122,4 @@ int main(){
     }
     return 0;
 }
+
