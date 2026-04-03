@@ -1,0 +1,501 @@
+id,nome,cidade,capacidade,avaliacao,tipos_cozinha,faixa_preco,horario,data_abertura,aberto
+1,Classic Palace Works,Zurich,168,3.9,churrasco;internacional,$$,11:00-20:00,2018-03-31,false
+2,Sunny Garden Studio,Sydney,133,4.8,frutos do mar;mediterranea,$,12:00-20:00,2021-03-07,false
+3,Royal Table Zone,Sydney,190,4.6,frutos do mar;mediterranea,$$$$,11:00-22:00,2019-07-04,false
+4,Grand Grill Hall 83,Madrid,194,4.7,espanhola;tapas,$$$,11:00-23:00,2021-11-20,true
+5,Central Kitchen Studio,Paris,114,4.6,francesa;bistro,$,09:00-21:00,2023-03-31,false
+6,Classic Spot Express,Tokyo,47,4.6,japonesa;sushi,$$,08:00-20:00,2015-08-19,false
+7,Grand Bistro Collective,Tokyo,49,4.4,japonesa;sushi,$,08:00-23:00,2024-04-12,false
+8,Fresh Lounge Collective,Zurich,79,4.6,churrasco;internacional,$$,09:00-21:00,2018-10-31,false
+9,Prime Hub Express,Tokyo,112,4.4,japonesa;sushi,$$,12:00-23:00,2016-05-01,false
+10,Grand Spot Works 61,Beijing,43,4.3,chinesa;asiatica,$$$,09:00-22:00,2018-03-09,true
+11,Grand Corner Delight,Delhi,56,4.7,indiana;curry,$$,09:00-20:00,2017-01-22,true
+12,Elite Place Works 21,Beijing,69,4.9,chinesa;asiatica,$$$,09:00-23:00,2019-03-03,false
+13,Classic Hub Corner,New York,86,3.9,americana;bbq,$$,11:00-21:00,2020-03-24,false
+14,Grand Cafe Zone,Rome,83,4.0,italiana;pizzaria,$$$$,10:00-22:00,2019-06-13,true
+15,Fresh Hub Point,Mexico City,162,4.8,mexicana;street-food,$$$$,10:00-21:00,2019-08-16,true
+16,Modern Cafe Studio,Paris,158,4.7,francesa;bistro,$,10:00-22:00,2022-04-09,true
+17,Golden Corner Corner,Zurich,179,4.4,churrasco;internacional,$,08:00-20:00,2025-09-26,false
+18,Royal Palace Station,Paris,179,4.0,francesa;bistro,$$,08:00-20:00,2025-12-10,false
+19,Fresh Bistro Collective,Paris,102,3.8,francesa;bistro,$$,11:00-22:00,2025-07-25,false
+20,Urban Corner Hall,Rome,181,4.4,italiana;pizzaria,$$$,12:00-21:00,2024-08-21,false
+21,Blue Bistro Collective 93,Seoul,64,4.2,coreana;bbq,$$,09:00-22:00,2020-09-03,true
+22,Blue House Plaza 58,Tokyo,44,4.9,japonesa;sushi,$$$,11:00-20:00,2018-08-05,false
+23,Royal Lounge Studio,Tokyo,77,4.0,japonesa;sushi,$$,12:00-23:00,2022-11-11,false
+24,Sunny Spot Delight,Tokyo,134,4.3,japonesa;sushi,$$$$,10:00-21:00,2016-12-24,true
+25,Classic Place Street,New York,173,4.3,americana;bbq,$$,10:00-22:00,2019-08-01,true
+26,Royal Hub Station,Tokyo,175,4.5,japonesa;sushi,$$$$,09:00-23:00,2020-04-07,false
+27,Green Bistro Hall,Rome,189,4.4,italiana;pizzaria,$,08:00-23:00,2022-10-24,true
+28,Modern Garden Point,Mexico City,53,4.3,mexicana;street-food,$$,12:00-21:00,2017-05-03,true
+29,Sunny Grill Hall,Madrid,86,4.3,espanhola;tapas,$$$,08:00-20:00,2015-02-27,false
+30,Happy Kitchen Works,Delhi,95,4.4,indiana;curry,$$$,08:00-20:00,2024-05-05,false
+31,Bella Dining Terrace,Los Angeles,67,4.8,vegana;saudavel,$$$$,10:00-21:00,2018-06-26,false
+32,Classic Garden Collective,Los Angeles,189,4.8,vegana;saudavel,$,10:00-21:00,2019-12-20,true
+33,Blue Kitchen Works,Delhi,77,4.7,indiana;curry,$$,09:00-23:00,2024-07-23,false
+34,Bella Market Terrace,New York,152,4.3,americana;bbq,$$$$,08:00-21:00,2022-04-14,false
+35,Fresh Hub Express,Beijing,100,4.8,chinesa;asiatica,$$$$,09:00-20:00,2021-09-28,false
+36,Classic Corner Studio,Sydney,94,4.4,frutos do mar;mediterranea,$$$,08:00-23:00,2015-08-27,true
+37,Grand Market Station,Mexico City,59,3.8,mexicana;street-food,$$,12:00-21:00,2025-02-27,true
+38,Modern Garden Express,Zurich,177,4.0,churrasco;internacional,$$$$,10:00-21:00,2020-02-26,true
+39,Classic Lounge Studio,Zurich,149,4.1,churrasco;internacional,$,10:00-20:00,2024-01-30,true
+40,Royal Corner Terrace,Rome,161,4.5,italiana;pizzaria,$$$,08:00-21:00,2021-03-01,false
+41,Prime Hub Plaza 89,Seoul,74,3.9,coreana;bbq,$$,08:00-22:00,2015-03-16,false
+42,Modern Dining Corner,Tokyo,164,4.5,japonesa;sushi,$$$,09:00-21:00,2023-07-05,false
+43,Royal House Street,Seoul,171,4.2,coreana;bbq,$$$$,09:00-22:00,2021-11-03,true
+44,Classic Palace Terrace,Delhi,200,3.9,indiana;curry,$$$$,08:00-20:00,2024-08-19,false
+45,Bella Dining Works,Seoul,107,4.5,coreana;bbq,$$,11:00-23:00,2016-11-27,true
+46,Blue Bistro Works,New York,139,4.3,americana;bbq,$,10:00-22:00,2018-02-07,false
+47,Sunny Palace Station,Madrid,42,4.2,espanhola;tapas,$,10:00-23:00,2017-08-17,true
+48,Royal Lounge Point,Sydney,41,4.7,frutos do mar;mediterranea,$$,10:00-22:00,2024-03-01,false
+49,Prime Palace Works 56,Sydney,146,4.3,frutos do mar;mediterranea,$,09:00-22:00,2024-10-24,true
+50,Elite Hub Studio,New York,153,4.4,americana;bbq,$$,11:00-23:00,2022-05-22,false
+51,Sunny Palace Terrace 92,Mexico City,47,4.8,mexicana;street-food,$,11:00-22:00,2018-01-14,false
+52,Sunny Garden Works,Mexico City,62,3.8,mexicana;street-food,$$$,09:00-20:00,2019-10-13,false
+53,Blue House Corner,Beijing,69,3.8,chinesa;asiatica,$$$,12:00-23:00,2024-11-15,false
+54,Modern Table Zone,Tokyo,181,4.2,japonesa;sushi,$$,11:00-22:00,2020-10-12,false
+55,Central House Works,Madrid,127,4.7,espanhola;tapas,$$,10:00-23:00,2022-02-26,false
+56,Prime Garden Street,Madrid,149,4.1,espanhola;tapas,$$,10:00-21:00,2015-10-08,true
+57,Fresh Bistro Terrace,New York,81,4.4,americana;bbq,$,08:00-20:00,2025-03-30,true
+58,Elite Garden Plaza,Beijing,59,4.5,chinesa;asiatica,$$$$,09:00-22:00,2015-04-27,false
+59,Classic Lounge Delight,Los Angeles,97,4.6,vegana;saudavel,$$$,11:00-21:00,2023-06-24,false
+60,Golden Kitchen Works,Madrid,100,4.9,espanhola;tapas,$$$,08:00-23:00,2017-11-27,false
+61,Urban Market Street 32,Rome,58,4.4,italiana;pizzaria,$$$$,12:00-21:00,2025-07-12,false
+62,Fresh Bistro Works,Rome,134,4.4,italiana;pizzaria,$,12:00-20:00,2019-02-08,true
+63,Green Garden Collective 2,Sydney,158,4.0,frutos do mar;mediterranea,$$$,12:00-20:00,2023-05-04,true
+64,Golden Corner Works,Delhi,119,4.8,indiana;curry,$$$,10:00-22:00,2019-02-03,true
+65,Central Cafe Delight,New York,109,4.8,americana;bbq,$,08:00-20:00,2023-12-04,false
+66,Classic Grill Point 96,Rome,41,4.2,italiana;pizzaria,$$,11:00-21:00,2016-07-27,false
+67,Blue Cafe Zone,Sydney,164,4.1,frutos do mar;mediterranea,$,11:00-23:00,2019-04-09,false
+68,Classic Palace Plaza,Sydney,165,4.1,frutos do mar;mediterranea,$$$,09:00-22:00,2018-07-21,true
+69,Golden Market Hall,Mexico City,74,4.6,mexicana;street-food,$$$$,12:00-22:00,2022-04-04,false
+70,Fresh Garden Corner,Mexico City,93,4.1,mexicana;street-food,$$$,08:00-21:00,2015-04-12,true
+71,Green Palace Plaza,Mexico City,104,4.2,mexicana;street-food,$$$,11:00-20:00,2022-02-13,false
+72,Classic Dining Delight,Mexico City,79,4.2,mexicana;street-food,$$$$,08:00-22:00,2022-08-07,false
+73,Central Spot Street,Mexico City,141,4.2,mexicana;street-food,$$$$,11:00-20:00,2019-05-15,true
+74,Elite Place Plaza,Seoul,196,4.1,coreana;bbq,$$,10:00-20:00,2017-06-16,true
+75,Modern Palace Hall,Delhi,88,4.0,indiana;curry,$$$$,10:00-20:00,2022-10-06,false
+76,Fresh Spot Station,Rome,87,4.8,italiana;pizzaria,$$$,12:00-23:00,2016-01-28,true
+77,Elite Kitchen Street,Los Angeles,73,4.3,vegana;saudavel,$,11:00-23:00,2021-06-08,false
+78,Grand Kitchen Point,Beijing,150,4.2,chinesa;asiatica,$,08:00-23:00,2024-11-13,true
+79,Green Dining Delight,Zurich,187,4.4,churrasco;internacional,$,11:00-20:00,2023-05-23,false
+80,Grand Place Works 65,Delhi,185,4.2,indiana;curry,$,08:00-22:00,2022-10-10,false
+81,Prime Bistro Works,Rome,135,4.8,italiana;pizzaria,$,08:00-23:00,2022-08-01,true
+82,Prime Corner Terrace 50,Beijing,194,4.4,chinesa;asiatica,$$$,11:00-22:00,2024-03-27,true
+83,Royal Palace Hall,Seoul,152,3.9,coreana;bbq,$$$,12:00-20:00,2023-06-23,false
+84,Sunny Place Collective,New York,66,4.5,americana;bbq,$$$,08:00-21:00,2025-11-07,false
+85,Blue Palace Delight,Seoul,192,4.0,coreana;bbq,$$$,12:00-21:00,2021-07-19,true
+86,Green Hub Studio,Mexico City,142,4.7,mexicana;street-food,$,11:00-20:00,2025-08-05,false
+87,Royal Bistro Hall,Mexico City,108,4.8,mexicana;street-food,$$$,12:00-20:00,2023-04-20,true
+88,Sunny Table Street,Beijing,163,4.2,chinesa;asiatica,$$$$,10:00-22:00,2023-10-31,true
+89,Happy Corner Studio,Sydney,103,4.1,frutos do mar;mediterranea,$,12:00-22:00,2018-05-09,true
+90,Elite Bistro Hall,Sydney,97,3.9,frutos do mar;mediterranea,$$,12:00-23:00,2023-04-30,true
+91,Classic Bistro Hall,Paris,122,4.2,francesa;bistro,$$$$,08:00-22:00,2025-04-14,false
+92,Happy Corner Zone 5,Zurich,141,4.3,churrasco;internacional,$$$,08:00-21:00,2016-09-18,false
+93,Green Lounge Express,Tokyo,87,4.8,japonesa;sushi,$$$$,11:00-20:00,2020-02-19,false
+94,Green Grill Station,Rome,165,4.4,italiana;pizzaria,$,10:00-23:00,2019-06-03,true
+95,Sunny Market Delight,New York,72,4.3,americana;bbq,$$$,09:00-20:00,2021-12-01,false
+96,Fresh Lounge Plaza,New York,119,4.5,americana;bbq,$$$,09:00-20:00,2018-12-17,false
+97,Prime Palace Plaza,Los Angeles,190,4.6,vegana;saudavel,$$$,12:00-21:00,2020-05-22,false
+98,Urban Lounge Plaza,Rome,147,4.2,italiana;pizzaria,$$$,11:00-23:00,2019-03-30,false
+99,Fresh Cafe Corner,Beijing,42,4.3,chinesa;asiatica,$,10:00-21:00,2019-10-05,true
+100,Central Bistro Corner,Delhi,196,4.5,indiana;curry,$$$$,10:00-22:00,2018-01-14,true
+101,Fresh Spot Terrace,Paris,72,4.9,francesa;bistro,$$,08:00-22:00,2024-09-24,true
+102,Royal Market Studio,Mexico City,192,4.5,mexicana;street-food,$$$$,09:00-23:00,2016-12-23,false
+103,Central Grill Delight,Paris,138,4.2,francesa;bistro,$$,10:00-21:00,2023-04-09,true
+104,Royal Lounge Collective,Rome,78,4.8,italiana;pizzaria,$$$$,10:00-23:00,2016-08-02,false
+105,Bella Cafe Point 21,Rome,127,4.8,italiana;pizzaria,$$,08:00-21:00,2022-02-12,false
+106,Prime Kitchen Street 25,Sydney,135,4.4,frutos do mar;mediterranea,$$$$,10:00-20:00,2025-11-06,true
+107,Golden Garden Collective,Madrid,55,4.8,espanhola;tapas,$$,08:00-22:00,2023-04-07,false
+108,Central Table Station 15,Mexico City,107,4.0,mexicana;street-food,$$$$,10:00-20:00,2025-07-29,false
+109,Urban Place Terrace 46,Mexico City,168,3.9,mexicana;street-food,$$$,09:00-22:00,2017-01-15,false
+110,Modern Kitchen Corner,Sydney,62,4.6,frutos do mar;mediterranea,$$,12:00-21:00,2025-03-20,true
+111,Happy Market Point,Delhi,73,4.0,indiana;curry,$$,10:00-23:00,2020-12-24,false
+112,Elite Place Hall,Tokyo,57,3.9,japonesa;sushi,$$$,10:00-20:00,2018-06-12,false
+113,Bella Market Corner,Tokyo,156,4.7,japonesa;sushi,$,11:00-21:00,2019-03-26,true
+114,Blue Place Hall 69,Rome,131,4.1,italiana;pizzaria,$$$$,12:00-22:00,2021-07-15,false
+115,Fresh Hub Corner,Sydney,76,4.8,frutos do mar;mediterranea,$$$$,09:00-23:00,2022-07-05,false
+116,Classic Garden Station,Mexico City,61,4.9,mexicana;street-food,$$$$,10:00-23:00,2022-12-04,true
+117,Fresh Bistro Hall,Sydney,78,3.8,frutos do mar;mediterranea,$$$,08:00-21:00,2015-08-19,true
+118,Fresh House Zone,Sydney,176,3.8,frutos do mar;mediterranea,$$,09:00-20:00,2021-12-01,true
+119,Sunny Kitchen Zone,Mexico City,192,4.3,mexicana;street-food,$$$$,12:00-21:00,2022-06-19,true
+120,Central House Plaza,New York,176,4.1,americana;bbq,$$,08:00-23:00,2019-04-27,false
+121,Urban Bistro Point,Delhi,101,4.2,indiana;curry,$$$,08:00-20:00,2022-07-24,true
+122,Happy House Terrace,Tokyo,166,3.9,japonesa;sushi,$$$,08:00-20:00,2022-12-02,true
+123,Green House Station,Delhi,194,4.7,indiana;curry,$$$$,12:00-22:00,2019-06-29,true
+124,Golden Spot Works,Madrid,165,4.8,espanhola;tapas,$$$,11:00-20:00,2015-09-06,false
+125,Golden Cafe Hall,Rome,127,4.3,italiana;pizzaria,$$,09:00-22:00,2023-01-09,false
+126,Central Table Zone 72,Rome,112,4.1,italiana;pizzaria,$$,08:00-22:00,2016-07-31,true
+127,Bella Bistro Works,Madrid,149,4.2,espanhola;tapas,$$,10:00-21:00,2015-10-23,false
+128,Modern Market Corner,New York,44,4.4,americana;bbq,$$$$,11:00-20:00,2019-06-03,true
+129,Sunny Hub Studio,Tokyo,152,4.2,japonesa;sushi,$$$$,09:00-21:00,2016-10-21,false
+130,Classic Kitchen Station,Sydney,153,4.2,frutos do mar;mediterranea,$,10:00-21:00,2019-05-20,true
+131,Green Grill Collective,Beijing,190,4.7,chinesa;asiatica,$$$,10:00-21:00,2021-03-21,true
+132,Central Grill Plaza,Paris,124,4.4,francesa;bistro,$,10:00-22:00,2020-07-06,true
+133,Elite Market Street,Beijing,65,4.1,chinesa;asiatica,$,09:00-20:00,2018-09-01,false
+134,Happy Table Station,Paris,200,4.3,francesa;bistro,$,10:00-21:00,2022-02-07,false
+135,Prime Market Delight,Madrid,62,4.1,espanhola;tapas,$$$,08:00-21:00,2025-05-04,false
+136,Classic Hub Delight 49,Seoul,109,4.5,coreana;bbq,$$,09:00-23:00,2023-11-10,true
+137,Central Hub Collective,Paris,94,4.8,francesa;bistro,$$,08:00-20:00,2018-08-18,true
+138,Bella Lounge Plaza,Delhi,187,4.5,indiana;curry,$$$,08:00-23:00,2020-08-06,false
+139,Blue Hub Express,Paris,115,4.4,francesa;bistro,$,11:00-23:00,2023-09-27,false
+140,Classic House Station,New York,123,3.9,americana;bbq,$,11:00-23:00,2019-08-06,true
+141,Central Spot Point,Madrid,176,4.0,espanhola;tapas,$$$$,12:00-22:00,2019-06-06,true
+142,Sunny Grill Street,Zurich,100,4.5,churrasco;internacional,$$$,12:00-23:00,2025-10-22,true
+143,Elite Corner Works,Seoul,81,4.3,coreana;bbq,$$,09:00-21:00,2025-02-06,false
+144,Elite Hub Express,Sydney,147,4.3,frutos do mar;mediterranea,$,11:00-21:00,2021-02-12,false
+145,Bella Kitchen Express,Mexico City,120,4.0,mexicana;street-food,$$$,10:00-22:00,2016-06-05,false
+146,Blue Hub Station,New York,193,4.3,americana;bbq,$,08:00-21:00,2021-11-26,true
+147,Green Hub Plaza,Delhi,59,4.1,indiana;curry,$$$$,09:00-21:00,2019-09-27,false
+148,Modern Kitchen Street,Rome,46,4.8,italiana;pizzaria,$$$,12:00-21:00,2024-09-21,false
+149,Grand Place Hall,Beijing,179,3.8,chinesa;asiatica,$,09:00-21:00,2019-12-24,true
+150,Fresh Lounge Studio,Rome,60,4.0,italiana;pizzaria,$$$$,09:00-20:00,2019-09-19,true
+151,Sunny Place Plaza,Rome,68,4.4,italiana;pizzaria,$$$$,09:00-22:00,2023-03-02,false
+152,Central Market Street,New York,140,3.8,americana;bbq,$$,09:00-21:00,2023-04-23,true
+153,Royal Place Station,Beijing,91,4.4,chinesa;asiatica,$$$,12:00-23:00,2019-08-10,true
+154,Fresh Place Plaza,Seoul,85,4.5,coreana;bbq,$$,09:00-20:00,2017-03-29,true
+155,Happy Table Terrace,Zurich,89,4.7,churrasco;internacional,$$,12:00-20:00,2018-11-07,true
+156,Modern House Street,Sydney,92,4.2,frutos do mar;mediterranea,$$$,11:00-20:00,2023-10-18,false
+157,Happy Market Works,Delhi,61,4.4,indiana;curry,$$,09:00-23:00,2022-05-14,true
+158,Royal Hub Express,Sydney,130,4.2,frutos do mar;mediterranea,$$,12:00-22:00,2019-05-15,false
+159,Green Table Studio,Zurich,134,3.8,churrasco;internacional,$$$$,11:00-20:00,2023-06-16,false
+160,Sunny Garden Collective,Tokyo,120,3.9,japonesa;sushi,$$$,12:00-21:00,2019-03-31,false
+161,Elite Corner Plaza,Zurich,98,3.9,churrasco;internacional,$$,11:00-21:00,2018-12-03,true
+162,Golden Kitchen Collective,Los Angeles,159,4.8,vegana;saudavel,$$$$,09:00-23:00,2021-08-04,false
+163,Bella Table Collective,Delhi,181,4.9,indiana;curry,$$,09:00-21:00,2017-12-18,false
+164,Urban Market Delight,Rome,163,4.7,italiana;pizzaria,$,10:00-20:00,2024-11-27,false
+165,Blue Hub Works,Madrid,109,4.1,espanhola;tapas,$,10:00-23:00,2019-08-05,false
+166,Fresh House Delight,Paris,58,4.5,francesa;bistro,$$$,10:00-20:00,2022-02-24,true
+167,Prime Cafe Express,Madrid,101,4.2,espanhola;tapas,$$,09:00-21:00,2018-09-16,false
+168,Green Market Express,Delhi,127,4.2,indiana;curry,$,09:00-23:00,2015-04-11,false
+169,Fresh Grill Point,Madrid,67,4.4,espanhola;tapas,$$,09:00-20:00,2015-02-01,false
+170,Grand Grill Delight,Mexico City,173,4.3,mexicana;street-food,$$$,08:00-21:00,2024-04-29,true
+171,Sunny Table Point,Delhi,74,4.7,indiana;curry,$,09:00-21:00,2016-04-02,true
+172,Prime Place Terrace,Delhi,74,4.1,indiana;curry,$$,12:00-20:00,2021-01-19,false
+173,Bella Grill Terrace,Seoul,171,4.3,coreana;bbq,$$$$,11:00-20:00,2021-07-16,true
+174,Central Table Delight,Delhi,138,4.4,indiana;curry,$$$,11:00-20:00,2015-07-07,true
+175,Central Place Express 78,Madrid,126,4.3,espanhola;tapas,$,11:00-20:00,2016-09-28,true
+176,Grand Grill Terrace,Los Angeles,80,4.7,vegana;saudavel,$$$,10:00-22:00,2023-06-06,true
+177,Happy Bistro Street,Mexico City,53,4.3,mexicana;street-food,$$$,09:00-23:00,2022-11-03,true
+178,Grand Kitchen Street,Delhi,121,4.7,indiana;curry,$$,11:00-23:00,2023-07-31,false
+179,Prime Grill Studio,Seoul,140,4.9,coreana;bbq,$$,09:00-22:00,2015-12-16,false
+180,Royal Cafe Plaza,Sydney,48,4.6,frutos do mar;mediterranea,$$,12:00-22:00,2024-09-30,true
+181,Modern Spot Delight,Paris,183,4.0,francesa;bistro,$$,08:00-23:00,2016-03-28,true
+182,Central Place Point,Seoul,107,3.8,coreana;bbq,$$$,09:00-23:00,2019-11-23,false
+183,Urban Market Studio,Madrid,73,3.9,espanhola;tapas,$,08:00-23:00,2018-10-17,false
+184,Bella Garden Works 84,Madrid,182,4.5,espanhola;tapas,$,08:00-22:00,2020-01-31,false
+185,Sunny Table Terrace 60,Los Angeles,125,4.0,vegana;saudavel,$$$,11:00-21:00,2018-01-11,false
+186,Green Hub Delight,Delhi,186,3.8,indiana;curry,$$,10:00-21:00,2018-09-26,true
+187,Central Palace Plaza,Paris,180,4.5,francesa;bistro,$$$$,11:00-23:00,2018-10-18,true
+188,Fresh Spot Zone,Tokyo,97,4.1,japonesa;sushi,$$$,08:00-22:00,2022-03-09,true
+189,Central Place Delight,Zurich,159,4.2,churrasco;internacional,$$$,10:00-21:00,2016-06-15,true
+190,Blue Garden Point,New York,188,4.4,americana;bbq,$$,09:00-20:00,2018-05-05,true
+191,Grand Grill Station,New York,160,4.4,americana;bbq,$$$,11:00-22:00,2016-10-01,true
+192,Golden Dining Works,Rome,136,3.9,italiana;pizzaria,$$,10:00-22:00,2019-06-21,true
+193,Central Lounge Collective,Zurich,64,4.6,churrasco;internacional,$$$$,08:00-20:00,2020-02-17,true
+194,Bella Palace Works,Mexico City,115,4.6,mexicana;street-food,$$$,09:00-20:00,2015-09-10,false
+195,Central Dining Plaza,New York,157,4.8,americana;bbq,$,08:00-21:00,2023-03-07,false
+196,Grand Market Terrace,New York,182,4.6,americana;bbq,$$$,12:00-23:00,2023-01-04,false
+197,Classic Dining Plaza 68,Madrid,41,4.2,espanhola;tapas,$$$$,10:00-22:00,2025-10-29,true
+198,Prime Kitchen Works,Sydney,92,4.3,frutos do mar;mediterranea,$$$,09:00-23:00,2019-04-19,true
+199,Modern Table Plaza,Seoul,96,3.9,coreana;bbq,$$$,08:00-23:00,2025-06-03,false
+200,Elite Hub Delight,New York,130,3.9,americana;bbq,$,09:00-22:00,2024-05-27,true
+201,Grand House Delight,Sydney,188,4.7,frutos do mar;mediterranea,$$$,10:00-21:00,2017-06-24,true
+202,Sunny Market Plaza,Rome,86,4.3,italiana;pizzaria,$$$$,11:00-23:00,2021-11-18,true
+203,Modern Place Delight,Sydney,198,4.3,frutos do mar;mediterranea,$$,10:00-21:00,2021-07-20,true
+204,Urban Market Point,Sydney,41,4.5,frutos do mar;mediterranea,$,08:00-22:00,2019-07-02,false
+205,Green House Collective,Tokyo,70,4.4,japonesa;sushi,$$,10:00-20:00,2024-05-10,true
+206,Royal Hub Plaza 31,Seoul,97,4.4,coreana;bbq,$,08:00-21:00,2019-12-17,false
+207,Blue Lounge Point,Seoul,198,4.8,coreana;bbq,$,09:00-23:00,2015-12-26,true
+208,Fresh Bistro Studio,Delhi,112,4.3,indiana;curry,$,08:00-23:00,2018-11-16,true
+209,Green Market Hall 15,New York,194,4.3,americana;bbq,$$$,11:00-22:00,2015-01-23,false
+210,Urban Bistro Terrace 21,Paris,108,4.9,francesa;bistro,$$,12:00-21:00,2017-11-02,false
+211,Blue Kitchen Street,Beijing,51,4.5,chinesa;asiatica,$$$,10:00-23:00,2017-07-07,true
+212,Elite House Express,Los Angeles,167,3.9,vegana;saudavel,$$$$,12:00-22:00,2018-05-09,false
+213,Classic Table Terrace,Paris,196,3.9,francesa;bistro,$,12:00-20:00,2015-06-23,true
+214,Happy Cafe Corner,Mexico City,186,4.1,mexicana;street-food,$$,12:00-22:00,2018-10-11,false
+215,Royal Cafe Zone,Paris,42,4.6,francesa;bistro,$,12:00-23:00,2024-09-03,true
+216,Golden Table Corner,Delhi,109,4.9,indiana;curry,$,11:00-22:00,2024-07-18,true
+217,Elite Kitchen Plaza,Paris,110,4.4,francesa;bistro,$$$$,12:00-22:00,2023-10-04,false
+218,Sunny House Delight,Mexico City,144,4.3,mexicana;street-food,$$,12:00-22:00,2020-04-28,true
+219,Elite Kitchen Zone,Zurich,174,4.5,churrasco;internacional,$$,11:00-20:00,2016-09-23,false
+220,Urban Corner Plaza,Beijing,147,4.7,chinesa;asiatica,$$$$,10:00-20:00,2015-11-20,true
+221,Golden Palace Express,Tokyo,156,4.4,japonesa;sushi,$,11:00-20:00,2022-05-29,false
+222,Modern Palace Plaza,Rome,73,4.8,italiana;pizzaria,$$$$,08:00-21:00,2020-10-19,true
+223,Classic Place Plaza,Madrid,174,3.8,espanhola;tapas,$,10:00-22:00,2020-02-15,true
+224,Classic Palace Street,Sydney,95,4.0,frutos do mar;mediterranea,$$$,12:00-20:00,2019-10-03,true
+225,Classic Spot Delight,Sydney,66,4.3,frutos do mar;mediterranea,$$$,08:00-20:00,2020-09-19,false
+226,Blue Place Terrace,Beijing,162,4.4,chinesa;asiatica,$$$,10:00-22:00,2015-12-06,true
+227,Royal Spot Plaza,Seoul,127,4.8,coreana;bbq,$$,08:00-23:00,2020-05-01,false
+228,Elite Garden Express,New York,155,3.9,americana;bbq,$,08:00-21:00,2024-04-16,false
+229,Happy Place Collective,Rome,43,4.1,italiana;pizzaria,$,11:00-23:00,2025-10-30,false
+230,Sunny Bistro Terrace,Rome,193,4.0,italiana;pizzaria,$$$,11:00-21:00,2015-04-17,false
+231,Urban Hub Collective,Seoul,65,4.6,coreana;bbq,$$$,08:00-20:00,2022-12-02,false
+232,Classic Place Collective,Zurich,58,4.4,churrasco;internacional,$$$,10:00-23:00,2015-11-20,false
+233,Classic Kitchen Corner,Zurich,146,4.2,churrasco;internacional,$$$,09:00-23:00,2024-09-05,false
+234,Blue Corner Plaza,Zurich,57,4.7,churrasco;internacional,$$,12:00-22:00,2024-02-02,true
+235,Urban Place Hall,Paris,195,4.9,francesa;bistro,$$$$,09:00-21:00,2025-03-15,true
+236,Green Place Terrace 31,Madrid,54,4.6,espanhola;tapas,$,11:00-23:00,2017-05-03,false
+237,Prime Palace Collective,Madrid,184,4.2,espanhola;tapas,$$,10:00-23:00,2025-09-10,true
+238,Royal House Hall,Tokyo,160,4.8,japonesa;sushi,$$$,08:00-22:00,2023-04-21,true
+239,Classic Spot Studio,Seoul,136,4.4,coreana;bbq,$,10:00-21:00,2017-02-01,true
+240,Central Garden Terrace,Sydney,74,4.4,frutos do mar;mediterranea,$$$$,11:00-22:00,2020-07-29,false
+241,Green Market Zone,Rome,46,4.2,italiana;pizzaria,$,11:00-23:00,2022-07-25,false
+242,Fresh Kitchen Point,New York,177,4.3,americana;bbq,$,12:00-23:00,2019-10-20,false
+243,Sunny Corner Plaza,Paris,117,4.6,francesa;bistro,$$,11:00-21:00,2022-09-07,true
+244,Prime Lounge Hall,Rome,188,4.8,italiana;pizzaria,$$$,09:00-22:00,2024-03-08,true
+245,Blue Grill Studio,Delhi,51,4.2,indiana;curry,$$$$,08:00-20:00,2023-04-07,true
+246,Prime Bistro Terrace,Beijing,181,4.6,chinesa;asiatica,$,08:00-22:00,2018-05-06,true
+247,Royal Market Hall,Madrid,153,4.3,espanhola;tapas,$$,09:00-21:00,2019-03-28,true
+248,Fresh Kitchen Plaza,Tokyo,116,3.9,japonesa;sushi,$$$$,12:00-23:00,2021-06-22,false
+249,Golden Table Terrace,Los Angeles,109,4.8,vegana;saudavel,$$,11:00-22:00,2020-06-03,true
+250,Grand Corner Corner,Paris,51,4.2,francesa;bistro,$$,11:00-22:00,2018-09-21,false
+251,Fresh Bistro Express,New York,172,4.3,americana;bbq,$,11:00-22:00,2019-10-30,false
+252,Modern Garden Corner,Tokyo,143,4.5,japonesa;sushi,$$,08:00-21:00,2015-01-26,true
+253,Grand Corner Terrace,Mexico City,197,3.8,mexicana;street-food,$$$,10:00-22:00,2019-09-17,true
+254,Sunny Dining Terrace,Beijing,121,3.9,chinesa;asiatica,$,10:00-20:00,2018-10-27,false
+255,Royal Cafe Collective,Beijing,125,4.0,chinesa;asiatica,$$$$,12:00-22:00,2018-12-03,true
+256,Fresh Lounge Hall,Beijing,73,4.7,chinesa;asiatica,$$$,12:00-21:00,2015-11-04,true
+257,Golden Bistro Hall,Zurich,184,4.2,churrasco;internacional,$$,10:00-22:00,2025-03-02,false
+258,Royal Table Corner,Delhi,159,4.7,indiana;curry,$$,11:00-20:00,2023-05-28,true
+259,Golden Cafe Corner,Paris,54,4.5,francesa;bistro,$$,08:00-21:00,2020-12-03,true
+260,Prime Table Zone,Madrid,140,4.6,espanhola;tapas,$$,12:00-22:00,2018-08-12,false
+261,Modern Corner Express,Madrid,127,3.8,espanhola;tapas,$$,11:00-20:00,2021-04-18,true
+262,Urban Table Plaza,New York,176,4.6,americana;bbq,$$,11:00-23:00,2018-02-13,true
+263,Bella House Street,Tokyo,142,4.0,japonesa;sushi,$$$$,11:00-22:00,2022-06-24,false
+264,Happy Table Street,Tokyo,114,4.2,japonesa;sushi,$,11:00-23:00,2017-02-09,false
+265,Central Kitchen Plaza 69,Los Angeles,187,4.1,vegana;saudavel,$$,12:00-20:00,2022-03-27,true
+266,Classic Corner Point,Delhi,132,4.1,indiana;curry,$$$,08:00-22:00,2021-07-20,true
+267,Grand Kitchen Corner,Mexico City,72,4.5,mexicana;street-food,$$,08:00-20:00,2023-04-29,true
+268,Green Bistro Zone,Seoul,70,4.9,coreana;bbq,$,08:00-22:00,2019-10-10,true
+269,Happy Lounge Works,Madrid,114,4.1,espanhola;tapas,$$,09:00-22:00,2016-03-22,true
+270,Blue Cafe Terrace,Rome,66,4.1,italiana;pizzaria,$,10:00-22:00,2017-09-09,true
+271,Green Grill Point,Los Angeles,142,4.1,vegana;saudavel,$$$$,08:00-23:00,2018-03-19,true
+272,Golden Hub Works,Paris,190,3.9,francesa;bistro,$,08:00-21:00,2024-04-15,false
+273,Green Spot Point,New York,103,4.3,americana;bbq,$$,08:00-22:00,2021-10-14,true
+274,Classic Garden Point 2,Paris,197,3.9,francesa;bistro,$$$,09:00-23:00,2024-01-08,true
+275,Prime Hub Terrace,Beijing,66,4.5,chinesa;asiatica,$$$$,12:00-23:00,2022-02-17,false
+276,Fresh Spot Hall,Rome,117,4.7,italiana;pizzaria,$,10:00-23:00,2021-03-06,true
+277,Blue Grill Terrace,Beijing,72,3.9,chinesa;asiatica,$,09:00-21:00,2017-10-26,false
+278,Central Cafe Corner,Seoul,146,4.0,coreana;bbq,$,12:00-21:00,2025-10-07,true
+279,Fresh Palace Corner,Rome,87,4.7,italiana;pizzaria,$,12:00-22:00,2021-10-25,true
+280,Blue Grill Station,Seoul,174,3.9,coreana;bbq,$$$$,08:00-22:00,2023-12-26,false
+281,Green House Corner 6,Los Angeles,100,4.4,vegana;saudavel,$,11:00-20:00,2025-07-12,false
+282,Royal Kitchen Express,Tokyo,83,4.6,japonesa;sushi,$$,11:00-20:00,2018-10-25,false
+283,Green Dining Collective,Paris,89,4.8,francesa;bistro,$$,10:00-23:00,2015-10-30,true
+284,Royal Palace Collective,Delhi,199,4.6,indiana;curry,$$$,09:00-23:00,2018-02-27,true
+285,Happy Grill Hall,Tokyo,124,4.6,japonesa;sushi,$$$,10:00-21:00,2016-04-16,false
+286,Sunny Market Studio,Mexico City,174,4.3,mexicana;street-food,$$$,10:00-20:00,2023-01-25,true
+287,Green Place Point,Madrid,171,4.1,espanhola;tapas,$$$,12:00-22:00,2016-06-23,true
+288,Happy Grill Station,Zurich,158,4.0,churrasco;internacional,$$,10:00-22:00,2021-11-17,false
+289,Sunny Spot Plaza,Beijing,191,4.8,chinesa;asiatica,$$,12:00-20:00,2015-01-23,false
+290,Modern Bistro Station,Paris,146,4.1,francesa;bistro,$$$,08:00-20:00,2016-05-20,true
+291,Fresh Hub Studio,New York,121,4.7,americana;bbq,$,09:00-21:00,2023-06-10,true
+292,Sunny Bistro Collective,Seoul,57,3.9,coreana;bbq,$$,12:00-23:00,2015-04-19,false
+293,Bella Garden Studio,Tokyo,158,4.8,japonesa;sushi,$,12:00-21:00,2021-04-27,false
+294,Central Cafe Works,Tokyo,76,4.4,japonesa;sushi,$$,11:00-20:00,2025-03-19,true
+295,Classic Bistro Delight,Sydney,51,4.7,frutos do mar;mediterranea,$,08:00-21:00,2019-07-25,false
+296,Grand Corner Hall,Los Angeles,125,4.1,vegana;saudavel,$$$,08:00-23:00,2018-07-03,true
+297,Prime Place Studio,Delhi,161,4.8,indiana;curry,$$,09:00-23:00,2022-04-21,false
+298,Sunny Place Corner,Seoul,74,4.1,coreana;bbq,$,08:00-21:00,2018-12-14,true
+299,Sunny Dining Plaza,Delhi,135,4.8,indiana;curry,$$,10:00-20:00,2025-09-25,true
+300,Modern Place Collective,Sydney,106,4.9,frutos do mar;mediterranea,$,12:00-22:00,2015-02-17,true
+301,Royal Spot Corner,Los Angeles,164,4.5,vegana;saudavel,$$$$,08:00-23:00,2022-03-13,true
+302,Modern Place Express,Mexico City,174,4.7,mexicana;street-food,$$,08:00-23:00,2019-08-08,true
+303,Grand Place Zone,Zurich,192,4.0,churrasco;internacional,$,12:00-22:00,2017-07-24,false
+304,Grand Grill Street,Mexico City,186,3.9,mexicana;street-food,$$$$,10:00-20:00,2020-03-15,true
+305,Sunny Dining Point,Sydney,68,4.0,frutos do mar;mediterranea,$$$$,08:00-23:00,2015-12-22,true
+306,Bella Kitchen Works,Delhi,187,4.5,indiana;curry,$,10:00-22:00,2015-02-08,true
+307,Happy Bistro Studio,Beijing,108,4.4,chinesa;asiatica,$,11:00-23:00,2016-09-08,false
+308,Green Market Street 78,Zurich,147,4.8,churrasco;internacional,$$$,10:00-21:00,2019-06-03,false
+309,Grand Hub Zone,Beijing,133,4.1,chinesa;asiatica,$$$,11:00-22:00,2020-03-04,true
+310,Classic Table Point,Delhi,166,4.2,indiana;curry,$$$$,09:00-20:00,2018-10-04,true
+311,Fresh Corner Zone,Beijing,68,4.4,chinesa;asiatica,$,12:00-23:00,2018-04-06,true
+312,Bella Bistro Delight,Delhi,120,4.3,indiana;curry,$$$,10:00-22:00,2023-11-01,true
+313,Central Dining Hall,Seoul,176,4.1,coreana;bbq,$$$$,11:00-21:00,2023-04-26,false
+314,Urban Lounge Terrace,Delhi,151,4.7,indiana;curry,$$$,12:00-22:00,2016-06-04,true
+315,Classic House Works 62,Paris,154,3.8,francesa;bistro,$$$,08:00-22:00,2016-01-07,true
+316,Classic Spot Collective 88,Seoul,175,4.1,coreana;bbq,$,11:00-21:00,2019-12-26,false
+317,Bella Table Terrace,Seoul,129,4.4,coreana;bbq,$$,11:00-21:00,2016-09-07,false
+318,Prime Corner Zone,Rome,196,3.9,italiana;pizzaria,$$$$,11:00-22:00,2018-05-02,false
+319,Elite Grill Hall,Paris,142,4.3,francesa;bistro,$,08:00-21:00,2017-01-13,false
+320,Happy Kitchen Station 27,Mexico City,58,4.5,mexicana;street-food,$$,10:00-20:00,2023-11-28,true
+321,Happy Kitchen Delight,Paris,108,3.9,francesa;bistro,$$,08:00-23:00,2020-12-03,true
+322,Blue Corner Works,Tokyo,74,4.1,japonesa;sushi,$$,10:00-21:00,2024-02-14,false
+323,Golden Spot Zone,Rome,134,4.7,italiana;pizzaria,$$$$,10:00-21:00,2015-06-06,true
+324,Golden Grill Express,Beijing,129,4.5,chinesa;asiatica,$$$,08:00-20:00,2015-11-05,true
+325,Central Grill Collective,Zurich,66,4.6,churrasco;internacional,$$,12:00-23:00,2020-10-19,false
+326,Grand Cafe Collective,Delhi,178,4.8,indiana;curry,$$$,12:00-23:00,2019-04-15,true
+327,Urban Garden Zone,Los Angeles,86,4.2,vegana;saudavel,$$$$,08:00-21:00,2023-08-20,true
+328,Happy Lounge Corner,Rome,80,4.4,italiana;pizzaria,$$$,10:00-21:00,2017-07-07,true
+329,Green Kitchen Delight,Los Angeles,146,4.0,vegana;saudavel,$$$,11:00-23:00,2015-06-04,false
+330,Urban Grill Zone 57,Madrid,68,4.8,espanhola;tapas,$$,08:00-21:00,2021-06-14,true
+331,Central Palace Street,Tokyo,177,4.4,japonesa;sushi,$$$$,12:00-20:00,2016-12-20,true
+332,Royal Grill Express,Delhi,178,4.3,indiana;curry,$$$$,11:00-23:00,2020-03-12,false
+333,Bella Garden Zone,Sydney,169,4.8,frutos do mar;mediterranea,$$,09:00-21:00,2023-09-22,false
+334,Elite Spot Hall,Madrid,80,4.5,espanhola;tapas,$$,09:00-22:00,2020-03-05,true
+335,Central Table Works,Beijing,40,4.1,chinesa;asiatica,$$$,12:00-22:00,2024-02-22,false
+336,Royal House Collective,Los Angeles,120,4.4,vegana;saudavel,$$,10:00-23:00,2016-01-05,false
+337,Central Dining Works 96,Rome,176,3.9,italiana;pizzaria,$$,11:00-20:00,2017-06-16,true
+338,Elite Garden Zone,Mexico City,86,4.9,mexicana;street-food,$,08:00-23:00,2025-09-03,false
+339,Happy Market Corner,Delhi,73,4.3,indiana;curry,$$,08:00-23:00,2017-09-21,true
+340,Classic Bistro Station,New York,198,4.3,americana;bbq,$,12:00-22:00,2023-11-15,true
+341,Urban Place Point,Sydney,182,4.6,frutos do mar;mediterranea,$$$$,08:00-21:00,2025-11-20,false
+342,Prime House Works,Paris,80,4.6,francesa;bistro,$$$$,09:00-21:00,2023-12-01,false
+343,Elite Kitchen Studio,New York,129,4.7,americana;bbq,$$,10:00-20:00,2025-11-27,true
+344,Fresh Dining Station 61,Rome,66,4.2,italiana;pizzaria,$$,09:00-20:00,2015-10-07,true
+345,Green Corner Works,Madrid,176,4.5,espanhola;tapas,$$$,10:00-20:00,2015-07-15,true
+346,Classic Dining Street,Sydney,85,4.4,frutos do mar;mediterranea,$$,10:00-22:00,2020-07-05,false
+347,Prime House Street,Madrid,128,3.8,espanhola;tapas,$$$,12:00-23:00,2022-05-24,false
+348,Blue Table Collective,Rome,51,4.0,italiana;pizzaria,$$$,12:00-21:00,2025-10-14,false
+349,Sunny Garden Plaza,Beijing,79,4.8,chinesa;asiatica,$$$,08:00-21:00,2021-04-15,true
+350,Royal Lounge Express,Rome,160,4.9,italiana;pizzaria,$$$,09:00-21:00,2019-04-15,false
+351,Fresh Place Street,Delhi,63,4.4,indiana;curry,$$,12:00-21:00,2021-10-08,true
+352,Blue Cafe Corner,Tokyo,99,4.0,japonesa;sushi,$$$,12:00-20:00,2021-06-12,true
+353,Classic Bistro Works,Sydney,183,4.2,frutos do mar;mediterranea,$$$$,09:00-23:00,2020-07-04,true
+354,Happy Hub Delight,Mexico City,104,4.1,mexicana;street-food,$,11:00-23:00,2019-11-19,true
+355,Grand Spot Plaza,Zurich,74,3.9,churrasco;internacional,$,12:00-20:00,2019-08-07,false
+356,Elite Hub Collective,Paris,149,4.7,francesa;bistro,$$$$,10:00-22:00,2021-09-18,true
+357,Green Garden Street,Rome,118,4.2,italiana;pizzaria,$,12:00-21:00,2019-11-10,false
+358,Central Palace Works,Madrid,61,4.2,espanhola;tapas,$,09:00-23:00,2015-01-13,false
+359,Prime Garden Studio,Seoul,121,3.8,coreana;bbq,$,09:00-20:00,2015-10-12,false
+360,Elite Cafe Express,Paris,97,3.8,francesa;bistro,$$$,09:00-20:00,2020-05-06,true
+361,Sunny Bistro Street,Zurich,114,4.8,churrasco;internacional,$,11:00-23:00,2024-08-21,true
+362,Bella Garden Express,Sydney,51,3.9,frutos do mar;mediterranea,$$$,11:00-20:00,2018-01-20,true
+363,Happy Cafe Point,Sydney,95,4.5,frutos do mar;mediterranea,$$$$,12:00-22:00,2024-04-28,true
+364,Green Spot Station,Mexico City,177,4.4,mexicana;street-food,$,09:00-21:00,2023-06-25,true
+365,Grand Hub Express,Zurich,73,4.7,churrasco;internacional,$$$$,10:00-22:00,2018-10-02,true
+366,Urban Place Studio,Madrid,71,4.9,espanhola;tapas,$,12:00-23:00,2023-06-01,false
+367,Bella Place Zone,Beijing,96,4.2,chinesa;asiatica,$,10:00-22:00,2017-01-16,true
+368,Bella Market Point,Tokyo,172,3.8,japonesa;sushi,$,08:00-22:00,2015-02-19,false
+369,Bella Cafe Collective,Seoul,41,4.7,coreana;bbq,$$$$,10:00-21:00,2021-05-02,false
+370,Modern Market Plaza,Zurich,200,4.1,churrasco;internacional,$$,10:00-20:00,2022-06-03,true
+371,Classic Hub Hall,Seoul,139,4.1,coreana;bbq,$$$,12:00-21:00,2019-06-01,true
+372,Central Table Terrace,Los Angeles,51,4.2,vegana;saudavel,$$$,09:00-22:00,2025-10-18,true
+373,Grand Palace Collective,New York,182,4.6,americana;bbq,$,12:00-21:00,2015-09-08,false
+374,Fresh Corner Studio,Zurich,56,4.6,churrasco;internacional,$,10:00-21:00,2025-03-29,false
+375,Happy Grill Zone,Beijing,125,4.2,chinesa;asiatica,$,08:00-23:00,2024-08-12,true
+376,Golden Palace Studio,Zurich,41,4.7,churrasco;internacional,$,11:00-22:00,2015-04-03,true
+377,Classic Kitchen Plaza,Tokyo,122,4.4,japonesa;sushi,$$,10:00-22:00,2021-07-05,false
+378,Prime Table Studio,New York,180,3.8,americana;bbq,$$$$,12:00-22:00,2016-09-28,false
+379,Royal Spot Delight,Paris,72,4.0,francesa;bistro,$$,08:00-23:00,2020-07-07,true
+380,Bella Table Corner,Mexico City,193,4.3,mexicana;street-food,$,11:00-21:00,2018-02-24,false
+381,Central Palace Station,Mexico City,121,4.8,mexicana;street-food,$,10:00-21:00,2024-06-08,true
+382,Elite Grill Terrace,Sydney,183,3.9,frutos do mar;mediterranea,$,11:00-20:00,2018-03-25,true
+383,Sunny Table Hall,Sydney,69,4.3,frutos do mar;mediterranea,$$$$,11:00-23:00,2019-08-04,false
+384,Royal Lounge Hall,Beijing,72,4.7,chinesa;asiatica,$$$,09:00-21:00,2025-02-14,false
+385,Happy House Point,Delhi,181,4.3,indiana;curry,$$,12:00-20:00,2022-11-28,false
+386,Prime Cafe Street,Rome,162,4.1,italiana;pizzaria,$$$$,09:00-22:00,2022-08-30,false
+387,Golden Market Corner,Zurich,155,4.8,churrasco;internacional,$$,10:00-21:00,2018-05-29,false
+388,Royal House Studio,Sydney,77,4.8,frutos do mar;mediterranea,$$$,10:00-20:00,2018-10-17,true
+389,Golden Hub Express,Beijing,107,4.2,chinesa;asiatica,$$$,12:00-21:00,2020-04-27,true
+390,Green Market Studio,Seoul,77,4.0,coreana;bbq,$$$$,09:00-23:00,2017-07-30,false
+391,Happy Lounge Street 33,Los Angeles,134,4.0,vegana;saudavel,$$$,11:00-23:00,2022-02-24,false
+392,Bella Place Delight,Beijing,64,4.1,chinesa;asiatica,$$,09:00-21:00,2022-02-08,false
+393,Urban Dining Collective,Rome,40,4.1,italiana;pizzaria,$,10:00-20:00,2025-01-08,true
+394,Grand Lounge Studio,Rome,128,4.5,italiana;pizzaria,$$,10:00-22:00,2022-04-01,false
+395,Green Grill Studio,Zurich,63,4.8,churrasco;internacional,$$$,10:00-21:00,2024-04-12,true
+396,Sunny Place Zone,Paris,129,4.4,francesa;bistro,$,10:00-20:00,2015-05-12,false
+397,Urban Garden Point,Madrid,159,4.5,espanhola;tapas,$,11:00-23:00,2024-04-08,true
+398,Sunny Market Street 99,New York,40,4.5,americana;bbq,$,08:00-22:00,2023-01-17,true
+399,Happy Grill Street,Madrid,198,4.6,espanhola;tapas,$$$,10:00-21:00,2022-06-14,false
+400,Grand Kitchen Zone,Mexico City,90,4.4,mexicana;street-food,$$,12:00-21:00,2015-11-08,false
+401,Green House Terrace,Sydney,94,3.9,frutos do mar;mediterranea,$$$$,10:00-23:00,2022-11-28,false
+402,Happy Cafe Terrace,Madrid,117,4.1,espanhola;tapas,$$,11:00-21:00,2025-12-12,false
+403,Golden Market Point,Madrid,64,4.6,espanhola;tapas,$$$$,10:00-23:00,2022-03-11,true
+404,Blue Spot Studio,Beijing,142,4.1,chinesa;asiatica,$$$,09:00-23:00,2021-05-06,false
+405,Modern Grill Express,Rome,91,4.6,italiana;pizzaria,$$$$,12:00-21:00,2021-08-04,true
+406,Fresh Palace Plaza,Los Angeles,80,3.9,vegana;saudavel,$$$$,09:00-23:00,2015-04-27,true
+407,Fresh Bistro Street 27,Sydney,182,4.5,frutos do mar;mediterranea,$,09:00-23:00,2022-06-29,false
+408,Bella Place Plaza,Mexico City,68,4.9,mexicana;street-food,$,09:00-23:00,2020-08-19,true
+409,Central Hub Zone,Rome,42,4.7,italiana;pizzaria,$$,12:00-21:00,2017-08-25,false
+410,Royal House Delight,Rome,141,4.2,italiana;pizzaria,$$$$,12:00-21:00,2022-10-25,true
+411,Urban Hub Hall,New York,62,4.2,americana;bbq,$,09:00-21:00,2019-09-18,true
+412,Central Lounge Zone,Beijing,174,4.4,chinesa;asiatica,$$$$,08:00-22:00,2019-09-05,false
+413,Central Dining Zone,Paris,188,4.6,francesa;bistro,$$$,10:00-22:00,2017-01-05,false
+414,Happy Palace Point,Paris,195,3.8,francesa;bistro,$$$$,12:00-20:00,2020-03-15,false
+415,Fresh House Express,Delhi,63,4.8,indiana;curry,$$$$,08:00-22:00,2017-03-18,false
+416,Royal Garden Terrace,Zurich,180,4.6,churrasco;internacional,$$,10:00-23:00,2016-06-10,false
+417,Elite Kitchen Station,Madrid,176,4.1,espanhola;tapas,$$,08:00-20:00,2021-05-13,false
+418,Elite Lounge Point,Delhi,119,4.8,indiana;curry,$,12:00-20:00,2024-05-15,false
+419,Royal Dining Collective,Madrid,142,3.8,espanhola;tapas,$$$$,09:00-23:00,2020-06-13,false
+420,Fresh Cafe Point,Zurich,92,4.1,churrasco;internacional,$$$$,10:00-22:00,2017-03-10,true
+421,Modern Hub Plaza,Beijing,84,4.8,chinesa;asiatica,$$$$,10:00-22:00,2023-11-19,false
+422,Central Garden Point,Mexico City,77,4.7,mexicana;street-food,$$$$,09:00-21:00,2015-04-10,false
+423,Urban Dining Street 64,Sydney,87,4.7,frutos do mar;mediterranea,$$,11:00-20:00,2021-06-02,false
+424,Blue Dining Hall,Delhi,161,4.7,indiana;curry,$$,09:00-23:00,2015-01-08,false
+425,Modern Table Studio,New York,166,3.8,americana;bbq,$$,12:00-23:00,2017-03-29,false
+426,Classic Market Terrace,Los Angeles,181,4.5,vegana;saudavel,$$$,10:00-22:00,2015-11-09,false
+427,Bella Spot Terrace,Tokyo,134,4.1,japonesa;sushi,$$$$,12:00-21:00,2019-01-24,true
+428,Sunny Bistro Delight,Tokyo,52,4.0,japonesa;sushi,$$$,09:00-21:00,2022-01-21,false
+429,Blue Bistro Zone,Rome,82,4.4,italiana;pizzaria,$$,09:00-23:00,2017-01-06,true
+430,Central Market Express,Tokyo,196,4.0,japonesa;sushi,$,08:00-21:00,2017-09-26,true
+431,Fresh Place Collective,Beijing,134,4.3,chinesa;asiatica,$$$$,09:00-23:00,2016-11-29,false
+432,Sunny Kitchen Station,Zurich,46,4.3,churrasco;internacional,$$$,10:00-20:00,2015-01-08,false
+433,Golden Market Zone,Rome,157,4.6,italiana;pizzaria,$$,08:00-23:00,2021-06-13,false
+434,Green Grill Corner,Tokyo,129,3.8,japonesa;sushi,$,12:00-22:00,2016-08-16,false
+435,Fresh Market Corner,Tokyo,131,4.1,japonesa;sushi,$$$,09:00-21:00,2023-10-13,false
+436,Golden Corner Terrace,Sydney,87,4.2,frutos do mar;mediterranea,$$$$,11:00-21:00,2018-05-30,false
+437,Elite Garden Corner,Beijing,76,4.1,chinesa;asiatica,$$$$,11:00-20:00,2025-09-04,true
+438,Grand Hub Point,Madrid,46,4.1,espanhola;tapas,$$$$,09:00-23:00,2018-07-04,true
+439,Elite House Plaza,Beijing,194,4.9,chinesa;asiatica,$$$,10:00-22:00,2023-03-29,true
+440,Royal Dining Station,Paris,58,4.4,francesa;bistro,$$,10:00-22:00,2025-07-30,false
+441,Modern Corner Collective,Los Angeles,87,4.9,vegana;saudavel,$$,12:00-20:00,2018-07-12,true
+442,Sunny House Plaza 8,Paris,153,3.9,francesa;bistro,$$$,10:00-21:00,2025-12-09,false
+443,Urban Kitchen Terrace,Los Angeles,56,4.8,vegana;saudavel,$$$$,10:00-23:00,2018-06-16,false
+444,Blue Place Point 51,Paris,102,3.9,francesa;bistro,$$$$,09:00-23:00,2020-10-27,true
+445,Elite Hub Works,Paris,157,4.1,francesa;bistro,$$$$,11:00-20:00,2020-03-31,false
+446,Sunny Bistro Works,Delhi,110,3.8,indiana;curry,$$$,09:00-22:00,2024-07-16,true
+447,Golden Garden Works,Paris,179,4.1,francesa;bistro,$$$$,10:00-22:00,2024-04-19,true
+448,Royal Cafe Street,Zurich,43,3.9,churrasco;internacional,$$$,10:00-21:00,2018-01-21,true
+449,Royal Bistro Station,Mexico City,61,3.9,mexicana;street-food,$$$$,12:00-20:00,2017-09-17,true
+450,Royal Market Corner,Zurich,102,4.3,churrasco;internacional,$$,12:00-20:00,2016-03-16,true
+451,Modern Dining Plaza,Paris,165,4.7,francesa;bistro,$$$$,09:00-22:00,2022-09-09,false
+452,Classic Dining Station,Los Angeles,49,4.8,vegana;saudavel,$$,12:00-23:00,2018-11-19,false
+453,Happy Grill Express,Beijing,99,4.0,chinesa;asiatica,$$$$,08:00-23:00,2015-12-20,true
+454,Prime Kitchen Express,Los Angeles,75,4.9,vegana;saudavel,$,09:00-23:00,2020-06-16,true
+455,Prime Market Works,Zurich,103,4.3,churrasco;internacional,$$$$,11:00-21:00,2017-08-25,false
+456,Happy Hub Plaza,Madrid,133,4.0,espanhola;tapas,$$$$,08:00-23:00,2015-08-09,false
+457,Urban Hub Corner,Tokyo,65,3.9,japonesa;sushi,$,12:00-22:00,2023-09-13,false
+458,Bella Dining Corner,New York,103,4.7,americana;bbq,$$,12:00-23:00,2020-10-14,false
+459,Grand Table Hall,Delhi,94,4.6,indiana;curry,$$,10:00-23:00,2025-08-24,false
+460,Sunny Place Studio 11,New York,151,4.8,americana;bbq,$$$,09:00-20:00,2023-05-30,false
+461,Elite Bistro Street,Tokyo,154,4.8,japonesa;sushi,$$$$,11:00-22:00,2016-02-19,true
+462,Royal Palace Studio,Zurich,69,4.8,churrasco;internacional,$,12:00-22:00,2020-10-27,false
+463,Classic Cafe Hall,Paris,72,4.3,francesa;bistro,$$,08:00-23:00,2024-12-21,true
+464,Golden Kitchen Delight,Tokyo,116,4.3,japonesa;sushi,$$,09:00-20:00,2021-10-16,false
+465,Classic Lounge Zone,New York,99,4.9,americana;bbq,$,10:00-21:00,2025-02-13,false
+466,Elite Spot Delight,Delhi,86,4.2,indiana;curry,$$$,12:00-20:00,2020-09-19,false
+467,Happy Place Station,Zurich,194,4.9,churrasco;internacional,$,10:00-21:00,2022-11-22,false
+468,Prime Dining Hall,Seoul,132,4.2,coreana;bbq,$$$,11:00-23:00,2019-03-10,false
+469,Green Garden Express,Sydney,147,4.5,frutos do mar;mediterranea,$,08:00-23:00,2018-07-31,false
+470,Classic Spot Corner,Rome,82,4.7,italiana;pizzaria,$$,09:00-21:00,2023-01-14,true
+471,Modern Bistro Express,Tokyo,93,4.9,japonesa;sushi,$$,12:00-21:00,2025-12-07,false
+472,Fresh Garden Street,Rome,108,4.6,italiana;pizzaria,$$$,09:00-23:00,2018-05-11,false
+473,Central Kitchen Zone,Tokyo,122,4.5,japonesa;sushi,$$,08:00-22:00,2017-04-10,false
+474,Modern Corner Point,Madrid,155,4.6,espanhola;tapas,$,08:00-22:00,2022-05-23,true
+475,Fresh Bistro Delight,Sydney,184,4.5,frutos do mar;mediterranea,$$$$,09:00-23:00,2023-09-18,true
+476,Central Bistro Hall 17,Madrid,57,3.8,espanhola;tapas,$,11:00-21:00,2018-07-09,false
+477,Elite Place Express,Sydney,40,4.4,frutos do mar;mediterranea,$$,11:00-22:00,2025-04-21,true
+478,Royal Palace Corner,Delhi,196,3.8,indiana;curry,$$$,11:00-23:00,2022-09-08,false
+479,Green House Studio,Mexico City,145,4.0,mexicana;street-food,$$$,10:00-20:00,2017-09-28,true
+480,Bella Garden Point,Tokyo,107,4.3,japonesa;sushi,$$,10:00-20:00,2021-12-16,false
+481,Elite Table Corner,Beijing,106,4.6,chinesa;asiatica,$,08:00-20:00,2025-03-13,true
+482,Happy Corner Station,Sydney,175,4.2,frutos do mar;mediterranea,$$,10:00-20:00,2016-11-23,true
+483,Blue Lounge Street,Mexico City,48,4.0,mexicana;street-food,$$$,08:00-20:00,2020-03-29,false
+484,Golden Cafe Express,Los Angeles,131,3.8,vegana;saudavel,$$$$,10:00-20:00,2020-03-07,false
+485,Central Garden Delight,Sydney,106,4.4,frutos do mar;mediterranea,$$,09:00-20:00,2016-02-06,true
+486,Classic Corner Zone,Tokyo,83,4.8,japonesa;sushi,$$$,10:00-23:00,2019-06-13,true
+487,Sunny Garden Station,Seoul,64,4.2,coreana;bbq,$$,12:00-20:00,2015-09-18,true
+488,Golden Place Zone,Los Angeles,121,4.6,vegana;saudavel,$$$$,08:00-20:00,2025-06-20,true
+489,Happy Dining Station,Zurich,66,4.9,churrasco;internacional,$$$$,10:00-21:00,2018-08-11,true
+490,Central Corner Delight,Los Angeles,132,4.8,vegana;saudavel,$$$,11:00-21:00,2024-03-17,false
+491,Sunny Spot Works,Delhi,76,3.9,indiana;curry,$$$$,12:00-20:00,2021-09-07,false
+492,Grand Hub Plaza 73,Paris,91,4.0,francesa;bistro,$$,12:00-23:00,2023-07-01,false
+493,Fresh Bistro Plaza,Beijing,155,4.8,chinesa;asiatica,$$$,10:00-20:00,2023-11-06,false
+494,Fresh Lounge Delight,Zurich,174,4.0,churrasco;internacional,$,09:00-23:00,2024-08-16,true
+495,Green Kitchen Hall 47,Seoul,95,4.7,coreana;bbq,$$$$,12:00-20:00,2015-09-03,true
+496,Fresh Place Station,New York,74,3.9,americana;bbq,$$$,12:00-21:00,2024-12-27,false
+497,Royal Kitchen Corner,Delhi,166,4.2,indiana;curry,$$$,10:00-23:00,2017-04-15,false
+498,Prime Bistro Corner,Seoul,83,4.1,coreana;bbq,$$$,12:00-22:00,2021-08-25,false
+499,Elite Table Zone,Los Angeles,54,3.9,vegana;saudavel,$$$,11:00-21:00,2025-01-11,false
+500,Classic Market Plaza 63,Seoul,94,4.4,coreana;bbq,$$$$,08:00-22:00,2020-08-12,false
