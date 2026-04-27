@@ -1,0 +1,66 @@
+(R)Royal Spot Corner
+(R)Bella Bistro Works
+(R)Elite Place Works 21
+(R)Prime Hub Express
+(R)Central House Works
+(R)Fresh House Zone
+(R)Blue Kitchen Works
+(R)Fresh House Express
+(R)Happy Market Point
+(R)Royal Palace Station
+(R)Central Corner Delight
+(R)Happy Corner Zone 5
+(R)Urban Bistro Terrace 21
+(R)Elite Grill Terrace
+(R)Bella Dining Works
+(R)Prime House Works
+[45 ## Bella Dining Works ## Seoul ## 107 ## 4.5 ## [coreana,bbq] ## $$ ## 11:00-23:00 ## 27/11/2016 ## true]
+[201 ## Grand House Delight ## Sydney ## 188 ## 4.7 ## [frutos do mar,mediterranea] ## $$$ ## 10:00-21:00 ## 24/06/2017 ## true]
+[489 ## Happy Dining Station ## Zurich ## 66 ## 4.9 ## [churrasco,internacional] ## $$$$ ## 10:00-21:00 ## 11/08/2018 ## true]
+[278 ## Central Cafe Corner ## Seoul ## 146 ## 4.0 ## [coreana,bbq] ## $ ## 12:00-21:00 ## 07/10/2025 ## true]
+[76 ## Fresh Spot Station ## Rome ## 87 ## 4.8 ## [italiana,pizzaria] ## $$$ ## 12:00-23:00 ## 28/01/2016 ## true]
+[234 ## Blue Corner Plaza ## Zurich ## 57 ## 4.7 ## [churrasco,internacional] ## $$ ## 12:00-22:00 ## 02/02/2024 ## true]
+[19 ## Fresh Bistro Collective ## Paris ## 102 ## 3.8 ## [francesa,bistro] ## $$ ## 11:00-22:00 ## 25/07/2025 ## false]
+[312 ## Bella Bistro Delight ## Delhi ## 120 ## 4.3 ## [indiana,curry] ## $$$ ## 10:00-22:00 ## 01/11/2023 ## true]
+[402 ## Happy Cafe Terrace ## Madrid ## 117 ## 4.1 ## [espanhola,tapas] ## $$ ## 11:00-21:00 ## 12/12/2025 ## false]
+[311 ## Fresh Corner Zone ## Beijing ## 68 ## 4.4 ## [chinesa,asiatica] ## $ ## 12:00-23:00 ## 06/04/2018 ## true]
+[287 ## Green Place Point ## Madrid ## 171 ## 4.1 ## [espanhola,tapas] ## $$$ ## 12:00-22:00 ## 23/06/2016 ## true]
+[144 ## Elite Hub Express ## Sydney ## 147 ## 4.3 ## [frutos do mar,mediterranea] ## $ ## 11:00-21:00 ## 12/02/2021 ## false]
+[482 ## Happy Corner Station ## Sydney ## 175 ## 4.2 ## [frutos do mar,mediterranea] ## $$ ## 10:00-20:00 ## 23/11/2016 ## true]
+[367 ## Bella Place Zone ## Beijing ## 96 ## 4.2 ## [chinesa,asiatica] ## $ ## 10:00-22:00 ## 16/01/2017 ## true]
+[8 ## Fresh Lounge Collective ## Zurich ## 79 ## 4.6 ## [churrasco,internacional] ## $$ ## 09:00-21:00 ## 31/10/2018 ## false]
+[156 ## Modern House Street ## Sydney ## 92 ## 4.2 ## [frutos do mar,mediterranea] ## $$$ ## 11:00-20:00 ## 18/10/2023 ## false]
+[498 ## Prime Bistro Corner ## Seoul ## 83 ## 4.1 ## [coreana,bbq] ## $$$ ## 12:00-22:00 ## 25/08/2021 ## false]
+[22 ## Blue House Plaza 58 ## Tokyo ## 44 ## 4.9 ## [japonesa,sushi] ## $$$ ## 11:00-20:00 ## 05/08/2018 ## false]
+[310 ## Classic Table Point ## Delhi ## 166 ## 4.2 ## [indiana,curry] ## $$$$ ## 09:00-20:00 ## 04/10/2018 ## true]
+[56 ## Prime Garden Street ## Madrid ## 149 ## 4.1 ## [espanhola,tapas] ## $$ ## 10:00-21:00 ## 08/10/2015 ## true]
+[175 ## Central Place Express 78 ## Madrid ## 126 ## 4.3 ## [espanhola,tapas] ## $ ## 11:00-20:00 ## 28/09/2016 ## true]
+[264 ## Happy Table Street ## Tokyo ## 114 ## 4.2 ## [japonesa,sushi] ## $ ## 11:00-23:00 ## 09/02/2017 ## false]
+[13 ## Classic Hub Corner ## New York ## 86 ## 3.9 ## [americana,bbq] ## $$ ## 11:00-21:00 ## 24/03/2020 ## false]
+[441 ## Modern Corner Collective ## Los Angeles ## 87 ## 4.9 ## [vegana,saudavel] ## $$ ## 12:00-20:00 ## 12/07/2018 ## true]
+[59 ## Classic Lounge Delight ## Los Angeles ## 97 ## 4.6 ## [vegana,saudavel] ## $$$ ## 11:00-21:00 ## 24/06/2023 ## false]
+[120 ## Central House Plaza ## New York ## 176 ## 4.1 ## [americana,bbq] ## $$ ## 08:00-23:00 ## 27/04/2019 ## false]
+[27 ## Green Bistro Hall ## Rome ## 189 ## 4.4 ## [italiana,pizzaria] ## $ ## 08:00-23:00 ## 24/10/2022 ## true]
+[183 ## Urban Market Studio ## Madrid ## 73 ## 3.9 ## [espanhola,tapas] ## $ ## 08:00-23:00 ## 17/10/2018 ## false]
+[150 ## Fresh Lounge Studio ## Rome ## 60 ## 4.0 ## [italiana,pizzaria] ## $$$$ ## 09:00-20:00 ## 19/09/2019 ## true]
+[421 ## Modern Hub Plaza ## Beijing ## 84 ## 4.8 ## [chinesa,asiatica] ## $$$$ ## 10:00-22:00 ## 19/11/2023 ## false]
+[6 ## Classic Spot Express ## Tokyo ## 47 ## 4.6 ## [japonesa,sushi] ## $$ ## 08:00-20:00 ## 19/08/2015 ## false]
+[333 ## Bella Garden Zone ## Sydney ## 169 ## 4.8 ## [frutos do mar,mediterranea] ## $$ ## 09:00-21:00 ## 22/09/2023 ## false]
+[99 ## Fresh Cafe Corner ## Beijing ## 42 ## 4.3 ## [chinesa,asiatica] ## $ ## 10:00-21:00 ## 05/10/2019 ## true]
+[215 ## Royal Cafe Zone ## Paris ## 42 ## 4.6 ## [francesa,bistro] ## $ ## 12:00-23:00 ## 03/09/2024 ## true]
+[477 ## Elite Place Express ## Sydney ## 40 ## 4.4 ## [frutos do mar,mediterranea] ## $$ ## 11:00-22:00 ## 21/04/2025 ## true]
+[161 ## Elite Corner Plaza ## Zurich ## 98 ## 3.9 ## [churrasco,internacional] ## $$ ## 11:00-21:00 ## 03/12/2018 ## true]
+[84 ## Sunny Place Collective ## New York ## 66 ## 4.5 ## [americana,bbq] ## $$$ ## 08:00-21:00 ## 07/11/2025 ## false]
+[392 ## Bella Place Delight ## Beijing ## 64 ## 4.1 ## [chinesa,asiatica] ## $$ ## 09:00-21:00 ## 08/02/2022 ## false]
+[250 ## Grand Corner Corner ## Paris ## 51 ## 4.2 ## [francesa,bistro] ## $$ ## 11:00-22:00 ## 21/09/2018 ## false]
+[29 ## Sunny Grill Hall ## Madrid ## 86 ## 4.3 ## [espanhola,tapas] ## $$$ ## 08:00-20:00 ## 27/02/2015 ## false]
+[456 ## Happy Hub Plaza ## Madrid ## 133 ## 4.0 ## [espanhola,tapas] ## $$$$ ## 08:00-23:00 ## 09/08/2015 ## false]
+[138 ## Bella Lounge Plaza ## Delhi ## 187 ## 4.5 ## [indiana,curry] ## $$$ ## 08:00-23:00 ## 06/08/2020 ## false]
+[67 ## Blue Cafe Zone ## Sydney ## 164 ## 4.1 ## [frutos do mar,mediterranea] ## $ ## 11:00-23:00 ## 09/04/2019 ## false]
+[322 ## Blue Corner Works ## Tokyo ## 74 ## 4.1 ## [japonesa,sushi] ## $$ ## 10:00-21:00 ## 14/02/2024 ## false]
+[410 ## Royal House Delight ## Rome ## 141 ## 4.2 ## [italiana,pizzaria] ## $$$$ ## 12:00-21:00 ## 25/10/2022 ## true]
+[199 ## Modern Table Plaza ## Seoul ## 96 ## 3.9 ## [coreana,bbq] ## $$$ ## 08:00-23:00 ## 03/06/2025 ## false]
+[305 ## Sunny Dining Point ## Sydney ## 68 ## 4.0 ## [frutos do mar,mediterranea] ## $$$$ ## 08:00-23:00 ## 22/12/2015 ## true]
+[42 ## Modern Dining Corner ## Tokyo ## 164 ## 4.5 ## [japonesa,sushi] ## $$$ ## 09:00-21:00 ## 05/07/2023 ## false]
+[222 ## Modern Palace Plaza ## Rome ## 73 ## 4.8 ## [italiana,pizzaria] ## $$$$ ## 08:00-21:00 ## 19/10/2020 ## true]
+[399 ## Happy Grill Street ## Madrid ## 198 ## 4.6 ## [espanhola,tapas] ## $$$ ## 10:00-21:00 ## 14/06/2022 ## false]
