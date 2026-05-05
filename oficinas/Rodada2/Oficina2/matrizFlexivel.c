@@ -33,11 +33,11 @@ Matriz* novaMatriz(int tam){
 		nova->esq = tmp;
 		tmp = nova;
 	}
-	Celula* tmpAnterior = matriz->inicio->dir;//tmpA=8
-	Celula* tmpAnteriorP = matriz->inicio;//tmpAP=9
+	Celula* tmpAnterior = matriz->inicio->dir;
+	Celula* tmpAnteriorP = matriz->inicio;
 	for(int i=1; i<tam; i++){
-		Celula* tmp = novaCelula(numero--);//6
-		tmp->sup = tmpAnteriorP;//6->9
+		Celula* tmp = novaCelula(numero--);
+		tmp->sup = tmpAnteriorP;
 		tmpAnteriorP->inf = tmp;
 		for(int j=1; j<tam; j++){
 			Celula* nova = novaCelula(numero--);
@@ -55,19 +55,6 @@ Matriz* novaMatriz(int tam){
 
 	return matriz;
 }
-
-Celula* getProximo(Celula* i, int linha){ 
-	Celula* proximo = NULL;
-	if(linha % 2 == 0){
-		if(i->dir == NULL) proximo = i->inf;
-		else proximo = i->dir;
-	} else {
-		if(i->esq == NULL) proximo = i->inf;
-		else proximo = i->esq;
-	}
-	return proximo;
-}
-
 
 void mostrar(Matriz* matriz){ 
 	Celula* atual = matriz->inicio;
