@@ -1,0 +1,100 @@
+C l a s s i c   NAO
+S u n n y   G a r d e n   S t NAO
+R o y a l   NAO
+G r a n d   NAO
+C e n t r a l   NAO
+C l a s s i c   NAO
+G r a n d   B i s t r o   C o l l e c t i v e SIM [7 ## Grand Bistro Collective ## Tokyo ## 49 ## 4.4 ## [japonesa,sushi] ## $ ## 08:00-23:00 ## 12/04/2024 ## false]
+F r e s h   NAO
+P r i m e   NAO
+G r a n d   S p o t   W o r k s   6 1 SIM [10 ## Grand Spot Works 61 ## Beijing ## 43 ## 4.3 ## [chinesa,asiatica] ## $$$ ## 09:00-22:00 ## 09/03/2018 ## true]
+G r a n d   C o r n e r   NAO
+E l i t e   P l a c e   W o r k s   2 1 SIM [12 ## Elite Place Works 21 ## Beijing ## 69 ## 4.9 ## [chinesa,asiatica] ## $$$ ## 09:00-23:00 ## 03/03/2019 ## false]
+C l a s s i c   H NAO
+G r a n d   C NAO
+F r e s h   NAO
+M o d e r n   C NAO
+G o l d e n   NAO
+R o y a l   P a l a c e   S t a t i o n SIM [18 ## Royal Palace Station ## Paris ## 179 ## 4.0 ## [francesa,bistro] ## $$ ## 08:00-20:00 ## 10/12/2025 ## false]
+F r e s h   B i s t r o   NAO
+U r b a n   NAO
+B l u e   NAO
+B l u e   H o u s e   P l a z a   5 8 SIM [22 ## Blue House Plaza 58 ## Tokyo ## 44 ## 4.9 ## [japonesa,sushi] ## $$$ ## 11:00-20:00 ## 05/08/2018 ## false]
+R o y a l   NAO
+S u n n y   NAO
+C l a s s i c   NAO
+R o y a l   NAO
+G r e e n   NAO
+M o d e r n   G a r d e n   NAO
+S u n n y   G NAO
+H a p p y   NAO
+B e l l a   NAO
+C l a s s i c   G NAO
+B l u e   K i t c h e n   W o r k s SIM [33 ## Blue Kitchen Works ## Delhi ## 77 ## 4.7 ## [indiana,curry] ## $$ ## 09:00-23:00 ## 23/07/2024 ## false]
+B e l l a   NAO
+F r e s h   NAO
+C l a s s i c   NAO
+G r a n d   NAO
+M o d e r n   G a r d e n   E x p r e s s SIM [38 ## Modern Garden Express ## Zurich ## 177 ## 4.0 ## [churrasco,internacional] ## $$$$ ## 10:00-21:00 ## 26/02/2020 ## true]
+C l a s s i c   NAO
+R o y a l   NAO
+P r i m e   NAO
+M o d e r n   NAO
+R o y a l   NAO
+C l a s s i c   NAO
+B e l l a   NAO
+B l u e   NAO
+S u n n y   NAO
+R o y a l   NAO
+P r i m e   P NAO
+E l i t e   NAO
+S u n n y   NAO
+S u n n y   G a r d e n   W o r k s SIM [52 ## Sunny Garden Works ## Mexico City ## 62 ## 3.8 ## [mexicana,street-food] ## $$$ ## 09:00-20:00 ## 13/10/2019 ## false]
+B l u e   H o u s e   NAO
+M o d e r n   NAO
+C e n t r a l   H NAO
+P r i m e   NAO
+F r e s h   B i s t r o   T e r r a c e SIM [57 ## Fresh Bistro Terrace ## New York ## 81 ## 4.4 ## [americana,bbq] ## $ ## 08:00-20:00 ## 30/03/2025 ## true]
+E l i t e   NAO
+C l a s s i c   NAO
+G o l d e n   NAO
+U r b a n   NAO
+F r e s h   B i s t r o   NAO
+G r e e n   G NAO
+G o l d e n   NAO
+C e n t r a l   NAO
+C l a s s i c   G r i l l   P o i n t   9 6 SIM [66 ## Classic Grill Point 96 ## Rome ## 41 ## 4.2 ## [italiana,pizzaria] ## $$ ## 11:00-21:00 ## 27/07/2016 ## false]
+B l u e   NAO
+C l a s s i c   NAO
+G o l d e n   NAO
+F r e s h   NAO
+G r e e n   NAO
+C l a s s i c   D i n i n g   NAO
+C e n t r a l   NAO
+E l i t e   P l a c e   NAO
+M o d e r n   P a l a c e   H a l l SIM [75 ## Modern Palace Hall ## Delhi ## 88 ## 4.0 ## [indiana,curry] ## $$$$ ## 10:00-20:00 ## 06/10/2022 ## false]
+F r e s h   S p o t   NAO
+E l i t e   K i t c h e n   S t NAO
+G r a n d   K i t c h e n   NAO
+G r e e n   NAO
+G r a n d   NAO
+P r i m e   B i s t r o   NAO
+P r i m e   NAO
+R o y a l   P a l a c e   H a l l SIM [83 ## Royal Palace Hall ## Seoul ## 152 ## 3.9 ## [coreana,bbq] ## $$$ ## 12:00-20:00 ## 23/06/2023 ## false]
+S u n n y   NAO
+B l u e   NAO
+G r e e n   H u b   NAO
+R o y a l   NAO
+S u n n y   NAO
+H a p p y   C o r n e r   S t NAO
+E l i t e   NAO
+C l a s s i c   B i s t r o   H a l l SIM [91 ## Classic Bistro Hall ## Paris ## 122 ## 4.2 ## [francesa,bistro] ## $$$$ ## 08:00-22:00 ## 14/04/2025 ## false]
+H a p p y   C o r n e r   NAO
+G r e e n   NAO
+G r e e n   G r i l l   NAO
+S u n n y   NAO
+F r e s h   NAO
+P r i m e   P NAO
+U r b a n   NAO
+F r e s h   NAO
+C e n t r a l   NAO
