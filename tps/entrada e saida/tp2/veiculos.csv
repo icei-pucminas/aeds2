@@ -1,0 +1,501 @@
+id,marca,modelo,ano,categoria,combustivel,cilindros,cilindrada,transmissao,tracao,consumo_cidade,consumo_estrada,co2,turbo,data_registro
+70384,Porsche,911 Carrera 4S Cabriolet,2021,Minicompact Cars,Gasoline,6,3.0,Manual,All-Wheel Drive,7.23,10.20,276.1,true,2020-11-09
+12731,Volkswagen,CC 4MOTION,2012,Compact Cars,Gasoline,6,3.6,Automatic,All-Wheel Drive,7.23,10.63,276.1,false,2011-02-15
+76313,Lexus,UX 250h AWD,2021,Compact Cars,Gasoline;Electricity,4,2.0,CVT,All-Wheel Drive,17.43,16.16,141.6,false,2020-12-01
+98831,BMW,840i xDrive Coupe,2021,Subcompact Cars,Gasoline,6,3.0,Automatic,All-Wheel Drive,8.50,11.48,240.1,true,2020-08-15
+80324,Lamborghini,Aventador Roadster,2021,Two Seaters,Gasoline,12,6.5,Automated Manual,All-Wheel Drive,3.83,6.38,552.2,false,2020-11-13
+50474,Mini,Mini Cooper S Convertible,2012,Minicompact Cars,Gasoline,4,1.6,Manual,Front-Wheel Drive,11.48,14.88,184.1,true,2011-08-29
+48154,Aston Martin,DB12 V8,2025,Minicompact Cars,Gasoline,8,4.0,Automatic,Rear-Wheel Drive,6.38,9.35,315.0,true,2024-05-29
+88008,Hyundai,Veloster,2021,Compact Cars,Gasoline,4,2.0,Manual,Front-Wheel Drive,10.63,14.03,197.2,false,2020-10-09
+51758,Bentley Motors Ltd.,Mulsanne,2012,Midsize Cars,Gasoline,8,6.8,Automatic,Rear-Wheel Drive,4.68,7.65,424.8,true,2011-09-12
+32662,Porsche,911 Targa 4S,2021,Minicompact Cars,Gasoline,6,3.0,Automated Manual,All-Wheel Drive,7.65,9.78,276.1,true,2020-11-09
+62168,Suzuki,KIZASHI AWD,2012,Compact Cars,Gasoline,4,2.4,CVT,All-Wheel Drive,9.35,12.33,220.9,false,2012-02-01
+53731,Chevrolet,Spark EV,2015,Subcompact Cars,Electricity,0,0.0,Automatic,Front-Wheel Drive,54.42,46.34,0.0,false,2014-06-16
+46109,BMW,M340i,2021,Compact Cars,Gasoline,6,3.0,Automatic,Rear-Wheel Drive,9.78,13.60,212.4,true,2020-10-09
+22694,Kia,K5,2026,Large Cars,Gasoline,4,2.5,Automated Manual,Front-Wheel Drive,9.78,14.03,205.7,true,2025-09-25
+58834,Mini,Mini Cooper S,2012,Minicompact Cars,Gasoline,4,1.6,Automatic,Front-Wheel Drive,11.05,14.45,190.4,true,2011-08-29
+54681,Volkswagen,Jetta,2012,Compact Cars,Gasoline,4,2.0,Automatic,Front-Wheel Drive,10.20,13.60,204.5,true,2011-08-29
+43019,Volkswagen,Jetta,2012,Compact Cars,Gasoline,5,2.5,Manual,Front-Wheel Drive,9.78,14.03,212.4,false,2011-09-23
+86177,BMW,M240i Convertible,2021,Subcompact Cars,Gasoline,6,3.0,Automatic,Rear-Wheel Drive,8.93,12.75,230.1,true,2020-08-01
+67235,Mercedes-Benz,E 450 (coupe),2021,Subcompact Cars,Gasoline,6,3.0,Automatic,Rear-Wheel Drive,9.78,13.18,212.4,true,2021-01-19
+57672,BMW,Z4 sDrive35i,2012,Two Seaters,Gasoline,6,3.0,Manual,Rear-Wheel Drive,8.08,11.05,263.0,true,2011-09-24
+59961,Porsche,718 Cayman S,2021,Two Seaters,Gasoline,4,2.5,Manual,Rear-Wheel Drive,8.08,10.20,263.0,true,2020-10-01
+91050,Honda,Civic Hybrid,2005,Compact Cars,Gasoline;Electricity,4,1.3,CVT,Front-Wheel Drive,16.58,18.28,138.1,false,2013-01-01
+35687,Hyundai,Accent,2021,Compact Cars,Gasoline,4,1.6,CVT,Front-Wheel Drive,14.03,17.43,153.4,false,2020-10-08
+22924,Buick,REGAL,2012,Midsize Cars,Gasoline,4,2.0,Manual,Front-Wheel Drive,8.50,13.60,230.1,true,2011-06-24
+90127,Porsche,911 Carrera 4 Cabriolet,2012,Minicompact Cars,Gasoline,6,3.6,Automatic,4-Wheel Drive,7.65,11.05,263.0,false,2011-03-01
+72084,BMW,M240i Convertible,2021,Subcompact Cars,Gasoline,6,3.0,Manual,Rear-Wheel Drive,8.08,11.48,263.0,true,2020-08-01
+10160,Mercedes-Benz,AMG C 63 S (coupe),2021,Subcompact Cars,Gasoline,8,4.0,Automatic,Rear-Wheel Drive,7.23,11.05,276.1,true,2021-01-19
+19625,Aston Martin,V8 Vantage,2012,Two Seaters,Gasoline,8,4.7,Automated Manual,Rear-Wheel Drive,5.95,8.93,345.1,false,2012-01-09
+83665,Porsche,718 Boxster GTS 4.0,2021,Two Seaters,Gasoline,6,4.0,Manual,Rear-Wheel Drive,7.23,10.20,290.6,false,2020-12-02
+65501,Mini,COOPER S CONVERTIBLE,2021,Minicompact Cars,Gasoline,4,2.0,Automated Manual,Front-Wheel Drive,11.05,14.45,190.4,true,2020-03-31
+60139,BMW,528i xDrive,2012,Midsize Cars,Gasoline,4,2.0,Automatic,All-Wheel Drive,9.35,13.60,212.4,true,2011-08-11
+90297,Mercedes-Benz,C 300 (convertible),2021,Subcompact Cars,Gasoline,4,2.0,Automatic,Rear-Wheel Drive,9.78,13.18,212.4,true,2021-01-19
+10982,Aston Martin,Vantage V8,2021,Two Seaters,Gasoline,8,4.0,Automatic,Rear-Wheel Drive,7.65,10.20,276.1,true,2020-08-10
+19906,Porsche,Boxster S,2012,Two Seaters,Gasoline,6,3.4,Automatic,Rear-Wheel Drive,8.50,12.33,240.1,false,2011-04-01
+68697,Volkswagen,Golf R,2012,Compact Cars,Gasoline,4,2.0,Manual,All-Wheel Drive,8.08,11.48,251.0,true,2011-08-29
+10440,Mercedes-Benz,AMG GT (roadster),2021,Two Seaters,Gasoline,8,4.0,Automated Manual,Rear-Wheel Drive,6.38,8.50,324.8,true,2020-11-22
+89061,Cadillac,CTS AWD,2012,Midsize Cars,Gasoline,6,3.0,Automatic,All-Wheel Drive,7.65,11.05,263.0,false,2011-09-01
+81336,Volkswagen,e-Golf,2015,Compact Cars,Electricity,0,0.0,Automatic,Front-Wheel Drive,53.57,44.64,0.0,false,2014-10-16
+81940,Aston Martin,DBS,2012,Minicompact Cars,Gasoline,12,5.9,Automatic,Rear-Wheel Drive,5.10,7.65,394.4,false,2011-05-06
+20241,Suzuki,SX4 Sport,2012,Compact Cars,Gasoline,4,2.0,CVT,Front-Wheel Drive,9.78,12.75,212.4,false,2011-05-04
+76330,Honda,Insight,2005,Two Seaters,Gasoline;Electricity,3,1.0,Manual,Front-Wheel Drive,20.41,24.66,106.2,false,2013-01-01
+60662,Audi,A4 S line quattro,2021,Compact Cars,Gasoline,4,2.0,Automated Manual,All-Wheel Drive,10.20,13.18,204.5,true,2020-10-09
+68723,Toyota,RAV4 2WD,2008,Sport Utility Vehicle - 2WD,Gasoline,4,2.4,Automatic,Front-Wheel Drive,8.93,11.48,230.1,false,2013-01-01
+55164,Acura,TLX AWD A-SPEC,2021,Compact Cars,Gasoline,4,2.0,Automatic,All-Wheel Drive,8.93,12.33,230.1,true,2020-12-01
+93801,Lexus,RC F,2021,Subcompact Cars,Gasoline,8,5.0,Automatic,Rear-Wheel Drive,6.80,10.20,290.6,false,2020-06-01
+45078,Cadillac,CT4,2021,Compact Cars,Gasoline,4,2.0,Automatic,Rear-Wheel Drive,9.78,14.45,204.5,true,2020-03-31
+44134,Subaru,IMPREZA AWD,2012,Compact Cars,Gasoline,4,2.0,CVT,All-Wheel Drive,11.48,15.31,184.1,false,2011-03-01
+98729,Audi,R8 2WD,2021,Two Seaters,Gasoline,10,5.2,Automated Manual,Rear-Wheel Drive,5.95,9.78,324.8,false,2020-10-15
+64291,Volkswagen,CC,2012,Compact Cars,Gasoline,4,2.0,Automatic,Front-Wheel Drive,9.35,13.18,220.9,true,2011-06-13
+37508,Subaru,LEGACY AWD,2012,Midsize Cars,Gasoline,4,2.5,Manual,All-Wheel Drive,8.08,11.48,251.0,false,2011-07-10
+47928,Mercedes-Benz,AMG GT C (roadster),2021,Two Seaters,Gasoline,8,4.0,Automated Manual,Rear-Wheel Drive,6.38,8.50,324.8,true,2020-11-22
+24336,Volkswagen,GTI,2012,Compact Cars,Gasoline,4,2.0,Automatic,Front-Wheel Drive,10.20,14.03,204.5,true,2011-08-29
+47202,Volkswagen,Jetta,2012,Compact Cars,Diesel,4,2.0,Manual,Front-Wheel Drive,12.75,17.86,186.0,true,2011-09-09
+28348,Acura,ILX,2021,Compact Cars,Gasoline,4,2.4,Automated Manual,Front-Wheel Drive,10.20,14.45,197.2,false,2020-11-22
+23908,Mercedes-Benz,AMG GT (coupe),2021,Two Seaters,Gasoline,8,4.0,Automated Manual,Rear-Wheel Drive,6.38,8.50,324.8,true,2020-11-22
+62388,Volkswagen,GOLF,2012,Compact Cars,Diesel,4,2.0,Automatic,Front-Wheel Drive,12.75,17.86,186.0,true,2011-09-09
+69593,Lamborghini,Gallardo Spyder,2012,Two Seaters,Gasoline,10,5.2,Manual,All-Wheel Drive,5.10,8.50,394.4,false,2011-05-25
+21114,Toyota,Corolla,2025,Compact Cars,Gasoline,4,2.0,CVT,Front-Wheel Drive,13.18,16.16,164.7,false,2024-09-18
+12778,Porsche,718 Cayman T,2021,Two Seaters,Gasoline,4,2.0,Automated Manual,Rear-Wheel Drive,8.93,11.48,240.1,true,2020-10-01
+64411,Aston Martin,Vantage Manual,2021,Two Seaters,Gasoline,8,4.0,Manual,Rear-Wheel Drive,5.95,8.93,324.8,true,2020-08-10
+30124,Saab,9-3 SPORT SEDAN,2012,Compact Cars,Gasoline,4,2.0,Automatic,Front-Wheel Drive,8.08,12.33,240.1,true,2011-03-01
+44802,Porsche,911 Carrera 4 Targa,2012,Minicompact Cars,Gasoline,6,3.6,Manual,4-Wheel Drive,7.65,10.63,263.0,false,2011-03-01
+66481,Honda,Civic,2010,Subcompact Cars,Gasoline,4,2.0,Manual,Front-Wheel Drive,8.93,12.33,230.1,false,2013-01-01
+61585,Volvo,C30 FWD,2012,Compact Cars,Gasoline,5,2.5,Manual,Front-Wheel Drive,8.93,12.33,230.1,true,2011-09-23
+43398,Toyota,Supra 2.0,2021,Two Seaters,Gasoline,4,2.0,Automatic,Rear-Wheel Drive,10.63,13.60,197.2,true,2020-08-21
+44237,Nissan,GT-R,2021,Subcompact Cars,Gasoline,6,3.8,Automated Manual,All-Wheel Drive,6.80,9.35,306.8,true,2020-11-22
+90263,BMW,430i Convertible,2021,Subcompact Cars,Gasoline,4,2.0,Automatic,Rear-Wheel Drive,10.20,14.03,204.5,true,2021-03-15
+28018,Lamborghini,Huracan Spyder,2021,Two Seaters,Gasoline,10,5.2,Automated Manual,All-Wheel Drive,5.53,7.65,368.1,false,2020-06-30
+59766,Mercedes-Benz,C 300 (Coupe),2021,Subcompact Cars,Gasoline,4,2.0,Automatic,Rear-Wheel Drive,10.20,14.03,204.5,true,2021-01-19
+39774,Chevrolet,CORVETTE,2012,Two Seaters,Gasoline,8,6.2,Manual,Rear-Wheel Drive,5.95,8.93,324.8,false,2011-06-23
+82633,Saab,9-5 SEDAN,2012,Midsize Cars,Gasoline,4,2.0,Manual,Front-Wheel Drive,8.50,14.03,220.9,true,2011-08-24
+94448,Jaguar,F-TYPE S AWD Convertible,2021,Two Seaters,Gasoline,6,3.0,Automatic,All-Wheel Drive,7.65,11.05,263.0,false,2020-02-24
+37560,Volkswagen,Jetta,2012,Compact Cars,Gasoline,5,2.5,Automatic,Front-Wheel Drive,10.20,13.18,212.4,false,2011-09-09
+47793,Porsche,Cayman,2012,Two Seaters,Gasoline,6,2.9,Automatic,Rear-Wheel Drive,8.50,12.33,230.1,false,2011-01-31
+77180,Nissan,370Z ROADSTER,2012,Two Seaters,Gasoline,6,3.7,Automatic,Rear-Wheel Drive,7.65,10.63,263.0,false,2011-09-24
+94684,Cadillac,CT4 AWD,2021,Compact Cars,Gasoline,4,2.7,Automatic,All-Wheel Drive,8.93,12.33,230.1,true,2020-03-31
+69758,Nissan,VERSA,2012,Compact Cars,Gasoline,4,1.8,Automatic,Front-Wheel Drive,10.20,13.60,204.5,false,2011-03-01
+46954,Kia,Rio,2021,Compact Cars,Gasoline,4,1.6,CVT,Front-Wheel Drive,14.03,17.43,153.4,false,2020-11-30
+48641,Chevrolet,Corvette E-Ray,2025,Two Seaters,Gasoline;Electricity,8,6.2,Automatic,All-Wheel Drive,6.80,10.20,296.4,false,2024-09-18
+54893,Nissan,370Z,2012,Two Seaters,Gasoline,6,3.7,Manual,Rear-Wheel Drive,7.65,11.05,263.0,false,2011-09-24
+67511,BMW,M2 Competition Coupe,2021,Subcompact Cars,Gasoline,6,3.0,Manual,Rear-Wheel Drive,7.65,10.20,276.1,true,2020-08-01
+42900,Cadillac,CTS,2012,Midsize Cars,Gasoline,6,3.6,Automatic,Rear-Wheel Drive,7.65,11.48,263.0,false,2011-09-15
+90830,Porsche,911 Carrera 4S,2012,Minicompact Cars,Gasoline,6,3.8,Automatic,4-Wheel Drive,7.65,11.05,263.0,false,2011-03-01
+20690,Honda,Accord,2010,Large Cars,Gasoline,4,2.4,Automatic,Front-Wheel Drive,8.93,13.18,220.9,false,2013-01-01
+35044,BMW,X5 4.8i,2008,Sport Utility Vehicle - 4WD,Gasoline,8,4.8,Automatic,4-Wheel or All-Wheel Drive,5.95,8.08,345.1,false,2013-01-01
+49099,Porsche,Boxster,2012,Two Seaters,Gasoline,6,2.9,Automatic,Rear-Wheel Drive,8.50,12.33,230.1,false,2011-02-11
+47379,Volkswagen,CC,2012,Compact Cars,Gasoline,4,2.0,Manual,Front-Wheel Drive,8.93,13.18,230.1,true,2011-10-10
+94021,Porsche,911 Carrera 4S,2021,Minicompact Cars,Gasoline,6,3.0,Manual,All-Wheel Drive,7.23,10.63,276.1,true,2020-11-09
+98717,Ferrari,812 GTS,2021,Two Seaters,Gasoline,12,6.5,Automated Manual,Rear-Wheel Drive,5.10,6.38,424.8,false,2020-07-01
+73673,Honda,CR-Z,2012,Two Seaters,Gasoline,4,1.5,Manual,Front-Wheel Drive,13.18,15.73,162.4,false,2011-09-30
+98405,Buick,LACROSSE,2012,Midsize Cars,Gasoline,6,3.6,Automatic,Front-Wheel Drive,7.23,11.48,263.0,false,2011-01-18
+17469,Porsche,911 Carrera 4 Cabriolet,2021,Minicompact Cars,Gasoline,6,3.0,Automated Manual,All-Wheel Drive,7.65,10.20,276.1,true,2020-11-09
+78259,Mini,Mini Cooper S Roadster,2012,Two Seaters,Gasoline,4,1.6,Manual,Front-Wheel Drive,11.48,14.88,184.1,true,2011-08-29
+52652,Toyota,CAMRY,2012,Midsize Cars,Gasoline,4,2.5,Automatic,Front-Wheel Drive,10.63,14.88,197.2,false,2012-02-01
+60462,Audi,R8 Spyder,2012,Two Seaters,Gasoline,10,5.2,Manual,All-Wheel Drive,5.10,8.08,394.4,false,2011-05-09
+95904,BMW,228i xDrive Gran Coupe,2021,Compact Cars,Gasoline,4,2.0,Automatic,All-Wheel Drive,9.78,14.03,204.5,true,2020-10-16
+95957,Lexus,LC 500,2021,Subcompact Cars,Gasoline,8,5.0,Automatic,Rear-Wheel Drive,6.80,10.63,290.6,false,2020-08-10
+47870,BMW,230i Coupe,2021,Subcompact Cars,Gasoline,4,2.0,Automatic,Rear-Wheel Drive,10.63,13.60,197.2,true,2020-08-21
+90201,Porsche,Boxster,2012,Two Seaters,Gasoline,6,2.9,Manual,Rear-Wheel Drive,8.08,11.48,251.0,false,2011-04-01
+41012,Cadillac,CTS,2012,Midsize Cars,Gasoline,8,6.2,Manual,Rear-Wheel Drive,5.95,8.08,345.1,false,2011-09-01
+86879,Audi,TT ROADSTER QUATTRO,2012,Two Seaters,Gasoline,4,2.0,Automatic,All-Wheel Drive,9.78,13.18,212.4,true,2011-06-07
+88587,Mini,Mini John Cooper Works Coupe,2012,Two Seaters,Gasoline,4,1.6,Manual,Front-Wheel Drive,10.63,14.03,197.2,true,2011-08-29
+30700,Mini,COOPER S HARDTOP 4 DOOR,2021,Subcompact Cars,Gasoline,4,2.0,Manual,Front-Wheel Drive,9.78,14.03,204.5,true,2020-09-30
+50406,Ferrari,812 Superfast,2021,Two Seaters,Gasoline,12,6.5,Automated Manual,Rear-Wheel Drive,5.10,6.80,424.8,false,2020-07-01
+60219,Hyundai,Veloster N,2021,Compact Cars,Gasoline,4,2.0,Manual,Front-Wheel Drive,9.35,11.90,220.9,true,2020-08-21
+44082,Mercedes-Benz,SLS AMG Roadster,2012,Two Seaters,Gasoline,8,6.2,Automated Manual,Rear-Wheel Drive,5.95,8.50,345.1,false,2011-07-01
+34498,Nissan,VERSA,2012,Compact Cars,Gasoline,4,1.8,Manual,Front-Wheel Drive,11.05,13.18,197.2,false,2011-03-01
+92604,Toyota,Tercel,1995,Subcompact Cars,Gasoline,4,1.5,Manual,Front-Wheel Drive,11.90,14.88,178.1,false,2013-01-01
+72121,Audi,TTS Coupe,2021,Subcompact Cars,Gasoline,4,2.0,Automated Manual,All-Wheel Drive,9.78,12.33,220.9,true,2020-11-13
+62615,Mini,Mini Cooper Convertible,2012,Minicompact Cars,Gasoline,4,1.6,Manual,Front-Wheel Drive,11.48,14.88,184.1,false,2011-08-29
+83499,BMW,840i Convertible,2021,Subcompact Cars,Gasoline,6,3.0,Automatic,Rear-Wheel Drive,9.35,12.33,220.9,true,2020-08-21
+96514,BMW,330i xDrive,2021,Compact Cars,Gasoline,4,2.0,Automatic,All-Wheel Drive,10.63,14.45,197.2,true,2020-10-16
+49509,Nissan,370Z,2012,Two Seaters,Gasoline,6,3.7,Automatic,Rear-Wheel Drive,8.08,11.05,251.0,false,2011-08-29
+78506,Scion,tC,2012,Compact Cars,Gasoline,4,2.5,Automatic,Front-Wheel Drive,9.78,13.18,212.4,false,2011-03-01
+60480,Volkswagen,GOLF,2012,Compact Cars,Diesel,4,2.0,Manual,Front-Wheel Drive,12.75,17.86,186.0,true,2011-08-29
+83632,Lamborghini,Huracan,2021,Two Seaters,Gasoline,10,5.2,Automated Manual,All-Wheel Drive,5.53,7.65,368.1,false,2020-06-30
+41008,Lamborghini,Aventador Sian Roadster,2021,Two Seaters,Gasoline,12,6.5,Automated Manual,All-Wheel Drive,3.40,5.95,552.2,false,2021-02-26
+17406,Mercedes-Benz,C 300 4MATIC (convertible),2021,Subcompact Cars,Gasoline,4,2.0,Automatic,4-Wheel Drive,9.35,12.75,220.9,true,2021-01-19
+40576,Acura,TLX FWD,2021,Compact Cars,Gasoline,4,2.0,Automatic,Front-Wheel Drive,9.35,13.18,220.9,true,2020-11-22
+86590,Porsche,Cayman S,2012,Two Seaters,Gasoline,6,3.4,Automatic,Rear-Wheel Drive,8.50,12.33,240.1,false,2011-01-31
+21361,Mini,JOHN COOPER WORKS CONVERTIBLE,2021,Minicompact Cars,Gasoline,4,2.0,Automatic,Front-Wheel Drive,10.63,14.03,197.2,true,2020-03-31
+54216,Toyota,CAMRY,2012,Midsize Cars,Gasoline,6,3.5,Automatic,Front-Wheel Drive,8.93,12.75,220.9,false,2012-01-31
+73677,Mercedes-Benz,AMG GT R (coupe),2021,Two Seaters,Gasoline,8,4.0,Automated Manual,Rear-Wheel Drive,5.95,8.50,345.1,true,2020-11-22
+24669,Mini,COOPER HARDTOP 4 DOOR,2021,Subcompact Cars,Gasoline,3,1.5,Manual,Front-Wheel Drive,11.05,15.73,184.1,true,2020-09-30
+72097,Mini,COOPER S HARDTOP 2 DOOR,2021,Subcompact Cars,Gasoline,4,2.0,Automated Manual,Front-Wheel Drive,11.05,14.88,184.1,true,2020-09-30
+47910,Aston Martin,V8 Vantage S,2012,Two Seaters,Gasoline,8,4.7,Automated Manual,Rear-Wheel Drive,5.95,8.93,345.1,false,2011-07-11
+23683,Lexus,RC 350,2021,Subcompact Cars,Gasoline,6,3.5,Automatic,Rear-Wheel Drive,8.50,11.90,240.1,false,2020-06-01
+78320,Porsche,911 Targa 4S,2021,Minicompact Cars,Gasoline,6,3.0,Manual,All-Wheel Drive,7.23,10.20,276.1,true,2020-11-09
+22653,Cadillac,CTS AWD,2012,Midsize Cars,Gasoline,6,3.6,Automatic,All-Wheel Drive,7.65,11.48,263.0,false,2011-09-01
+71958,Mini,JOHN COOPER WORKS HARDTOP,2021,Subcompact Cars,Gasoline,4,2.0,Manual,Front-Wheel Drive,9.78,14.03,204.5,true,2020-09-15
+86700,Lotus,Evora GT,2021,Minicompact Cars,Gasoline,6,3.5,Automatic,Rear-Wheel Drive,7.23,10.20,276.1,false,2020-10-13
+68584,Mini,JOHN COOPER WORKS HARDTOP,2021,Subcompact Cars,Gasoline,4,2.0,Automatic,Front-Wheel Drive,11.05,14.45,190.4,true,2020-08-28
+60050,Honda,Civic Hybrid,2005,Compact Cars,Gasoline;Electricity,4,1.3,Manual,Front-Wheel Drive,16.16,19.13,134.7,false,2013-01-01
+99483,Porsche,911 Carrera Cabriolet,2021,Minicompact Cars,Gasoline,6,3.0,Automated Manual,Rear-Wheel Drive,7.65,10.20,276.1,true,2020-11-09
+45202,Aston Martin,V8 Vantage,2012,Two Seaters,Gasoline,8,4.7,Manual,Rear-Wheel Drive,5.53,8.08,368.1,false,2011-07-11
+60212,Aston Martin,DBS,2021,Minicompact Cars,Gasoline,12,5.2,Automatic,Rear-Wheel Drive,5.95,9.35,324.8,true,2020-08-10
+41486,Porsche,911 Carrera S,2021,Minicompact Cars,Gasoline,6,3.0,Automated Manual,Rear-Wheel Drive,7.65,9.78,276.1,true,2020-11-09
+32389,Porsche,911 Carrera 4,2021,Minicompact Cars,Gasoline,6,3.0,Automated Manual,All-Wheel Drive,7.65,10.20,276.1,true,2020-11-09
+67528,Porsche,718 Cayman,2021,Two Seaters,Gasoline,4,2.0,Manual,Rear-Wheel Drive,8.50,11.05,251.0,true,2020-10-01
+70186,Ferrari,Portofino,2021,Minicompact Cars,Gasoline,8,3.9,Automated Manual,Rear-Wheel Drive,6.80,9.35,306.8,true,2020-07-01
+81208,Porsche,911 C4 GTS,2012,Minicompact Cars,Gasoline,6,3.8,Automatic,4-Wheel Drive,7.65,11.05,263.0,false,2011-01-24
+73575,GMC,C25 Pickup 2WD,1986,Standard Pickup Trucks,Diesel,8,6.2,Automatic,Rear-Wheel Drive,6.38,8.50,372.1,false,2013-01-01
+70398,Mercedes-Benz,SLK 250,2012,Two Seaters,Gasoline,4,1.8,Manual,Rear-Wheel Drive,9.35,13.60,212.4,true,2012-02-23
+98936,Porsche,911 Carrera,2021,Minicompact Cars,Gasoline,6,3.0,Automated Manual,Rear-Wheel Drive,7.65,10.20,276.1,true,2020-11-09
+13027,Buick,REGAL,2012,Midsize Cars,Gasoline,4,2.0,Automatic,Front-Wheel Drive,7.65,12.33,251.0,true,2011-06-24
+96753,Kia,Sportage AWD,2026,Small Sport Utility Vehicle 4WD,Gasoline,4,2.5,Automatic,All-Wheel Drive,10.20,12.75,210.6,false,2025-09-25
+60678,Acura,TL 4WD,2012,Midsize Cars,Gasoline,6,3.7,Automatic,All-Wheel Drive,7.65,11.05,263.0,false,2011-09-24
+27231,Porsche,Cayman,2012,Two Seaters,Gasoline,6,2.9,Manual,Rear-Wheel Drive,8.08,11.48,251.0,false,2011-04-01
+80663,Porsche,Boxster S,2012,Two Seaters,Gasoline,6,3.4,Manual,Rear-Wheel Drive,8.08,11.05,251.0,false,2011-01-31
+16226,BMW,Z4 sDrive35is,2012,Two Seaters,Gasoline,6,3.0,Automatic,Rear-Wheel Drive,7.23,10.20,290.6,true,2011-09-24
+88079,Porsche,718 Boxster T,2021,Two Seaters,Gasoline,4,2.0,Manual,Rear-Wheel Drive,8.50,11.05,251.0,true,2020-10-01
+57405,Mercedes-Benz,AMG GT Black Series,2021,Two Seaters,Gasoline,8,4.0,Automated Manual,Rear-Wheel Drive,6.38,8.50,324.8,true,2021-02-01
+20936,Mazda,MX-5,2021,Two Seaters,Gasoline,4,2.0,Automatic,Rear-Wheel Drive,11.05,14.88,184.1,false,2020-12-17
+28019,Hyundai,Veloster,2021,Compact Cars,Gasoline,4,2.0,Automatic,Front-Wheel Drive,11.48,14.45,184.1,false,2020-09-28
+12879,Saab,9-3 CONVERTIBLE,2012,Compact Cars,Gasoline,4,2.0,Automatic,Front-Wheel Drive,7.65,11.90,251.0,true,2011-03-01
+38903,Cadillac,CT4,2021,Compact Cars,Gasoline,4,2.7,Automatic,Rear-Wheel Drive,8.93,13.18,220.9,true,2020-03-31
+43549,Honda,Insight,2020,Midsize Cars,Gasoline;Electricity,4,1.5,CVT,Front-Wheel Drive,23.38,20.83,105.6,false,2019-07-24
+71630,Mercedes-Benz,AMG S 63 4MATIC+ (convertible),2021,Subcompact Cars,Gasoline,8,4.0,Automatic,4-Wheel Drive,5.95,10.20,324.8,true,2021-01-19
+75170,BMW,M4 Coupe,2021,Subcompact Cars,Gasoline,6,3.0,Manual,Rear-Wheel Drive,6.80,9.78,290.6,true,2020-11-01
+45958,Porsche,Boxster Spyder,2012,Two Seaters,Gasoline,6,3.4,Automatic,Rear-Wheel Drive,8.50,12.33,240.1,false,2011-01-31
+42932,Mini,COOPER CONVERTIBLE,2021,Minicompact Cars,Gasoline,3,1.5,Automated Manual,Front-Wheel Drive,11.90,15.73,178.1,true,2020-03-31
+36572,BMW,840i xDrive Convertible,2021,Subcompact Cars,Gasoline,6,3.0,Automatic,All-Wheel Drive,8.50,11.48,240.1,true,2020-08-15
+42958,Nissan,Sentra/200SX,1995,Subcompact Cars,Gasoline,4,1.6,Manual,Front-Wheel Drive,11.05,15.31,190.4,false,2013-01-01
+63194,Mini,Mini John Cooper Works,2012,Minicompact Cars,Gasoline,4,1.6,Manual,Front-Wheel Drive,10.63,14.03,197.2,true,2011-08-29
+31147,Jaguar,F-TYPE S Convertible,2021,Two Seaters,Gasoline,6,3.0,Automatic,Rear-Wheel Drive,8.08,11.48,251.0,false,2020-02-24
+52218,Toyota,COROLLA,2012,Compact Cars,Gasoline,4,1.8,Automatic,Front-Wheel Drive,11.05,14.45,190.4,false,2011-05-04
+98177,Audi,S4,2021,Compact Cars,Gasoline,6,3.0,Automatic,All-Wheel Drive,8.50,11.90,240.1,true,2020-11-20
+55296,Lamborghini,Gallardo Coupe,2012,Two Seaters,Gasoline,10,5.2,Automated Manual,All-Wheel Drive,5.53,8.50,345.1,false,2011-02-28
+22201,Bentley,Continental GT,2021,Subcompact Cars,Gasoline,12,6.0,Automated Manual,All-Wheel Drive,5.10,8.50,368.1,true,2020-09-18
+39507,BMW,535i,2012,Midsize Cars,Gasoline,6,3.0,Automatic,Rear-Wheel Drive,8.93,13.18,220.9,true,2012-02-27
+39075,BMW,Z4 sDrive28i,2012,Two Seaters,Gasoline,4,2.0,Automatic,Rear-Wheel Drive,10.20,14.03,204.5,true,2011-09-28
+29002,Mercedes-Benz,SLK 250,2012,Two Seaters,Gasoline,4,1.8,Automatic,Rear-Wheel Drive,9.78,14.03,212.4,true,2011-07-01
+37546,Lamborghini,Gallardo Spyder,2012,Two Seaters,Gasoline,10,5.2,Automated Manual,All-Wheel Drive,5.53,8.50,345.1,false,2011-05-25
+83630,Mazda,Protege,1995,Compact Cars,Gasoline,4,1.5,Manual,Front-Wheel Drive,11.05,14.88,184.1,false,2013-01-01
+64300,Toyota,CAMRY HYBRID LE,2012,Midsize Cars,Gasoline;Electricity,4,2.5,CVT,Front-Wheel Drive,18.28,16.58,134.7,false,2012-02-01
+37289,Aston Martin,DB11 V12,2021,Minicompact Cars,Gasoline,12,5.2,Automatic,Rear-Wheel Drive,6.38,9.35,306.8,true,2020-08-10
+60637,Audi,A6,2012,Midsize Cars,Gasoline,4,2.0,CVT,Front-Wheel Drive,10.63,14.03,197.2,true,2011-09-24
+92197,BMW,550i xDrive,2012,Midsize Cars,Gasoline,8,4.4,Automatic,All-Wheel Drive,6.38,8.50,324.8,true,2011-01-18
+67026,Porsche,718 Boxster,2021,Two Seaters,Gasoline,4,2.0,Automated Manual,Rear-Wheel Drive,8.93,11.48,230.1,true,2020-10-01
+50598,Lexus,RC 300,2021,Subcompact Cars,Gasoline,4,2.0,Automatic,Rear-Wheel Drive,8.93,13.18,220.9,true,2020-08-10
+93384,Jeep,Grand Cherokee 4WD,2007,Sport Utility Vehicle - 4WD,Gasoline;E85,8,4.7,Automatic,4-Wheel or All-Wheel Drive,5.95,8.08,368.1,false,2013-01-01
+50401,Lotus,Evora,2012,Minicompact Cars,Gasoline,6,3.5,Automatic,Rear-Wheel Drive,8.50,11.90,240.1,false,2011-07-14
+88592,Toyota,PRIUS c,2012,Compact Cars,Gasoline;Electricity,4,1.5,CVT,Front-Wheel Drive,22.53,19.56,110.4,false,2011-05-13
+52569,Cadillac,CTS,2012,Midsize Cars,Gasoline,6,3.6,Manual,Rear-Wheel Drive,6.80,11.05,290.6,false,2011-09-01
+14335,Mini,COOPER CONVERTIBLE,2021,Minicompact Cars,Gasoline,3,1.5,Manual,Front-Wheel Drive,11.05,15.73,184.1,true,2020-03-31
+68926,BMW,535i xDrive,2012,Midsize Cars,Gasoline,6,3.0,Automatic,All-Wheel Drive,8.93,12.75,230.1,true,2011-07-18
+21492,BMW,550i,2012,Midsize Cars,Gasoline,8,4.4,Manual,Rear-Wheel Drive,6.38,9.35,324.8,true,2011-01-18
+12275,Lexus,IS 300,2021,Compact Cars,Gasoline,4,2.0,Automatic,Rear-Wheel Drive,8.93,13.18,220.9,true,2020-07-31
+93295,Audi,R8,2012,Two Seaters,Gasoline,8,4.2,Automated Manual,All-Wheel Drive,5.53,8.93,345.1,false,2011-05-26
+58731,Lexus,RC 350 AWD,2021,Subcompact Cars,Gasoline,6,3.5,Automatic,All-Wheel Drive,8.08,11.05,251.0,false,2020-06-01
+71497,Chevrolet,CRUZE,2012,Midsize Cars,Gasoline,4,1.4,Automatic,Front-Wheel Drive,11.05,16.16,184.1,true,2011-10-01
+53538,Porsche,718 Cayman S,2021,Two Seaters,Gasoline,4,2.5,Automated Manual,Rear-Wheel Drive,8.08,10.63,251.0,true,2020-10-01
+90612,Mazda,MX-5,2021,Two Seaters,Gasoline,4,2.0,Manual,Rear-Wheel Drive,11.05,14.45,190.4,false,2020-12-17
+98186,Mini,Mini Cooper Convertible,2012,Minicompact Cars,Gasoline,4,1.6,Automatic,Front-Wheel Drive,11.48,14.88,184.1,false,2011-08-29
+50719,Aston Martin,DB9,2012,Minicompact Cars,Gasoline,12,5.9,Automatic,Rear-Wheel Drive,5.53,8.50,368.1,false,2011-01-31
+42383,Tesla,Model 3 Standard Range,2020,Midsize Cars,Electricity,0,0.0,Automatic,Rear-Wheel Drive,58.67,52.72,0.0,false,2019-11-05
+81658,Acura,TL 2WD,2012,Midsize Cars,Gasoline,6,3.5,Automatic,Front-Wheel Drive,8.50,12.33,240.1,false,2011-09-24
+86337,Buick,LACROSSE AWD,2012,Midsize Cars,Gasoline,6,3.6,Automatic,All-Wheel Drive,6.80,11.05,276.1,false,2011-06-24
+32794,Mitsubishi,Mirage,2015,Compact Cars,Gasoline,3,1.2,Manual,Front-Wheel Drive,14.03,17.43,151.0,false,2014-06-06
+14377,BMW,M3,2021,Compact Cars,Gasoline,6,3.0,Manual,Rear-Wheel Drive,6.80,9.78,290.6,true,2020-10-09
+20834,Hyundai,Accent,2021,Compact Cars,Gasoline,4,1.6,Manual,Front-Wheel Drive,12.33,16.58,167.3,false,2020-09-28
+44843,Mercedes-Benz,AMG C 63 (convertible),2021,Subcompact Cars,Gasoline,8,4.0,Automatic,Rear-Wheel Drive,7.23,10.63,276.1,true,2021-01-19
+18903,BMW,230i xDrive Convertible,2021,Subcompact Cars,Gasoline,4,2.0,Automatic,All-Wheel Drive,8.93,12.75,230.1,true,2020-07-31
+19862,Toyota,Prius,2020,Midsize Cars,Gasoline;Electricity,4,1.8,CVT,Front-Wheel Drive,22.96,21.26,105.0,false,2019-08-26
+78683,BMW,M440i Convertible,2021,Subcompact Cars,Gasoline,6,3.0,Automatic,Rear-Wheel Drive,9.78,13.18,212.4,true,2021-03-15
+82081,Aston Martin,DB11 V8,2021,Minicompact Cars,Gasoline,8,4.0,Automatic,Rear-Wheel Drive,7.65,10.20,276.1,true,2020-08-10
+53304,Ford,F150 Pickup 4WD,2020,Standard Pickup Trucks 4WD,Gasoline,6,2.7,Automatic,4-Wheel Drive,7.65,9.78,275.9,true,2019-10-16
+95704,Ford,MUSTANG HO COUPE,2021,Subcompact Cars,Gasoline,4,2.3,Manual,Rear-Wheel Drive,8.50,11.48,251.0,true,2020-08-15
+86459,Lamborghini,Gallardo Coupe,2012,Two Seaters,Gasoline,10,5.2,Manual,All-Wheel Drive,5.10,8.50,368.1,false,2011-05-25
+73915,Jaguar,Jaguar XK Convertible,2012,Minicompact Cars,Gasoline,8,5.0,Automatic,Rear-Wheel Drive,6.80,9.35,306.8,false,2011-07-14
+32730,Volkswagen,Jetta,2012,Compact Cars,Gasoline,4,2.0,Manual,Front-Wheel Drive,10.20,14.45,197.2,false,2011-09-09
+16526,Toyota,RAV4 Hybrid AWD,2020,Small Sport Utility Vehicle 4WD,Gasoline;Electricity,4,2.5,CVT,All-Wheel Drive,17.43,16.16,138.6,false,2019-10-16
+72635,Aston Martin,Virage,2012,Minicompact Cars,Gasoline,12,5.9,Automatic,Rear-Wheel Drive,5.53,7.65,368.1,false,2011-05-06
+17769,Porsche,718 Cayman T,2021,Two Seaters,Gasoline,4,2.0,Manual,Rear-Wheel Drive,8.50,11.05,251.0,true,2020-10-01
+99428,INFINITI,Q60 AWD,2021,Subcompact Cars,Gasoline,6,3.0,Automatic,All-Wheel Drive,8.08,11.48,251.0,true,2020-08-10
+29584,Toyota,Corolla Hybrid,2020,Compact Cars,Gasoline;Electricity,4,1.8,CVT,Front-Wheel Drive,22.53,22.11,105.6,false,2019-02-06
+26533,Buick,LACROSSE,2012,Midsize Cars,Gasoline,4,2.4,Automatic,Front-Wheel Drive,10.63,15.31,190.4,false,2011-01-18
+66281,Audi,A5 quattro,2021,Subcompact Cars,Gasoline,4,2.0,Automated Manual,All-Wheel Drive,10.20,13.18,204.5,true,2020-09-25
+40267,Acura,NSX,2021,Two Seaters,Gasoline,6,3.5,Automated Manual,All-Wheel Drive,8.93,9.35,263.0,true,2021-02-01
+38322,Mini,Mini John Cooper Works Roadster,2012,Two Seaters,Gasoline,4,1.6,Manual,Front-Wheel Drive,10.63,14.03,197.2,true,2011-08-29
+31161,Cadillac,CT4 V,2021,Compact Cars,Gasoline,4,2.7,Automatic,Rear-Wheel Drive,8.50,12.33,240.1,true,2020-03-31
+89681,Ferrari,Portofino M,2021,Minicompact Cars,Gasoline,8,3.9,Automated Manual,Rear-Wheel Drive,6.80,9.78,290.6,true,2020-07-01
+44889,BMW,328d,2015,Compact Cars,Diesel,4,2.0,Automatic,Rear-Wheel Drive,13.18,18.28,177.1,true,2014-08-20
+57184,Honda,Civic Hybrid,2005,Compact Cars,Gasoline;Electricity,4,1.3,Manual,Front-Wheel Drive,15.73,19.13,138.1,false,2013-01-01
+60347,Porsche,Cayman R,2012,Two Seaters,Gasoline,6,3.4,Manual,Rear-Wheel Drive,8.08,11.48,251.0,false,2011-01-31
+37505,BMW,840i Coupe,2021,Subcompact Cars,Gasoline,6,3.0,Automatic,Rear-Wheel Drive,9.78,12.75,220.9,true,2020-08-10
+87943,Volvo,S60 FWD,2012,Compact Cars,Gasoline,5,2.5,Automatic,Front-Wheel Drive,8.50,12.75,240.1,true,2011-09-24
+96146,Chevrolet,Corvette,2025,Two Seaters,Gasoline,8,6.2,Automatic,Rear-Wheel Drive,6.80,10.63,292.7,false,2024-09-18
+45904,Audi,R8 Spyder 2WD,2021,Two Seaters,Gasoline,10,5.2,Automated Manual,Rear-Wheel Drive,5.95,9.78,324.8,false,2020-10-15
+58978,Audi,TT Roadster quattro,2021,Two Seaters,Gasoline,4,2.0,Automated Manual,All-Wheel Drive,9.78,13.18,212.4,true,2020-10-09
+60785,Audi,R8,2012,Two Seaters,Gasoline,10,5.2,Automated Manual,All-Wheel Drive,5.53,8.08,368.1,false,2011-05-06
+30757,BMW,M2 Competition Coupe,2021,Subcompact Cars,Gasoline,6,3.0,Automated Manual,Rear-Wheel Drive,6.80,9.78,290.6,true,2020-08-15
+80263,Porsche,718 Boxster,2021,Two Seaters,Gasoline,4,2.0,Manual,Rear-Wheel Drive,8.50,11.05,251.0,true,2020-10-01
+15103,Acura,TLX FWD A-SPEC,2021,Compact Cars,Gasoline,4,2.0,Automatic,Front-Wheel Drive,9.35,12.75,220.9,true,2020-11-22
+21181,Mini,COOPER HARDTOP 2 DOOR,2021,Subcompact Cars,Gasoline,3,1.5,Automated Manual,Front-Wheel Drive,11.90,15.73,178.1,true,2020-10-14
+48746,Chevrolet,CORVETTE,2012,Two Seaters,Gasoline,8,6.2,Automatic,Rear-Wheel Drive,6.38,10.63,306.8,false,2011-06-02
+63366,INFINITI,Q60 RED SPORT,2021,Subcompact Cars,Gasoline,6,3.0,Automatic,Rear-Wheel Drive,8.50,11.48,251.0,true,2020-08-10
+89776,Toyota,YARIS,2012,Compact Cars,Gasoline,4,1.5,Manual,Front-Wheel Drive,12.75,16.16,167.3,false,2011-06-07
+58739,Lamborghini,Huracan 2WD,2021,Two Seaters,Gasoline,10,5.2,Automated Manual,Rear-Wheel Drive,5.53,7.65,368.1,false,2020-06-30
+54556,Mini,COOPER HARDTOP 2 DOOR,2021,Subcompact Cars,Gasoline,3,1.5,Manual,Front-Wheel Drive,11.05,15.73,184.1,true,2020-04-25
+72919,Jaguar,F-TYPE S AWD Coupe,2021,Two Seaters,Gasoline,6,3.0,Automatic,All-Wheel Drive,7.65,11.05,263.0,false,2020-02-24
+49070,Subaru,LEGACY AWD,2012,Midsize Cars,Gasoline,4,2.5,Manual,All-Wheel Drive,7.65,10.63,263.0,true,2012-02-01
+89579,Porsche,911 Speedster,2012,Two Seaters,Gasoline,6,3.8,Automatic,Rear-Wheel Drive,8.08,11.48,263.0,false,2011-10-04
+66526,Lexus,LC 500 CONVERTIBLE,2021,Minicompact Cars,Gasoline,8,5.0,Automatic,Rear-Wheel Drive,6.38,10.63,306.8,false,2020-07-09
+54372,Hyundai,Tucson Fuel Cell,2015,Small Sport Utility Vehicle 2WD,Hydrogen,0,0.0,Automatic,Front-Wheel Drive,20.83,21.68,0.0,false,2022-03-31
+40357,Mercedes-Benz,SL 550,2012,Two Seaters,Gasoline,8,5.5,Automatic,Rear-Wheel Drive,5.95,9.35,324.8,false,2011-07-12
+19689,Lamborghini,Huracan Spyder 2WD,2021,Two Seaters,Gasoline,10,5.2,Automated Manual,Rear-Wheel Drive,5.53,7.65,368.1,false,2020-06-30
+19101,Mazda,MX-5 Miata,1995,Two Seaters,Gasoline,4,1.8,Manual,Rear-Wheel Drive,8.93,11.48,240.1,false,2013-01-01
+92823,Mercedes-Benz,AMG C 63 (coupe),2021,Subcompact Cars,Gasoline,8,4.0,Automatic,Rear-Wheel Drive,7.23,11.05,276.1,true,2021-01-19
+36099,Buick,REGAL,2012,Midsize Cars,Gasoline,4,2.4,Automatic,Front-Wheel Drive,8.08,13.18,240.1,false,2011-09-15
+69907,Porsche,911 Carrera 4 Targa,2012,Minicompact Cars,Gasoline,6,3.6,Automatic,4-Wheel Drive,7.65,11.05,263.0,false,2011-03-01
+40571,Mercedes-Benz,SLS AMG,2012,Two Seaters,Gasoline,8,6.2,Automated Manual,Rear-Wheel Drive,5.95,8.50,345.1,false,2012-02-01
+32846,Mercedes-Benz,E 450 4MATIC (coupe),2021,Subcompact Cars,Gasoline,6,3.0,Automatic,4-Wheel Drive,9.78,12.75,220.9,true,2020-10-14
+25840,Hyundai,Veloster,2021,Compact Cars,Gasoline,4,1.6,Manual,Front-Wheel Drive,11.05,14.03,190.4,true,2020-09-28
+61268,Suzuki,KIZASHI S,2012,Compact Cars,Gasoline,4,2.4,CVT,Front-Wheel Drive,9.78,13.18,212.4,false,2012-02-01
+11618,Mini,Mini John Cooper Works Conv,2012,Minicompact Cars,Gasoline,4,1.6,Manual,Front-Wheel Drive,10.63,14.03,197.2,true,2011-08-29
+76290,Lexus,UX 250h,2021,Compact Cars,Gasoline;Electricity,4,2.0,CVT,Front-Wheel Drive,18.28,17.43,131.5,false,2020-11-01
+36136,Lamborghini,Aventador Coupe,2021,Two Seaters,Gasoline,12,6.5,Automated Manual,All-Wheel Drive,3.40,6.38,552.2,false,2020-11-13
+40635,Audi,R8,2021,Two Seaters,Gasoline,10,5.2,Automated Manual,All-Wheel Drive,5.53,8.50,345.1,false,2020-06-30
+43607,INFINITI,Q60,2021,Subcompact Cars,Gasoline,6,3.0,Automatic,Rear-Wheel Drive,8.08,11.90,251.0,true,2020-08-10
+84382,BMW,ActiveHybrid 7,2012,Midsize Cars,Gasoline;Electricity,8,4.4,Automatic,Rear-Wheel Drive,7.23,10.20,276.1,true,2011-10-18
+27823,Mercedes-Benz,SLK 55 AMG,2012,Two Seaters,Gasoline,8,5.5,Automatic,Rear-Wheel Drive,8.08,11.90,251.0,false,2011-05-30
+60431,Mercedes-Benz,AMG C 63 S (convertible),2021,Subcompact Cars,Gasoline,8,4.0,Automatic,Rear-Wheel Drive,7.23,10.63,276.1,true,2021-01-19
+46401,Mini,Mini Cooper,2012,Minicompact Cars,Gasoline,4,1.6,Automatic,Front-Wheel Drive,11.90,15.31,178.1,false,2012-01-02
+21594,Saab,9-5 SEDAN,2012,Midsize Cars,Gasoline,4,2.0,Automatic,Front-Wheel Drive,7.65,11.90,251.0,true,2011-10-10
+73848,BMW,230i Convertible,2021,Subcompact Cars,Gasoline,4,2.0,Automatic,Rear-Wheel Drive,9.78,14.03,204.5,true,2020-08-15
+55170,Mercedes-Benz,Smart fortwo (COUPE),2012,Two Seaters,Gasoline,3,1.0,Automated Manual,Rear-Wheel Drive,14.45,16.16,153.4,false,2011-10-10
+82583,Mazda,MX-5,2012,Two Seaters,Gasoline,4,2.0,Manual,Rear-Wheel Drive,9.35,11.90,220.9,false,2011-07-12
+22246,Bentley,Continental GT Convertible,2021,Minicompact Cars,Gasoline,12,6.0,Automated Manual,All-Wheel Drive,5.10,8.08,368.1,true,2020-09-18
+80864,Acura,RL,2012,Midsize Cars,Gasoline,6,3.7,Automatic,All-Wheel Drive,7.23,10.20,276.1,false,2011-09-24
+78574,INFINITI,Q60 AWD RED SPORT,2021,Subcompact Cars,Gasoline,6,3.0,Automatic,All-Wheel Drive,8.08,11.05,263.0,true,2020-08-10
+93435,Toyota,Camry Hybrid LE,2020,Midsize Cars,Gasoline;Electricity,4,2.5,CVT,Front-Wheel Drive,21.68,22.53,105.6,false,2019-09-10
+32206,Lotus,Evora,2012,Minicompact Cars,Gasoline,6,3.5,Manual,Rear-Wheel Drive,7.65,11.05,263.0,false,2011-11-18
+32754,Aston Martin,V8 Vantage,2012,Two Seaters,Gasoline,8,4.7,Automated Manual,Rear-Wheel Drive,5.95,8.50,345.1,false,2011-07-11
+40834,Suzuki,KIZASHI,2012,Compact Cars,Gasoline,4,2.4,CVT,Front-Wheel Drive,9.78,12.75,212.4,false,2012-02-01
+65445,Genesis,G70 RWD,2021,Compact Cars,Gasoline,4,2.0,Manual,Rear-Wheel Drive,7.65,11.90,251.0,true,2020-03-31
+21968,Audi,A5 Cabriolet quattro,2021,Subcompact Cars,Gasoline,4,2.0,Automated Manual,All-Wheel Drive,9.78,13.18,212.4,true,2020-09-25
+24367,Fiat,500 Cabrio,2012,Minicompact Cars,Gasoline,4,1.4,Automatic,Front-Wheel Drive,11.48,13.60,190.4,false,2012-02-10
+75218,Porsche,911 Carrera 4 Cabriolet,2012,Minicompact Cars,Gasoline,6,3.6,Manual,4-Wheel Drive,7.65,10.63,263.0,false,2011-03-01
+91706,Toyota,Supra 3.0,2021,Two Seaters,Gasoline,6,3.0,Automatic,Rear-Wheel Drive,9.35,12.75,220.9,true,2020-03-31
+70360,Nissan,370Z ROADSTER,2012,Two Seaters,Gasoline,6,3.7,Manual,Rear-Wheel Drive,7.65,10.63,276.1,false,2011-10-04
+57031,Buick,REGAL,2012,Midsize Cars,Gasoline,4,2.4,Automatic,Front-Wheel Drive,8.08,13.18,240.1,false,2011-09-15
+43098,Porsche,911 Carrera 4,2012,Minicompact Cars,Gasoline,6,3.6,Automatic,4-Wheel Drive,7.65,11.05,263.0,false,2011-03-01
+51730,Saab,9-5 SEDAN AWD,2012,Midsize Cars,Gasoline,6,2.8,Automatic,All-Wheel Drive,7.23,11.48,276.1,true,2011-08-15
+65090,Porsche,911 Carrera 4S Cabriolet,2021,Minicompact Cars,Gasoline,6,3.0,Automated Manual,All-Wheel Drive,7.65,9.78,276.1,true,2020-11-09
+65018,Subaru,IMPREZA AWD,2012,Compact Cars,Gasoline,4,2.5,Manual,All-Wheel Drive,8.08,10.63,263.0,true,2012-02-01
+55248,Mini,Mini Cooper S Convertible,2012,Minicompact Cars,Gasoline,4,1.6,Automatic,Front-Wheel Drive,11.05,14.45,190.4,true,2011-08-29
+39934,Rolls-Royce,Phantom Coupe,2012,Compact Cars,Gasoline,12,6.7,Automatic,Rear-Wheel Drive,4.68,7.65,394.4,false,2011-03-01
+18868,Saab,9-3 SEDAN AWD,2012,Compact Cars,Gasoline,4,2.0,Automatic,All-Wheel Drive,7.65,12.33,251.0,true,2011-03-01
+30979,Lexus,IS 350 AWD,2021,Compact Cars,Gasoline,6,3.5,Automatic,All-Wheel Drive,8.08,11.05,251.0,false,2020-07-31
+84771,Porsche,911 Carrera 4S,2012,Minicompact Cars,Gasoline,6,3.8,Manual,4-Wheel Drive,7.65,10.63,263.0,false,2011-03-01
+10727,Bentley Motors Ltd.,Continental Supersports,2012,Two Seaters,Gasoline,12,6.0,Automatic,All-Wheel Drive,5.10,8.08,394.4,true,2011-02-15
+62933,Suzuki,SX4 SEDAN,2012,Compact Cars,Gasoline,4,2.0,CVT,Front-Wheel Drive,10.63,13.60,197.2,false,2011-05-06
+35252,Volkswagen,Jetta,2012,Compact Cars,Gasoline,4,2.0,Automatic,Front-Wheel Drive,9.78,12.33,220.9,false,2011-09-09
+91756,Buick,REGAL,2012,Midsize Cars,Gasoline,4,2.0,Manual,Front-Wheel Drive,8.08,11.48,251.0,true,2011-09-15
+18790,Nissan,Juke Nismo RS,2015,Small Station Wagons,Gasoline,4,1.6,Manual,Front-Wheel Drive,10.63,13.18,205.1,true,2014-10-16
+44428,Audi,A7 quattro,2012,Midsize Cars,Gasoline,6,3.0,Automatic,All-Wheel Drive,7.65,11.90,251.0,false,2011-08-29
+50759,BMW,M240i Coupe,2021,Subcompact Cars,Gasoline,6,3.0,Manual,Rear-Wheel Drive,8.08,11.48,263.0,true,2020-08-01
+41278,Porsche,911 Carrera 4S Cabriolet,2012,Minicompact Cars,Gasoline,6,3.8,Manual,4-Wheel Drive,7.23,10.63,276.1,false,2011-03-01
+24004,Mercedes-Benz,A 220 4MATIC,2021,Subcompact Cars,Gasoline,4,2.0,Automated Manual,4-Wheel Drive,10.63,14.45,197.2,true,2020-07-01
+33549,Ferrari,F8 Tributo,2021,Two Seaters,Gasoline,8,3.9,Automated Manual,Rear-Wheel Drive,6.38,8.08,345.1,true,2020-07-01
+23640,Honda,Civic HB VX,1995,Subcompact Cars,Gasoline,4,1.5,Manual,Front-Wheel Drive,16.58,21.26,128.4,false,2013-01-01
+73497,Porsche,911 Carrera S Cabriolet,2021,Minicompact Cars,Gasoline,6,3.0,Manual,Rear-Wheel Drive,7.23,10.63,276.1,true,2020-11-09
+25015,Mitsubishi,ECLIPSE SPYDER,2012,Minicompact Cars,Gasoline,6,3.8,Automatic,Front-Wheel Drive,6.80,10.20,290.6,false,2011-01-24
+55221,Lexus,IS 350,2021,Compact Cars,Gasoline,6,3.5,Automatic,Rear-Wheel Drive,8.50,11.90,240.1,false,2020-08-31
+11648,Mini,Mini Cooper,2012,Minicompact Cars,Gasoline,4,1.6,Manual,Front-Wheel Drive,12.33,15.73,172.6,false,2011-08-29
+80891,BMW,Z4 sDrive35i,2012,Two Seaters,Gasoline,6,3.0,Automatic,Rear-Wheel Drive,7.23,10.20,290.6,true,2011-09-24
+90177,Chevrolet,CORVETTE,2012,Two Seaters,Gasoline,8,6.2,Manual,Rear-Wheel Drive,6.80,11.05,290.6,false,2011-06-02
+61018,Acura,TL 4WD,2012,Midsize Cars,Gasoline,6,3.7,Manual,All-Wheel Drive,7.23,10.63,276.1,false,2011-09-24
+76405,Porsche,Cayman R,2012,Two Seaters,Gasoline,6,3.4,Automatic,Rear-Wheel Drive,8.50,12.33,240.1,false,2011-04-01
+76785,Mini,John Cooper Works GP,2021,Subcompact Cars,Gasoline,4,2.0,Automatic,Front-Wheel Drive,10.20,12.75,212.4,true,2020-08-28
+22820,Suzuki,SX4 SEDAN,2012,Compact Cars,Gasoline,4,2.0,Manual,Front-Wheel Drive,9.78,14.03,212.4,false,2011-04-18
+34944,Volkswagen,GTI,2026,Midsize Cars,Gasoline,4,2.0,Automated Manual,Front-Wheel Drive,10.20,13.60,202.6,true,2025-09-25
+54733,Mazda,CX-3 4WD,2021,Compact Cars,Gasoline,4,2.0,Automatic,4-Wheel Drive,11.48,13.60,190.4,false,2020-08-15
+72865,Porsche,718 Spyder,2021,Two Seaters,Gasoline,6,4.0,Automated Manual,Rear-Wheel Drive,7.65,10.20,276.1,false,2020-12-02
+39152,Mini,COOPER S CONVERTIBLE,2021,Minicompact Cars,Gasoline,4,2.0,Manual,Front-Wheel Drive,9.78,13.60,212.4,true,2020-03-31
+29040,Rolls-Royce,Phantom Drophead Coupe,2012,Compact Cars,Gasoline,12,6.7,Automatic,Rear-Wheel Drive,4.68,7.65,394.4,false,2011-03-01
+81177,Mitsubishi,ECLIPSE SPYDER,2012,Minicompact Cars,Gasoline,4,2.4,Automatic,Front-Wheel Drive,8.50,11.48,240.1,false,2011-08-29
+81162,Lamborghini,Aventador Sian Coupe,2021,Two Seaters,Gasoline,12,6.5,Automated Manual,All-Wheel Drive,3.40,5.95,552.2,false,2021-02-26
+75401,Honda,Fit,2010,Small Station Wagons,Gasoline,4,1.5,Automatic,Front-Wheel Drive,11.90,14.88,178.1,false,2013-01-01
+24324,Volkswagen,GOLF,2012,Compact Cars,Gasoline,5,2.5,Manual,Front-Wheel Drive,9.78,14.03,212.4,false,2011-08-29
+86901,Volkswagen,Jetta,2012,Compact Cars,Diesel,4,2.0,Automatic,Front-Wheel Drive,12.75,17.86,186.0,true,2011-09-09
+76107,BMW,M240i xDrive Convertible,2021,Subcompact Cars,Gasoline,6,3.0,Automatic,All-Wheel Drive,8.93,12.75,230.1,true,2020-08-01
+25046,Audi,A8,2012,Midsize Cars,Gasoline,8,4.2,Automatic,All-Wheel Drive,7.65,11.90,263.0,false,2011-08-29
+87134,Bentley,Continental GT Convertible,2021,Minicompact Cars,Gasoline,8,4.0,Automated Manual,All-Wheel Drive,6.80,11.05,290.6,true,2020-06-30
+19028,Mercedes-Benz,SL 63 AMG,2012,Two Seaters,Gasoline,8,6.2,Automatic,Rear-Wheel Drive,5.10,8.08,394.4,false,2011-06-24
+64246,Saab,9-3 SEDAN AWD,2012,Compact Cars,Gasoline,4,2.0,Manual,All-Wheel Drive,8.50,12.75,230.1,true,2011-03-01
+86681,Buick,REGAL,2012,Midsize Cars,Gasoline,4,2.4,Automatic,Front-Wheel Drive,10.63,15.31,190.4,false,2011-09-15
+50968,Ferrari,F8 Spider,2021,Two Seaters,Gasoline,8,3.9,Automated Manual,Rear-Wheel Drive,6.38,7.65,345.1,true,2020-07-01
+18661,Scion,tC,2012,Compact Cars,Gasoline,4,2.5,Manual,Front-Wheel Drive,9.78,13.18,212.4,false,2011-03-01
+95419,Ford,SHELBY GT500 MUSTANG,2021,Subcompact Cars,Gasoline,8,5.2,Automated Manual,Rear-Wheel Drive,5.10,7.65,394.4,false,2020-12-31
+74950,Lexus,LC 500h,2021,Subcompact Cars,Gasoline;Electricity,6,3.5,CVT,Rear-Wheel Drive,11.05,14.45,190.4,false,2020-08-10
+36913,Lincoln,MKX AWD,2008,Sport Utility Vehicle - 4WD,Gasoline,6,3.5,Automatic,4-Wheel or All-Wheel Drive,6.38,9.35,306.8,false,2013-01-01
+15106,Volkswagen,Jetta,2012,Compact Cars,Gasoline,4,2.0,Manual,Front-Wheel Drive,9.35,14.03,212.4,true,2011-09-09
+12294,Nissan,SENTRA,2012,Midsize Cars,Gasoline,4,2.5,Manual,Front-Wheel Drive,8.93,11.90,230.1,false,2011-07-22
+55642,Porsche,911 Carrera 4S,2021,Minicompact Cars,Gasoline,6,3.0,Automated Manual,All-Wheel Drive,7.65,9.78,276.1,true,2020-11-09
+68549,BMW,535i,2012,Midsize Cars,Gasoline,6,3.0,Manual,Rear-Wheel Drive,8.50,12.75,240.1,true,2011-07-18
+18698,Porsche,911 Carrera 4,2012,Minicompact Cars,Gasoline,6,3.6,Manual,4-Wheel Drive,7.65,10.20,263.0,false,2011-03-01
+37809,Porsche,911 Carrera 4S Targa,2012,Minicompact Cars,Gasoline,6,3.8,Automatic,4-Wheel Drive,7.65,11.48,263.0,false,2011-03-01
+85077,BMW,528i,2012,Midsize Cars,Gasoline,4,2.0,Automatic,Rear-Wheel Drive,9.78,14.45,204.5,true,2011-07-11
+61637,Audi,R8 Spyder,2012,Two Seaters,Gasoline,8,4.2,Automated Manual,All-Wheel Drive,5.53,8.93,345.1,false,2011-05-26
+88955,Lotus,Evora GT,2021,Minicompact Cars,Gasoline,6,3.5,Manual,Rear-Wheel Drive,7.23,11.05,276.1,false,2020-10-13
+15374,Audi,A6 quattro,2012,Midsize Cars,Gasoline,6,3.0,Automatic,All-Wheel Drive,8.08,11.90,251.0,false,2011-08-29
+19434,Fiat,500 Abarth,2012,Minicompact Cars,Gasoline,4,1.4,Manual,Front-Wheel Drive,11.90,14.45,178.1,true,2011-01-03
+73291,Porsche,718 Boxster GTS 4.0,2021,Two Seaters,Gasoline,6,4.0,Automated Manual,Rear-Wheel Drive,8.08,10.20,263.0,false,2020-12-02
+65432,Porsche,911 Carrera,2012,Minicompact Cars,Gasoline,6,3.6,Automatic,Rear-Wheel Drive,8.08,11.48,251.0,false,2011-06-10
+24587,Honda,INSIGHT TOURING,2021,Compact Cars,Gasoline;Electricity,4,1.5,CVT,Front-Wheel Drive,21.68,19.13,115.0,false,2020-08-14
+97358,Jaguar,Jaguar XK,2012,Minicompact Cars,Gasoline,8,5.0,Automatic,Rear-Wheel Drive,6.80,10.20,290.6,false,2011-03-01
+15337,Saab,9-3 SPORT SEDAN,2012,Compact Cars,Gasoline,4,2.0,Manual,Front-Wheel Drive,8.50,14.03,220.9,true,2011-03-01
+67735,Bentley Motors Ltd.,Continental Flying Spur,2012,Midsize Cars,Gasoline,12,6.0,Automatic,All-Wheel Drive,4.68,8.08,394.4,true,2011-08-29
+42916,Mercedes-Benz,AMG E53 4MATIC+ (Coupe),2021,Subcompact Cars,Gasoline,6,3.0,Automatic,4-Wheel Drive,8.93,11.90,230.1,false,2021-01-19
+58189,Genesis,G70 RWD,2021,Compact Cars,Gasoline,6,3.3,Automatic,Rear-Wheel Drive,7.23,11.05,276.1,true,2020-03-31
+91920,Volvo,S60 AWD,2012,Compact Cars,Gasoline,6,3.0,Automatic,All-Wheel Drive,7.65,11.05,263.0,true,2011-09-23
+89547,Porsche,911 Carrera S Cabriolet,2021,Minicompact Cars,Gasoline,6,3.0,Automated Manual,Rear-Wheel Drive,7.65,9.78,276.1,true,2020-11-09
+73830,Aston Martin,DB9,2012,Minicompact Cars,Gasoline,12,5.9,Manual,Rear-Wheel Drive,4.68,7.23,424.8,false,2011-05-06
+78257,Mitsubishi,LANCER EVOLUTION,2012,Compact Cars,Gasoline,4,2.0,Manual,All-Wheel Drive,7.23,9.78,290.6,true,2011-03-01
+85414,Aston Martin,DBS,2012,Minicompact Cars,Gasoline,12,5.9,Manual,Rear-Wheel Drive,4.68,7.23,424.8,false,2011-05-06
+69194,Buick,REGAL,2012,Midsize Cars,Gasoline,4,2.0,Automatic,Front-Wheel Drive,8.08,11.48,251.0,true,2011-06-24
+74393,Suzuki,KIZASHI S AWD,2012,Compact Cars,Gasoline,4,2.4,CVT,All-Wheel Drive,9.78,12.75,220.9,false,2011-08-20
+99621,Mazda,MX-5,2012,Two Seaters,Gasoline,4,2.0,Automatic,Rear-Wheel Drive,8.93,11.90,240.1,false,2011-01-03
+51129,BMW,M8 Competition Convertible,2021,Subcompact Cars,Gasoline,8,4.4,Automatic,All-Wheel Drive,6.38,8.93,324.8,true,2020-08-15
+52485,BMW,M340i xDrive,2021,Compact Cars,Gasoline,6,3.0,Automatic,All-Wheel Drive,9.35,13.18,220.9,true,2020-11-20
+27501,Volkswagen,GTI,2012,Compact Cars,Gasoline,4,2.0,Manual,Front-Wheel Drive,8.93,13.18,220.9,true,2011-08-29
+54512,Lotus,Evora,2012,Minicompact Cars,Gasoline,6,3.5,Automatic,Rear-Wheel Drive,8.08,11.90,251.0,false,2012-01-02
+37661,Porsche,911 Carrera 4S Cabriolet,2012,Minicompact Cars,Gasoline,6,3.8,Automatic,4-Wheel Drive,7.65,11.48,263.0,false,2011-03-01
+91352,Mercedes-Benz,Smart fortwo (CABRIOLET),2012,Two Seaters,Gasoline,3,1.0,Automated Manual,Rear-Wheel Drive,14.45,16.16,153.4,false,2011-08-31
+82490,Subaru,LEGACY AWD,2012,Midsize Cars,Gasoline,4,2.5,CVT,All-Wheel Drive,9.78,13.18,212.4,false,2012-02-25
+77175,Porsche,911 Turbo Cabriolet,2021,Minicompact Cars,Gasoline,6,3.7,Automated Manual,All-Wheel Drive,6.38,8.50,324.8,true,2020-11-06
+68756,Porsche,Boxster Spyder,2012,Two Seaters,Gasoline,6,3.4,Manual,Rear-Wheel Drive,8.08,11.48,251.0,false,2011-01-31
+36813,Jeep,Patriot 4WD,2008,Sport Utility Vehicle - 4WD,Gasoline,4,2.4,CVT,4-Wheel or All-Wheel Drive,8.93,10.20,251.0,false,2013-01-01
+67889,Subaru,IMPREZA AWD,2012,Compact Cars,Gasoline,4,2.0,Manual,All-Wheel Drive,10.63,14.45,197.2,false,2012-02-01
+98566,Mini,Mini Cooper S Coupe,2012,Two Seaters,Gasoline,4,1.6,Manual,Front-Wheel Drive,11.48,14.88,184.1,true,2011-08-29
+68750,Mercedes-Benz,AMG GT C (coupe),2021,Two Seaters,Gasoline,8,4.0,Automated Manual,Rear-Wheel Drive,6.38,8.08,324.8,true,2020-11-22
+34929,Nissan,VERSA,2012,Compact Cars,Gasoline,4,1.6,Manual,Front-Wheel Drive,11.48,15.31,184.1,false,2011-03-01
+36129,Bugatti,Chiron,2021,Two Seaters,Gasoline,16,8.0,Automated Manual,All-Wheel Drive,3.83,5.95,502.0,true,2020-11-13
+80120,Lotus,Evora,2012,Minicompact Cars,Gasoline,6,3.5,Manual,Rear-Wheel Drive,7.23,11.05,276.1,false,2012-01-02
+96398,Mazda,MX-5,2012,Two Seaters,Gasoline,4,2.0,Manual,Rear-Wheel Drive,8.93,11.90,230.1,false,2011-07-12
+41747,Porsche,911 C4 GTS Cabriolet,2012,Minicompact Cars,Gasoline,6,3.8,Automatic,4-Wheel Drive,7.65,11.48,263.0,false,2011-06-10
+35131,Hyundai,Veloster,2021,Compact Cars,Gasoline,4,1.6,Automated Manual,Front-Wheel Drive,11.90,14.45,184.1,true,2020-09-28
+39281,Audi,S5,2021,Subcompact Cars,Gasoline,6,3.0,Automatic,All-Wheel Drive,8.50,11.90,240.1,true,2020-08-21
+66975,BMW,i3 BEV,2015,Subcompact Cars,Electricity,0,0.0,Automatic,Rear-Wheel Drive,58.24,47.19,0.0,false,2015-01-27
+68746,Jaguar,F-TYPE R AWD Convertible,2021,Two Seaters,Gasoline,8,5.0,Automatic,All-Wheel Drive,6.80,10.20,306.8,false,2020-02-24
+89265,Bugatti,Chiron Pur Sport,2021,Two Seaters,Gasoline,16,8.0,Automated Manual,All-Wheel Drive,3.40,5.53,552.2,true,2020-11-13
+14658,Lexus,RC 300 AWD,2021,Subcompact Cars,Gasoline,6,3.5,Automatic,All-Wheel Drive,8.08,11.05,251.0,false,2020-08-10
+54506,Mercedes-Benz,SLK 350,2012,Two Seaters,Gasoline,6,3.5,Automatic,Rear-Wheel Drive,8.50,12.33,240.1,false,2012-02-23
+66217,Mini,Mini Cooper Roadster,2012,Two Seaters,Gasoline,4,1.6,Automatic,Front-Wheel Drive,11.48,14.88,184.1,false,2011-08-29
+60993,Mini,Mini Cooper Roadster,2012,Two Seaters,Gasoline,4,1.6,Manual,Front-Wheel Drive,11.48,14.88,184.1,false,2011-08-29
+24981,Chevrolet,CORVETTE,2021,Two Seaters,Gasoline,8,6.2,Automatic,Rear-Wheel Drive,6.38,11.48,290.6,false,2020-11-05
+65370,Porsche,718 Cayman,2021,Two Seaters,Gasoline,4,2.0,Automated Manual,Rear-Wheel Drive,8.93,11.48,230.1,true,2020-10-01
+90736,Porsche,911 C4 GTS Cabriolet,2012,Minicompact Cars,Gasoline,6,3.8,Manual,4-Wheel Drive,7.23,10.63,276.1,false,2011-06-10
+67458,Mini,Mini Cooper Coupe,2012,Two Seaters,Gasoline,4,1.6,Manual,Front-Wheel Drive,12.33,15.73,172.6,false,2011-08-29
+43284,Porsche,911 Carrera S,2021,Minicompact Cars,Gasoline,6,3.0,Manual,Rear-Wheel Drive,7.65,10.63,263.0,true,2020-11-09
+98977,Aston Martin,V12 Vantage,2012,Two Seaters,Gasoline,12,5.9,Manual,Rear-Wheel Drive,4.68,7.23,424.8,false,2011-05-06
+47680,BMW,230i Coupe,2021,Subcompact Cars,Gasoline,4,2.0,Manual,Rear-Wheel Drive,8.93,13.60,220.9,true,2020-07-31
+42580,Porsche,718 Boxster S,2021,Two Seaters,Gasoline,4,2.5,Automated Manual,Rear-Wheel Drive,8.08,10.63,251.0,true,2020-10-01
+63595,Honda,Civic Hybrid,2005,Compact Cars,Gasoline;Electricity,4,1.3,CVT,Front-Wheel Drive,16.58,17.86,134.7,false,2013-01-01
+35956,Audi,TT RS,2021,Subcompact Cars,Gasoline,5,2.5,Automated Manual,All-Wheel Drive,8.50,12.75,230.1,true,2020-10-09
+34991,Audi,R8 Spyder,2012,Two Seaters,Gasoline,8,4.2,Manual,All-Wheel Drive,4.68,8.50,394.4,false,2011-06-07
+70703,BMW,M240i xDrive Coupe,2021,Subcompact Cars,Gasoline,6,3.0,Automatic,All-Wheel Drive,8.93,12.75,230.1,true,2020-08-01
+60763,Mercedes-Benz,E 450 4MATIC (convertible),2021,Subcompact Cars,Gasoline,6,3.0,Automatic,4-Wheel Drive,9.78,12.33,220.9,true,2020-10-14
+25971,Cadillac,CTS,2012,Midsize Cars,Gasoline,8,6.2,Automatic,Rear-Wheel Drive,5.10,7.65,394.4,false,2011-09-01
+40813,Audi,R8 Spyder,2012,Two Seaters,Gasoline,10,5.2,Automated Manual,All-Wheel Drive,5.53,8.08,368.1,false,2011-05-06
+25442,Fiat,500 L,2015,Small Station Wagons,Gasoline,4,1.4,Automated Manual,Front-Wheel Drive,10.20,13.60,205.1,true,2014-06-26
+76683,Mercedes-Benz,AMG C 43 4MATIC (coupe),2021,Subcompact Cars,Gasoline,6,3.0,Automatic,4-Wheel Drive,8.08,11.48,251.0,true,2021-01-19
+46059,Cadillac,CT4 AWD,2021,Compact Cars,Gasoline,4,2.0,Automatic,All-Wheel Drive,9.78,13.60,212.4,true,2020-03-31
+69247,Porsche,718 Cayman GT4,2021,Two Seaters,Gasoline,6,4.0,Manual,Rear-Wheel Drive,7.23,9.78,290.6,false,2020-12-02
+27301,Porsche,718 Boxster S,2021,Two Seaters,Gasoline,4,2.5,Manual,Rear-Wheel Drive,8.08,10.20,263.0,true,2020-10-01
+81641,Jaguar,F-TYPE R AWD Coupe,2021,Two Seaters,Gasoline,8,5.0,Automatic,All-Wheel Drive,6.80,10.20,306.8,false,2020-02-24
+85642,BMW,M4 Competition Coupe,2021,Subcompact Cars,Gasoline,6,3.0,Automatic,Rear-Wheel Drive,6.80,9.78,290.6,true,2020-11-01
+38135,Volvo,C30 FWD,2012,Compact Cars,Gasoline,5,2.5,Automatic,Front-Wheel Drive,8.93,12.75,230.1,true,2011-09-23
+44355,Saab,9-3 CONVERTIBLE,2012,Compact Cars,Gasoline,4,2.0,Manual,Front-Wheel Drive,8.50,14.03,220.9,true,2011-03-01
+64460,BMW,430i xDrive Coupe,2021,Subcompact Cars,Gasoline,4,2.0,Automatic,All-Wheel Drive,10.20,14.03,204.5,true,2020-08-31
+20585,BMW,430i Coupe,2021,Subcompact Cars,Gasoline,4,2.0,Automatic,Rear-Wheel Drive,11.05,14.45,190.4,true,2020-08-31
+97967,BMW,Z4 M40i,2021,Two Seaters,Gasoline,6,3.0,Automatic,Rear-Wheel Drive,9.35,12.75,220.9,true,2020-08-15
+87176,Genesis,G70 AWD,2021,Compact Cars,Gasoline,4,2.0,Automatic,All-Wheel Drive,8.50,11.48,240.1,true,2020-03-31
+37067,Mini,Mini Cooper S Roadster,2012,Two Seaters,Gasoline,4,1.6,Automatic,Front-Wheel Drive,11.05,14.45,190.4,true,2011-08-29
+10452,Audi,TT Coupe quattro,2021,Subcompact Cars,Gasoline,4,2.0,Automated Manual,All-Wheel Drive,9.78,13.18,212.4,true,2020-10-09
+74603,Porsche,911 Turbo,2021,Minicompact Cars,Gasoline,6,3.7,Automated Manual,All-Wheel Drive,6.38,8.50,324.8,true,2020-11-06
+85432,Bugatti,Veyron,2012,Two Seaters,Gasoline,16,8.0,Automatic,All-Wheel Drive,3.40,6.38,552.2,true,2011-07-08
+82991,Chevrolet,CRUZE,2012,Midsize Cars,Gasoline,4,1.4,Manual,Front-Wheel Drive,11.05,16.16,184.1,true,2011-07-22
+63407,Porsche,718 Cayman GTS 4.0,2021,Two Seaters,Gasoline,6,4.0,Automated Manual,Rear-Wheel Drive,8.08,10.20,263.0,false,2020-12-02
+51868,Audi,A4 quattro,2021,Compact Cars,Gasoline,4,2.0,Automated Manual,All-Wheel Drive,10.63,14.45,197.2,true,2020-10-09
+46562,Mini,Mini Cooper S,2012,Minicompact Cars,Gasoline,4,1.6,Manual,Front-Wheel Drive,11.48,14.88,184.1,true,2011-08-29
+97012,Audi,S5 Cabriolet,2021,Subcompact Cars,Gasoline,6,3.0,Automatic,All-Wheel Drive,8.50,11.05,251.0,true,2020-08-21
+53450,Genesis,G70 RWD,2021,Compact Cars,Gasoline,4,2.0,Automatic,Rear-Wheel Drive,9.35,12.75,220.9,true,2020-03-31
+57753,Jaguar,Jaguar XK,2012,Minicompact Cars,Gasoline,8,5.0,Automatic,Rear-Wheel Drive,6.38,9.35,324.8,false,2011-07-14
+53687,Volkswagen,GOLF,2012,Compact Cars,Gasoline,5,2.5,Automatic,Front-Wheel Drive,10.20,13.18,212.4,false,2011-08-29
+19210,BMW,Z4 sDrive28i,2012,Two Seaters,Gasoline,4,2.0,Manual,Rear-Wheel Drive,9.78,14.45,204.5,true,2011-12-09
+50314,Hyundai,Veloster N,2021,Compact Cars,Gasoline,4,2.0,Automated Manual,Front-Wheel Drive,8.50,11.48,251.0,true,2020-09-25
+49657,BMW,550i,2012,Midsize Cars,Gasoline,8,4.4,Automatic,Rear-Wheel Drive,6.38,9.78,306.8,true,2011-07-18
+50308,Cadillac,CT4 V AWD,2021,Compact Cars,Gasoline,4,2.7,Automatic,All-Wheel Drive,8.50,11.90,240.1,true,2020-03-31
+11647,Jaguar,Jaguar XK Convertible,2012,Minicompact Cars,Gasoline,8,5.0,Automatic,Rear-Wheel Drive,6.38,9.35,324.8,false,2011-07-14
+34993,Porsche,718 Boxster T,2021,Two Seaters,Gasoline,4,2.0,Automated Manual,Rear-Wheel Drive,8.93,11.48,240.1,true,2020-10-01
+96888,Toyota,YARIS,2012,Compact Cars,Gasoline,4,1.5,Automatic,Front-Wheel Drive,12.75,14.88,172.6,false,2011-05-05
+50086,Suzuki,KIZASHI,2012,Compact Cars,Gasoline,4,2.4,Manual,Front-Wheel Drive,8.50,12.33,230.1,false,2012-02-01
+58659,BMW,330i,2021,Compact Cars,Gasoline,4,2.0,Automatic,Rear-Wheel Drive,11.05,15.31,184.1,true,2020-10-16
+31356,Lamborghini,Aventador Coupe,2012,Two Seaters,Gasoline,12,6.5,Automatic,All-Wheel Drive,4.68,7.23,424.8,false,2011-09-30
+87633,Ford,MUSTANG MACH 1,2021,Subcompact Cars,Gasoline,8,5.0,Manual,Rear-Wheel Drive,5.95,9.35,324.8,false,2020-09-15
+94307,Mercedes-Benz,A 220,2021,Subcompact Cars,Gasoline,4,2.0,Automated Manual,Front-Wheel Drive,10.63,15.31,190.4,true,2020-06-01
+15252,Audi,RS 5,2021,Subcompact Cars,Gasoline,6,2.9,Automatic,All-Wheel Drive,7.65,10.63,276.1,true,2020-06-30
+96038,Mercedes-Benz,C 300 4MATIC (Coupe),2021,Subcompact Cars,Gasoline,4,2.0,Automatic,4-Wheel Drive,9.78,13.60,212.4,true,2020-12-14
+97395,Porsche,Cayman S,2012,Two Seaters,Gasoline,6,3.4,Manual,Rear-Wheel Drive,8.08,11.05,251.0,false,2011-01-31
+69938,Toyota,COROLLA,2012,Compact Cars,Gasoline,4,1.8,Manual,Front-Wheel Drive,11.48,14.45,184.1,false,2011-05-13
+69824,Geo,Metro,1995,Subcompact Cars,Gasoline,3,1.0,Manual,Front-Wheel Drive,15.73,18.71,138.1,false,2013-01-01
+47926,Mercedes-Benz,AMG C 43 4MATIC (convertible),2021,Subcompact Cars,Gasoline,6,3.0,Automatic,4-Wheel Drive,8.08,11.48,251.0,true,2021-01-19
+94358,Audi,R8,2012,Two Seaters,Gasoline,10,5.2,Manual,All-Wheel Drive,5.10,8.08,394.4,false,2011-05-09
+15738,Porsche,911 C4 GTS,2012,Minicompact Cars,Gasoline,6,3.8,Manual,4-Wheel Drive,7.65,10.63,263.0,false,2011-06-10
+77328,Mini,COOPER HARDTOP 4 DOOR,2021,Subcompact Cars,Gasoline,3,1.5,Automated Manual,Front-Wheel Drive,11.90,15.73,178.1,true,2020-04-25
+24707,Mercedes-Benz,AMG E53 4MATIC+ (Convertible),2021,Subcompact Cars,Gasoline,6,3.0,Automatic,4-Wheel Drive,8.93,11.48,240.1,false,2021-01-19
+27586,Mini,Mini Cooper Coupe,2012,Two Seaters,Gasoline,4,1.6,Automatic,Front-Wheel Drive,11.90,15.31,178.1,false,2011-10-10
+87171,Porsche,911 Turbo S,2021,Minicompact Cars,Gasoline,6,3.7,Automated Manual,All-Wheel Drive,6.38,8.50,324.8,true,2020-11-06
+75457,Ford,FORD GT,2021,Two Seaters,Gasoline,6,3.5,Automated Manual,Rear-Wheel Drive,5.10,7.65,394.4,true,2020-12-11
+53922,Porsche,911 Carrera,2012,Minicompact Cars,Gasoline,6,3.6,Manual,Rear-Wheel Drive,7.65,10.63,263.0,false,2011-03-01
+38471,Toyota,Prius Plug-in Hybrid,2015,Midsize Cars,Gasoline;Electricity,4,1.8,CVT,Front-Wheel Drive,21.68,20.83,82.6,false,2014-08-20
+17738,BMW,230i xDrive Coupe,2021,Subcompact Cars,Gasoline,4,2.0,Automatic,All-Wheel Drive,8.93,12.75,230.1,true,2020-07-31
+10594,Audi,R8 Spyder,2021,Two Seaters,Gasoline,10,5.2,Automated Manual,All-Wheel Drive,5.53,8.50,345.1,false,2020-06-30
+60941,Porsche,718 Spyder,2021,Two Seaters,Gasoline,6,4.0,Manual,Rear-Wheel Drive,7.23,9.78,290.6,false,2020-12-02
+93900,Suzuki,KIZASHI S,2012,Compact Cars,Gasoline,4,2.4,Manual,Front-Wheel Drive,8.93,13.18,220.9,false,2012-02-01
+58630,Buick,LACROSSE,2012,Midsize Cars,Gasoline,6,3.6,Automatic,Front-Wheel Drive,7.23,11.48,263.0,false,2011-01-18
+63205,Mercedes-Benz,AMG A 35 4MATIC,2021,Subcompact Cars,Gasoline,4,2.0,Automated Manual,4-Wheel Drive,9.35,12.33,220.9,true,2021-01-19
+56444,Acura,TLX AWD,2021,Compact Cars,Gasoline,4,2.0,Automatic,All-Wheel Drive,8.93,12.33,230.1,true,2020-12-01
+56462,Mini,COOPER S HARDTOP 4 DOOR,2021,Subcompact Cars,Gasoline,4,2.0,Automated Manual,Front-Wheel Drive,11.05,14.88,184.1,true,2020-09-30
+68972,Suzuki,Swift,1995,Subcompact Cars,Gasoline,3,1.0,Manual,Front-Wheel Drive,15.73,18.71,138.1,false,2013-01-01
+59550,Subaru,IMPREZA AWD,2012,Compact Cars,Gasoline,4,2.5,Manual,All-Wheel Drive,7.23,9.78,290.6,true,2012-02-01
+56778,Volkswagen,Jetta Hybrid,2015,Compact Cars,Gasoline;Electricity,4,1.4,Automated Manual,Front-Wheel Drive,17.43,20.41,124.3,true,2014-08-20
+57265,Honda,Insight,2005,Two Seaters,Gasoline;Electricity,3,1.0,CVT,Front-Wheel Drive,19.13,20.83,117.5,false,2013-01-01
+54688,Nissan,VERSA,2012,Compact Cars,Gasoline,4,1.6,CVT,Front-Wheel Drive,12.75,16.16,167.3,false,2011-03-01
+28319,Nissan,370Z,2021,Two Seaters,Gasoline,6,3.7,Manual,Rear-Wheel Drive,7.23,11.05,276.1,false,2021-01-01
+11859,Honda,Civic,2010,Subcompact Cars,Gasoline,4,1.8,Automatic,Front-Wheel Drive,10.63,15.31,190.4,false,2013-01-01
+18248,Mercedes-Benz,S 560 (convertible),2021,Subcompact Cars,Gasoline,8,4.0,Automatic,Rear-Wheel Drive,6.80,11.05,276.1,true,2020-10-14
+42304,BMW,M3 Competition,2021,Compact Cars,Gasoline,6,3.0,Automatic,Rear-Wheel Drive,6.80,9.78,290.6,true,2020-10-09
+40191,Chevrolet,CORVETTE,2012,Two Seaters,Gasoline,8,7.0,Manual,Rear-Wheel Drive,6.38,10.20,306.8,false,2011-06-23
+95177,Jaguar,F-TYPE S Coupe,2021,Two Seaters,Gasoline,6,3.0,Automatic,Rear-Wheel Drive,8.08,11.48,251.0,false,2020-02-24
+26053,Subaru,LEGACY AWD,2012,Midsize Cars,Gasoline,6,3.6,Automatic,All-Wheel Drive,7.65,10.63,276.1,false,2012-01-31
+92613,Porsche,718 Cayman GTS 4.0,2021,Two Seaters,Gasoline,6,4.0,Manual,Rear-Wheel Drive,7.23,10.20,290.6,false,2020-12-02
+51222,Mitsubishi,LANCER EVOLUTION,2012,Compact Cars,Gasoline,4,2.0,Automated Manual,All-Wheel Drive,7.23,9.35,290.6,true,2011-03-01
+23468,Mercedes-Benz,E 450 (convertible),2021,Subcompact Cars,Gasoline,6,3.0,Automatic,Rear-Wheel Drive,9.78,12.75,220.9,true,2021-01-19
+11530,Honda,Civic,2010,Subcompact Cars,Gasoline,4,1.8,Manual,Front-Wheel Drive,11.05,14.45,190.4,false,2013-01-01
+35903,Mazda,CX-3 2WD,2021,Compact Cars,Gasoline,4,2.0,Automatic,Front-Wheel Drive,12.33,14.45,178.1,false,2020-08-15
+15575,Genesis,G70 AWD,2021,Compact Cars,Gasoline,6,3.3,Automatic,All-Wheel Drive,7.23,10.63,276.1,true,2020-03-31
+45839,BMW,Z4 sDrive30i,2021,Two Seaters,Gasoline,4,2.0,Automatic,Rear-Wheel Drive,10.63,13.60,197.2,true,2020-08-21
+11953,Audi,R8,2012,Two Seaters,Gasoline,8,4.2,Manual,All-Wheel Drive,4.68,8.50,394.4,false,2011-06-07
+55168,BMW,228i Gran Coupe,2021,Compact Cars,Gasoline,4,2.0,Automatic,Front-Wheel Drive,10.20,14.03,197.2,true,2020-10-16
+64472,Nissan,VERSA,2012,Compact Cars,Gasoline,4,1.8,CVT,Front-Wheel Drive,11.90,14.45,184.1,false,2011-03-01
+19188,BMW,M440i xDrive Coupe,2021,Subcompact Cars,Gasoline,6,3.0,Automatic,All-Wheel Drive,9.35,13.18,220.9,true,2020-09-15
+20634,BMW,M235i xDrive Gran Coupe,2021,Compact Cars,Gasoline,4,2.0,Automatic,All-Wheel Drive,9.78,13.60,212.4,true,2020-10-09
+78129,BMW,M240i Coupe,2021,Subcompact Cars,Gasoline,6,3.0,Automatic,Rear-Wheel Drive,8.93,12.75,230.1,true,2020-08-01
+81084,Fiat,500,2012,Minicompact Cars,Gasoline,4,1.4,Manual,Front-Wheel Drive,12.75,16.16,167.3,false,2011-01-21
+42122,Hyundai,Santa Fe 4WD,2008,Sport Utility Vehicle - 4WD,Gasoline,6,2.7,Manual,4-Wheel or All-Wheel Drive,7.23,9.78,290.6,false,2013-01-01
+33010,Porsche,911 Targa 4,2021,Minicompact Cars,Gasoline,6,3.0,Automated Manual,All-Wheel Drive,7.65,10.20,276.1,true,2020-11-09
+62678,Bentley,Continental GT,2021,Subcompact Cars,Gasoline,8,4.0,Automated Manual,All-Wheel Drive,6.80,11.05,290.6,true,2020-10-30
+84687,Mini,COOPER S HARDTOP 2 DOOR,2021,Subcompact Cars,Gasoline,4,2.0,Manual,Front-Wheel Drive,9.78,14.03,204.5,true,2020-09-30
+54854,Honda,Civic CNG,2010,Subcompact Cars,Natural Gas,4,1.8,Automatic,Front-Wheel Drive,10.20,15.31,156.0,false,2013-01-01
+33458,Porsche,718 Cayman GT4,2021,Two Seaters,Gasoline,6,4.0,Automated Manual,Rear-Wheel Drive,7.65,10.20,276.1,false,2020-12-02
+48847,Fiat,500,2012,Minicompact Cars,Gasoline,4,1.4,Automatic,Front-Wheel Drive,11.48,14.45,184.1,false,2011-05-06
+68365,Suzuki,SX4 Sport,2012,Compact Cars,Gasoline,4,2.0,Manual,Front-Wheel Drive,9.78,13.60,212.4,false,2011-05-04
+90045,Mini,Mini Cooper S Coupe,2012,Two Seaters,Gasoline,4,1.6,Automatic,Front-Wheel Drive,11.05,14.45,190.4,true,2011-08-29
+46091,Lexus,IS 300 AWD,2021,Compact Cars,Gasoline,6,3.5,Automatic,All-Wheel Drive,8.08,11.05,251.0,false,2020-08-31
+61134,Porsche,911 Turbo S Cabriolet,2021,Minicompact Cars,Gasoline,6,3.7,Automated Manual,All-Wheel Drive,6.38,8.50,324.8,true,2020-11-06
+11797,Lexus,LFA,2012,Two Seaters,Gasoline,10,4.8,Automatic,Rear-Wheel Drive,4.68,6.80,460.2,false,2011-05-25
