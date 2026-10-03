@@ -9,7 +9,7 @@ class ExemploURL {
       String resp = "", line;
 
       try {
-         url = new URL(endereco);
+         url = new URI(endereco).toURL(); // throws an URISyntaxException
          is = url.openStream();  // throws an IOException
          br = new BufferedReader(new InputStreamReader(is));
 
@@ -20,7 +20,9 @@ class ExemploURL {
          mue.printStackTrace();
       } catch (IOException ioe) {
          ioe.printStackTrace();
-      } 
+      } catch (URISyntaxException e) {
+         e.printStackTrace();
+     }
 
       try {
          is.close();
